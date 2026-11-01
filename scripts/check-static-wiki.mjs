@@ -33,9 +33,9 @@ try{
    await page.locator('.language-select select').selectOption(language);
    assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`${width}/${language}`);
    await page.locator('.feedback-link').click();assert.ok(await page.locator('dialog').isVisible());
-   assert.equal(await page.locator('dialog a.feedback-github').getAttribute('href'),'https://github.com/PIKACHU-wW/monster-auto-battle/issues/new/choose');
-   assert.equal(await page.locator('dialog a.feedback-gitee').getAttribute('href'),'https://gitee.com/wanheiqiyihu/monster-auto-battle/issues/new');
-   assert.equal(await page.locator('dialog a[href^="mailto:"]').count(),1);
+ assert.equal(await page.locator('dialog input[name=username]').count(),1);
+ assert.equal(await page.locator('dialog textarea[name=description]').count(),1);
+ assert.equal(await page.locator('dialog input[name=attachments]').count(),1);
    await page.keyboard.press('Escape');assert.equal(await page.locator('dialog').count(),0);
   }
  }

@@ -1,3 +1,4 @@
+import {feedbackIntro} from './feedbackCopy';
 import {createRoot} from 'react-dom/client';
 import {useState} from 'react';
 import {LanguageProvider,LanguageSelector,useI18n} from './i18n';
@@ -8,8 +9,8 @@ import {siteConfig} from './siteConfig';
 import './archive.css';
 import './tavern.css';
 import {TavernScene} from './TavernIllustration';
-import {RepairProgress} from './RepairProgress';
-import {FeedbackDialog} from './FeedbackDialog';
+import {RepairProgress} from './LiveProgress';
+import {FeedbackDialog} from './FeedbackForm';
 
 function App(){
  const {language}=useI18n();const L=(v:Localized)=>localize(v,language);
@@ -20,7 +21,7 @@ function App(){
  <main><section className="archive-hero"><div className="hero-grid" aria-hidden="true"/><div className="hero-copy"><p className="eyebrow"><span className="status-dot"/> THE WAYFARER’S TAVERN</p><h1>{L(['推开木门，','Come in, traveler.','旅人よ、ようこそ。','어서 와요, 여행자.'])}<br/><em>{L(['下一场冒险见。','Your next tale awaits.','次の冒険はここから。','다음 모험을 준비해요.'])}</em></h1><p className="hero-description">{L(['炉火正暖，桌上留着一本冒险手册。翻阅怪物见闻，研究羁绊与契印，为下一场战斗找些新灵感。','A warm hearth. An open field guide. Pull up a chair, discover monsters, traits and sigils, and plan your next adventure.','暖かな暖炉と、開かれた冒険の手引き。モンスターや特性、契印を調べ、次の旅に備えよう。','따뜻한 벽난로와 펼쳐진 모험 안내서. 몬스터, 특성, 계약 인장을 살펴보고 다음 모험을 준비하세요.'])}</p><a className="hero-cta" href="#archive">{L(['翻开冒险手册','Open the field guide','資料を探索','자료 둘러보기'])}<span>↓</span></a><div className="hero-stats">{(['monsters','traits','equipment'] as const).map((category,i)=><div key={category}><strong>{catalog.filter(e=>e.category===category).length.toString().padStart(2,'0')}</strong><span>{L([['怪物档案','羁绊机制','契印收藏'][i],['MONSTERS','TRAITS','SIGILS'][i],['モンスター','特性','契印'][i],['몬스터','특성','계약 인장'][i]])}</span></div>)}</div></div>
  <div className="hero-art"><TavernScene/><div className="tavern-plaque"><span>THE WAYFARER’S</span><strong>{L(['异乡人酒馆','The Wayfarer’s Tavern','旅人の酒場','여행자의 선술집'])}</strong><small>{L(['炉火不熄，冒险未完。','The hearth is warm. The story goes on.','暖炉は灯り、冒険は続く。','불은 따뜻하고, 모험은 계속됩니다.'])}</small></div><div className="tavern-bestiary"><img className="hero-dragon" src="./images/wiki/M054.png" alt=""/><span>{L(['酒馆见闻','Field notes','酒場の見聞','선술집 견문'])}<strong>{L(catalog.find(e=>e.id==='M054')!.title)}</strong></span></div></div></section>
  <section id="archive" className="archive-content"><div className="archive-section-heading"><span>I. THE ADVENTURER’S HANDBOOK</span><span>{L(['酒馆藏书 · 见闻与战术','Your next move starts here','次の一手は、ここから','다음 전략의 시작'])}</span></div><WikiPage/></section>
- <RepairProgress repository={repository}/><section className="contribute"><div><p className="eyebrow">LETTERS TO THE INNKEEPER</p><h2>{L(['发现问题？一起让它变得更好。','Found something? Help us improve.','気づいたことを、改善につなげよう。','발견한 문제를 함께 개선해요.'])}</h2><p>{L(['游戏问题与资料修正，可通过 GitHub 或 Gitee Issues 跟进。','Track game issues and wiki corrections on GitHub or Gitee Issues.','ゲームの問題や資料の修正は GitHub または Gitee Issues へ。','게임 문제와 자료 수정은 GitHub 또는 Gitee Issues로 제출하세요.'])}</p></div><button onClick={()=>setFeedback(true)}>{L(['提交反馈','Send feedback','報告する','제보하기'])} ↗</button></section></main>
+ <RepairProgress repository={repository}/><section className="contribute"><div><p className="eyebrow">LETTERS TO THE INNKEEPER</p><h2>{L(['发现问题？一起让它变得更好。','Found something? Help us improve.','気づいたことを、改善につなげよう。','발견한 문제를 함께 개선해요.'])}</h2><p>{L(feedbackIntro)}</p></div><button onClick={()=>setFeedback(true)}>{L(['提交反馈','Send feedback','報告する','제보하기'])} ↗</button></section></main>
  <footer><span>MONSTER AUTO BATTLE <small> / THE WAYFARER’S TAVERN</small></span><span>{L(['探索 · 组合 · 再来一局','EXPLORE · COMBINE · PLAY AGAIN','探索・編成・もう一戦','탐색 · 조합 · 다시 한 판'])}</span></footer>
  {feedback&&<FeedbackDialog repository={repository} close={()=>setFeedback(false)} L={L}/>}</>;
 }

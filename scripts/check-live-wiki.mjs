@@ -18,8 +18,8 @@ try{
  assert.equal(await page.locator('.tavern-plaque').count(),1);
  await page.locator('.hero-dragon').evaluate(i=>i.decode());
  await page.locator('.feedback-link').click();
- assert.equal(await page.locator('dialog a.feedback-github').getAttribute('href'),'https://github.com/PIKACHU-wW/monster-auto-battle/issues/new/choose');
- assert.equal(await page.locator('dialog a.feedback-gitee').getAttribute('href'),'https://gitee.com/wanheiqiyihu/monster-auto-battle/issues/new');
+ assert.equal(await page.locator('dialog input[name=username]').count(),1);
+ assert.equal(await page.locator('dialog textarea[name=description]').count(),1);
  await page.keyboard.press('Escape');
  await page.locator('.wiki-sections>button').nth(3).click();
  await page.locator('.wiki-card-heading img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode()})));

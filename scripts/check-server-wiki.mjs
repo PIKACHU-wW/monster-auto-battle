@@ -16,11 +16,11 @@ try {
   }
  }
  await page.locator('.feedback-link').click();
- assert.match(await page.locator('.feedback-gitee').getAttribute('href'),/^https:\/\/gitee.com\//);
- assert.match(await page.locator('.security-email').getAttribute('href'),/^mailto:wanheiqiyihu(?:%40|@)gmail.com/);
+ assert.equal(await page.locator('dialog textarea[name=description]').count(),1);
+ assert.equal(await page.locator('dialog input[name=attachments]').count(),1);
  await page.keyboard.press('Escape');
  await page.setViewportSize({width:390,height:844});
  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
  assert.deepEqual(errors,[]);
- console.log('PASS: public server, hero images, 4 languages/4 categories, feedback/email and mobile layout.');
+ console.log('PASS: website and native feedback form checks.');
 } finally {await browser.close();}

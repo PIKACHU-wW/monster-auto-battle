@@ -1,5 +1,11 @@
 GitHub 官网发布配置（2026-11-01）
 
+2026-11-02 更新：主站 https://www.pikachuw.site/；GitHub Pages 保留为镜像。
+问题反馈已改为主站服务器 API，普通问题和严重漏洞均通过官网提交。
+前台不再展示 GitHub/Gitee Issues 或邮箱跳转入口；公开更新进度来自审核后台。
+管理后台路径及凭据仅存私有服务器配置，禁止放入前台源码、构建产物或本公开仓库。
+下面的历史发布记录仅用于追踪演进；当前功能以此更新为准。
+
 官网源码与反馈仓库：https://github.com/PIKACHU-wW/monster-auto-battle
 Pages 预期地址：https://pikachu-ww.github.io/monster-auto-battle/
 与 monster-auto-battle-data 支付公开数据仓库分离。

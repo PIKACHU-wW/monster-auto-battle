@@ -1,0 +1,51 @@
+import assert from 'node:assert/strict';
+import {chromium} from '@playwright/test';
+const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
+try{
+ const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];
+ page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('http://127.0.0.1:8876/',{waitUntil:'networkidle'});
+ assert.equal(await page.locator('a[href*="github.com"],a[href*="gitee.com"]').count(),0);
+ await page.locator('.feedback-link').click();
+ await page.locator('input[name=username]').fill('Smoke Player');
+ await page.locator('input[name=title]').fill('Local test feedback');
+ await page.locator('textarea[name=description]').fill('Private reproduction steps. Not for public release.');
+ await page.locator('input[name=attachments]').setInputFiles({name:'vrc-test.log',mimeType:'text/plain',buffer:Buffer.from('Local smoke test log, no real player data.')});
+ await page.locator('.feedback-form button[type=submit]').click();
+ await page.locator('.feedback-success').waitFor();
+ const receipt=await page.locator('.feedback-receipt').inputValue();assert.equal(receipt.length,64);
+ await page.locator('.feedback-success button').click();
+ await page.locator('.feedback-result').waitFor();
+ assert.match(await page.locator('.feedback-result').innerText(),/待审核/);
+ await page.screenshot({path:'feedback-player-preview.png'});
+ const admin=await browser.newPage();await admin.goto('http://127.0.0.1:8876/test-admin/login');
+ await admin.locator('input[name=password]').fill('test-only-password');await admin.getByRole('button',{name:'登录后台'}).click();
+ await admin.getByRole('link',{name:'Local test feedback',exact:true}).click();
+ await admin.locator('select[name=status]').selectOption('fixed');await admin.locator('select[name=severity]').selectOption('critical');
+ await admin.locator('textarea[name=reply]').fill('Thank you. The issue has been resolved.');
+ await admin.locator('input[name=public_title]').fill('Reviewed public update');
+ await admin.locator('textarea[name=public_note]').fill('A game issue has been resolved.');
+ await admin.locator('input[name=published]').check();
+ await admin.getByRole('button',{name:'保存审核结果'}).click();
+ await admin.waitForLoadState('networkidle');
+ assert.equal(await admin.locator('input[name=score]').inputValue(),'150');
+ await admin.screenshot({path:'feedback-admin-preview.png',fullPage:true});
+ await page.locator('.feedback-form button').click();
+ await page.locator('.feedback-result').waitFor();
+ assert.match(await page.locator('.feedback-result').innerText(),/150/);
+ assert.match(await page.locator('.feedback-result').innerText(),/中级黑客/);
+ assert.match(await page.locator('.feedback-reply').innerText(),/resolved/);
+ await page.locator('.dialog-close').click();await page.reload({waitUntil:'networkidle'});
+ assert.match(await page.locator('#repairs').innerText(),/Reviewed public update/);
+ assert.ok(!(await page.locator('#repairs').innerText()).includes('Private reproduction'));
+ for(const language of ['zh','en','ja','ko']){
+  await page.locator('.language-select select').selectOption(language);
+  await page.setViewportSize({width:390,height:844});
+  await page.locator('.feedback-link').click();
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+  assert.ok(await page.locator('dialog').evaluate(d=>d.scrollWidth<=d.clientWidth+1));
+  await page.keyboard.press('Escape');
+ }
+ assert.deepEqual(errors,[]);
+ console.log('PASS: real form/log submission, private receipt, admin login/moderation, 150 points/title/reply, sanitized publication, four-language mobile layout; isolated local test data only.');
+}finally{await browser.close();}
