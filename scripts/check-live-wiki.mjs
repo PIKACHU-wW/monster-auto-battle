@@ -2,20 +2,24 @@ import assert from 'node:assert/strict';
 import {chromium} from '@playwright/test';
 const url='https://pikachu-ww.github.io/monster-auto-battle/';
 const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
+const deadline=setTimeout(()=>{console.error('Live verification timed out; network/image loading incomplete.');browser.close();},90000);
 try{
  const page=await browser.newPage({viewport:{width:1440,height:1000}});
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
  page.on('response',r=>{if(r.status()>=400&&r.url().startsWith(url))errors.push(`${r.status()} ${r.url()}`)});
- const response=await page.goto(url+'?release=tavern-art-v2',{waitUntil:'domcontentloaded',timeout:60000});
+ const response=await page.goto(url+'?release=feedback-v3',{waitUntil:'domcontentloaded',timeout:60000});
  assert.equal(response.status(),200);
+ console.log('Live homepage HTTP 200.');
  assert.equal(await page.title(),'Monster Auto Battle | Wiki');
  await page.locator('.wiki-card').first().waitFor();
  await page.locator('.tavern-scene').waitFor();
  await page.locator('img.tavern-scene').evaluate(img=>img.decode());
+ console.log('Generated tavern illustration decoded.');
  assert.equal(await page.locator('.tavern-plaque').count(),1);
  await page.locator('.hero-dragon').evaluate(i=>i.decode());
  await page.locator('.feedback-link').click();
- assert.equal(await page.locator('dialog a.hero-cta').getAttribute('href'),'https://github.com/PIKACHU-wW/monster-auto-battle/issues/new/choose');
+ assert.equal(await page.locator('dialog a.feedback-github').getAttribute('href'),'https://github.com/PIKACHU-wW/monster-auto-battle/issues/new/choose');
+ assert.equal(await page.locator('dialog a.feedback-gitee').getAttribute('href'),'https://gitee.com/wanheiqiyihu/monster-auto-battle/issues/new');
  await page.keyboard.press('Escape');
  await page.locator('.wiki-sections>button').nth(3).click();
  await page.locator('.wiki-card-heading img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode()})));
@@ -25,4 +29,4 @@ try{
  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
  assert.deepEqual(errors,[]);
  console.log('PASS: live HTTPS wiki, title, JS/CSS, hero image, cards, feedback link, four languages, mobile layout.');
-}finally{await browser.close();}
+}finally{clearTimeout(deadline);await browser.close();}
