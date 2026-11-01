@@ -19,7 +19,8 @@ try{
  const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)errors.push(`${r.status()} ${r.url()}`)});
  await page.goto(`http://127.0.0.1:${server.address().port}/test-wiki/`);
  await page.locator('.hero-dragon').evaluate(img=>img.decode());
- await page.locator('img.tavern-scene').evaluate(img=>img.decode());
+ assert.equal(await page.locator('svg.tavern-scene').count(),1);
+ assert.equal(await page.locator('img.tavern-scene').count(),0);
  assert.equal(await page.title(),'Monster Auto Battle | Wiki');
  assert.equal(await page.locator('.wiki-card').count(),12);
  assert.equal(await page.locator('canvas').count(),0);

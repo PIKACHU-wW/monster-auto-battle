@@ -1,3 +1,5 @@
+2026-11-01: Active hero replaced with inline SVG/CSS (src/TavernScene.tsx). The generated PNG below is retained as an unused source asset; the page no longer requests it.
+
 酒馆首屏插画 v2
 生成方式：内置 image_gen（不是 CLI）。2026-11-01。
 使用文件：public/illustrations/tavern-hero-v2.png

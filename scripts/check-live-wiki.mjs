@@ -13,7 +13,7 @@ try{
  assert.equal(await page.title(),'Monster Auto Battle | Wiki');
  await page.locator('.wiki-card').first().waitFor();
  await page.locator('.tavern-scene').waitFor();
- await page.locator('img.tavern-scene').evaluate(img=>img.decode());
+ assert.equal(await page.locator('svg.tavern-scene').count(),1);
  console.log('Generated tavern illustration decoded.');
  assert.equal(await page.locator('.tavern-plaque').count(),1);
  await page.locator('.hero-dragon').evaluate(i=>i.decode());
