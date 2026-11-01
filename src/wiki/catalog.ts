@@ -610,15 +610,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "开战后隐身，期间不能被敌人直接锁定，但仍会受到范围伤害；期间普攻必定暴击。一/二/三星持续4/4.3/4.6秒。",
-   "Starts combat concealed and lands guaranteed critical basic attacks. Area damage can still hit it.",
-   "開戦時に潜伏し、通常攻撃が必ずクリティカルになる。範囲攻撃は受ける。",
-   "전투 시작 시 은신하고 기본 공격이 확정 치명타가 됩니다. 범위 피해는 받습니다."
+   "At combat start, become invisible for 4s. Enemies cannot target you directly, but area damage still hits. Your basic attacks always critically strike during this time.",
+   "戦闘開始から4秒間、姿を隠す。敵の直接指定対象にならないが範囲ダメージは受ける。期間中の通常攻撃は必ずクリティカル。",
+   "전투 시작 후 4초간 은신합니다. 직접 대상으로 지정되지 않지만 범위 피해는 받습니다. 은신 중 기본 공격은 반드시 치명타입니다."
   ],
   "description": [
    "开战后隐身，期间不能被敌人直接锁定，但仍会受到范围伤害；期间普攻必定暴击。一/二/三星持续4/4.3/4.6秒。",
-   "Starts combat concealed and lands guaranteed critical basic attacks. Area damage can still hit it.",
-   "開戦時に潜伏し、通常攻撃が必ずクリティカルになる。範囲攻撃は受ける。",
-   "전투 시작 시 은신하고 기본 공격이 확정 치명타가 됩니다. 범위 피해는 받습니다."
+   "At combat start, become invisible for 4s. Enemies cannot target you directly, but area damage still hits. Your basic attacks always critically strike during this time.",
+   "戦闘開始から4秒間、姿を隠す。敵の直接指定対象にならないが範囲ダメージは受ける。期間中の通常攻撃は必ずクリティカル。",
+   "전투 시작 후 4초간 은신합니다. 직접 대상으로 지정되지 않지만 범위 피해는 받습니다. 은신 중 기본 공격은 반드시 치명타입니다."
   ],
   "group": [
    "原始荒野",
@@ -636,7 +636,7 @@ export const catalog:WikiEntry[] = [
   "skillName": [
    "伏击",
    "Ambush",
-   "待ち伏せ",
+   "奇襲",
    "매복"
   ],
   "stars": [
@@ -694,9 +694,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "开战后隐身，期间不能被敌人直接锁定，但仍会受到范围伤害；期间普攻必定暴击。持续4秒。",
-     "At combat start, hide for 4s. Enemies cannot target you directly and your basic attacks always critically hit. Area damage still hits.",
-     "戦闘開始時に4秒間潜伏し、敵の直接指定を受けず、通常攻撃が必ずクリティカルになる。範囲ダメージは受ける。",
-     "전투 시작 시 4초 동안 은신합니다. 적이 직접 대상으로 지정할 수 없으며 기본 공격이 반드시 치명타가 됩니다. 범위 피해는 받습니다."
+     "At combat start, become invisible for 4s. Enemies cannot target you directly, but area damage still hits. Your basic attacks always critically strike during this time.",
+     "戦闘開始から4秒間、姿を隠す。敵の直接指定対象にならないが範囲ダメージは受ける。期間中の通常攻撃は必ずクリティカル。",
+     "전투 시작 후 4초간 은신합니다. 직접 대상으로 지정되지 않지만 범위 피해는 받습니다. 은신 중 기본 공격은 반드시 치명타입니다."
     ]
    },
    {
@@ -753,9 +753,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "开战后隐身，期间不能被敌人直接锁定，但仍会受到范围伤害；期间普攻必定暴击。持续4.3秒。",
-     "At combat start, hide for 4.3s. Enemies cannot target you directly and your basic attacks always critically hit. Area damage still hits.",
-     "戦闘開始時に4.3秒間潜伏し、敵の直接指定を受けず、通常攻撃が必ずクリティカルになる。範囲ダメージは受ける。",
-     "전투 시작 시 4.3초 동안 은신합니다. 적이 직접 대상으로 지정할 수 없으며 기본 공격이 반드시 치명타가 됩니다. 범위 피해는 받습니다."
+     "At combat start, become invisible for 4.3s. Enemies cannot target you directly, but area damage still hits. Your basic attacks always critically strike during this time.",
+     "戦闘開始から4.3秒間、姿を隠す。敵の直接指定対象にならないが範囲ダメージは受ける。期間中の通常攻撃は必ずクリティカル。",
+     "전투 시작 후 4.3초간 은신합니다. 직접 대상으로 지정되지 않지만 범위 피해는 받습니다. 은신 중 기본 공격은 반드시 치명타입니다."
     ]
    },
    {
@@ -812,9 +812,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "开战后隐身，期间不能被敌人直接锁定，但仍会受到范围伤害；期间普攻必定暴击。持续4.6秒。",
-     "At combat start, hide for 4.6s. Enemies cannot target you directly and your basic attacks always critically hit. Area damage still hits.",
-     "戦闘開始時に4.6秒間潜伏し、敵の直接指定を受けず、通常攻撃が必ずクリティカルになる。範囲ダメージは受ける。",
-     "전투 시작 시 4.6초 동안 은신합니다. 적이 직접 대상으로 지정할 수 없으며 기본 공격이 반드시 치명타가 됩니다. 범위 피해는 받습니다."
+     "At combat start, become invisible for 4.6s. Enemies cannot target you directly, but area damage still hits. Your basic attacks always critically strike during this time.",
+     "戦闘開始から4.6秒間、姿を隠す。敵の直接指定対象にならないが範囲ダメージは受ける。期間中の通常攻撃は必ずクリティカル。",
+     "전투 시작 후 4.6초간 은신합니다. 직접 대상으로 지정되지 않지만 범위 피해는 받습니다. 은신 중 기본 공격은 반드시 치명타입니다."
     ]
    }
   ],
@@ -835,15 +835,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "能量满时，跃向敌方最后排可锁定敌人的合法邻格，落地对自身1格内敌人造成100点基础物理伤害（随星级成长），并眩晕0.6秒。落地后优先攻击突袭目标。最后排无落点时向前寻找；无合法目标或落点时不释放、不消耗能量。",
-   "Leaps beside a back-row enemy, damaging and stunning nearby enemies. Needs a legal landing hex.",
-   "敵の後列へ跳躍し、周囲にダメージとスタンを与える。有効な着地点が必要。",
-   "적 후열 옆으로 도약해 주변에 피해와 기절을 줍니다. 착지 가능한 칸이 필요합니다."
+   "At full energy, leap to a valid cell beside a targetable enemy in the last row. Deal 100 physical damage and stun enemies within 1 hex(es) for 0.6s, then prioritize the ambushed target. Search forward if the last row has no landing. Without a valid target and landing, do not cast or spend energy.",
+   "エネルギー満タン時、最後列の指定可能な敵の隣の空きマスへ跳ぶ。着地時に1マス以内へ100物理ダメージと0.6秒のスタンを与え、奇襲対象を優先攻撃。着地点がなければ前の列を探す。有効な対象と着地点がなければ発動も消費もしない。",
+   "에너지가 가득 차면 마지막 열의 지정 가능한 적 옆 빈칸으로 도약합니다. 착지 시 1칸 내 적에게 물리 피해 100과 0.6초 기절을 주고 습격 대상을 우선 공격합니다. 착지할 곳이 없으면 앞쪽을 탐색하며, 유효한 대상과 착지점이 없으면 시전하거나 에너지를 소모하지 않습니다."
   ],
   "description": [
    "能量满时，跃向敌方最后排可锁定敌人的合法邻格，落地对自身1格内敌人造成100点基础物理伤害（随星级成长），并眩晕0.6秒。落地后优先攻击突袭目标。最后排无落点时向前寻找；无合法目标或落点时不释放、不消耗能量。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.8/3倍。主要效果随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
-   "Leaps beside a back-row enemy, damaging and stunning nearby enemies. Needs a legal landing hex.",
-   "敵の後列へ跳躍し、周囲にダメージとスタンを与える。有効な着地点が必要。",
-   "적 후열 옆으로 도약해 주변에 피해와 기절을 줍니다. 착지 가능한 칸이 필요합니다."
+   "At full energy, leap to a valid cell beside a targetable enemy in the last row. Deal 100 physical damage and stun enemies within 1 hex(es) for 0.6s, then prioritize the ambushed target. Search forward if the last row has no landing. Without a valid target and landing, do not cast or spend energy.",
+   "エネルギー満タン時、最後列の指定可能な敵の隣の空きマスへ跳ぶ。着地時に1マス以内へ100物理ダメージと0.6秒のスタンを与え、奇襲対象を優先攻撃。着地点がなければ前の列を探す。有効な対象と着地点がなければ発動も消費もしない。",
+   "에너지가 가득 차면 마지막 열의 지정 가능한 적 옆 빈칸으로 도약합니다. 착지 시 1칸 내 적에게 물리 피해 100과 0.6초 기절을 주고 습격 대상을 우선 공격합니다. 착지할 곳이 없으면 앞쪽을 탐색하며, 유효한 대상과 착지점이 없으면 시전하거나 에너지를 소모하지 않습니다."
   ],
   "group": [
    "原始荒野",
@@ -919,9 +919,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "能量满时，跃向敌方最后排可锁定敌人的合法邻格，落地对自身1格内敌人造成100点物理伤害，并眩晕0.6秒。落地后优先攻击突袭目标。最后排无落点时向前寻找；无合法目标或落点时不释放、不消耗能量。",
-     "At full energy, leap to a legal hex beside a targetable enemy in the rearmost row. Deal 100 physical damage to enemies within 1 hex of landing and stun for 0.6s, then prioritize the ambush target. Search forward if the back row has no landing. Without a valid target or landing, do not cast or spend energy.",
-     "エネルギー満タン時、敵最後列の指定可能な敵の隣の有効マスへ跳躍。着地地点から1マス以内に物理100ダメージと0.6秒スタンを与え、その敵を優先攻撃する。最後列に着地できなければ前列を探し、有効な敵や着地点がなければ発動も消費もしない。",
-     "에너지가 가득 차면 적 최후열의 지정 가능한 적 옆 유효 칸으로 도약합니다. 착지 지점 1칸 내 적에게 물리 피해 100과 0.6초 기절을 주고 습격 대상을 우선 공격합니다. 착지점이 없으면 앞 열을 탐색하며, 유효한 대상이나 착지점이 없으면 시전하거나 에너지를 소모하지 않습니다."
+     "At full energy, leap to a valid cell beside a targetable enemy in the last row. Deal 100 physical damage and stun enemies within 1 hex(es) for 0.6s, then prioritize the ambushed target. Search forward if the last row has no landing. Without a valid target and landing, do not cast or spend energy.",
+     "エネルギー満タン時、最後列の指定可能な敵の隣の空きマスへ跳ぶ。着地時に1マス以内へ100物理ダメージと0.6秒のスタンを与え、奇襲対象を優先攻撃。着地点がなければ前の列を探す。有効な対象と着地点がなければ発動も消費もしない。",
+     "에너지가 가득 차면 마지막 열의 지정 가능한 적 옆 빈칸으로 도약합니다. 착지 시 1칸 내 적에게 물리 피해 100과 0.6초 기절을 주고 습격 대상을 우선 공격합니다. 착지할 곳이 없으면 앞쪽을 탐색하며, 유효한 대상과 착지점이 없으면 시전하거나 에너지를 소모하지 않습니다."
     ]
    },
    {
@@ -978,9 +978,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "能量满时，跃向敌方最后排可锁定敌人的合法邻格，落地对自身1格内敌人造成179.69点物理伤害，并眩晕0.6秒。落地后优先攻击突袭目标。最后排无落点时向前寻找；无合法目标或落点时不释放、不消耗能量。",
-     "At full energy, leap to a legal hex beside a targetable enemy in the rearmost row. Deal 179.69 physical damage to enemies within 1 hex of landing and stun for 0.6s, then prioritize the ambush target. Search forward if the back row has no landing. Without a valid target or landing, do not cast or spend energy.",
-     "エネルギー満タン時、敵最後列の指定可能な敵の隣の有効マスへ跳躍。着地地点から1マス以内に物理179.69ダメージと0.6秒スタンを与え、その敵を優先攻撃する。最後列に着地できなければ前列を探し、有効な敵や着地点がなければ発動も消費もしない。",
-     "에너지가 가득 차면 적 최후열의 지정 가능한 적 옆 유효 칸으로 도약합니다. 착지 지점 1칸 내 적에게 물리 피해 179.69과 0.6초 기절을 주고 습격 대상을 우선 공격합니다. 착지점이 없으면 앞 열을 탐색하며, 유효한 대상이나 착지점이 없으면 시전하거나 에너지를 소모하지 않습니다."
+     "At full energy, leap to a valid cell beside a targetable enemy in the last row. Deal 179.69 physical damage and stun enemies within 1 hex(es) for 0.6s, then prioritize the ambushed target. Search forward if the last row has no landing. Without a valid target and landing, do not cast or spend energy.",
+     "エネルギー満タン時、最後列の指定可能な敵の隣の空きマスへ跳ぶ。着地時に1マス以内へ179.69物理ダメージと0.6秒のスタンを与え、奇襲対象を優先攻撃。着地点がなければ前の列を探す。有効な対象と着地点がなければ発動も消費もしない。",
+     "에너지가 가득 차면 마지막 열의 지정 가능한 적 옆 빈칸으로 도약합니다. 착지 시 1칸 내 적에게 물리 피해 179.69과 0.6초 기절을 주고 습격 대상을 우선 공격합니다. 착지할 곳이 없으면 앞쪽을 탐색하며, 유효한 대상과 착지점이 없으면 시전하거나 에너지를 소모하지 않습니다."
     ]
    },
    {
@@ -1037,9 +1037,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "能量满时，跃向敌方最后排可锁定敌人的合法邻格，落地对自身1格内敌人造成300点物理伤害，并眩晕0.6秒。落地后优先攻击突袭目标。最后排无落点时向前寻找；无合法目标或落点时不释放、不消耗能量。",
-     "At full energy, leap to a legal hex beside a targetable enemy in the rearmost row. Deal 300 physical damage to enemies within 1 hex of landing and stun for 0.6s, then prioritize the ambush target. Search forward if the back row has no landing. Without a valid target or landing, do not cast or spend energy.",
-     "エネルギー満タン時、敵最後列の指定可能な敵の隣の有効マスへ跳躍。着地地点から1マス以内に物理300ダメージと0.6秒スタンを与え、その敵を優先攻撃する。最後列に着地できなければ前列を探し、有効な敵や着地点がなければ発動も消費もしない。",
-     "에너지가 가득 차면 적 최후열의 지정 가능한 적 옆 유효 칸으로 도약합니다. 착지 지점 1칸 내 적에게 물리 피해 300과 0.6초 기절을 주고 습격 대상을 우선 공격합니다. 착지점이 없으면 앞 열을 탐색하며, 유효한 대상이나 착지점이 없으면 시전하거나 에너지를 소모하지 않습니다."
+     "At full energy, leap to a valid cell beside a targetable enemy in the last row. Deal 300 physical damage and stun enemies within 1 hex(es) for 0.6s, then prioritize the ambushed target. Search forward if the last row has no landing. Without a valid target and landing, do not cast or spend energy.",
+     "エネルギー満タン時、最後列の指定可能な敵の隣の空きマスへ跳ぶ。着地時に1マス以内へ300物理ダメージと0.6秒のスタンを与え、奇襲対象を優先攻撃。着地点がなければ前の列を探す。有効な対象と着地点がなければ発動も消費もしない。",
+     "에너지가 가득 차면 마지막 열의 지정 가능한 적 옆 빈칸으로 도약합니다. 착지 시 1칸 내 적에게 물리 피해 300과 0.6초 기절을 주고 습격 대상을 우선 공격합니다. 착지할 곳이 없으면 앞쪽을 탐색하며, 유효한 대상과 착지점이 없으면 시전하거나 에너지를 소모하지 않습니다."
     ]
    }
   ],
@@ -1059,15 +1059,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "阵亡时，使死亡位置2格内的所有敌人中毒，每秒受到65点基础法术伤害，持续3秒。伤害数值为一星基础值。",
-   "Releases a lingering poison cloud around its death location.",
-   "倒された位置の周囲に、継続ダメージを与える毒雲を残す。",
-   "쓰러진 위치 주변에 지속 피해를 주는 독구름을 남깁니다."
+   "On death, poison all enemies within 2 hex(es) of the death position, dealing 65 magic damage per second for 3s.",
+   "死亡地点から2マス以内の全敵を毒状態にし、3秒間、毎秒65魔法ダメージを与える。",
+   "사망 시 사망 지점 2칸 내 모든 적을 중독시켜 3초간 매초 마법 피해 65을 줍니다."
   ],
   "description": [
    "阵亡时，使死亡位置2格内的所有敌人中毒，每秒受到65点基础法术伤害，持续3秒。伤害数值为一星基础值。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.8/3倍。主要效果随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
-   "Releases a lingering poison cloud around its death location.",
-   "倒された位置の周囲に、継続ダメージを与える毒雲を残す。",
-   "쓰러진 위치 주변에 지속 피해를 주는 독구름을 남깁니다."
+   "On death, poison all enemies within 2 hex(es) of the death position, dealing 65 magic damage per second for 3s.",
+   "死亡地点から2マス以内の全敵を毒状態にし、3秒間、毎秒65魔法ダメージを与える。",
+   "사망 시 사망 지점 2칸 내 모든 적을 중독시켜 3초간 매초 마법 피해 65을 줍니다."
   ],
   "group": [
    "原始荒野",
@@ -1143,9 +1143,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "阵亡时，使死亡位置2格内的所有敌人中毒，每秒受到65点法术伤害，持续3秒。",
-     "On death, poison every enemy within 2 hexes of the death location for 3s, dealing 65 magic damage per second.",
-     "死亡時、その位置から2マス以内の全敵を3秒間毒にし、毎秒65魔法ダメージを与える。",
-     "사망 시 사망 위치 2칸 내 모든 적을 3초 동안 중독시켜 매초 마법 피해 65을 줍니다."
+     "On death, poison all enemies within 2 hex(es) of the death position, dealing 65 magic damage per second for 3s.",
+     "死亡地点から2マス以内の全敵を毒状態にし、3秒間、毎秒65魔法ダメージを与える。",
+     "사망 시 사망 지점 2칸 내 모든 적을 중독시켜 3초간 매초 마법 피해 65을 줍니다."
     ]
    },
    {
@@ -1202,9 +1202,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "阵亡时，使死亡位置2格内的所有敌人中毒，每秒受到117点法术伤害，持续3秒。",
-     "On death, poison every enemy within 2 hexes of the death location for 3s, dealing 117 magic damage per second.",
-     "死亡時、その位置から2マス以内の全敵を3秒間毒にし、毎秒117魔法ダメージを与える。",
-     "사망 시 사망 위치 2칸 내 모든 적을 3초 동안 중독시켜 매초 마법 피해 117을 줍니다."
+     "On death, poison all enemies within 2 hex(es) of the death position, dealing 117 magic damage per second for 3s.",
+     "死亡地点から2マス以内の全敵を毒状態にし、3秒間、毎秒117魔法ダメージを与える。",
+     "사망 시 사망 지점 2칸 내 모든 적을 중독시켜 3초간 매초 마법 피해 117을 줍니다."
     ]
    },
    {
@@ -1261,9 +1261,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "阵亡时，使死亡位置2格内的所有敌人中毒，每秒受到195点法术伤害，持续3秒。",
-     "On death, poison every enemy within 2 hexes of the death location for 3s, dealing 195 magic damage per second.",
-     "死亡時、その位置から2マス以内の全敵を3秒間毒にし、毎秒195魔法ダメージを与える。",
-     "사망 시 사망 위치 2칸 내 모든 적을 3초 동안 중독시켜 매초 마법 피해 195을 줍니다."
+     "On death, poison all enemies within 2 hex(es) of the death position, dealing 195 magic damage per second for 3s.",
+     "死亡地点から2マス以内の全敵を毒状態にし、3秒間、毎秒195魔法ダメージを与える。",
+     "사망 시 사망 지점 2칸 내 모든 적을 중독시켜 3초간 매초 마법 피해 195을 줍니다."
     ]
    }
   ],
@@ -1284,15 +1284,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "每次普攻命中提升自身5%攻速，最多叠加5层（共25%），持续3秒。",
-   "Basic attacks build temporary attack-speed stacks. Keep it attacking to maintain pressure.",
-   "通常攻撃で一時的な攻撃速度を積み重ねる。攻撃を続けるほど力を発揮する。",
-   "기본 공격으로 일시적인 공격 속도 중첩을 쌓습니다. 계속 공격할 때 강합니다."
+   "Each basic attack hit grants 5% attack speed for 3s, stacking up to 5 times (25% total).",
+   "通常攻撃命中ごとに攻撃速度+5%。3秒持続、最大5重複（合計25%）。",
+   "기본 공격 적중 시 3초간 공격 속도 5% 증가. 최대 5중첩(총 25%)."
   ],
   "description": [
    "每次普攻命中提升自身5%攻速，最多叠加5层（共25%），持续3秒。\n【数值成长】普通属性增减在一/二/三星时为原数值的1/1.15/1.3倍。范围、控制时间、概率和目标数量不变。",
-   "Basic attacks build temporary attack-speed stacks. Keep it attacking to maintain pressure.",
-   "通常攻撃で一時的な攻撃速度を積み重ねる。攻撃を続けるほど力を発揮する。",
-   "기본 공격으로 일시적인 공격 속도 중첩을 쌓습니다. 계속 공격할 때 강합니다."
+   "Each basic attack hit grants 5% attack speed for 3s, stacking up to 5 times (25% total).",
+   "通常攻撃命中ごとに攻撃速度+5%。3秒持続、最大5重複（合計25%）。",
+   "기본 공격 적중 시 3초간 공격 속도 5% 증가. 최대 5중첩(총 25%)."
   ],
   "group": [
    "原始荒野",
@@ -1311,7 +1311,7 @@ export const catalog:WikiEntry[] = [
    "连击",
    "Combo",
    "連撃",
-   "연격"
+   "연속 공격"
   ],
   "stars": [
    {
@@ -1368,9 +1368,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "每次普攻命中提升自身5%攻速，最多叠加5层（共25%），持续3秒。",
-     "Basic attack hits grant 5% attack speed for 3s, stacking up to 5 times (25% total).",
-     "通常攻撃命中ごとに攻撃速度が3秒間5%上昇。最大5スタック、合計25%。",
-     "기본 공격 적중마다 공격 속도가 3초 동안 5% 증가합니다. 최대 5중첩, 총 25%입니다."
+     "Each basic attack hit grants 5% attack speed for 3s, stacking up to 5 times (25% total).",
+     "通常攻撃命中ごとに攻撃速度+5%。3秒持続、最大5重複（合計25%）。",
+     "기본 공격 적중 시 3초간 공격 속도 5% 증가. 최대 5중첩(총 25%)."
     ]
    },
    {
@@ -1427,9 +1427,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "每次普攻命中提升自身5.75%攻速，最多叠加5层（共28.75%），持续3秒。",
-     "Basic attack hits grant 5.75% attack speed for 3s, stacking up to 5 times (28.75% total).",
-     "通常攻撃命中ごとに攻撃速度が3秒間5.75%上昇。最大5スタック、合計28.75%。",
-     "기본 공격 적중마다 공격 속도가 3초 동안 5.75% 증가합니다. 최대 5중첩, 총 28.75%입니다."
+     "Each basic attack hit grants 5.75% attack speed for 3s, stacking up to 5 times (28.75% total).",
+     "通常攻撃命中ごとに攻撃速度+5.75%。3秒持続、最大5重複（合計28.75%）。",
+     "기본 공격 적중 시 3초간 공격 속도 5.75% 증가. 최대 5중첩(총 28.75%)."
     ]
    },
    {
@@ -1486,9 +1486,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "每次普攻命中提升自身6.5%攻速，最多叠加5层（共32.5%），持续3秒。",
-     "Basic attack hits grant 6.5% attack speed for 3s, stacking up to 5 times (32.5% total).",
-     "通常攻撃命中ごとに攻撃速度が3秒間6.5%上昇。最大5スタック、合計32.5%。",
-     "기본 공격 적중마다 공격 속도가 3초 동안 6.5% 증가합니다. 최대 5중첩, 총 32.5%입니다."
+     "Each basic attack hit grants 6.5% attack speed for 3s, stacking up to 5 times (32.5% total).",
+     "通常攻撃命中ごとに攻撃速度+6.5%。3秒持続、最大5重複（合計32.5%）。",
+     "기본 공격 적중 시 3초간 공격 속도 6.5% 증가. 최대 5중첩(총 32.5%)."
     ]
    }
   ],
@@ -1508,15 +1508,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "向最近敌人喷射95基础物理伤害的酸液，再向其身后左右各分裂一股，分别造成主体45%的伤害；分裂不重复命中首个目标。",
-   "Spits acid at a nearby enemy, then splits it behind that target for additional physical damage.",
-   "近くの敵に酸を吐き、その背後へ分裂させて物理ダメージを与える。",
-   "가까운 적에게 산을 뱉고 대상 뒤로 분열시켜 물리 피해를 줍니다."
+   "Spit acid at the nearest enemy for 95 physical damage. Two streams split behind it to the left and right, each dealing 45% of the main hit. Splits cannot hit the first target again.",
+   "最も近い敵に酸を吐き、95物理ダメージ。背後の左右へ分裂し、それぞれ本体の45%のダメージを与える。分裂は最初の敵に再命中しない。",
+   "가장 가까운 적에게 산을 뱉어 물리 피해 95을 줍니다. 뒤쪽 좌우로 갈라진 산은 각각 본체 피해의 45%를 주며 첫 대상에 다시 적중하지 않습니다."
   ],
   "description": [
    "向最近敌人喷射95基础物理伤害的酸液，再向其身后左右各分裂一股，分别造成主体45%的伤害；分裂不重复命中首个目标。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.8/3倍。主要效果随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
-   "Spits acid at a nearby enemy, then splits it behind that target for additional physical damage.",
-   "近くの敵に酸を吐き、その背後へ分裂させて物理ダメージを与える。",
-   "가까운 적에게 산을 뱉고 대상 뒤로 분열시켜 물리 피해를 줍니다."
+   "Spit acid at the nearest enemy for 95 physical damage. Two streams split behind it to the left and right, each dealing 45% of the main hit. Splits cannot hit the first target again.",
+   "最も近い敵に酸を吐き、95物理ダメージ。背後の左右へ分裂し、それぞれ本体の45%のダメージを与える。分裂は最初の敵に再命中しない。",
+   "가장 가까운 적에게 산을 뱉어 물리 피해 95을 줍니다. 뒤쪽 좌우로 갈라진 산은 각각 본체 피해의 45%를 주며 첫 대상에 다시 적중하지 않습니다."
   ],
   "group": [
    "原始荒野",
@@ -1592,9 +1592,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "向最近敌人喷射95物理伤害的酸液，再向其身后左右各分裂一股，分别造成主体45%的伤害；分裂不重复命中首个目标。",
-     "Spit acid at the nearest enemy for 95 physical damage, then split it behind the target to both sides. Each branch deals 45% of the main hit and cannot hit the original target again.",
-     "最も近い敵に酸を吐き、95物理ダメージを与える。その背後の左右へ分裂し、各分裂は本体の45%のダメージを与える。最初の対象には再命中しない。",
-     "가장 가까운 적에게 산을 뱉어 물리 피해 95을 주고 대상 뒤 좌우로 분열시킵니다. 각 분열은 본체 피해의 45%를 주며 최초 대상에 재적중하지 않습니다."
+     "Spit acid at the nearest enemy for 95 physical damage. Two streams split behind it to the left and right, each dealing 45% of the main hit. Splits cannot hit the first target again.",
+     "最も近い敵に酸を吐き、95物理ダメージ。背後の左右へ分裂し、それぞれ本体の45%のダメージを与える。分裂は最初の敵に再命中しない。",
+     "가장 가까운 적에게 산을 뱉어 물리 피해 95을 줍니다. 뒤쪽 좌우로 갈라진 산은 각각 본체 피해의 45%를 주며 첫 대상에 다시 적중하지 않습니다."
     ]
    },
    {
@@ -1651,9 +1651,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "向最近敌人喷射171物理伤害的酸液，再向其身后左右各分裂一股，分别造成主体45%的伤害；分裂不重复命中首个目标。",
-     "Spit acid at the nearest enemy for 171 physical damage, then split it behind the target to both sides. Each branch deals 45% of the main hit and cannot hit the original target again.",
-     "最も近い敵に酸を吐き、171物理ダメージを与える。その背後の左右へ分裂し、各分裂は本体の45%のダメージを与える。最初の対象には再命中しない。",
-     "가장 가까운 적에게 산을 뱉어 물리 피해 171을 주고 대상 뒤 좌우로 분열시킵니다. 각 분열은 본체 피해의 45%를 주며 최초 대상에 재적중하지 않습니다."
+     "Spit acid at the nearest enemy for 171 physical damage. Two streams split behind it to the left and right, each dealing 45% of the main hit. Splits cannot hit the first target again.",
+     "最も近い敵に酸を吐き、171物理ダメージ。背後の左右へ分裂し、それぞれ本体の45%のダメージを与える。分裂は最初の敵に再命中しない。",
+     "가장 가까운 적에게 산을 뱉어 물리 피해 171을 줍니다. 뒤쪽 좌우로 갈라진 산은 각각 본체 피해의 45%를 주며 첫 대상에 다시 적중하지 않습니다."
     ]
    },
    {
@@ -1710,9 +1710,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "向最近敌人喷射285物理伤害的酸液，再向其身后左右各分裂一股，分别造成主体45%的伤害；分裂不重复命中首个目标。",
-     "Spit acid at the nearest enemy for 285 physical damage, then split it behind the target to both sides. Each branch deals 45% of the main hit and cannot hit the original target again.",
-     "最も近い敵に酸を吐き、285物理ダメージを与える。その背後の左右へ分裂し、各分裂は本体の45%のダメージを与える。最初の対象には再命中しない。",
-     "가장 가까운 적에게 산을 뱉어 물리 피해 285을 주고 대상 뒤 좌우로 분열시킵니다. 각 분열은 본체 피해의 45%를 주며 최초 대상에 재적중하지 않습니다."
+     "Spit acid at the nearest enemy for 285 physical damage. Two streams split behind it to the left and right, each dealing 45% of the main hit. Splits cannot hit the first target again.",
+     "最も近い敵に酸を吐き、285物理ダメージ。背後の左右へ分裂し、それぞれ本体の45%のダメージを与える。分裂は最初の敵に再命中しない。",
+     "가장 가까운 적에게 산을 뱉어 물리 피해 285을 줍니다. 뒤쪽 좌우로 갈라진 산은 각각 본체 피해의 45%를 주며 첫 대상에 다시 적중하지 않습니다."
     ]
    }
   ],
@@ -1732,15 +1732,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "受到攻击时有30%概率卸力，使该次伤害降低50%/52%/55%（一/二/三星）。不会额外生成护盾。",
-   "Has a chance to reduce incoming attack damage. This mitigation does not create a shield.",
-   "攻撃を受けると確率でそのダメージを軽減する。シールドは生成しない。",
-   "공격을 받으면 일정 확률로 해당 피해를 줄입니다. 보호막을 생성하지 않습니다."
+   "When attacked, a 30% chance reduces that hit's damage by 50%. Does not create a shield.",
+   "攻撃を受けたとき30%の確率でそのダメージを50%軽減。シールドは発生しない。",
+   "공격받으면 30% 확률로 해당 피해를 50% 감소시킵니다. 추가 보호막은 생성하지 않습니다."
   ],
   "description": [
    "受到攻击时有30%概率卸力，使该次伤害降低50%/52%/55%（一/二/三星）。不会额外生成护盾。",
-   "Has a chance to reduce incoming attack damage. This mitigation does not create a shield.",
-   "攻撃を受けると確率でそのダメージを軽減する。シールドは生成しない。",
-   "공격을 받으면 일정 확률로 해당 피해를 줄입니다. 보호막을 생성하지 않습니다."
+   "When attacked, a 30% chance reduces that hit's damage by 50%. Does not create a shield.",
+   "攻撃を受けたとき30%の確率でそのダメージを50%軽減。シールドは発生しない。",
+   "공격받으면 30% 확률로 해당 피해를 50% 감소시킵니다. 추가 보호막은 생성하지 않습니다."
   ],
   "group": [
    "原始荒野",
@@ -1757,9 +1757,9 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "灵巧卸力",
-   "Deft Deflection",
+   "Nimble Deflection",
    "巧みな受け流し",
-   "유연한 흘리기"
+   "날렵한 흘리기"
   ],
   "stars": [
    {
@@ -1816,9 +1816,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "受到攻击时有30%概率卸力，使该次伤害降低50%。不会额外生成护盾。",
-     "On taking a hit, 30% chance to reduce that hit by 50%. Does not create a shield.",
-     "被弾時、30%の確率でその一撃のダメージを50%軽減する。シールドは生成しない。",
-     "피격 시 30% 확률로 해당 피해를 50% 감소시킵니다. 보호막은 생성하지 않습니다."
+     "When attacked, a 30% chance reduces that hit's damage by 50%. Does not create a shield.",
+     "攻撃を受けたとき30%の確率でそのダメージを50%軽減。シールドは発生しない。",
+     "공격받으면 30% 확률로 해당 피해를 50% 감소시킵니다. 추가 보호막은 생성하지 않습니다."
     ]
    },
    {
@@ -1875,9 +1875,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "受到攻击时有30%概率卸力，使该次伤害降低52%。不会额外生成护盾。",
-     "On taking a hit, 30% chance to reduce that hit by 52%. Does not create a shield.",
-     "被弾時、30%の確率でその一撃のダメージを52%軽減する。シールドは生成しない。",
-     "피격 시 30% 확률로 해당 피해를 52% 감소시킵니다. 보호막은 생성하지 않습니다."
+     "When attacked, a 30% chance reduces that hit's damage by 52%. Does not create a shield.",
+     "攻撃を受けたとき30%の確率でそのダメージを52%軽減。シールドは発生しない。",
+     "공격받으면 30% 확률로 해당 피해를 52% 감소시킵니다. 추가 보호막은 생성하지 않습니다."
     ]
    },
    {
@@ -1934,9 +1934,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "受到攻击时有30%概率卸力，使该次伤害降低55%。不会额外生成护盾。",
-     "On taking a hit, 30% chance to reduce that hit by 55%. Does not create a shield.",
-     "被弾時、30%の確率でその一撃のダメージを55%軽減する。シールドは生成しない。",
-     "피격 시 30% 확률로 해당 피해를 55% 감소시킵니다. 보호막은 생성하지 않습니다."
+     "When attacked, a 30% chance reduces that hit's damage by 55%. Does not create a shield.",
+     "攻撃を受けたとき30%の確率でそのダメージを55%軽減。シールドは発生しない。",
+     "공격받으면 30% 확률로 해당 피해를 55% 감소시킵니다. 추가 보호막은 생성하지 않습니다."
     ]
    }
   ],
@@ -1956,15 +1956,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "嘲讽自身3格内的所有敌人，强制其攻击自己，持续2秒；自身获得相当于施法时最大生命值25%的护盾，护盾量受护盾增益影响。",
-   "Taunts nearby enemies and gains a shield based on its maximum health.",
-   "周囲の敵を挑発し、最大HPに応じたシールドを得る。",
-   "주변 적을 도발하고 최대 체력에 비례한 보호막을 얻습니다."
+   "Taunt all enemies within 3 hex(es) for 2s. Gain a shield equal to 25% of maximum HP at cast time, affected by shield bonuses.",
+   "3マス以内の全敵を2秒間挑発。発動時の最大HPの25%のシールドを得る。シールド強化が適用される。",
+   "3칸 내 모든 적을 2초간 도발합니다. 시전 시 최대 체력의 25%만큼 보호막을 얻으며 보호막 강화 효과를 받습니다."
   ],
   "description": [
    "嘲讽自身3格内的所有敌人，强制其攻击自己，持续2秒；自身获得相当于施法时最大生命值25%的护盾，护盾量受护盾增益影响。\n【数值成长】自身属性加成系数在一/二/三星时为原系数的1/1/1倍。范围、控制时间、概率和目标数量不变。",
-   "Taunts nearby enemies and gains a shield based on its maximum health.",
-   "周囲の敵を挑発し、最大HPに応じたシールドを得る。",
-   "주변 적을 도발하고 최대 체력에 비례한 보호막을 얻습니다."
+   "Taunt all enemies within 3 hex(es) for 2s. Gain a shield equal to 25% of maximum HP at cast time, affected by shield bonuses.",
+   "3マス以内の全敵を2秒間挑発。発動時の最大HPの25%のシールドを得る。シールド強化が適用される。",
+   "3칸 내 모든 적을 2초간 도발합니다. 시전 시 최대 체력의 25%만큼 보호막을 얻으며 보호막 강화 효과를 받습니다."
   ],
   "group": [
    "原始荒野",
@@ -1982,8 +1982,8 @@ export const catalog:WikiEntry[] = [
   "skillName": [
    "鼓腹嘲讽",
    "Belly Taunt",
-   "腹鼓挑発",
-   "배불림 도발"
+   "腹太鼓の挑発",
+   "배 부풀리기 도발"
   ],
   "stars": [
    {
@@ -2040,9 +2040,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "嘲讽自身3格内的所有敌人，强制其攻击自己，持续2秒；自身获得相当于施法时最大生命值25%的护盾，护盾量受护盾增益影响。",
-     "Taunt every enemy within 3 hexes for 2s, forcing them to attack you. Gain a shield equal to 25% of your max HP at cast time, affected by shield bonuses.",
-     "自身から3マス以内の全敵を2秒間挑発し、自身を攻撃させる。発動時の最大HPの25%のシールドを得る。シールド強化が適用される。",
-     "자신의 3칸 내 모든 적을 2초 동안 도발해 자신을 공격하게 합니다. 시전 시 최대 체력의 25%만큼 보호막을 얻으며 보호막 증가 효과가 적용됩니다."
+     "Taunt all enemies within 3 hex(es) for 2s. Gain a shield equal to 25% of maximum HP at cast time, affected by shield bonuses.",
+     "3マス以内の全敵を2秒間挑発。発動時の最大HPの25%のシールドを得る。シールド強化が適用される。",
+     "3칸 내 모든 적을 2초간 도발합니다. 시전 시 최대 체력의 25%만큼 보호막을 얻으며 보호막 강화 효과를 받습니다."
     ]
    },
    {
@@ -2099,9 +2099,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "嘲讽自身3格内的所有敌人，强制其攻击自己，持续2秒；自身获得相当于施法时最大生命值25%的护盾，护盾量受护盾增益影响。",
-     "Taunt every enemy within 3 hexes for 2s, forcing them to attack you. Gain a shield equal to 25% of your max HP at cast time, affected by shield bonuses.",
-     "自身から3マス以内の全敵を2秒間挑発し、自身を攻撃させる。発動時の最大HPの25%のシールドを得る。シールド強化が適用される。",
-     "자신의 3칸 내 모든 적을 2초 동안 도발해 자신을 공격하게 합니다. 시전 시 최대 체력의 25%만큼 보호막을 얻으며 보호막 증가 효과가 적용됩니다."
+     "Taunt all enemies within 3 hex(es) for 2s. Gain a shield equal to 25% of maximum HP at cast time, affected by shield bonuses.",
+     "3マス以内の全敵を2秒間挑発。発動時の最大HPの25%のシールドを得る。シールド強化が適用される。",
+     "3칸 내 모든 적을 2초간 도발합니다. 시전 시 최대 체력의 25%만큼 보호막을 얻으며 보호막 강화 효과를 받습니다."
     ]
    },
    {
@@ -2158,9 +2158,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "嘲讽自身3格内的所有敌人，强制其攻击自己，持续2秒；自身获得相当于施法时最大生命值25%的护盾，护盾量受护盾增益影响。",
-     "Taunt every enemy within 3 hexes for 2s, forcing them to attack you. Gain a shield equal to 25% of your max HP at cast time, affected by shield bonuses.",
-     "自身から3マス以内の全敵を2秒間挑発し、自身を攻撃させる。発動時の最大HPの25%のシールドを得る。シールド強化が適用される。",
-     "자신의 3칸 내 모든 적을 2초 동안 도발해 자신을 공격하게 합니다. 시전 시 최대 체력의 25%만큼 보호막을 얻으며 보호막 증가 효과가 적용됩니다."
+     "Taunt all enemies within 3 hex(es) for 2s. Gain a shield equal to 25% of maximum HP at cast time, affected by shield bonuses.",
+     "3マス以内の全敵を2秒間挑発。発動時の最大HPの25%のシールドを得る。シールド強化が適用される。",
+     "3칸 내 모든 적을 2초간 도발합니다. 시전 시 최대 체력의 25%만큼 보호막을 얻으며 보호막 강화 효과를 받습니다."
     ]
    }
   ],
@@ -2181,15 +2181,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "普通攻击命中时有30%概率眩晕目标，持续1.5/1.6/1.7秒（一/二/三星）。",
-   "Basic attacks have a chance to stun their target.",
-   "通常攻撃が確率で対象をスタンさせる。",
-   "기본 공격이 일정 확률로 대상을 기절시킵니다."
+   "Basic attacks have a 30% chance to stun the target for 1.5s.",
+   "通常攻撃命中時、30%の確率で対象を1.5秒間スタンさせる。",
+   "기본 공격 적중 시 30% 확률로 대상을 1.5초간 기절시킵니다."
   ],
   "description": [
    "普通攻击命中时有30%概率眩晕目标，持续1.5/1.6/1.7秒（一/二/三星）。",
-   "Basic attacks have a chance to stun their target.",
-   "通常攻撃が確率で対象をスタンさせる。",
-   "기본 공격이 일정 확률로 대상을 기절시킵니다."
+   "Basic attacks have a 30% chance to stun the target for 1.5s.",
+   "通常攻撃命中時、30%の確率で対象を1.5秒間スタンさせる。",
+   "기본 공격 적중 시 30% 확률로 대상을 1.5초간 기절시킵니다."
   ],
   "group": [
    "原始荒野",
@@ -2265,9 +2265,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "普通攻击命中时有30%概率眩晕目标，持续1.5秒。",
-     "Basic attack hits have a 30% chance to stun for 1.5s.",
+     "Basic attacks have a 30% chance to stun the target for 1.5s.",
      "通常攻撃命中時、30%の確率で対象を1.5秒間スタンさせる。",
-     "기본 공격 적중 시 30% 확률로 대상을 1.5초 동안 기절시킵니다."
+     "기본 공격 적중 시 30% 확률로 대상을 1.5초간 기절시킵니다."
     ]
    },
    {
@@ -2324,9 +2324,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "普通攻击命中时有30%概率眩晕目标，持续1.6秒。",
-     "Basic attack hits have a 30% chance to stun for 1.6s.",
+     "Basic attacks have a 30% chance to stun the target for 1.6s.",
      "通常攻撃命中時、30%の確率で対象を1.6秒間スタンさせる。",
-     "기본 공격 적중 시 30% 확률로 대상을 1.6초 동안 기절시킵니다."
+     "기본 공격 적중 시 30% 확률로 대상을 1.6초간 기절시킵니다."
     ]
    },
    {
@@ -2383,9 +2383,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "普通攻击命中时有30%概率眩晕目标，持续1.7秒。",
-     "Basic attack hits have a 30% chance to stun for 1.7s.",
+     "Basic attacks have a 30% chance to stun the target for 1.7s.",
      "通常攻撃命中時、30%の確率で対象を1.7秒間スタンさせる。",
-     "기본 공격 적중 시 30% 확률로 대상을 1.7초 동안 기절시킵니다."
+     "기본 공격 적중 시 30% 확률로 대상을 1.7초간 기절시킵니다."
     ]
    }
   ],
@@ -2405,16 +2405,16 @@ export const catalog:WikiEntry[] = [
    "거대 지네"
   ],
   "summary": [
-   "冲向3格内最近敌人的合法邻格并将其撞退1格，造成90基础物理伤害；撞退路线被单位阻挡时，目标与阻挡敌人额外受到54基础物理伤害。",
-   "Charges beside an enemy and knocks it back. A blocked retreat can cause collision damage.",
-   "敵へ突進してノックバックさせる。退路が塞がれていると衝突ダメージが発生する。",
-   "적 옆으로 돌진해 밀쳐냅니다. 퇴로가 막히면 충돌 피해가 발생합니다."
+   "冲向3格内最近敌人的合法邻格并将其撞退1格，造成180基础物理伤害；撞退路线被单位阻挡时，目标与阻挡敌人额外受到108基础物理伤害。",
+   "Rush to a legal cell beside the nearest enemy within 3 hexes, push it back 1 hex and deal 180 base physical damage. If a unit blocks the push, the target and an enemy blocker take 108 additional base physical damage.",
+   "3マス以内の最も近い敵の隣の空きマスへ突進し、1マス押し戻して基礎物理ダメージ180。押し戻し先がユニットに塞がれていると、対象と進路を塞ぐ敵に追加の基礎物理ダメージ108。",
+   "3칸 내 가장 가까운 적 옆의 빈칸으로 돌진하여 1칸 밀고 기본 물리 피해 180을 줍니다. 유닛이 밀리는 경로를 막으면 대상과 경로를 막는 적에게 기본 물리 피해 108을 추가로 줍니다."
   ],
   "description": [
-   "冲向3格内最近敌人的合法邻格并将其撞退1格，造成90基础物理伤害；撞退路线被单位阻挡时，目标与阻挡敌人额外受到54基础物理伤害。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.8/3倍。主要效果随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
-   "Charges beside an enemy and knocks it back. A blocked retreat can cause collision damage.",
-   "敵へ突進してノックバックさせる。退路が塞がれていると衝突ダメージが発生する。",
-   "적 옆으로 돌진해 밀쳐냅니다. 퇴로가 막히면 충돌 피해가 발생합니다."
+   "冲向3格内最近敌人的合法邻格并将其撞退1格，造成180基础物理伤害；撞退路线被单位阻挡时，目标与阻挡敌人额外受到108基础物理伤害。\n固定伤害和召唤物基础数值按一星描述，二/三星基础成长为1.8/3倍，并受施法者相应攻击或最大生命增益影响。",
+   "Rush to a legal cell beside the nearest enemy within 3 hexes, push it back 1 hex and deal 180 base physical damage. If a unit blocks the push, the target and an enemy blocker take 108 additional base physical damage.\nFlat damage and summon stats use 1-star references; 2/3-star power scales 1.8/3x and responds to the caster's relevant ATK or max-HP bonuses.",
+   "3マス以内の最も近い敵の隣の空きマスへ突進し、1マス押し戻して基礎物理ダメージ180。押し戻し先がユニットに塞がれていると、対象と進路を塞ぐ敵に追加の基礎物理ダメージ108。\n固定ダメージと召喚物能力は星1基準。星2/3で1.8/3倍となり、術者の対応する攻撃力・最大HP増加を反映。",
+   "3칸 내 가장 가까운 적 옆의 빈칸으로 돌진하여 1칸 밀고 기본 물리 피해 180을 줍니다. 유닛이 밀리는 경로를 막으면 대상과 경로를 막는 적에게 기본 물리 피해 108을 추가로 줍니다.\n고정 피해와 소환수 수치는 1성 기준이며 2/3성 성장 배율은 1.8/3배로, 시전자의 해당 공격력·최대 체력 증가를 반영합니다."
   ],
   "group": [
    "原始荒野",
@@ -2432,7 +2432,7 @@ export const catalog:WikiEntry[] = [
   "skillName": [
    "百足冲撞",
    "Centipede Charge",
-   "百足突進",
+   "百足の突進",
    "지네 돌진"
   ],
   "stars": [
@@ -2441,7 +2441,7 @@ export const catalog:WikiEntry[] = [
     "stats": [
      {
       "label": "生命值",
-      "value": "630"
+      "value": "850"
      },
      {
       "label": "攻击力",
@@ -2489,10 +2489,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "冲向3格内最近敌人的合法邻格并将其撞退1格，造成90物理伤害；撞退路线被单位阻挡时，目标与阻挡敌人额外受到54物理伤害。",
-     "Charge to a legal hex beside the nearest enemy within 3 hexes. Deal 90 physical damage and knock it back 1 hex. If a unit blocks the path, deal an additional 54 physical damage to the target and the blocking enemy.",
-     "3マス以内の最も近い敵の隣の有効マスへ突進し、90物理ダメージを与えて1マス押し戻す。経路をユニットが塞いでいると、対象と遮っている敵に追加で54物理ダメージ。",
-     "3칸 내 가장 가까운 적 옆 유효 칸으로 돌진해 물리 피해 90을 주고 1칸 밀쳐냅니다. 유닛이 경로를 막으면 대상과 가로막는 적에게 물리 피해 54을 추가로 줍니다."
+     "冲向3格内最近敌人的合法邻格并将其撞退1格，造成180基础物理伤害；撞退路线被单位阻挡时，目标与阻挡敌人额外受到108基础物理伤害。",
+     "Rush to a legal cell beside the nearest enemy within 3 hexes, push it back 1 hex and deal 180 base physical damage. If a unit blocks the push, the target and an enemy blocker take 108 additional base physical damage.",
+     "3マス以内の最も近い敵の隣の空きマスへ突進し、1マス押し戻して基礎物理ダメージ180。押し戻し先がユニットに塞がれていると、対象と進路を塞ぐ敵に追加の基礎物理ダメージ108。",
+     "3칸 내 가장 가까운 적 옆의 빈칸으로 돌진하여 1칸 밀고 기본 물리 피해 180을 줍니다. 유닛이 밀리는 경로를 막으면 대상과 경로를 막는 적에게 기본 물리 피해 108을 추가로 줍니다."
     ]
    },
    {
@@ -2500,7 +2500,7 @@ export const catalog:WikiEntry[] = [
     "stats": [
      {
       "label": "生命值",
-      "value": "1134"
+      "value": "1530"
      },
      {
       "label": "攻击力",
@@ -2548,10 +2548,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "冲向3格内最近敌人的合法邻格并将其撞退1格，造成161.72物理伤害；撞退路线被单位阻挡时，目标与阻挡敌人额外受到97.03物理伤害。",
-     "Charge to a legal hex beside the nearest enemy within 3 hexes. Deal 161.72 physical damage and knock it back 1 hex. If a unit blocks the path, deal an additional 97.03 physical damage to the target and the blocking enemy.",
-     "3マス以内の最も近い敵の隣の有効マスへ突進し、161.72物理ダメージを与えて1マス押し戻す。経路をユニットが塞いでいると、対象と遮っている敵に追加で97.03物理ダメージ。",
-     "3칸 내 가장 가까운 적 옆 유효 칸으로 돌진해 물리 피해 161.72을 주고 1칸 밀쳐냅니다. 유닛이 경로를 막으면 대상과 가로막는 적에게 물리 피해 97.03을 추가로 줍니다."
+     "冲向3格内最近敌人的合法邻格并将其撞退1格，造成323.44基础物理伤害；撞退路线被单位阻挡时，目标与阻挡敌人额外受到194.06基础物理伤害。",
+     "Rush to a legal cell beside the nearest enemy within 3 hexes, push it back 1 hex and deal 323.44 base physical damage. If a unit blocks the push, the target and an enemy blocker take 194.06 additional base physical damage.",
+     "3マス以内の最も近い敵の隣の空きマスへ突進し、1マス押し戻して基礎物理ダメージ323.44。押し戻し先がユニットに塞がれていると、対象と進路を塞ぐ敵に追加の基礎物理ダメージ194.06。",
+     "3칸 내 가장 가까운 적 옆의 빈칸으로 돌진하여 1칸 밀고 기본 물리 피해 323.44을 줍니다. 유닛이 밀리는 경로를 막으면 대상과 경로를 막는 적에게 기본 물리 피해 194.06을 추가로 줍니다."
     ]
    },
    {
@@ -2559,7 +2559,7 @@ export const catalog:WikiEntry[] = [
     "stats": [
      {
       "label": "生命值",
-      "value": "1890"
+      "value": "2550"
      },
      {
       "label": "攻击力",
@@ -2607,10 +2607,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "冲向3格内最近敌人的合法邻格并将其撞退1格，造成270物理伤害；撞退路线被单位阻挡时，目标与阻挡敌人额外受到162物理伤害。",
-     "Charge to a legal hex beside the nearest enemy within 3 hexes. Deal 270 physical damage and knock it back 1 hex. If a unit blocks the path, deal an additional 162 physical damage to the target and the blocking enemy.",
-     "3マス以内の最も近い敵の隣の有効マスへ突進し、270物理ダメージを与えて1マス押し戻す。経路をユニットが塞いでいると、対象と遮っている敵に追加で162物理ダメージ。",
-     "3칸 내 가장 가까운 적 옆 유효 칸으로 돌진해 물리 피해 270을 주고 1칸 밀쳐냅니다. 유닛이 경로를 막으면 대상과 가로막는 적에게 물리 피해 162을 추가로 줍니다."
+     "冲向3格内最近敌人的合法邻格并将其撞退1格，造成540基础物理伤害；撞退路线被单位阻挡时，目标与阻挡敌人额外受到324基础物理伤害。",
+     "Rush to a legal cell beside the nearest enemy within 3 hexes, push it back 1 hex and deal 540 base physical damage. If a unit blocks the push, the target and an enemy blocker take 324 additional base physical damage.",
+     "3マス以内の最も近い敵の隣の空きマスへ突進し、1マス押し戻して基礎物理ダメージ540。押し戻し先がユニットに塞がれていると、対象と進路を塞ぐ敵に追加の基礎物理ダメージ324。",
+     "3칸 내 가장 가까운 적 옆의 빈칸으로 돌진하여 1칸 밀고 기본 물리 피해 540을 줍니다. 유닛이 밀리는 경로를 막으면 대상과 경로를 막는 적에게 기본 물리 피해 324을 추가로 줍니다."
     ]
    }
   ],
@@ -2630,16 +2630,16 @@ export const catalog:WikiEntry[] = [
    "독벌"
   ],
   "summary": [
-   "被动：普通攻击命中后使目标中毒，每秒造成15点基础法术伤害，持续2秒。同一只毒蜂再次命中会刷新中毒时间，不重复叠加。伤害数值为一星基础值。",
-   "Basic attacks poison enemies. Repeated hits refresh its poison instead of stacking it.",
-   "通常攻撃で毒を与える。同じ個体の再攻撃は毒を重ねず、持続時間を更新する。",
-   "기본 공격으로 독을 묻힙니다. 같은 개체의 재공격은 독을 중첩하지 않고 갱신합니다."
+   "被动：普通攻击命中后使目标中毒，每秒造成20点基础法术伤害，持续2秒。同一只毒蜂再次命中会刷新中毒时间，不重复叠加。伤害数值为一星基础值。",
+   "Passive: basic attack hits poison the target for 2s, dealing 20 magic damage per second. Hits from the same wasp refresh duration without stacking.",
+   "パッシブ：通常攻撃命中時に2秒間の毒を付与し、毎秒20魔法ダメージ。同じ毒蜂による再命中は時間を更新し、重複しない。",
+   "기본 지속 효과: 기본 공격 적중 시 2초간 중독시켜 매초 마법 피해 20을 줍니다. 같은 독벌의 재적중은 지속 시간만 갱신합니다."
   ],
   "description": [
-   "被动：普通攻击命中后使目标中毒，每秒造成15点基础法术伤害，持续2秒。同一只毒蜂再次命中会刷新中毒时间，不重复叠加。伤害数值为一星基础值。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.8/3倍。主要效果随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
-   "Basic attacks poison enemies. Repeated hits refresh its poison instead of stacking it.",
-   "通常攻撃で毒を与える。同じ個体の再攻撃は毒を重ねず、持続時間を更新する。",
-   "기본 공격으로 독을 묻힙니다. 같은 개체의 재공격은 독을 중첩하지 않고 갱신합니다."
+   "被动：普通攻击命中后使目标中毒，每秒造成20点基础法术伤害，持续2秒。同一只毒蜂再次命中会刷新中毒时间，不重复叠加。伤害数值为一星基础值。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.8/3倍。主要效果随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
+   "Passive: basic attack hits poison the target for 2s, dealing 20 magic damage per second. Hits from the same wasp refresh duration without stacking.",
+   "パッシブ：通常攻撃命中時に2秒間の毒を付与し、毎秒20魔法ダメージ。同じ毒蜂による再命中は時間を更新し、重複しない。",
+   "기본 지속 효과: 기본 공격 적중 시 2초간 중독시켜 매초 마법 피해 20을 줍니다. 같은 독벌의 재적중은 지속 시간만 갱신합니다."
   ],
   "group": [
    "原始荒野",
@@ -2714,10 +2714,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "被动：普通攻击命中后使目标中毒，每秒造成15点法术伤害，持续2秒。同一只毒蜂再次命中会刷新中毒时间，不重复叠加。",
-     "Basic attack hits poison the target for 2s, dealing 15 magic damage per second. Repeated hits from the same caster refresh the duration without stacking.",
-     "通常攻撃命中時、対象を2秒間毒にし、毎秒15魔法ダメージ。同じ個体の再攻撃は時間を更新し、重複しない。",
-     "기본 공격 적중 시 대상을 2초 동안 중독시켜 매초 마법 피해 15을 줍니다. 같은 개체의 재적중은 시간을 갱신하며 중첩되지 않습니다."
+     "被动：普通攻击命中后使目标中毒，每秒造成20点法术伤害，持续2秒。同一只毒蜂再次命中会刷新中毒时间，不重复叠加。",
+     "Passive: basic attack hits poison the target for 2s, dealing 20 magic damage per second. Hits from the same wasp refresh duration without stacking.",
+     "パッシブ：通常攻撃命中時に2秒間の毒を付与し、毎秒20魔法ダメージ。同じ毒蜂による再命中は時間を更新し、重複しない。",
+     "기본 지속 효과: 기본 공격 적중 시 2초간 중독시켜 매초 마법 피해 20을 줍니다. 같은 독벌의 재적중은 지속 시간만 갱신합니다."
     ]
    },
    {
@@ -2773,10 +2773,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "被动：普通攻击命中后使目标中毒，每秒造成26.95点法术伤害，持续2秒。同一只毒蜂再次命中会刷新中毒时间，不重复叠加。",
-     "Basic attack hits poison the target for 2s, dealing 26.95 magic damage per second. Repeated hits from the same caster refresh the duration without stacking.",
-     "通常攻撃命中時、対象を2秒間毒にし、毎秒26.95魔法ダメージ。同じ個体の再攻撃は時間を更新し、重複しない。",
-     "기본 공격 적중 시 대상을 2초 동안 중독시켜 매초 마법 피해 26.95을 줍니다. 같은 개체의 재적중은 시간을 갱신하며 중첩되지 않습니다."
+     "被动：普通攻击命中后使目标中毒，每秒造成35.94点法术伤害，持续2秒。同一只毒蜂再次命中会刷新中毒时间，不重复叠加。",
+     "Passive: basic attack hits poison the target for 2s, dealing 35.94 magic damage per second. Hits from the same wasp refresh duration without stacking.",
+     "パッシブ：通常攻撃命中時に2秒間の毒を付与し、毎秒35.94魔法ダメージ。同じ毒蜂による再命中は時間を更新し、重複しない。",
+     "기본 지속 효과: 기본 공격 적중 시 2초간 중독시켜 매초 마법 피해 35.94을 줍니다. 같은 독벌의 재적중은 지속 시간만 갱신합니다."
     ]
    },
    {
@@ -2832,10 +2832,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "被动：普通攻击命中后使目标中毒，每秒造成45点法术伤害，持续2秒。同一只毒蜂再次命中会刷新中毒时间，不重复叠加。",
-     "Basic attack hits poison the target for 2s, dealing 45 magic damage per second. Repeated hits from the same caster refresh the duration without stacking.",
-     "通常攻撃命中時、対象を2秒間毒にし、毎秒45魔法ダメージ。同じ個体の再攻撃は時間を更新し、重複しない。",
-     "기본 공격 적중 시 대상을 2초 동안 중독시켜 매초 마법 피해 45을 줍니다. 같은 개체의 재적중은 시간을 갱신하며 중첩되지 않습니다."
+     "被动：普通攻击命中后使目标中毒，每秒造成60点法术伤害，持续2秒。同一只毒蜂再次命中会刷新中毒时间，不重复叠加。",
+     "Passive: basic attack hits poison the target for 2s, dealing 60 magic damage per second. Hits from the same wasp refresh duration without stacking.",
+     "パッシブ：通常攻撃命中時に2秒間の毒を付与し、毎秒60魔法ダメージ。同じ毒蜂による再命中は時間を更新し、重複しない。",
+     "기본 지속 효과: 기본 공격 적중 시 2초간 중독시켜 매초 마법 피해 60을 줍니다. 같은 독벌의 재적중은 지속 시간만 갱신합니다."
     ]
    }
   ],
@@ -2855,15 +2855,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "在3格内敌人脚下布置半径1格的蛛网，一/二/三星持续4/4.5/5秒。每名敌人首次入网时禁锢0.8秒，之后留在网内时受到减速；不追加伤害，不降低治疗。",
-   "Creates a web field that roots enemies on first entry and slows those remaining inside.",
-   "初めて入った敵を拘束し、内部の敵を減速させる巣を作る。",
-   "처음 들어온 적을 속박하고 내부에 남은 적을 둔화시키는 거미줄을 만듭니다."
+   "Place a web with radius 1 hex(es) under an enemy within 3 hex(es) for 4s. Each enemy is rooted for 0.8s on first entry, then slowed while inside. No extra damage or healing reduction.",
+   "3マス以内の敵の足元に半径1マスの網を4秒間設置。各敵が初めて入ると0.8秒間拘束し、その後も網内では減速。追加ダメージや回復阻害はない。",
+   "3칸 내 적 아래에 반경 1칸의 거미줄을 4초간 설치합니다. 각 적이 처음 진입하면 0.8초 속박되고 이후 안에 있는 동안 둔화됩니다. 추가 피해나 회복 감소는 없습니다."
   ],
   "description": [
    "在3格内敌人脚下布置半径1格的蛛网，一/二/三星持续4/4.5/5秒。每名敌人首次入网时禁锢0.8秒，之后留在网内时受到减速；不追加伤害，不降低治疗。",
-   "Creates a web field that roots enemies on first entry and slows those remaining inside.",
-   "初めて入った敵を拘束し、内部の敵を減速させる巣を作る。",
-   "처음 들어온 적을 속박하고 내부에 남은 적을 둔화시키는 거미줄을 만듭니다."
+   "Place a web with radius 1 hex(es) under an enemy within 3 hex(es) for 4s. Each enemy is rooted for 0.8s on first entry, then slowed while inside. No extra damage or healing reduction.",
+   "3マス以内の敵の足元に半径1マスの網を4秒間設置。各敵が初めて入ると0.8秒間拘束し、その後も網内では減速。追加ダメージや回復阻害はない。",
+   "3칸 내 적 아래에 반경 1칸의 거미줄을 4초간 설치합니다. 각 적이 처음 진입하면 0.8초 속박되고 이후 안에 있는 동안 둔화됩니다. 추가 피해나 회복 감소는 없습니다."
   ],
   "group": [
    "原始荒野",
@@ -2881,8 +2881,8 @@ export const catalog:WikiEntry[] = [
   "skillName": [
    "捕猎网场",
    "Hunting Web",
-   "捕獲網",
-   "사냥 거미줄"
+   "狩猟の網",
+   "사냥 그물"
   ],
   "stars": [
    {
@@ -2939,9 +2939,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "在3格内敌人脚下布置半径1格的蛛网，持续4秒。每名敌人首次入网时禁锢0.8秒，之后留在网内时受到减速；不追加伤害，不降低治疗。",
-     "Place a radius-1 web under an enemy within 3 hexes for 4s. Root each enemy for 0.8s on first entry and slow it while inside. No extra damage or healing reduction.",
-     "3マス以内の敵の足元に半径1マスの網を4秒間設置。各敵を初回進入時に0.8秒間移動不能にし、網の中では減速させる。追加ダメージや回復阻害はない。",
-     "3칸 내 적의 발밑에 반경 1칸 거미줄을 4초 동안 설치합니다. 각 적은 최초 진입 시 0.8초 속박되고 내부에서는 둔화됩니다. 추가 피해나 치유 감소는 없습니다."
+     "Place a web with radius 1 hex(es) under an enemy within 3 hex(es) for 4s. Each enemy is rooted for 0.8s on first entry, then slowed while inside. No extra damage or healing reduction.",
+     "3マス以内の敵の足元に半径1マスの網を4秒間設置。各敵が初めて入ると0.8秒間拘束し、その後も網内では減速。追加ダメージや回復阻害はない。",
+     "3칸 내 적 아래에 반경 1칸의 거미줄을 4초간 설치합니다. 각 적이 처음 진입하면 0.8초 속박되고 이후 안에 있는 동안 둔화됩니다. 추가 피해나 회복 감소는 없습니다."
     ]
    },
    {
@@ -2998,9 +2998,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "在3格内敌人脚下布置半径1格的蛛网，持续4.5秒。每名敌人首次入网时禁锢0.8秒，之后留在网内时受到减速；不追加伤害，不降低治疗。",
-     "Place a radius-1 web under an enemy within 3 hexes for 4.5s. Root each enemy for 0.8s on first entry and slow it while inside. No extra damage or healing reduction.",
-     "3マス以内の敵の足元に半径1マスの網を4.5秒間設置。各敵を初回進入時に0.8秒間移動不能にし、網の中では減速させる。追加ダメージや回復阻害はない。",
-     "3칸 내 적의 발밑에 반경 1칸 거미줄을 4.5초 동안 설치합니다. 각 적은 최초 진입 시 0.8초 속박되고 내부에서는 둔화됩니다. 추가 피해나 치유 감소는 없습니다."
+     "Place a web with radius 1 hex(es) under an enemy within 3 hex(es) for 4.5s. Each enemy is rooted for 0.8s on first entry, then slowed while inside. No extra damage or healing reduction.",
+     "3マス以内の敵の足元に半径1マスの網を4.5秒間設置。各敵が初めて入ると0.8秒間拘束し、その後も網内では減速。追加ダメージや回復阻害はない。",
+     "3칸 내 적 아래에 반경 1칸의 거미줄을 4.5초간 설치합니다. 각 적이 처음 진입하면 0.8초 속박되고 이후 안에 있는 동안 둔화됩니다. 추가 피해나 회복 감소는 없습니다."
     ]
    },
    {
@@ -3057,9 +3057,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "在3格内敌人脚下布置半径1格的蛛网，持续5秒。每名敌人首次入网时禁锢0.8秒，之后留在网内时受到减速；不追加伤害，不降低治疗。",
-     "Place a radius-1 web under an enemy within 3 hexes for 5s. Root each enemy for 0.8s on first entry and slow it while inside. No extra damage or healing reduction.",
-     "3マス以内の敵の足元に半径1マスの網を5秒間設置。各敵を初回進入時に0.8秒間移動不能にし、網の中では減速させる。追加ダメージや回復阻害はない。",
-     "3칸 내 적의 발밑에 반경 1칸 거미줄을 5초 동안 설치합니다. 각 적은 최초 진입 시 0.8초 속박되고 내부에서는 둔화됩니다. 추가 피해나 치유 감소는 없습니다."
+     "Place a web with radius 1 hex(es) under an enemy within 3 hex(es) for 5s. Each enemy is rooted for 0.8s on first entry, then slowed while inside. No extra damage or healing reduction.",
+     "3マス以内の敵の足元に半径1マスの網を5秒間設置。各敵が初めて入ると0.8秒間拘束し、その後も網内では減速。追加ダメージや回復阻害はない。",
+     "3칸 내 적 아래에 반경 1칸의 거미줄을 5초간 설치합니다. 각 적이 처음 진입하면 0.8초 속박되고 이후 안에 있는 동안 둔화됩니다. 추가 피해나 회복 감소는 없습니다."
     ]
    }
   ],
@@ -3080,15 +3080,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "朝当前目标方向咆哮，对前方两格内120度扇形范围的敌人造成160%攻击力的物理伤害，不附带控制效果。",
-   "Roars in a forward cone, dealing physical damage without crowd control.",
-   "前方の扇形範囲へ咆哮し、物理ダメージを与える。制御効果はない。",
-   "전방 부채꼴 범위에 포효해 물리 피해를 줍니다. 군중 제어 효과는 없습니다."
+   "Roar toward the current target, dealing physical damage equal to 160% ATK in a 120-degree cone extending two hexes. No crowd control.",
+   "現在の対象へ咆哮し、前方2マス・120度の扇形内に攻撃力の160%の物理ダメージ。行動妨害はない。",
+   "현재 대상을 향해 포효하여 전방 2칸, 120도 부채꼴 범위에 공격력의 160%만큼 물리 피해를 줍니다. 군중 제어 효과는 없습니다."
   ],
   "description": [
    "朝当前目标方向咆哮，对前方两格内120度扇形范围的敌人造成160%攻击力的物理伤害，不附带控制效果。\n【数值成长】自身属性加成系数在一/二/三星时为原系数的1/1/1倍。范围、控制时间、概率和目标数量不变。",
-   "Roars in a forward cone, dealing physical damage without crowd control.",
-   "前方の扇形範囲へ咆哮し、物理ダメージを与える。制御効果はない。",
-   "전방 부채꼴 범위에 포효해 물리 피해를 줍니다. 군중 제어 효과는 없습니다."
+   "Roar toward the current target, dealing physical damage equal to 160% ATK in a 120-degree cone extending two hexes. No crowd control.",
+   "現在の対象へ咆哮し、前方2マス・120度の扇形内に攻撃力の160%の物理ダメージ。行動妨害はない。",
+   "현재 대상을 향해 포효하여 전방 2칸, 120도 부채꼴 범위에 공격력의 160%만큼 물리 피해를 줍니다. 군중 제어 효과는 없습니다."
   ],
   "group": [
    "原始荒野",
@@ -3105,9 +3105,9 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "裂地咆哮",
-   "Earthshaking Roar",
-   "裂地咆哮",
-   "대지 파괴 포효"
+   "Earthsplit Roar",
+   "地裂の咆哮",
+   "대지 분쇄 포효"
   ],
   "stars": [
    {
@@ -3115,7 +3115,7 @@ export const catalog:WikiEntry[] = [
     "stats": [
      {
       "label": "生命值",
-      "value": "840"
+      "value": "780"
      },
      {
       "label": "攻击力",
@@ -3164,9 +3164,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "朝当前目标方向咆哮，对前方两格内120度扇形范围的敌人造成160%攻击力的物理伤害，不附带控制效果。",
-     "Roar toward the current target, dealing physical damage equal to 160% ATK to enemies in a 120-degree cone extending 2 hexes. No crowd control.",
-     "現在の対象に向かって咆哮し、前方2マス・120度の扇形内の敵に攻撃力の160%の物理ダメージ。行動妨害は付与しない。",
-     "현재 대상 방향으로 포효해 전방 2칸, 120도 부채꼴 범위의 적에게 공격력 160%의 물리 피해를 줍니다. 군중 제어는 없습니다."
+     "Roar toward the current target, dealing physical damage equal to 160% ATK in a 120-degree cone extending two hexes. No crowd control.",
+     "現在の対象へ咆哮し、前方2マス・120度の扇形内に攻撃力の160%の物理ダメージ。行動妨害はない。",
+     "현재 대상을 향해 포효하여 전방 2칸, 120도 부채꼴 범위에 공격력의 160%만큼 물리 피해를 줍니다. 군중 제어 효과는 없습니다."
     ]
    },
    {
@@ -3174,7 +3174,7 @@ export const catalog:WikiEntry[] = [
     "stats": [
      {
       "label": "生命值",
-      "value": "1512"
+      "value": "1404"
      },
      {
       "label": "攻击力",
@@ -3223,9 +3223,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "朝当前目标方向咆哮，对前方两格内120度扇形范围的敌人造成160%攻击力的物理伤害，不附带控制效果。",
-     "Roar toward the current target, dealing physical damage equal to 160% ATK to enemies in a 120-degree cone extending 2 hexes. No crowd control.",
-     "現在の対象に向かって咆哮し、前方2マス・120度の扇形内の敵に攻撃力の160%の物理ダメージ。行動妨害は付与しない。",
-     "현재 대상 방향으로 포효해 전방 2칸, 120도 부채꼴 범위의 적에게 공격력 160%의 물리 피해를 줍니다. 군중 제어는 없습니다."
+     "Roar toward the current target, dealing physical damage equal to 160% ATK in a 120-degree cone extending two hexes. No crowd control.",
+     "現在の対象へ咆哮し、前方2マス・120度の扇形内に攻撃力の160%の物理ダメージ。行動妨害はない。",
+     "현재 대상을 향해 포효하여 전방 2칸, 120도 부채꼴 범위에 공격력의 160%만큼 물리 피해를 줍니다. 군중 제어 효과는 없습니다."
     ]
    },
    {
@@ -3233,7 +3233,7 @@ export const catalog:WikiEntry[] = [
     "stats": [
      {
       "label": "生命值",
-      "value": "2520"
+      "value": "2340"
      },
      {
       "label": "攻击力",
@@ -3282,9 +3282,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "朝当前目标方向咆哮，对前方两格内120度扇形范围的敌人造成160%攻击力的物理伤害，不附带控制效果。",
-     "Roar toward the current target, dealing physical damage equal to 160% ATK to enemies in a 120-degree cone extending 2 hexes. No crowd control.",
-     "現在の対象に向かって咆哮し、前方2マス・120度の扇形内の敵に攻撃力の160%の物理ダメージ。行動妨害は付与しない。",
-     "현재 대상 방향으로 포효해 전방 2칸, 120도 부채꼴 범위의 적에게 공격력 160%의 물리 피해를 줍니다. 군중 제어는 없습니다."
+     "Roar toward the current target, dealing physical damage equal to 160% ATK in a 120-degree cone extending two hexes. No crowd control.",
+     "現在の対象へ咆哮し、前方2マス・120度の扇形内に攻撃力の160%の物理ダメージ。行動妨害はない。",
+     "현재 대상을 향해 포효하여 전방 2칸, 120도 부채꼴 범위에 공격력의 160%만큼 물리 피해를 줍니다. 군중 제어 효과는 없습니다."
     ]
    }
   ],
@@ -3305,15 +3305,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "蓄力0.6秒后，自身及周围两格内的存活友军获得25%攻速，持续4秒。重复施放刷新持续时间，不叠加，不回复能量。",
-   "Briefly charges, then increases its own and nearby allies' attack speed. Recasts refresh the buff.",
-   "短く溜めた後、自身と周囲の味方の攻撃速度を上げる。再使用で持続時間を更新する。",
-   "잠시 준비한 뒤 자신과 주변 아군의 공격 속도를 높입니다. 재사용하면 지속 시간이 갱신됩니다."
+   "After charging for 0.6s, grant yourself and living allies within two hexes 25% attack speed for 4s. Recasts refresh duration, do not stack or restore energy.",
+   "0.6秒の溜め後、自身と2マス以内の生存する味方に攻撃速度+25%を4秒間付与。再発動は時間更新のみ。重複せず、エネルギーも回復しない。",
+   "0.6초 준비 후 자신과 2칸 내 생존 아군의 공격 속도를 4초간 25% 높입니다. 재시전은 시간만 갱신하며 중첩되거나 에너지를 회복하지 않습니다."
   ],
   "description": [
    "蓄力0.6秒后，自身及周围两格内的存活友军获得25%攻速，持续4秒。重复施放刷新持续时间，不叠加，不回复能量。\n【数值成长】普通属性增减在一/二/三星时为原数值的1/1.15/1.3倍。范围、控制时间、概率和目标数量不变。",
-   "Briefly charges, then increases its own and nearby allies' attack speed. Recasts refresh the buff.",
-   "短く溜めた後、自身と周囲の味方の攻撃速度を上げる。再使用で持続時間を更新する。",
-   "잠시 준비한 뒤 자신과 주변 아군의 공격 속도를 높입니다. 재사용하면 지속 시간이 갱신됩니다."
+   "After charging for 0.6s, grant yourself and living allies within two hexes 25% attack speed for 4s. Recasts refresh duration, do not stack or restore energy.",
+   "0.6秒の溜め後、自身と2マス以内の生存する味方に攻撃速度+25%を4秒間付与。再発動は時間更新のみ。重複せず、エネルギーも回復しない。",
+   "0.6초 준비 후 자신과 2칸 내 생존 아군의 공격 속도를 4초간 25% 높입니다. 재시전은 시간만 갱신하며 중첩되거나 에너지를 회복하지 않습니다."
   ],
   "group": [
    "原始荒野",
@@ -3330,9 +3330,9 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "裂地战吼",
-   "Earthshaking Cry",
-   "裂地戦吼",
-   "대지 파괴 함성"
+   "Earthsplit Warcry",
+   "地裂の戦吼",
+   "대지 분쇄 함성"
   ],
   "stars": [
    {
@@ -3389,9 +3389,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "蓄力0.6秒后，自身及周围两格内的存活友军获得25%攻速，持续4秒。重复施放刷新持续时间，不叠加，不回复能量。",
-     "After a 0.6s windup, grant yourself and living allies within 2 hexes 25% attack speed for 4s. Recasts refresh rather than stack. Does not restore energy.",
-     "0.6秒溜めた後、自身と2マス以内の生存味方の攻撃速度を4秒間25%上昇。再使用は時間を更新し、重複しない。エネルギーは回復しない。",
-     "0.6초 준비 후 자신과 2칸 내 생존 아군의 공격 속도를 4초 동안 25% 증가시킵니다. 재시전은 시간을 갱신하며 중첩되지 않고 에너지를 회복하지 않습니다."
+     "After charging for 0.6s, grant yourself and living allies within two hexes 25% attack speed for 4s. Recasts refresh duration, do not stack or restore energy.",
+     "0.6秒の溜め後、自身と2マス以内の生存する味方に攻撃速度+25%を4秒間付与。再発動は時間更新のみ。重複せず、エネルギーも回復しない。",
+     "0.6초 준비 후 자신과 2칸 내 생존 아군의 공격 속도를 4초간 25% 높입니다. 재시전은 시간만 갱신하며 중첩되거나 에너지를 회복하지 않습니다."
     ]
    },
    {
@@ -3448,9 +3448,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "蓄力0.6秒后，自身及周围两格内的存活友军获得28.75%攻速，持续4秒。重复施放刷新持续时间，不叠加，不回复能量。",
-     "After a 0.6s windup, grant yourself and living allies within 2 hexes 28.75% attack speed for 4s. Recasts refresh rather than stack. Does not restore energy.",
-     "0.6秒溜めた後、自身と2マス以内の生存味方の攻撃速度を4秒間28.75%上昇。再使用は時間を更新し、重複しない。エネルギーは回復しない。",
-     "0.6초 준비 후 자신과 2칸 내 생존 아군의 공격 속도를 4초 동안 28.75% 증가시킵니다. 재시전은 시간을 갱신하며 중첩되지 않고 에너지를 회복하지 않습니다."
+     "After charging for 0.6s, grant yourself and living allies within two hexes 28.75% attack speed for 4s. Recasts refresh duration, do not stack or restore energy.",
+     "0.6秒の溜め後、自身と2マス以内の生存する味方に攻撃速度+28.75%を4秒間付与。再発動は時間更新のみ。重複せず、エネルギーも回復しない。",
+     "0.6초 준비 후 자신과 2칸 내 생존 아군의 공격 속도를 4초간 28.75% 높입니다. 재시전은 시간만 갱신하며 중첩되거나 에너지를 회복하지 않습니다."
     ]
    },
    {
@@ -3507,9 +3507,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "蓄力0.6秒后，自身及周围两格内的存活友军获得32.5%攻速，持续4秒。重复施放刷新持续时间，不叠加，不回复能量。",
-     "After a 0.6s windup, grant yourself and living allies within 2 hexes 32.5% attack speed for 4s. Recasts refresh rather than stack. Does not restore energy.",
-     "0.6秒溜めた後、自身と2マス以内の生存味方の攻撃速度を4秒間32.5%上昇。再使用は時間を更新し、重複しない。エネルギーは回復しない。",
-     "0.6초 준비 후 자신과 2칸 내 생존 아군의 공격 속도를 4초 동안 32.5% 증가시킵니다. 재시전은 시간을 갱신하며 중첩되지 않고 에너지를 회복하지 않습니다."
+     "After charging for 0.6s, grant yourself and living allies within two hexes 32.5% attack speed for 4s. Recasts refresh duration, do not stack or restore energy.",
+     "0.6秒の溜め後、自身と2マス以内の生存する味方に攻撃速度+32.5%を4秒間付与。再発動は時間更新のみ。重複せず、エネルギーも回復しない。",
+     "0.6초 준비 후 자신과 2칸 내 생존 아군의 공격 속도를 4초간 32.5% 높입니다. 재시전은 시간만 갱신하며 중첩되거나 에너지를 회복하지 않습니다."
     ]
    }
   ],
@@ -3529,15 +3529,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "普攻命中有护盾的敌人时，先额外吞蚀最多25基础护盾，将实际吞蚀量的50%转为自身治疗；每0.5秒最多触发一次。",
-   "Basic attacks consume part of an enemy shield and heal it according to the shield actually removed.",
-   "通常攻撃で敵のシールドを削り、実際に削った量に応じて回復する。",
-   "기본 공격으로 적 보호막 일부를 소모시키고 실제 제거량에 따라 회복합니다."
+   "When a basic attack hits a shielded enemy, consume up to 25 extra shield and heal for 50% of the amount consumed. At most once every 0.5s.",
+   "シールドのある敵への通常攻撃で最大25のシールドを追加消費させ、その実消費量の50%を回復。0.5秒に1回まで。",
+   "보호막이 있는 적에게 기본 공격 적중 시 보호막을 최대 25 추가로 삼키고 실제 삼킨 양의 50%를 회복합니다. 0.5초마다 최대 1회."
   ],
   "description": [
    "普攻命中有护盾的敌人时，先额外吞蚀最多25基础护盾，将实际吞蚀量的50%转为自身治疗；每0.5秒最多触发一次。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.8/3倍。主要效果随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
-   "Basic attacks consume part of an enemy shield and heal it according to the shield actually removed.",
-   "通常攻撃で敵のシールドを削り、実際に削った量に応じて回復する。",
-   "기본 공격으로 적 보호막 일부를 소모시키고 실제 제거량에 따라 회복합니다."
+   "When a basic attack hits a shielded enemy, consume up to 25 extra shield and heal for 50% of the amount consumed. At most once every 0.5s.",
+   "シールドのある敵への通常攻撃で最大25のシールドを追加消費させ、その実消費量の50%を回復。0.5秒に1回まで。",
+   "보호막이 있는 적에게 기본 공격 적중 시 보호막을 최대 25 추가로 삼키고 실제 삼킨 양의 50%를 회복합니다. 0.5초마다 최대 1회."
   ],
   "group": [
    "原始荒野",
@@ -3554,8 +3554,8 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "吞蚀护盾",
-   "Shield Devour",
-   "シールド侵食",
+   "Shield Devourer",
+   "盾喰らい",
    "보호막 포식"
   ],
   "stars": [
@@ -3613,9 +3613,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "普攻命中有护盾的敌人时，先额外吞蚀最多25护盾，将实际吞蚀量的50%转为自身治疗；每0.5秒最多触发一次。",
-     "When a basic attack hits a shielded enemy, first consume up to 25 additional shield and heal yourself for 50% of the amount consumed. Triggers at most once every 0.5s.",
-     "シールドを持つ敵への通常攻撃時、先に追加で最大25のシールドを消費させ、その実際の消費量の50%を自身のHPとして回復する。発動は0.5秒に1回まで。",
-     "보호막이 있는 적에게 기본 공격 적중 시 먼저 보호막을 추가로 최대 25 흡수하고 실제 흡수량의 50%만큼 자신을 치유합니다. 0.5초에 최대 한 번 발동합니다."
+     "When a basic attack hits a shielded enemy, consume up to 25 extra shield and heal for 50% of the amount consumed. At most once every 0.5s.",
+     "シールドのある敵への通常攻撃で最大25のシールドを追加消費させ、その実消費量の50%を回復。0.5秒に1回まで。",
+     "보호막이 있는 적에게 기본 공격 적중 시 보호막을 최대 25 추가로 삼키고 실제 삼킨 양의 50%를 회복합니다. 0.5초마다 최대 1회."
     ]
    },
    {
@@ -3672,9 +3672,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "普攻命中有护盾的敌人时，先额外吞蚀最多44.84护盾，将实际吞蚀量的50%转为自身治疗；每0.5秒最多触发一次。",
-     "When a basic attack hits a shielded enemy, first consume up to 44.84 additional shield and heal yourself for 50% of the amount consumed. Triggers at most once every 0.5s.",
-     "シールドを持つ敵への通常攻撃時、先に追加で最大44.84のシールドを消費させ、その実際の消費量の50%を自身のHPとして回復する。発動は0.5秒に1回まで。",
-     "보호막이 있는 적에게 기본 공격 적중 시 먼저 보호막을 추가로 최대 44.84 흡수하고 실제 흡수량의 50%만큼 자신을 치유합니다. 0.5초에 최대 한 번 발동합니다."
+     "When a basic attack hits a shielded enemy, consume up to 44.84 extra shield and heal for 50% of the amount consumed. At most once every 0.5s.",
+     "シールドのある敵への通常攻撃で最大44.84のシールドを追加消費させ、その実消費量の50%を回復。0.5秒に1回まで。",
+     "보호막이 있는 적에게 기본 공격 적중 시 보호막을 최대 44.84 추가로 삼키고 실제 삼킨 양의 50%를 회복합니다. 0.5초마다 최대 1회."
     ]
    },
    {
@@ -3731,9 +3731,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "普攻命中有护盾的敌人时，先额外吞蚀最多75护盾，将实际吞蚀量的50%转为自身治疗；每0.5秒最多触发一次。",
-     "When a basic attack hits a shielded enemy, first consume up to 75 additional shield and heal yourself for 50% of the amount consumed. Triggers at most once every 0.5s.",
-     "シールドを持つ敵への通常攻撃時、先に追加で最大75のシールドを消費させ、その実際の消費量の50%を自身のHPとして回復する。発動は0.5秒に1回まで。",
-     "보호막이 있는 적에게 기본 공격 적중 시 먼저 보호막을 추가로 최대 75 흡수하고 실제 흡수량의 50%만큼 자신을 치유합니다. 0.5초에 최대 한 번 발동합니다."
+     "When a basic attack hits a shielded enemy, consume up to 75 extra shield and heal for 50% of the amount consumed. At most once every 0.5s.",
+     "シールドのある敵への通常攻撃で最大75のシールドを追加消費させ、その実消費量の50%を回復。0.5秒に1回まで。",
+     "보호막이 있는 적에게 기본 공격 적중 시 보호막을 최대 75 추가로 삼키고 실제 삼킨 양의 50%를 회복합니다. 0.5초마다 최대 1회."
     ]
    }
   ],
@@ -3753,15 +3753,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "连接前方2格内最近的一名非召唤友军，分担其护盾吸收后30%的直接伤害。自身对这部分分担伤害减免25%/30%/35%（一/二/三星）。连线随站位更新；分担伤害不能再次转移。",
-   "Links to an ally ahead and takes a reduced share of its direct damage. Positioning determines the link.",
-   "前方の味方とつながり、直接ダメージの一部を軽減して肩代わりする。配置で対象が変わる。",
-   "앞쪽 아군과 연결해 직접 피해 일부를 줄여 대신 받습니다. 배치에 따라 연결 대상이 달라집니다."
+   "Link to the nearest non-summoned ally within 2 hex(es) ahead, sharing 30% of its direct damage after shield absorption. Reduce shared damage taken by 25%. The link follows positioning; shared damage cannot be transferred again.",
+   "前方2マス以内の最寄りの非召喚味方と接続し、シールド吸収後の直接ダメージの30%を肩代わり。その肩代わりダメージを25%軽減。配置に応じて接続を更新し、肩代わり分は再転送しない。",
+   "전방 2칸 내 가장 가까운 비소환 아군과 연결해 보호막 흡수 후 직접 피해의 30%를 나눠 받습니다. 분담 피해는 25% 감소합니다. 위치에 따라 연결이 갱신되며 분담 피해는 다시 이전되지 않습니다."
   ],
   "description": [
    "连接前方2格内最近的一名非召唤友军，分担其护盾吸收后30%的直接伤害。自身对这部分分担伤害减免25%/30%/35%（一/二/三星）。连线随站位更新；分担伤害不能再次转移。",
-   "Links to an ally ahead and takes a reduced share of its direct damage. Positioning determines the link.",
-   "前方の味方とつながり、直接ダメージの一部を軽減して肩代わりする。配置で対象が変わる。",
-   "앞쪽 아군과 연결해 직접 피해 일부를 줄여 대신 받습니다. 배치에 따라 연결 대상이 달라집니다."
+   "Link to the nearest non-summoned ally within 2 hex(es) ahead, sharing 30% of its direct damage after shield absorption. Reduce shared damage taken by 25%. The link follows positioning; shared damage cannot be transferred again.",
+   "前方2マス以内の最寄りの非召喚味方と接続し、シールド吸収後の直接ダメージの30%を肩代わり。その肩代わりダメージを25%軽減。配置に応じて接続を更新し、肩代わり分は再転送しない。",
+   "전방 2칸 내 가장 가까운 비소환 아군과 연결해 보호막 흡수 후 직접 피해의 30%를 나눠 받습니다. 분담 피해는 25% 감소합니다. 위치에 따라 연결이 갱신되며 분담 피해는 다시 이전되지 않습니다."
   ],
   "group": [
    "原始荒野",
@@ -3779,8 +3779,8 @@ export const catalog:WikiEntry[] = [
   "skillName": [
    "后排护卫",
    "Rear Guard",
-   "後衛護衛",
-   "후열 호위"
+   "後衛の護り",
+   "후열 수호"
   ],
   "stars": [
    {
@@ -3837,9 +3837,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "连接前方2格内最近的一名非召唤友军，分担其护盾吸收后30%的直接伤害。自身对这部分分担伤害减免25%。连线随站位更新；分担伤害不能再次转移。",
-     "Link to the nearest non-summoned ally ahead within 2 hexes. Take 30% of its direct damage after shields and reduce your share by 25%. The link follows positioning; shared damage cannot be transferred again.",
-     "前方2マス以内の最も近い非召喚味方と接続し、シールド吸収後の直接ダメージの30%を肩代わりする。肩代わり分を25%軽減。位置に応じて接続を更新し、肩代わり分は再転送しない。",
-     "전방 2칸 내 가장 가까운 비소환 아군과 연결해 보호막 적용 후 직접 피해의 30%를 분담합니다. 분담 피해를 25% 감소시킵니다. 위치에 따라 연결을 갱신하며 분담 피해는 재전달되지 않습니다."
+     "Link to the nearest non-summoned ally within 2 hex(es) ahead, sharing 30% of its direct damage after shield absorption. Reduce shared damage taken by 25%. The link follows positioning; shared damage cannot be transferred again.",
+     "前方2マス以内の最寄りの非召喚味方と接続し、シールド吸収後の直接ダメージの30%を肩代わり。その肩代わりダメージを25%軽減。配置に応じて接続を更新し、肩代わり分は再転送しない。",
+     "전방 2칸 내 가장 가까운 비소환 아군과 연결해 보호막 흡수 후 직접 피해의 30%를 나눠 받습니다. 분담 피해는 25% 감소합니다. 위치에 따라 연결이 갱신되며 분담 피해는 다시 이전되지 않습니다."
     ]
    },
    {
@@ -3896,9 +3896,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "连接前方2格内最近的一名非召唤友军，分担其护盾吸收后30%的直接伤害。自身对这部分分担伤害减免30%。连线随站位更新；分担伤害不能再次转移。",
-     "Link to the nearest non-summoned ally ahead within 2 hexes. Take 30% of its direct damage after shields and reduce your share by 30%. The link follows positioning; shared damage cannot be transferred again.",
-     "前方2マス以内の最も近い非召喚味方と接続し、シールド吸収後の直接ダメージの30%を肩代わりする。肩代わり分を30%軽減。位置に応じて接続を更新し、肩代わり分は再転送しない。",
-     "전방 2칸 내 가장 가까운 비소환 아군과 연결해 보호막 적용 후 직접 피해의 30%를 분담합니다. 분담 피해를 30% 감소시킵니다. 위치에 따라 연결을 갱신하며 분담 피해는 재전달되지 않습니다."
+     "Link to the nearest non-summoned ally within 2 hex(es) ahead, sharing 30% of its direct damage after shield absorption. Reduce shared damage taken by 30%. The link follows positioning; shared damage cannot be transferred again.",
+     "前方2マス以内の最寄りの非召喚味方と接続し、シールド吸収後の直接ダメージの30%を肩代わり。その肩代わりダメージを30%軽減。配置に応じて接続を更新し、肩代わり分は再転送しない。",
+     "전방 2칸 내 가장 가까운 비소환 아군과 연결해 보호막 흡수 후 직접 피해의 30%를 나눠 받습니다. 분담 피해는 30% 감소합니다. 위치에 따라 연결이 갱신되며 분담 피해는 다시 이전되지 않습니다."
     ]
    },
    {
@@ -3955,9 +3955,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "连接前方2格内最近的一名非召唤友军，分担其护盾吸收后30%的直接伤害。自身对这部分分担伤害减免35%。连线随站位更新；分担伤害不能再次转移。",
-     "Link to the nearest non-summoned ally ahead within 2 hexes. Take 30% of its direct damage after shields and reduce your share by 35%. The link follows positioning; shared damage cannot be transferred again.",
-     "前方2マス以内の最も近い非召喚味方と接続し、シールド吸収後の直接ダメージの30%を肩代わりする。肩代わり分を35%軽減。位置に応じて接続を更新し、肩代わり分は再転送しない。",
-     "전방 2칸 내 가장 가까운 비소환 아군과 연결해 보호막 적용 후 직접 피해의 30%를 분담합니다. 분담 피해를 35% 감소시킵니다. 위치에 따라 연결을 갱신하며 분담 피해는 재전달되지 않습니다."
+     "Link to the nearest non-summoned ally within 2 hex(es) ahead, sharing 30% of its direct damage after shield absorption. Reduce shared damage taken by 35%. The link follows positioning; shared damage cannot be transferred again.",
+     "前方2マス以内の最寄りの非召喚味方と接続し、シールド吸収後の直接ダメージの30%を肩代わり。その肩代わりダメージを35%軽減。配置に応じて接続を更新し、肩代わり分は再転送しない。",
+     "전방 2칸 내 가장 가까운 비소환 아군과 연결해 보호막 흡수 후 직접 피해의 30%를 나눠 받습니다. 분담 피해는 35% 감소합니다. 위치에 따라 연결이 갱신되며 분담 피해는 다시 이전되지 않습니다."
     ]
    }
   ],
@@ -3978,15 +3978,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "普通攻击命中时有20%概率缴械目标，持续1.5/1.6/1.8秒（一/二/三星）；缴械期间目标不能普通攻击。",
-   "Basic attacks can disarm an enemy, temporarily preventing basic attacks.",
-   "通常攻撃が確率で敵を武装解除し、通常攻撃を一時的に封じる。",
-   "기본 공격이 일정 확률로 적을 무장 해제해 기본 공격을 잠시 막습니다."
+   "Basic attacks have a 20% chance to disarm the target for 1.5s, preventing basic attacks.",
+   "通常攻撃命中時、20%の確率で1.5秒間武装解除し、対象の通常攻撃を封じる。",
+   "기본 공격 적중 시 20% 확률로 1.5초간 무장 해제하여 대상의 기본 공격을 막습니다."
   ],
   "description": [
    "普通攻击命中时有20%概率缴械目标，持续1.5/1.6/1.8秒（一/二/三星）；缴械期间目标不能普通攻击。",
-   "Basic attacks can disarm an enemy, temporarily preventing basic attacks.",
-   "通常攻撃が確率で敵を武装解除し、通常攻撃を一時的に封じる。",
-   "기본 공격이 일정 확률로 적을 무장 해제해 기본 공격을 잠시 막습니다."
+   "Basic attacks have a 20% chance to disarm the target for 1.5s, preventing basic attacks.",
+   "通常攻撃命中時、20%の確率で1.5秒間武装解除し、対象の通常攻撃を封じる。",
+   "기본 공격 적중 시 20% 확률로 1.5초간 무장 해제하여 대상의 기본 공격을 막습니다."
   ],
   "group": [
    "原始荒野",
@@ -4003,7 +4003,7 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "巨螯",
-   "Great Claw",
+   "Giant Claw",
    "巨鋏",
    "거대 집게"
   ],
@@ -4062,9 +4062,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "普通攻击命中时有20%概率缴械目标，持续1.5秒；缴械期间目标不能普通攻击。",
-     "Basic attack hits have a 20% chance to disarm the target for 1.5s, preventing basic attacks.",
-     "通常攻撃命中時、20%の確率で対象を1.5秒間武装解除し、通常攻撃を封じる。",
-     "기본 공격 적중 시 20% 확률로 대상을 1.5초 무장 해제하여 기본 공격을 막습니다."
+     "Basic attacks have a 20% chance to disarm the target for 1.5s, preventing basic attacks.",
+     "通常攻撃命中時、20%の確率で1.5秒間武装解除し、対象の通常攻撃を封じる。",
+     "기본 공격 적중 시 20% 확률로 1.5초간 무장 해제하여 대상의 기본 공격을 막습니다."
     ]
    },
    {
@@ -4121,9 +4121,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "普通攻击命中时有20%概率缴械目标，持续1.6秒；缴械期间目标不能普通攻击。",
-     "Basic attack hits have a 20% chance to disarm the target for 1.6s, preventing basic attacks.",
-     "通常攻撃命中時、20%の確率で対象を1.6秒間武装解除し、通常攻撃を封じる。",
-     "기본 공격 적중 시 20% 확률로 대상을 1.6초 무장 해제하여 기본 공격을 막습니다."
+     "Basic attacks have a 20% chance to disarm the target for 1.6s, preventing basic attacks.",
+     "通常攻撃命中時、20%の確率で1.6秒間武装解除し、対象の通常攻撃を封じる。",
+     "기본 공격 적중 시 20% 확률로 1.6초간 무장 해제하여 대상의 기본 공격을 막습니다."
     ]
    },
    {
@@ -4180,9 +4180,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "普通攻击命中时有20%概率缴械目标，持续1.8秒；缴械期间目标不能普通攻击。",
-     "Basic attack hits have a 20% chance to disarm the target for 1.8s, preventing basic attacks.",
-     "通常攻撃命中時、20%の確率で対象を1.8秒間武装解除し、通常攻撃を封じる。",
-     "기본 공격 적중 시 20% 확률로 대상을 1.8초 무장 해제하여 기본 공격을 막습니다."
+     "Basic attacks have a 20% chance to disarm the target for 1.8s, preventing basic attacks.",
+     "通常攻撃命中時、20%の確率で1.8秒間武装解除し、対象の通常攻撃を封じる。",
+     "기본 공격 적중 시 20% 확률로 1.8초간 무장 해제하여 대상의 기본 공격을 막습니다."
     ]
    }
   ],
@@ -4202,16 +4202,16 @@ export const catalog:WikiEntry[] = [
    "그림자 잠복수"
   ],
   "summary": [
-   "开战后进入暗影4秒，获得30%/33%/36%的额外闪避（一/二/三星），仍受总闪避上限限制。不会触发额外反击。",
-   "Gains temporary dodge at combat start, within the normal dodge cap.",
-   "開戦時に一時的な回避率を得る。通常の回避上限は適用される。",
-   "전투 시작 시 일시적으로 회피율을 얻습니다. 일반 회피 상한이 적용됩니다."
+   "开战后进入暗影4秒，期间无法被直接选中，仍可受到范围伤害。暗影结束后获得30%/33%/36%（一/二/三星）的额外闪避，持续4秒，仍受总闪避上限限制。不会触发额外反击。",
+   "At combat start, become untargetable for 4s; area damage can still hit you. Afterwards, gain 30% additional dodge for 4s, subject to the total dodge cap. Does not trigger extra counterattacks.",
+   "戦闘開始から4秒間、直接の対象に選ばれなくなるが、範囲ダメージは受ける。その後4秒間、回避率が30%上昇する。回避率の上限は適用され、追加反撃は発生しない。",
+   "전투 시작 후 4초 동안 직접 대상으로 지정되지 않지만 범위 피해는 받습니다. 이후 4초간 회피율이 30% 증가하며 전체 회피 상한이 적용됩니다. 추가 반격은 발생하지 않습니다."
   ],
   "description": [
-   "开战后进入暗影4秒，获得30%/33%/36%的额外闪避（一/二/三星），仍受总闪避上限限制。不会触发额外反击。",
-   "Gains temporary dodge at combat start, within the normal dodge cap.",
-   "開戦時に一時的な回避率を得る。通常の回避上限は適用される。",
-   "전투 시작 시 일시적으로 회피율을 얻습니다. 일반 회피 상한이 적용됩니다."
+   "开战后进入暗影4秒，期间无法被直接选中，仍可受到范围伤害。暗影结束后获得30%/33%/36%（一/二/三星）的额外闪避，持续4秒，仍受总闪避上限限制。不会触发额外反击。",
+   "At combat start, become untargetable for 4s; area damage can still hit you. Afterwards, gain 30% additional dodge for 4s, subject to the total dodge cap. Does not trigger extra counterattacks.",
+   "戦闘開始から4秒間、直接の対象に選ばれなくなるが、範囲ダメージは受ける。その後4秒間、回避率が30%上昇する。回避率の上限は適用され、追加反撃は発生しない。",
+   "전투 시작 후 4초 동안 직접 대상으로 지정되지 않지만 범위 피해는 받습니다. 이후 4초간 회피율이 30% 증가하며 전체 회피 상한이 적용됩니다. 추가 반격은 발생하지 않습니다."
   ],
   "group": [
    "原始荒野",
@@ -4230,7 +4230,7 @@ export const catalog:WikiEntry[] = [
    "潜影",
    "Shadow Veil",
    "潜影",
-   "그림자 잠행"
+   "잠영"
   ],
   "stars": [
    {
@@ -4286,10 +4286,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "开战后进入暗影4秒，期间无法被敌人直接锁定，但仍会受到范围伤害；获得30%的额外闪避，仍受总闪避上限限制。不会触发额外反击。",
-     "At combat start, hide and gain 30% additional dodge for 4s, subject to the total dodge cap. Enemies cannot target you directly; area damage still hits. Does not trigger an extra counterattack.",
-     "戦闘開始時、4秒間潜伏し、追加回避率30%を得る。敵の直接指定は受けないが範囲ダメージは受ける。総回避率の上限が適用され、追加反撃は発生しない。",
-     "전투 시작 시 4초 동안 은신하고 추가 회피율 30%를 얻습니다. 적이 직접 대상으로 지정할 수 없지만 범위 피해는 받습니다. 총 회피율 상한이 적용되며 추가 반격은 발동하지 않습니다."
+     "开战后进入暗影4秒，期间无法被直接选中，仍可受到范围伤害。暗影结束后获得30%的额外闪避，持续4秒，仍受总闪避上限限制。不会触发额外反击。",
+     "At combat start, become untargetable for 4s; area damage can still hit you. Afterwards, gain 30% additional dodge for 4s, subject to the total dodge cap. Does not trigger extra counterattacks.",
+     "戦闘開始から4秒間、直接の対象に選ばれなくなるが、範囲ダメージは受ける。その後4秒間、回避率が30%上昇する。回避率の上限は適用され、追加反撃は発生しない。",
+     "전투 시작 후 4초 동안 직접 대상으로 지정되지 않지만 범위 피해는 받습니다. 이후 4초간 회피율이 30% 증가하며 전체 회피 상한이 적용됩니다. 추가 반격은 발생하지 않습니다."
     ]
    },
    {
@@ -4345,10 +4345,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "开战后进入暗影4秒，期间无法被敌人直接锁定，但仍会受到范围伤害；获得33%的额外闪避，仍受总闪避上限限制。不会触发额外反击。",
-     "At combat start, hide and gain 33% additional dodge for 4s, subject to the total dodge cap. Enemies cannot target you directly; area damage still hits. Does not trigger an extra counterattack.",
-     "戦闘開始時、4秒間潜伏し、追加回避率33%を得る。敵の直接指定は受けないが範囲ダメージは受ける。総回避率の上限が適用され、追加反撃は発生しない。",
-     "전투 시작 시 4초 동안 은신하고 추가 회피율 33%를 얻습니다. 적이 직접 대상으로 지정할 수 없지만 범위 피해는 받습니다. 총 회피율 상한이 적용되며 추가 반격은 발동하지 않습니다."
+     "开战后进入暗影4秒，期间无法被直接选中，仍可受到范围伤害。暗影结束后获得33%的额外闪避，持续4秒，仍受总闪避上限限制。不会触发额外反击。",
+     "At combat start, become untargetable for 4s; area damage can still hit you. Afterwards, gain 33% additional dodge for 4s, subject to the total dodge cap. Does not trigger extra counterattacks.",
+     "戦闘開始から4秒間、直接の対象に選ばれなくなるが、範囲ダメージは受ける。その後4秒間、回避率が33%上昇する。回避率の上限は適用され、追加反撃は発生しない。",
+     "전투 시작 후 4초 동안 직접 대상으로 지정되지 않지만 범위 피해는 받습니다. 이후 4초간 회피율이 33% 증가하며 전체 회피 상한이 적용됩니다. 추가 반격은 발생하지 않습니다."
     ]
    },
    {
@@ -4404,10 +4404,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "开战后进入暗影4秒，期间无法被敌人直接锁定，但仍会受到范围伤害；获得36%的额外闪避，仍受总闪避上限限制。不会触发额外反击。",
-     "At combat start, hide and gain 36% additional dodge for 4s, subject to the total dodge cap. Enemies cannot target you directly; area damage still hits. Does not trigger an extra counterattack.",
-     "戦闘開始時、4秒間潜伏し、追加回避率36%を得る。敵の直接指定は受けないが範囲ダメージは受ける。総回避率の上限が適用され、追加反撃は発生しない。",
-     "전투 시작 시 4초 동안 은신하고 추가 회피율 36%를 얻습니다. 적이 직접 대상으로 지정할 수 없지만 범위 피해는 받습니다. 총 회피율 상한이 적용되며 추가 반격은 발동하지 않습니다."
+     "开战后进入暗影4秒，期间无法被直接选中，仍可受到范围伤害。暗影结束后获得36%的额外闪避，持续4秒，仍受总闪避上限限制。不会触发额外反击。",
+     "At combat start, become untargetable for 4s; area damage can still hit you. Afterwards, gain 36% additional dodge for 4s, subject to the total dodge cap. Does not trigger extra counterattacks.",
+     "戦闘開始から4秒間、直接の対象に選ばれなくなるが、範囲ダメージは受ける。その後4秒間、回避率が36%上昇する。回避率の上限は適用され、追加反撃は発生しない。",
+     "전투 시작 후 4초 동안 직접 대상으로 지정되지 않지만 범위 피해는 받습니다. 이후 4초간 회피율이 36% 증가하며 전체 회피 상한이 적용됩니다. 추가 반격은 발생하지 않습니다."
     ]
    }
   ],
@@ -4427,15 +4427,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "在合法相邻空格放下最多2枚120生命的虫卵，2秒后原格孵化170生命、21攻击的幼虫；虫卵被打破不孵化，每名施法者最多同时拥有4枚虫卵或幼虫。",
-   "Places eggs in empty adjacent hexes. Surviving eggs hatch into larvae; destroyed eggs do not hatch.",
-   "隣接する空きマスに卵を置く。壊されずに残った卵から幼虫が孵る。",
-   "인접한 빈 칸에 알을 놓습니다. 파괴되지 않은 알에서 유충이 부화합니다."
+   "Place up to 2 eggs with 120 HP in valid empty adjacent cells. After 2s, each intact egg hatches in place into a larva with 170 HP and 21 ATK. Broken eggs do not hatch. Maximum 4 eggs or larvae per caster.",
+   "隣接する有効な空きマスにHP120の卵を最大2個設置。壊されなければ2秒後に同じ場所でHP170・攻撃力21の幼虫へ孵化。術者ごとに卵と幼虫は合計4体まで。",
+   "인접한 빈칸에 체력 120의 알을 최대 2개 놓습니다. 2초 후 살아 있는 알은 그 자리에서 체력 170, 공격력 21의 유충으로 부화합니다. 파괴된 알은 부화하지 않으며 시전자당 알과 유충 합계 최대 4마리입니다."
   ],
   "description": [
    "在合法相邻空格放下最多2枚120生命的虫卵，2秒后原格孵化170生命、21攻击的幼虫；虫卵被打破不孵化，每名施法者最多同时拥有4枚虫卵或幼虫。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.8/3倍。召唤物攻击随施法者攻击力提高，生命随施法者最大生命提高；孵化和成熟时重新计算。范围、控制时间、概率和目标数量不变。",
-   "Places eggs in empty adjacent hexes. Surviving eggs hatch into larvae; destroyed eggs do not hatch.",
-   "隣接する空きマスに卵を置く。壊されずに残った卵から幼虫が孵る。",
-   "인접한 빈 칸에 알을 놓습니다. 파괴되지 않은 알에서 유충이 부화합니다."
+   "Place up to 2 eggs with 120 HP in valid empty adjacent cells. After 2s, each intact egg hatches in place into a larva with 170 HP and 21 ATK. Broken eggs do not hatch. Maximum 4 eggs or larvae per caster.",
+   "隣接する有効な空きマスにHP120の卵を最大2個設置。壊されなければ2秒後に同じ場所でHP170・攻撃力21の幼虫へ孵化。術者ごとに卵と幼虫は合計4体まで。",
+   "인접한 빈칸에 체력 120의 알을 최대 2개 놓습니다. 2초 후 살아 있는 알은 그 자리에서 체력 170, 공격력 21의 유충으로 부화합니다. 파괴된 알은 부화하지 않으며 시전자당 알과 유충 합계 최대 4마리입니다."
   ],
   "group": [
    "原始荒野",
@@ -4486,7 +4486,7 @@ export const catalog:WikiEntry[] = [
      },
      {
       "label": "能量上限",
-      "value": "65"
+      "value": "110"
      },
      {
       "label": "暴击率",
@@ -4511,9 +4511,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "在合法相邻空格放下最多2枚120生命的虫卵，2秒后原格孵化170生命、21攻击的幼虫；虫卵被打破不孵化，每名施法者最多同时拥有4枚虫卵或幼虫。",
-     "Place up to 2 eggs with 120 HP in legal adjacent empty hexes. After 2s, each hatches in place into a larva with 170 HP and 21 ATK. Destroyed eggs do not hatch. At most 4 eggs or larvae per caster. Summon HP scales with caster max HP and ATK with caster ATK; recalculate at hatching and maturation.",
-     "隣接する有効な空きマスにHP120の卵を最大2個設置。2秒後、同じ位置でHP170・攻撃力21の幼虫へ孵化。破壊された卵は孵化しない。術者ごとに卵と幼虫は合計4体まで。HPは術者の最大HP、攻撃力は術者の攻撃力に連動し、孵化・成長時に再計算する。",
-     "인접한 유효 빈칸에 체력 120의 알을 최대 2개 놓습니다. 2초 후 같은 칸에서 체력 170, 공격력 21의 유충으로 부화합니다. 파괴된 알은 부화하지 않으며 시전자당 알과 유충 합계 최대 4개입니다. 소환물 체력은 시전자 최대 체력, 공격력은 시전자 공격력에 비례하며 부화와 성장 시 재계산합니다."
+     "Place up to 2 eggs with 120 HP in valid empty adjacent cells. After 2s, each intact egg hatches in place into a larva with 170 HP and 21 ATK. Broken eggs do not hatch. Maximum 4 eggs or larvae per caster.",
+     "隣接する有効な空きマスにHP120の卵を最大2個設置。壊されなければ2秒後に同じ場所でHP170・攻撃力21の幼虫へ孵化。術者ごとに卵と幼虫は合計4体まで。",
+     "인접한 빈칸에 체력 120의 알을 최대 2개 놓습니다. 2초 후 살아 있는 알은 그 자리에서 체력 170, 공격력 21의 유충으로 부화합니다. 파괴된 알은 부화하지 않으며 시전자당 알과 유충 합계 최대 4마리입니다."
     ]
    },
    {
@@ -4545,7 +4545,7 @@ export const catalog:WikiEntry[] = [
      },
      {
       "label": "能量上限",
-      "value": "65"
+      "value": "110"
      },
      {
       "label": "暴击率",
@@ -4570,9 +4570,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "在合法相邻空格放下最多2枚216生命的虫卵，2秒后原格孵化306生命、37.8攻击的幼虫；虫卵被打破不孵化，每名施法者最多同时拥有4枚虫卵或幼虫。",
-     "Place up to 2 eggs with 216 HP in legal adjacent empty hexes. After 2s, each hatches in place into a larva with 306 HP and 37.8 ATK. Destroyed eggs do not hatch. At most 4 eggs or larvae per caster. Summon HP scales with caster max HP and ATK with caster ATK; recalculate at hatching and maturation.",
-     "隣接する有効な空きマスにHP216の卵を最大2個設置。2秒後、同じ位置でHP306・攻撃力37.8の幼虫へ孵化。破壊された卵は孵化しない。術者ごとに卵と幼虫は合計4体まで。HPは術者の最大HP、攻撃力は術者の攻撃力に連動し、孵化・成長時に再計算する。",
-     "인접한 유효 빈칸에 체력 216의 알을 최대 2개 놓습니다. 2초 후 같은 칸에서 체력 306, 공격력 37.8의 유충으로 부화합니다. 파괴된 알은 부화하지 않으며 시전자당 알과 유충 합계 최대 4개입니다. 소환물 체력은 시전자 최대 체력, 공격력은 시전자 공격력에 비례하며 부화와 성장 시 재계산합니다."
+     "Place up to 2 eggs with 216 HP in valid empty adjacent cells. After 2s, each intact egg hatches in place into a larva with 306 HP and 37.8 ATK. Broken eggs do not hatch. Maximum 4 eggs or larvae per caster.",
+     "隣接する有効な空きマスにHP216の卵を最大2個設置。壊されなければ2秒後に同じ場所でHP306・攻撃力37.8の幼虫へ孵化。術者ごとに卵と幼虫は合計4体まで。",
+     "인접한 빈칸에 체력 216의 알을 최대 2개 놓습니다. 2초 후 살아 있는 알은 그 자리에서 체력 306, 공격력 37.8의 유충으로 부화합니다. 파괴된 알은 부화하지 않으며 시전자당 알과 유충 합계 최대 4마리입니다."
     ]
    },
    {
@@ -4604,7 +4604,7 @@ export const catalog:WikiEntry[] = [
      },
      {
       "label": "能量上限",
-      "value": "65"
+      "value": "110"
      },
      {
       "label": "暴击率",
@@ -4629,9 +4629,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "在合法相邻空格放下最多2枚360生命的虫卵，2秒后原格孵化510生命、63攻击的幼虫；虫卵被打破不孵化，每名施法者最多同时拥有4枚虫卵或幼虫。",
-     "Place up to 2 eggs with 360 HP in legal adjacent empty hexes. After 2s, each hatches in place into a larva with 510 HP and 63 ATK. Destroyed eggs do not hatch. At most 4 eggs or larvae per caster. Summon HP scales with caster max HP and ATK with caster ATK; recalculate at hatching and maturation.",
-     "隣接する有効な空きマスにHP360の卵を最大2個設置。2秒後、同じ位置でHP510・攻撃力63の幼虫へ孵化。破壊された卵は孵化しない。術者ごとに卵と幼虫は合計4体まで。HPは術者の最大HP、攻撃力は術者の攻撃力に連動し、孵化・成長時に再計算する。",
-     "인접한 유효 빈칸에 체력 360의 알을 최대 2개 놓습니다. 2초 후 같은 칸에서 체력 510, 공격력 63의 유충으로 부화합니다. 파괴된 알은 부화하지 않으며 시전자당 알과 유충 합계 최대 4개입니다. 소환물 체력은 시전자 최대 체력, 공격력은 시전자 공격력에 비례하며 부화와 성장 시 재계산합니다."
+     "Place up to 2 eggs with 360 HP in valid empty adjacent cells. After 2s, each intact egg hatches in place into a larva with 510 HP and 63 ATK. Broken eggs do not hatch. Maximum 4 eggs or larvae per caster.",
+     "隣接する有効な空きマスにHP360の卵を最大2個設置。壊されなければ2秒後に同じ場所でHP510・攻撃力63の幼虫へ孵化。術者ごとに卵と幼虫は合計4体まで。",
+     "인접한 빈칸에 체력 360의 알을 최대 2개 놓습니다. 2초 후 살아 있는 알은 그 자리에서 체력 510, 공격력 63의 유충으로 부화합니다. 파괴된 알은 부화하지 않으며 시전자당 알과 유충 합계 최대 4마리입니다."
     ]
    }
   ],
@@ -4652,15 +4652,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "3格内敌人成功释放主动技能后，以声波反击施法者，造成65基础法术伤害；每2秒最多触发一次，反击不再触发施法反制。",
-   "Answers nearby enemy active skills with a damaging sonic retaliation, limited by a cooldown.",
-   "近くの敵の能動スキルに音波で反撃する。反撃にはクールダウンがある。",
-   "주변 적의 액티브 스킬에 피해를 주는 음파로 반격합니다. 재사용 대기시간이 있습니다."
+   "When an enemy within 3 hex(es) successfully casts an active skill, counter the caster for 65 magic damage. At most once every 2s; the counter cannot trigger cast counters.",
+   "3マス以内の敵がアクティブスキルの発動に成功すると、術者へ65魔法ダメージで反撃。2秒に1回まで。この反撃は詠唱反撃を誘発しない。",
+   "3칸 내 적이 액티브 스킬 시전에 성공하면 시전자에게 마법 피해 65로 반격합니다. 2초마다 최대 1회이며 이 반격은 시전 반격을 다시 유발하지 않습니다."
   ],
   "description": [
    "3格内敌人成功释放主动技能后，以声波反击施法者，造成65基础法术伤害；每2秒最多触发一次，反击不再触发施法反制。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.8/3倍。主要效果随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
-   "Answers nearby enemy active skills with a damaging sonic retaliation, limited by a cooldown.",
-   "近くの敵の能動スキルに音波で反撃する。反撃にはクールダウンがある。",
-   "주변 적의 액티브 스킬에 피해를 주는 음파로 반격합니다. 재사용 대기시간이 있습니다."
+   "When an enemy within 3 hex(es) successfully casts an active skill, counter the caster for 65 magic damage. At most once every 2s; the counter cannot trigger cast counters.",
+   "3マス以内の敵がアクティブスキルの発動に成功すると、術者へ65魔法ダメージで反撃。2秒に1回まで。この反撃は詠唱反撃を誘発しない。",
+   "3칸 내 적이 액티브 스킬 시전에 성공하면 시전자에게 마법 피해 65로 반격합니다. 2초마다 최대 1회이며 이 반격은 시전 반격을 다시 유발하지 않습니다."
   ],
   "group": [
    "原始荒野",
@@ -4677,9 +4677,9 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "裂喉回响",
-   "Throat Echo",
-   "裂喉の反響",
-   "목울림 반향"
+   "Rending Echo",
+   "裂喉の残響",
+   "목 가르는 메아리"
   ],
   "stars": [
    {
@@ -4736,9 +4736,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "3格内敌人成功释放主动技能后，以声波反击施法者，造成65法术伤害；每2秒最多触发一次，反击不再触发施法反制。",
-     "When an enemy within 3 hexes successfully casts an active skill, counter the caster for 65 magic damage. At most once every 2s. This counter cannot trigger another cast counter.",
-     "3マス以内の敵がアクティブスキルを正常に発動すると、その術者に65魔法ダメージで反撃する。2秒に1回まで。この反撃は別の詠唱反撃を誘発しない。",
-     "3칸 내 적이 액티브 스킬 시전에 성공하면 시전자에게 마법 피해 65로 반격합니다. 2초에 최대 한 번 발동하며 이 반격은 다른 시전 반격을 유발하지 않습니다."
+     "When an enemy within 3 hex(es) successfully casts an active skill, counter the caster for 65 magic damage. At most once every 2s; the counter cannot trigger cast counters.",
+     "3マス以内の敵がアクティブスキルの発動に成功すると、術者へ65魔法ダメージで反撃。2秒に1回まで。この反撃は詠唱反撃を誘発しない。",
+     "3칸 내 적이 액티브 스킬 시전에 성공하면 시전자에게 마법 피해 65로 반격합니다. 2초마다 최대 1회이며 이 반격은 시전 반격을 다시 유발하지 않습니다."
     ]
    },
    {
@@ -4795,9 +4795,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "3格内敌人成功释放主动技能后，以声波反击施法者，造成116.63法术伤害；每2秒最多触发一次，反击不再触发施法反制。",
-     "When an enemy within 3 hexes successfully casts an active skill, counter the caster for 116.63 magic damage. At most once every 2s. This counter cannot trigger another cast counter.",
-     "3マス以内の敵がアクティブスキルを正常に発動すると、その術者に116.63魔法ダメージで反撃する。2秒に1回まで。この反撃は別の詠唱反撃を誘発しない。",
-     "3칸 내 적이 액티브 스킬 시전에 성공하면 시전자에게 마법 피해 116.63로 반격합니다. 2초에 최대 한 번 발동하며 이 반격은 다른 시전 반격을 유발하지 않습니다."
+     "When an enemy within 3 hex(es) successfully casts an active skill, counter the caster for 116.63 magic damage. At most once every 2s; the counter cannot trigger cast counters.",
+     "3マス以内の敵がアクティブスキルの発動に成功すると、術者へ116.63魔法ダメージで反撃。2秒に1回まで。この反撃は詠唱反撃を誘発しない。",
+     "3칸 내 적이 액티브 스킬 시전에 성공하면 시전자에게 마법 피해 116.63로 반격합니다. 2초마다 최대 1회이며 이 반격은 시전 반격을 다시 유발하지 않습니다."
     ]
    },
    {
@@ -4854,9 +4854,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "3格内敌人成功释放主动技能后，以声波反击施法者，造成195法术伤害；每2秒最多触发一次，反击不再触发施法反制。",
-     "When an enemy within 3 hexes successfully casts an active skill, counter the caster for 195 magic damage. At most once every 2s. This counter cannot trigger another cast counter.",
-     "3マス以内の敵がアクティブスキルを正常に発動すると、その術者に195魔法ダメージで反撃する。2秒に1回まで。この反撃は別の詠唱反撃を誘発しない。",
-     "3칸 내 적이 액티브 스킬 시전에 성공하면 시전자에게 마법 피해 195로 반격합니다. 2초에 최대 한 번 발동하며 이 반격은 다른 시전 반격을 유발하지 않습니다."
+     "When an enemy within 3 hex(es) successfully casts an active skill, counter the caster for 195 magic damage. At most once every 2s; the counter cannot trigger cast counters.",
+     "3マス以内の敵がアクティブスキルの発動に成功すると、術者へ195魔法ダメージで反撃。2秒に1回まで。この反撃は詠唱反撃を誘発しない。",
+     "3칸 내 적이 액티브 스킬 시전에 성공하면 시전자에게 마법 피해 195로 반격합니다. 2초마다 최대 1회이며 이 반격은 시전 반격을 다시 유발하지 않습니다."
     ]
    }
   ],
@@ -4876,16 +4876,16 @@ export const catalog:WikiEntry[] = [
    "갈퀴 야수"
   ],
   "summary": [
-   "普攻命中使目标流血，每秒造成12基础物理伤害，持续2.5秒，同时恢复自身18基础生命。",
-   "Basic attacks inflict bleeding and restore its own health.",
-   "通常攻撃で出血を与え、自身のHPを回復する。",
-   "기본 공격으로 출혈을 유발하고 자신의 체력을 회복합니다."
+   "普攻命中使目标流血，每秒造成12基础物理伤害，持续2.5秒，同时恢复自身18基础生命。同一只撕裂兽对同一目标施加的流血不叠加，重复命中刷新完整持续时间；不同撕裂兽的流血独立生效。",
+   "Basic attack hits cause bleeding for 2.5s, dealing 12 physical damage per second, and restore 18 HP to yourself. Bleeding from the same Ravager does not stack on a target; repeated hits refresh its full duration. Bleeding from different Ravagers applies independently.",
+   "通常攻撃命中で2.5秒間出血させ、毎秒12物理ダメージを与え、自身のHPを18回復。 同じ引き裂き獣による出血は重複せず、再命中で持続時間がリセットされます。別の引き裂き獣による出血は個別に作用します。",
+   "기본 공격 적중 시 2.5초간 출혈시켜 매초 물리 피해 12을 주고 자신의 체력을 18 회복합니다. 같은 갈퀴 야수의 출혈은 중첩되지 않으며, 다시 적중하면 지속 시간이 갱신됩니다. 서로 다른 갈퀴 야수의 출혈은 독립적으로 적용됩니다."
   ],
   "description": [
-   "普攻命中使目标流血，每秒造成12基础物理伤害，持续2.5秒，同时恢复自身18基础生命。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.8/3倍。伤害和治疗随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
-   "Basic attacks inflict bleeding and restore its own health.",
-   "通常攻撃で出血を与え、自身のHPを回復する。",
-   "기본 공격으로 출혈을 유발하고 자신의 체력을 회복합니다."
+   "普攻命中使目标流血，每秒造成12基础物理伤害，持续2.5秒，同时恢复自身18基础生命。同一只撕裂兽对同一目标施加的流血不叠加，重复命中刷新完整持续时间；不同撕裂兽的流血独立生效。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.8/3倍。伤害和治疗随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
+   "Basic attack hits cause bleeding for 2.5s, dealing 12 physical damage per second, and restore 18 HP to yourself. Bleeding from the same Ravager does not stack on a target; repeated hits refresh its full duration. Bleeding from different Ravagers applies independently.",
+   "通常攻撃命中で2.5秒間出血させ、毎秒12物理ダメージを与え、自身のHPを18回復。 同じ引き裂き獣による出血は重複せず、再命中で持続時間がリセットされます。別の引き裂き獣による出血は個別に作用します。",
+   "기본 공격 적중 시 2.5초간 출혈시켜 매초 물리 피해 12을 주고 자신의 체력을 18 회복합니다. 같은 갈퀴 야수의 출혈은 중첩되지 않으며, 다시 적중하면 지속 시간이 갱신됩니다. 서로 다른 갈퀴 야수의 출혈은 독립적으로 적용됩니다."
   ],
   "group": [
    "原始荒野",
@@ -4902,7 +4902,7 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "撕裂汲血",
-   "Bleeding Siphon",
+   "Blood Siphon",
    "裂傷吸血",
    "출혈 흡혈"
   ],
@@ -4960,10 +4960,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "普攻命中使目标流血，每秒造成12物理伤害，持续2.5秒，同时恢复自身18生命。",
-     "Basic attack hits cause bleeding for 2.5s, dealing 12 physical damage per second, and heal yourself for 18 HP.",
-     "通常攻撃命中で2.5秒間出血させ、毎秒12物理ダメージを与える。同時に自身のHPを18回復。",
-     "기본 공격 적중 시 2.5초 동안 출혈을 일으켜 매초 물리 피해 12를 주고 자신을 18 치유합니다."
+     "普攻命中使目标流血，每秒造成12物理伤害，持续2.5秒，同时恢复自身18生命。同一只撕裂兽对同一目标施加的流血不叠加，重复命中刷新完整持续时间；不同撕裂兽的流血独立生效。",
+     "Basic attack hits cause bleeding for 2.5s, dealing 12 physical damage per second, and restore 18 HP to yourself. Bleeding from the same Ravager does not stack on a target; repeated hits refresh its full duration. Bleeding from different Ravagers applies independently.",
+     "通常攻撃命中で2.5秒間出血させ、毎秒12物理ダメージを与え、自身のHPを18回復。 同じ引き裂き獣による出血は重複せず、再命中で持続時間がリセットされます。別の引き裂き獣による出血は個別に作用します。",
+     "기본 공격 적중 시 2.5초간 출혈시켜 매초 물리 피해 12을 주고 자신의 체력을 18 회복합니다. 같은 갈퀴 야수의 출혈은 중첩되지 않으며, 다시 적중하면 지속 시간이 갱신됩니다. 서로 다른 갈퀴 야수의 출혈은 독립적으로 적용됩니다."
     ]
    },
    {
@@ -5019,10 +5019,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "普攻命中使目标流血，每秒造成21.53物理伤害，持续2.5秒，同时恢复自身32.3生命。",
-     "Basic attack hits cause bleeding for 2.5s, dealing 21.53 physical damage per second, and heal yourself for 32.3 HP.",
-     "通常攻撃命中で2.5秒間出血させ、毎秒21.53物理ダメージを与える。同時に自身のHPを32.3回復。",
-     "기본 공격 적중 시 2.5초 동안 출혈을 일으켜 매초 물리 피해 21.53를 주고 자신을 32.3 치유합니다."
+     "普攻命中使目标流血，每秒造成21.53物理伤害，持续2.5秒，同时恢复自身32.3生命。同一只撕裂兽对同一目标施加的流血不叠加，重复命中刷新完整持续时间；不同撕裂兽的流血独立生效。",
+     "Basic attack hits cause bleeding for 2.5s, dealing 21.53 physical damage per second, and restore 32.3 HP to yourself. Bleeding from the same Ravager does not stack on a target; repeated hits refresh its full duration. Bleeding from different Ravagers applies independently.",
+     "通常攻撃命中で2.5秒間出血させ、毎秒21.53物理ダメージを与え、自身のHPを32.3回復。 同じ引き裂き獣による出血は重複せず、再命中で持続時間がリセットされます。別の引き裂き獣による出血は個別に作用します。",
+     "기본 공격 적중 시 2.5초간 출혈시켜 매초 물리 피해 21.53을 주고 자신의 체력을 32.3 회복합니다. 같은 갈퀴 야수의 출혈은 중첩되지 않으며, 다시 적중하면 지속 시간이 갱신됩니다. 서로 다른 갈퀴 야수의 출혈은 독립적으로 적용됩니다."
     ]
    },
    {
@@ -5078,10 +5078,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "普攻命中使目标流血，每秒造成36物理伤害，持续2.5秒，同时恢复自身54生命。",
-     "Basic attack hits cause bleeding for 2.5s, dealing 36 physical damage per second, and heal yourself for 54 HP.",
-     "通常攻撃命中で2.5秒間出血させ、毎秒36物理ダメージを与える。同時に自身のHPを54回復。",
-     "기본 공격 적중 시 2.5초 동안 출혈을 일으켜 매초 물리 피해 36를 주고 자신을 54 치유합니다."
+     "普攻命中使目标流血，每秒造成36物理伤害，持续2.5秒，同时恢复自身54生命。同一只撕裂兽对同一目标施加的流血不叠加，重复命中刷新完整持续时间；不同撕裂兽的流血独立生效。",
+     "Basic attack hits cause bleeding for 2.5s, dealing 36 physical damage per second, and restore 54 HP to yourself. Bleeding from the same Ravager does not stack on a target; repeated hits refresh its full duration. Bleeding from different Ravagers applies independently.",
+     "通常攻撃命中で2.5秒間出血させ、毎秒36物理ダメージを与え、自身のHPを54回復。 同じ引き裂き獣による出血は重複せず、再命中で持続時間がリセットされます。別の引き裂き獣による出血は個別に作用します。",
+     "기본 공격 적중 시 2.5초간 출혈시켜 매초 물리 피해 36을 주고 자신의 체력을 54 회복합니다. 같은 갈퀴 야수의 출혈은 중첩되지 않으며, 다시 적중하면 지속 시간이 갱신됩니다. 서로 다른 갈퀴 야수의 출혈은 독립적으로 적용됩니다."
     ]
    }
   ],
@@ -5101,15 +5101,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "使自身2格内的所有敌人护甲降低45点、魔抗降低45点，持续4秒。",
-   "Temporarily reduces the armor and magic resistance of enemies around it.",
-   "周囲の敵の物理防御と魔法防御を一時的に下げる。",
-   "주변 적의 방어력과 마법 저항력을 일시적으로 낮춥니다."
+   "Reduce all enemies' armor by 45 and magic resistance by 45 within 2 hex(es) for 4s.",
+   "2マス以内の全敵の物理防御を45、魔法防御を45低下させる。4秒持続。",
+   "2칸 내 모든 적의 방어력을 45, 마법 저항력을 45 낮춥니다. 4초 지속."
   ],
   "description": [
    "使自身2格内的所有敌人护甲降低45点、魔抗降低45点，持续4秒。\n【数值成长】普通属性增减在一/二/三星时为原数值的1/1.15/1.3倍。范围、控制时间、概率和目标数量不变。",
-   "Temporarily reduces the armor and magic resistance of enemies around it.",
-   "周囲の敵の物理防御と魔法防御を一時的に下げる。",
-   "주변 적의 방어력과 마법 저항력을 일시적으로 낮춥니다."
+   "Reduce all enemies' armor by 45 and magic resistance by 45 within 2 hex(es) for 4s.",
+   "2マス以内の全敵の物理防御を45、魔法防御を45低下させる。4秒持続。",
+   "2칸 내 모든 적의 방어력을 45, 마법 저항력을 45 낮춥니다. 4초 지속."
   ],
   "group": [
    "原始荒野",
@@ -5126,9 +5126,9 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "环口撕咬",
-   "Rending Maw",
-   "環口の裂傷",
-   "원형 아귀 물기"
+   "Ringmaw Bite",
+   "環口の噛みつき",
+   "환형 입 물어뜯기"
   ],
   "stars": [
    {
@@ -5185,9 +5185,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "使自身2格内的所有敌人护甲降低45点、魔抗降低45点，持续4秒。",
-     "Reduce the armor and magic resistance of every enemy within 2 hexes by 45 each for 4s.",
-     "自身から2マス以内の全敵の防御力と魔法耐性を4秒間それぞれ45低下させる。",
-     "자신의 2칸 내 모든 적의 방어력과 마법 저항력을 4초 동안 각각 45 감소시킵니다."
+     "Reduce all enemies' armor by 45 and magic resistance by 45 within 2 hex(es) for 4s.",
+     "2マス以内の全敵の物理防御を45、魔法防御を45低下させる。4秒持続。",
+     "2칸 내 모든 적의 방어력을 45, 마법 저항력을 45 낮춥니다. 4초 지속."
     ]
    },
    {
@@ -5244,9 +5244,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "使自身2格内的所有敌人护甲降低51.75点、魔抗降低51.75点，持续4秒。",
-     "Reduce the armor and magic resistance of every enemy within 2 hexes by 51.75 each for 4s.",
-     "自身から2マス以内の全敵の防御力と魔法耐性を4秒間それぞれ51.75低下させる。",
-     "자신의 2칸 내 모든 적의 방어력과 마법 저항력을 4초 동안 각각 51.75 감소시킵니다."
+     "Reduce all enemies' armor by 51.75 and magic resistance by 51.75 within 2 hex(es) for 4s.",
+     "2マス以内の全敵の物理防御を51.75、魔法防御を51.75低下させる。4秒持続。",
+     "2칸 내 모든 적의 방어력을 51.75, 마법 저항력을 51.75 낮춥니다. 4초 지속."
     ]
    },
    {
@@ -5303,9 +5303,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "使自身2格内的所有敌人护甲降低58.5点、魔抗降低58.5点，持续4秒。",
-     "Reduce the armor and magic resistance of every enemy within 2 hexes by 58.5 each for 4s.",
-     "自身から2マス以内の全敵の防御力と魔法耐性を4秒間それぞれ58.5低下させる。",
-     "자신의 2칸 내 모든 적의 방어력과 마법 저항력을 4초 동안 각각 58.5 감소시킵니다."
+     "Reduce all enemies' armor by 58.5 and magic resistance by 58.5 within 2 hex(es) for 4s.",
+     "2マス以内の全敵の物理防御を58.5、魔法防御を58.5低下させる。4秒持続。",
+     "2칸 내 모든 적의 방어력을 58.5, 마법 저항력을 58.5 낮춥니다. 4초 지속."
     ]
    }
   ],
@@ -5326,15 +5326,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "狂怒爆发，使自身攻速提高40%、伤害提高30%，持续4秒，并获得100基础护盾。",
-   "Enters a short frenzy with increased attack speed and damage, plus a shield.",
-   "短時間の狂乱で攻撃速度とダメージを上げ、シールドも得る。",
-   "잠시 광폭화해 공격 속도와 피해량을 높이고 보호막을 얻습니다."
+   "Gain 40% attack speed and 30% damage for 4s, plus a 100 shield.",
+   "攻撃速度+40%、ダメージ+30%を4秒間獲得し、100のシールドを得る。",
+   "4초간 공격 속도 40%와 피해량 30%가 증가하고 보호막 100을 얻습니다."
   ],
   "description": [
    "狂怒爆发，使自身攻速提高40%、伤害提高30%，持续4秒，并获得100基础护盾。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.9/4倍。护盾随自身最大生命提高。普通属性增减在一/二/三星时为原数值的1/1.2/1.4倍。范围、控制时间、概率和目标数量不变。",
-   "Enters a short frenzy with increased attack speed and damage, plus a shield.",
-   "短時間の狂乱で攻撃速度とダメージを上げ、シールドも得る。",
-   "잠시 광폭화해 공격 속도와 피해량을 높이고 보호막을 얻습니다."
+   "Gain 40% attack speed and 30% damage for 4s, plus a 100 shield.",
+   "攻撃速度+40%、ダメージ+30%を4秒間獲得し、100のシールドを得る。",
+   "4초간 공격 속도 40%와 피해량 30%가 증가하고 보호막 100을 얻습니다."
   ],
   "group": [
    "原始荒野",
@@ -5351,7 +5351,7 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "血怒",
-   "Blood Rage",
+   "Blood Fury",
    "血の怒り",
    "피의 분노"
   ],
@@ -5410,9 +5410,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "狂怒爆发，使自身攻速提高40%、伤害提高30%，持续4秒，并获得100护盾。",
-     "Gain 40% attack speed and 30% increased damage for 4s, plus a 100 shield.",
-     "攻撃速度が40%、与ダメージが30%、4秒間上昇し、100のシールドを得る。",
-     "4초 동안 공격 속도 40%, 가하는 피해 30% 증가와 보호막 100을 얻습니다."
+     "Gain 40% attack speed and 30% damage for 4s, plus a 100 shield.",
+     "攻撃速度+40%、ダメージ+30%を4秒間獲得し、100のシールドを得る。",
+     "4초간 공격 속도 40%와 피해량 30%가 증가하고 보호막 100을 얻습니다."
     ]
    },
    {
@@ -5469,9 +5469,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "狂怒爆发，使自身攻速提高48%、伤害提高36%，持续4秒，并获得190护盾。",
-     "Gain 48% attack speed and 36% increased damage for 4s, plus a 190 shield.",
-     "攻撃速度が48%、与ダメージが36%、4秒間上昇し、190のシールドを得る。",
-     "4초 동안 공격 속도 48%, 가하는 피해 36% 증가와 보호막 190을 얻습니다."
+     "Gain 48% attack speed and 36% damage for 4s, plus a 190 shield.",
+     "攻撃速度+48%、ダメージ+36%を4秒間獲得し、190のシールドを得る。",
+     "4초간 공격 속도 48%와 피해량 36%가 증가하고 보호막 190을 얻습니다."
     ]
    },
    {
@@ -5528,9 +5528,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "狂怒爆发，使自身攻速提高56%、伤害提高42%，持续4秒，并获得400护盾。",
-     "Gain 56% attack speed and 42% increased damage for 4s, plus a 400 shield.",
-     "攻撃速度が56%、与ダメージが42%、4秒間上昇し、400のシールドを得る。",
-     "4초 동안 공격 속도 56%, 가하는 피해 42% 증가와 보호막 400을 얻습니다."
+     "Gain 56% attack speed and 42% damage for 4s, plus a 400 shield.",
+     "攻撃速度+56%、ダメージ+42%を4秒間獲得し、400のシールドを得る。",
+     "4초간 공격 속도 56%와 피해량 42%가 증가하고 보호막 400을 얻습니다."
     ]
    }
   ],
@@ -5551,15 +5551,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "承受有效伤害积攒重甲，护盾吸收也计入，每0.3秒最多1层；满4层后，下次未被闪避的普攻消耗重甲，追加100基础物理伤害。",
-   "Builds armor charges while taking damage, including shield absorption. A later basic attack consumes them for extra damage.",
-   "シールドで吸収した分を含む被ダメージで蓄積し、次の有効な通常攻撃を強化する。",
-   "보호막 흡수를 포함한 피해로 중첩을 쌓고 이후 유효한 기본 공격을 강화합니다."
+   "Taking effective damage, including shield absorption, grants heavy armor: at most 1 stack(s) per 0.3s. At 4 stacks, the next non-dodged basic attack consumes them to deal 100 extra physical damage.",
+   "シールド吸収を含む有効な被ダメージで重甲を蓄積。0.3秒につき最大1重複。4重複になると、次の回避されなかった通常攻撃で消費して100追加物理ダメージ。",
+   "보호막 흡수를 포함한 유효 피해를 받으면 중갑을 쌓습니다. 0.3초마다 최대 1중첩. 4중첩에서 다음 회피되지 않은 기본 공격이 중갑을 소모해 추가 물리 피해 100을 줍니다."
   ],
   "description": [
    "承受有效伤害积攒重甲，护盾吸收也计入，每0.3秒最多1层；满4层后，下次未被闪避的普攻消耗重甲，追加100基础物理伤害。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.9/4倍。主要效果随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
-   "Builds armor charges while taking damage, including shield absorption. A later basic attack consumes them for extra damage.",
-   "シールドで吸収した分を含む被ダメージで蓄積し、次の有効な通常攻撃を強化する。",
-   "보호막 흡수를 포함한 피해로 중첩을 쌓고 이후 유효한 기본 공격을 강화합니다."
+   "Taking effective damage, including shield absorption, grants heavy armor: at most 1 stack(s) per 0.3s. At 4 stacks, the next non-dodged basic attack consumes them to deal 100 extra physical damage.",
+   "シールド吸収を含む有効な被ダメージで重甲を蓄積。0.3秒につき最大1重複。4重複になると、次の回避されなかった通常攻撃で消費して100追加物理ダメージ。",
+   "보호막 흡수를 포함한 유효 피해를 받으면 중갑을 쌓습니다. 0.3초마다 최대 1중첩. 4중첩에서 다음 회피되지 않은 기본 공격이 중갑을 소모해 추가 물리 피해 100을 줍니다."
   ],
   "group": [
    "原始荒野",
@@ -5576,9 +5576,9 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "重甲蓄击",
-   "Armored Retaliation",
-   "重甲蓄撃",
-   "중갑 축적타"
+   "Armored Strike",
+   "重甲の溜め撃ち",
+   "중갑 강타"
   ],
   "stars": [
    {
@@ -5635,9 +5635,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "承受有效伤害积攒重甲，护盾吸收也计入，每0.3秒最多1层；满4层后，下次未被闪避的普攻消耗重甲，追加100物理伤害。",
-     "Taking effective damage, including shield absorption, adds an armor stack at most once every 0.3s. At 4 stacks, the next non-dodged basic attack consumes them to deal 100 additional physical damage.",
-     "シールド吸収を含む有効な被ダメージで重甲を獲得。0.3秒に1スタックまで。4スタックで、次の回避されなかった通常攻撃が全て消費し、100物理ダメージを追加する。",
-     "보호막 흡수를 포함한 유효 피해를 받으면 0.3초에 최대 1회 중갑을 쌓습니다. 4중첩 후 다음 회피되지 않은 기본 공격이 중첩을 소모해 물리 피해 100을 추가합니다."
+     "Taking effective damage, including shield absorption, grants heavy armor: at most 1 stack(s) per 0.3s. At 4 stacks, the next non-dodged basic attack consumes them to deal 100 extra physical damage.",
+     "シールド吸収を含む有効な被ダメージで重甲を蓄積。0.3秒につき最大1重複。4重複になると、次の回避されなかった通常攻撃で消費して100追加物理ダメージ。",
+     "보호막 흡수를 포함한 유효 피해를 받으면 중갑을 쌓습니다. 0.3초마다 최대 1중첩. 4중첩에서 다음 회피되지 않은 기본 공격이 중갑을 소모해 추가 물리 피해 100을 줍니다."
     ]
    },
    {
@@ -5694,9 +5694,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "承受有效伤害积攒重甲，护盾吸收也计入，每0.3秒最多1层；满4层后，下次未被闪避的普攻消耗重甲，追加190物理伤害。",
-     "Taking effective damage, including shield absorption, adds an armor stack at most once every 0.3s. At 4 stacks, the next non-dodged basic attack consumes them to deal 190 additional physical damage.",
-     "シールド吸収を含む有効な被ダメージで重甲を獲得。0.3秒に1スタックまで。4スタックで、次の回避されなかった通常攻撃が全て消費し、190物理ダメージを追加する。",
-     "보호막 흡수를 포함한 유효 피해를 받으면 0.3초에 최대 1회 중갑을 쌓습니다. 4중첩 후 다음 회피되지 않은 기본 공격이 중첩을 소모해 물리 피해 190을 추가합니다."
+     "Taking effective damage, including shield absorption, grants heavy armor: at most 1 stack(s) per 0.3s. At 4 stacks, the next non-dodged basic attack consumes them to deal 190 extra physical damage.",
+     "シールド吸収を含む有効な被ダメージで重甲を蓄積。0.3秒につき最大1重複。4重複になると、次の回避されなかった通常攻撃で消費して190追加物理ダメージ。",
+     "보호막 흡수를 포함한 유효 피해를 받으면 중갑을 쌓습니다. 0.3초마다 최대 1중첩. 4중첩에서 다음 회피되지 않은 기본 공격이 중갑을 소모해 추가 물리 피해 190을 줍니다."
     ]
    },
    {
@@ -5753,9 +5753,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "承受有效伤害积攒重甲，护盾吸收也计入，每0.3秒最多1层；满4层后，下次未被闪避的普攻消耗重甲，追加400物理伤害。",
-     "Taking effective damage, including shield absorption, adds an armor stack at most once every 0.3s. At 4 stacks, the next non-dodged basic attack consumes them to deal 400 additional physical damage.",
-     "シールド吸収を含む有効な被ダメージで重甲を獲得。0.3秒に1スタックまで。4スタックで、次の回避されなかった通常攻撃が全て消費し、400物理ダメージを追加する。",
-     "보호막 흡수를 포함한 유효 피해를 받으면 0.3초에 최대 1회 중갑을 쌓습니다. 4중첩 후 다음 회피되지 않은 기본 공격이 중첩을 소모해 물리 피해 400을 추가합니다."
+     "Taking effective damage, including shield absorption, grants heavy armor: at most 1 stack(s) per 0.3s. At 4 stacks, the next non-dodged basic attack consumes them to deal 400 extra physical damage.",
+     "シールド吸収を含む有効な被ダメージで重甲を蓄積。0.3秒につき最大1重複。4重複になると、次の回避されなかった通常攻撃で消費して400追加物理ダメージ。",
+     "보호막 흡수를 포함한 유효 피해를 받으면 중갑을 쌓습니다. 0.3초마다 최대 1중첩. 4중첩에서 다음 회피되지 않은 기본 공격이 중갑을 소모해 추가 물리 피해 400을 줍니다."
     ]
    }
   ],
@@ -5775,15 +5775,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "发射3格幻鲨，沿锁定方向去程及回程各造成80基础法术伤害；每段每个敌人只命中一次，回程返回发射位置，本体不位移。",
-   "Sends out a spectral shark that damages enemies on both its outward and return paths. The caster stays in place.",
-   "幻の鮫が往復して敵にダメージを与える。本体は移動しない。",
-   "환영 상어를 보내 왕복 경로의 적에게 피해를 줍니다. 본체는 이동하지 않습니다."
+   "Launch a spectral shark along a locked direction for 3 hex(es). Its outward and return passes each deal 80 magic damage once per enemy. It returns to the launch point; the caster does not move.",
+   "固定方向へ3マス進む幻のサメを放つ。往路と復路でそれぞれ各敵に1回、80魔法ダメージ。発射地点に戻り、術者自身は移動しない。",
+   "고정된 방향으로 3칸 이동하는 환영 상어를 발사합니다. 왕복 경로 각각에서 적마다 한 번씩 마법 피해 80을 줍니다. 발사 지점으로 돌아오며 시전자는 이동하지 않습니다."
   ],
   "description": [
    "发射3格幻鲨，沿锁定方向去程及回程各造成80基础法术伤害；每段每个敌人只命中一次，回程返回发射位置，本体不位移。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.9/4倍。主要效果随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
-   "Sends out a spectral shark that damages enemies on both its outward and return paths. The caster stays in place.",
-   "幻の鮫が往復して敵にダメージを与える。本体は移動しない。",
-   "환영 상어를 보내 왕복 경로의 적에게 피해를 줍니다. 본체는 이동하지 않습니다."
+   "Launch a spectral shark along a locked direction for 3 hex(es). Its outward and return passes each deal 80 magic damage once per enemy. It returns to the launch point; the caster does not move.",
+   "固定方向へ3マス進む幻のサメを放つ。往路と復路でそれぞれ各敵に1回、80魔法ダメージ。発射地点に戻り、術者自身は移動しない。",
+   "고정된 방향으로 3칸 이동하는 환영 상어를 발사합니다. 왕복 경로 각각에서 적마다 한 번씩 마법 피해 80을 줍니다. 발사 지점으로 돌아오며 시전자는 이동하지 않습니다."
   ],
   "group": [
    "原始荒野",
@@ -5801,7 +5801,7 @@ export const catalog:WikiEntry[] = [
   "skillName": [
    "往返幻鲨",
    "Returning Phantom Shark",
-   "往復幻鮫",
+   "往還の幻鮫",
    "왕복 환영 상어"
   ],
   "stars": [
@@ -5859,9 +5859,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "发射3格幻鲨，沿锁定方向去程及回程各造成80法术伤害；每段每个敌人只命中一次，回程返回发射位置，本体不位移。",
-     "Send a phantom shark 3 hexes along a fixed direction. Outbound and return passes each deal 80 magic damage, hitting each enemy at most once per pass. It returns to the launch point; the caster does not move.",
-     "固定方向へ3マス進む幻の鮫を放つ。往路・復路でそれぞれ80魔法ダメージを与え、各経路で各敵に1回だけ命中。発射位置へ戻り、術者自身は移動しない。",
-     "고정 방향으로 3칸 이동하는 환영 상어를 발사합니다. 왕복 각각 마법 피해 80을 주며 각 경로에서 적마다 한 번만 적중합니다. 발사 지점으로 돌아오고 시전자는 이동하지 않습니다."
+     "Launch a spectral shark along a locked direction for 3 hex(es). Its outward and return passes each deal 80 magic damage once per enemy. It returns to the launch point; the caster does not move.",
+     "固定方向へ3マス進む幻のサメを放つ。往路と復路でそれぞれ各敵に1回、80魔法ダメージ。発射地点に戻り、術者自身は移動しない。",
+     "고정된 방향으로 3칸 이동하는 환영 상어를 발사합니다. 왕복 경로 각각에서 적마다 한 번씩 마법 피해 80을 줍니다. 발사 지점으로 돌아오며 시전자는 이동하지 않습니다."
     ]
    },
    {
@@ -5918,9 +5918,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "发射3格幻鲨，沿锁定方向去程及回程各造成152法术伤害；每段每个敌人只命中一次，回程返回发射位置，本体不位移。",
-     "Send a phantom shark 3 hexes along a fixed direction. Outbound and return passes each deal 152 magic damage, hitting each enemy at most once per pass. It returns to the launch point; the caster does not move.",
-     "固定方向へ3マス進む幻の鮫を放つ。往路・復路でそれぞれ152魔法ダメージを与え、各経路で各敵に1回だけ命中。発射位置へ戻り、術者自身は移動しない。",
-     "고정 방향으로 3칸 이동하는 환영 상어를 발사합니다. 왕복 각각 마법 피해 152을 주며 각 경로에서 적마다 한 번만 적중합니다. 발사 지점으로 돌아오고 시전자는 이동하지 않습니다."
+     "Launch a spectral shark along a locked direction for 3 hex(es). Its outward and return passes each deal 152 magic damage once per enemy. It returns to the launch point; the caster does not move.",
+     "固定方向へ3マス進む幻のサメを放つ。往路と復路でそれぞれ各敵に1回、152魔法ダメージ。発射地点に戻り、術者自身は移動しない。",
+     "고정된 방향으로 3칸 이동하는 환영 상어를 발사합니다. 왕복 경로 각각에서 적마다 한 번씩 마법 피해 152을 줍니다. 발사 지점으로 돌아오며 시전자는 이동하지 않습니다."
     ]
    },
    {
@@ -5977,9 +5977,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "发射3格幻鲨，沿锁定方向去程及回程各造成320法术伤害；每段每个敌人只命中一次，回程返回发射位置，本体不位移。",
-     "Send a phantom shark 3 hexes along a fixed direction. Outbound and return passes each deal 320 magic damage, hitting each enemy at most once per pass. It returns to the launch point; the caster does not move.",
-     "固定方向へ3マス進む幻の鮫を放つ。往路・復路でそれぞれ320魔法ダメージを与え、各経路で各敵に1回だけ命中。発射位置へ戻り、術者自身は移動しない。",
-     "고정 방향으로 3칸 이동하는 환영 상어를 발사합니다. 왕복 각각 마법 피해 320을 주며 각 경로에서 적마다 한 번만 적중합니다. 발사 지점으로 돌아오고 시전자는 이동하지 않습니다."
+     "Launch a spectral shark along a locked direction for 3 hex(es). Its outward and return passes each deal 320 magic damage once per enemy. It returns to the launch point; the caster does not move.",
+     "固定方向へ3マス進む幻のサメを放つ。往路と復路でそれぞれ各敵に1回、320魔法ダメージ。発射地点に戻り、術者自身は移動しない。",
+     "고정된 방향으로 3칸 이동하는 환영 상어를 발사합니다. 왕복 경로 각각에서 적마다 한 번씩 마법 피해 320을 줍니다. 발사 지점으로 돌아오며 시전자는 이동하지 않습니다."
     ]
    }
   ],
@@ -5999,15 +5999,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "抓住3格内最远的可锁定敌人，向自身拉近最多2格，造成100基础法术伤害并缴械2秒。途经格与落点必须合法；位移免疫阻挡拉拽，控制免疫阻挡缴械，均不直接免疫伤害。",
-   "Pulls a distant target closer, damaging and disarming it. Terrain and immunities can prevent the displacement.",
-   "遠い敵を引き寄せ、ダメージと武装解除を与える。地形や耐性で移動は阻止される。",
-   "먼 적을 끌어당겨 피해와 무장 해제를 줍니다. 지형과 면역으로 이동이 막힐 수 있습니다."
+   "Grab the farthest targetable enemy within 3 hex(es), pull it up to 2 hex(es) closer, deal 100 magic damage and disarm for 2s. Path and destination must be valid. Displacement immunity blocks the pull; control immunity blocks disarm. Neither directly blocks damage.",
+   "3マス以内の最遠の指定可能な敵を最大2マス引き寄せ、100魔法ダメージと2秒の武装解除。経路と着地点は有効なマスに限る。移動妨害無効は引き寄せを、行動妨害無効は武装解除を防ぐが、ダメージ自体は防がない。",
+   "3칸 내 가장 먼 지정 가능 적을 최대 2칸 끌어당겨 마법 피해 100와 2초 무장 해제를 줍니다. 경로와 착지점이 유효해야 합니다. 강제 이동 면역은 당기기를, 제어 면역은 무장 해제를 막지만 피해를 직접 막지는 않습니다."
   ],
   "description": [
    "抓住3格内最远的可锁定敌人，向自身拉近最多2格，造成100基础法术伤害并缴械2秒。途经格与落点必须合法；位移免疫阻挡拉拽，控制免疫阻挡缴械，均不直接免疫伤害。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.9/4倍。主要效果随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
-   "Pulls a distant target closer, damaging and disarming it. Terrain and immunities can prevent the displacement.",
-   "遠い敵を引き寄せ、ダメージと武装解除を与える。地形や耐性で移動は阻止される。",
-   "먼 적을 끌어당겨 피해와 무장 해제를 줍니다. 지형과 면역으로 이동이 막힐 수 있습니다."
+   "Grab the farthest targetable enemy within 3 hex(es), pull it up to 2 hex(es) closer, deal 100 magic damage and disarm for 2s. Path and destination must be valid. Displacement immunity blocks the pull; control immunity blocks disarm. Neither directly blocks damage.",
+   "3マス以内の最遠の指定可能な敵を最大2マス引き寄せ、100魔法ダメージと2秒の武装解除。経路と着地点は有効なマスに限る。移動妨害無効は引き寄せを、行動妨害無効は武装解除を防ぐが、ダメージ自体は防がない。",
+   "3칸 내 가장 먼 지정 가능 적을 최대 2칸 끌어당겨 마법 피해 100와 2초 무장 해제를 줍니다. 경로와 착지점이 유효해야 합니다. 강제 이동 면역은 당기기를, 제어 면역은 무장 해제를 막지만 피해를 직접 막지는 않습니다."
   ],
   "group": [
    "原始荒野",
@@ -6024,9 +6024,9 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "触须拖拽",
-   "Tentacle Drag",
-   "触手牽引",
-   "촉수 끌기"
+   "Tentacle Pull",
+   "触手の牽引",
+   "촉수 끌어당기기"
   ],
   "stars": [
    {
@@ -6083,9 +6083,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "抓住3格内最远的可锁定敌人，向自身拉近最多2格，造成100法术伤害并缴械2秒。途经格与落点必须合法；位移免疫阻挡拉拽，控制免疫阻挡缴械，均不直接免疫伤害。",
-     "Pull the farthest targetable enemy within 3 hexes up to 2 hexes closer, deal 100 magic damage and disarm for 2s. Path and landing must be legal. Displacement immunity blocks the pull; control immunity blocks disarm; neither alone blocks damage.",
-     "3マス以内で最も遠い指定可能な敵を最大2マス引き寄せ、100魔法ダメージと2秒の武装解除を与える。経路と着地点は有効である必要がある。移動免疫は引き寄せ、行動妨害免疫は武装解除を防ぐが、それだけではダメージを防がない。",
-     "3칸 내 가장 먼 지정 가능한 적을 최대 2칸 끌어당기고 마법 피해 100과 2초 무장 해제를 줍니다. 경로와 도착점이 유효해야 합니다. 강제 이동 면역은 끌어당김, 제어 면역은 무장 해제를 막지만 각각 피해 자체를 막지는 않습니다."
+     "Grab the farthest targetable enemy within 3 hex(es), pull it up to 2 hex(es) closer, deal 100 magic damage and disarm for 2s. Path and destination must be valid. Displacement immunity blocks the pull; control immunity blocks disarm. Neither directly blocks damage.",
+     "3マス以内の最遠の指定可能な敵を最大2マス引き寄せ、100魔法ダメージと2秒の武装解除。経路と着地点は有効なマスに限る。移動妨害無効は引き寄せを、行動妨害無効は武装解除を防ぐが、ダメージ自体は防がない。",
+     "3칸 내 가장 먼 지정 가능 적을 최대 2칸 끌어당겨 마법 피해 100와 2초 무장 해제를 줍니다. 경로와 착지점이 유효해야 합니다. 강제 이동 면역은 당기기를, 제어 면역은 무장 해제를 막지만 피해를 직접 막지는 않습니다."
     ]
    },
    {
@@ -6142,9 +6142,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "抓住3格内最远的可锁定敌人，向自身拉近最多2格，造成189.85法术伤害并缴械2秒。途经格与落点必须合法；位移免疫阻挡拉拽，控制免疫阻挡缴械，均不直接免疫伤害。",
-     "Pull the farthest targetable enemy within 3 hexes up to 2 hexes closer, deal 189.85 magic damage and disarm for 2s. Path and landing must be legal. Displacement immunity blocks the pull; control immunity blocks disarm; neither alone blocks damage.",
-     "3マス以内で最も遠い指定可能な敵を最大2マス引き寄せ、189.85魔法ダメージと2秒の武装解除を与える。経路と着地点は有効である必要がある。移動免疫は引き寄せ、行動妨害免疫は武装解除を防ぐが、それだけではダメージを防がない。",
-     "3칸 내 가장 먼 지정 가능한 적을 최대 2칸 끌어당기고 마법 피해 189.85과 2초 무장 해제를 줍니다. 경로와 도착점이 유효해야 합니다. 강제 이동 면역은 끌어당김, 제어 면역은 무장 해제를 막지만 각각 피해 자체를 막지는 않습니다."
+     "Grab the farthest targetable enemy within 3 hex(es), pull it up to 2 hex(es) closer, deal 189.85 magic damage and disarm for 2s. Path and destination must be valid. Displacement immunity blocks the pull; control immunity blocks disarm. Neither directly blocks damage.",
+     "3マス以内の最遠の指定可能な敵を最大2マス引き寄せ、189.85魔法ダメージと2秒の武装解除。経路と着地点は有効なマスに限る。移動妨害無効は引き寄せを、行動妨害無効は武装解除を防ぐが、ダメージ自体は防がない。",
+     "3칸 내 가장 먼 지정 가능 적을 최대 2칸 끌어당겨 마법 피해 189.85와 2초 무장 해제를 줍니다. 경로와 착지점이 유효해야 합니다. 강제 이동 면역은 당기기를, 제어 면역은 무장 해제를 막지만 피해를 직접 막지는 않습니다."
     ]
    },
    {
@@ -6201,9 +6201,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "抓住3格内最远的可锁定敌人，向自身拉近最多2格，造成400法术伤害并缴械2秒。途经格与落点必须合法；位移免疫阻挡拉拽，控制免疫阻挡缴械，均不直接免疫伤害。",
-     "Pull the farthest targetable enemy within 3 hexes up to 2 hexes closer, deal 400 magic damage and disarm for 2s. Path and landing must be legal. Displacement immunity blocks the pull; control immunity blocks disarm; neither alone blocks damage.",
-     "3マス以内で最も遠い指定可能な敵を最大2マス引き寄せ、400魔法ダメージと2秒の武装解除を与える。経路と着地点は有効である必要がある。移動免疫は引き寄せ、行動妨害免疫は武装解除を防ぐが、それだけではダメージを防がない。",
-     "3칸 내 가장 먼 지정 가능한 적을 최대 2칸 끌어당기고 마법 피해 400과 2초 무장 해제를 줍니다. 경로와 도착점이 유효해야 합니다. 강제 이동 면역은 끌어당김, 제어 면역은 무장 해제를 막지만 각각 피해 자체를 막지는 않습니다."
+     "Grab the farthest targetable enemy within 3 hex(es), pull it up to 2 hex(es) closer, deal 400 magic damage and disarm for 2s. Path and destination must be valid. Displacement immunity blocks the pull; control immunity blocks disarm. Neither directly blocks damage.",
+     "3マス以内の最遠の指定可能な敵を最大2マス引き寄せ、400魔法ダメージと2秒の武装解除。経路と着地点は有効なマスに限る。移動妨害無効は引き寄せを、行動妨害無効は武装解除を防ぐが、ダメージ自体は防がない。",
+     "3칸 내 가장 먼 지정 가능 적을 최대 2칸 끌어당겨 마법 피해 400와 2초 무장 해제를 줍니다. 경로와 착지점이 유효해야 합니다. 강제 이동 면역은 당기기를, 제어 면역은 무장 해제를 막지만 피해를 직접 막지는 않습니다."
     ]
    }
   ],
@@ -6222,16 +6222,16 @@ export const catalog:WikiEntry[] = [
    "늪지 갑각수"
   ],
   "summary": [
-   "蓄势0.6秒，以祖甲战吼解除自身及2格内友军当前的控制效果，并使其护甲提高25，持续4秒。不移除中毒、灼烧、流血或属性削弱，也不提供后续免控。",
-   "Cleanses existing crowd control from itself and nearby allies, then grants armor. It does not grant lasting control immunity.",
-   "自身と周囲の味方の制御状態を解除し、防御力を上げる。持続的な制御無効ではない。",
-   "자신과 주변 아군의 기존 군중 제어를 해제하고 방어력을 높입니다. 지속 면역은 부여하지 않습니다."
+   "蓄势0.6秒，以祖甲战吼解除自身及3格内友军当前的控制效果，并使其护甲提高25，持续4秒。不移除中毒、灼烧、流血或普通属性削弱，也不提供后续免控。多次施放的护甲可叠加，每次增益独立持续。也会清除可净化契印附带的位移封锁、攻击削弱和攻速减缓。",
+   "After charging 0.6s, cleanse current crowd control from yourself and allies within 3 hex(es), granting 25 armor for 4s. Does not remove poison, burn, bleed or ordinary stat penalties, and grants no ongoing control immunity.Armor from repeated casts stacks; each application expires independently.Also removes cleansable sigil effects that block active movement, reduce ATK or slow attack speed.",
+   "0.6秒の溜め後、自身と3マス以内の味方の現在の行動妨害を解除し、物理防御+25を4秒間付与。毒・炎上・出血・通常の能力低下は除去せず、その後の妨害無効も付与しない。複数回の発動による物理防御は重複し、それぞれ個別に終了する。浄化可能な契印による移動スキル封鎖・攻撃力低下・攻撃速度低下も解除する。",
+   "0.6초 준비 후 자신과 3칸 내 아군의 현재 군중 제어를 해제하고 4초간 방어력 25를 부여합니다. 독, 화상, 출혈, 일반 능력치 약화는 제거하지 않으며 지속 제어 면역도 부여하지 않습니다.반복 시전의 방어력은 중첩되며 각 효과의 지속 시간은 개별 적용됩니다.정화 가능한 계약인의 이동 스킬 봉쇄, 공격력 감소 및 공격 속도 감소도 해제합니다."
   ],
   "description": [
-   "蓄势0.6秒，以祖甲战吼解除自身及2格内友军当前的控制效果，并使其护甲提高25，持续4秒。不移除中毒、灼烧、流血或属性削弱，也不提供后续免控。\n【数值成长】普通属性增减在一/二/三星时为原数值的1/1.2/1.4倍。范围、控制时间、概率和目标数量不变。",
-   "Cleanses existing crowd control from itself and nearby allies, then grants armor. It does not grant lasting control immunity.",
-   "自身と周囲の味方の制御状態を解除し、防御力を上げる。持続的な制御無効ではない。",
-   "자신과 주변 아군의 기존 군중 제어를 해제하고 방어력을 높입니다. 지속 면역은 부여하지 않습니다."
+   "蓄势0.6秒，以祖甲战吼解除自身及3格内友军当前的控制效果，并使其护甲提高25，持续4秒。不移除中毒、灼烧、流血或普通属性削弱，也不提供后续免控。多次施放的护甲可叠加，每次增益独立持续。也会清除可净化契印附带的位移封锁、攻击削弱和攻速减缓。\n【数值成长】普通属性增减在一/二/三星时为原数值的1/1.2/1.4倍。范围、控制时间、概率和目标数量不变。",
+   "After charging 0.6s, cleanse current crowd control from yourself and allies within 3 hex(es), granting 25 armor for 4s. Does not remove poison, burn, bleed or ordinary stat penalties, and grants no ongoing control immunity.Armor from repeated casts stacks; each application expires independently.Also removes cleansable sigil effects that block active movement, reduce ATK or slow attack speed.",
+   "0.6秒の溜め後、自身と3マス以内の味方の現在の行動妨害を解除し、物理防御+25を4秒間付与。毒・炎上・出血・通常の能力低下は除去せず、その後の妨害無効も付与しない。複数回の発動による物理防御は重複し、それぞれ個別に終了する。浄化可能な契印による移動スキル封鎖・攻撃力低下・攻撃速度低下も解除する。",
+   "0.6초 준비 후 자신과 3칸 내 아군의 현재 군중 제어를 해제하고 4초간 방어력 25를 부여합니다. 독, 화상, 출혈, 일반 능력치 약화는 제거하지 않으며 지속 제어 면역도 부여하지 않습니다.반복 시전의 방어력은 중첩되며 각 효과의 지속 시간은 개별 적용됩니다.정화 가능한 계약인의 이동 스킬 봉쇄, 공격력 감소 및 공격 속도 감소도 해제합니다."
   ],
   "group": [
    "原始荒野",
@@ -6249,7 +6249,7 @@ export const catalog:WikiEntry[] = [
   "skillName": [
    "祖甲战吼",
    "Ancestral Warcry",
-   "祖甲戦吼",
+   "祖甲の戦吼",
    "선조 갑옷 함성"
   ],
   "stars": [
@@ -6306,10 +6306,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "蓄势0.6秒，以祖甲战吼解除自身及2格内友军当前的控制效果，并使其护甲提高25，持续4秒。不移除中毒、灼烧、流血或属性削弱，也不提供后续免控。",
-     "After a 0.6s windup, cleanse current crowd control from yourself and allies within 2 hexes, then grant 25 armor for 4s. Does not remove poison, burning, bleeding or stat debuffs, and grants no ongoing control immunity.",
-     "0.6秒溜め、自身と2マス以内の味方の現在の行動妨害を解除し、防御力を4秒間25上げる。毒・炎上・出血・能力低下は解除せず、以後の行動妨害免疫も与えない。",
-     "0.6초 준비 후 자신과 2칸 내 아군의 현재 군중 제어를 해제하고 방어력을 4초 동안 25 증가시킵니다. 중독, 화상, 출혈, 능력치 감소는 해제하지 않으며 지속 제어 면역도 부여하지 않습니다."
+     "蓄势0.6秒，以祖甲战吼解除自身及3格内友军当前的控制效果，并使其护甲提高25，持续4秒。不移除中毒、灼烧、流血或普通属性削弱，也不提供后续免控。多次施放的护甲可叠加，每次增益独立持续。也会清除可净化契印附带的位移封锁、攻击削弱和攻速减缓。",
+     "After charging 0.6s, cleanse current crowd control from yourself and allies within 3 hex(es), granting 25 armor for 4s. Does not remove poison, burn, bleed or ordinary stat penalties, and grants no ongoing control immunity.Armor from repeated casts stacks; each application expires independently.Also removes cleansable sigil effects that block active movement, reduce ATK or slow attack speed.",
+     "0.6秒の溜め後、自身と3マス以内の味方の現在の行動妨害を解除し、物理防御+25を4秒間付与。毒・炎上・出血・通常の能力低下は除去せず、その後の妨害無効も付与しない。複数回の発動による物理防御は重複し、それぞれ個別に終了する。浄化可能な契印による移動スキル封鎖・攻撃力低下・攻撃速度低下も解除する。",
+     "0.6초 준비 후 자신과 3칸 내 아군의 현재 군중 제어를 해제하고 4초간 방어력 25를 부여합니다. 독, 화상, 출혈, 일반 능력치 약화는 제거하지 않으며 지속 제어 면역도 부여하지 않습니다.반복 시전의 방어력은 중첩되며 각 효과의 지속 시간은 개별 적용됩니다.정화 가능한 계약인의 이동 스킬 봉쇄, 공격력 감소 및 공격 속도 감소도 해제합니다."
     ]
    },
    {
@@ -6365,10 +6365,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "蓄势0.6秒，以祖甲战吼解除自身及2格内友军当前的控制效果，并使其护甲提高30，持续4秒。不移除中毒、灼烧、流血或属性削弱，也不提供后续免控。",
-     "After a 0.6s windup, cleanse current crowd control from yourself and allies within 2 hexes, then grant 30 armor for 4s. Does not remove poison, burning, bleeding or stat debuffs, and grants no ongoing control immunity.",
-     "0.6秒溜め、自身と2マス以内の味方の現在の行動妨害を解除し、防御力を4秒間30上げる。毒・炎上・出血・能力低下は解除せず、以後の行動妨害免疫も与えない。",
-     "0.6초 준비 후 자신과 2칸 내 아군의 현재 군중 제어를 해제하고 방어력을 4초 동안 30 증가시킵니다. 중독, 화상, 출혈, 능력치 감소는 해제하지 않으며 지속 제어 면역도 부여하지 않습니다."
+     "蓄势0.6秒，以祖甲战吼解除自身及3格内友军当前的控制效果，并使其护甲提高30，持续4秒。不移除中毒、灼烧、流血或普通属性削弱，也不提供后续免控。多次施放的护甲可叠加，每次增益独立持续。也会清除可净化契印附带的位移封锁、攻击削弱和攻速减缓。",
+     "After charging 0.6s, cleanse current crowd control from yourself and allies within 3 hex(es), granting 30 armor for 4s. Does not remove poison, burn, bleed or ordinary stat penalties, and grants no ongoing control immunity.Armor from repeated casts stacks; each application expires independently.Also removes cleansable sigil effects that block active movement, reduce ATK or slow attack speed.",
+     "0.6秒の溜め後、自身と3マス以内の味方の現在の行動妨害を解除し、物理防御+30を4秒間付与。毒・炎上・出血・通常の能力低下は除去せず、その後の妨害無効も付与しない。複数回の発動による物理防御は重複し、それぞれ個別に終了する。浄化可能な契印による移動スキル封鎖・攻撃力低下・攻撃速度低下も解除する。",
+     "0.6초 준비 후 자신과 3칸 내 아군의 현재 군중 제어를 해제하고 4초간 방어력 30를 부여합니다. 독, 화상, 출혈, 일반 능력치 약화는 제거하지 않으며 지속 제어 면역도 부여하지 않습니다.반복 시전의 방어력은 중첩되며 각 효과의 지속 시간은 개별 적용됩니다.정화 가능한 계약인의 이동 스킬 봉쇄, 공격력 감소 및 공격 속도 감소도 해제합니다."
     ]
    },
    {
@@ -6424,10 +6424,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "蓄势0.6秒，以祖甲战吼解除自身及2格内友军当前的控制效果，并使其护甲提高35，持续4秒。不移除中毒、灼烧、流血或属性削弱，也不提供后续免控。",
-     "After a 0.6s windup, cleanse current crowd control from yourself and allies within 2 hexes, then grant 35 armor for 4s. Does not remove poison, burning, bleeding or stat debuffs, and grants no ongoing control immunity.",
-     "0.6秒溜め、自身と2マス以内の味方の現在の行動妨害を解除し、防御力を4秒間35上げる。毒・炎上・出血・能力低下は解除せず、以後の行動妨害免疫も与えない。",
-     "0.6초 준비 후 자신과 2칸 내 아군의 현재 군중 제어를 해제하고 방어력을 4초 동안 35 증가시킵니다. 중독, 화상, 출혈, 능력치 감소는 해제하지 않으며 지속 제어 면역도 부여하지 않습니다."
+     "蓄势0.6秒，以祖甲战吼解除自身及3格内友军当前的控制效果，并使其护甲提高35，持续4秒。不移除中毒、灼烧、流血或普通属性削弱，也不提供后续免控。多次施放的护甲可叠加，每次增益独立持续。也会清除可净化契印附带的位移封锁、攻击削弱和攻速减缓。",
+     "After charging 0.6s, cleanse current crowd control from yourself and allies within 3 hex(es), granting 35 armor for 4s. Does not remove poison, burn, bleed or ordinary stat penalties, and grants no ongoing control immunity.Armor from repeated casts stacks; each application expires independently.Also removes cleansable sigil effects that block active movement, reduce ATK or slow attack speed.",
+     "0.6秒の溜め後、自身と3マス以内の味方の現在の行動妨害を解除し、物理防御+35を4秒間付与。毒・炎上・出血・通常の能力低下は除去せず、その後の妨害無効も付与しない。複数回の発動による物理防御は重複し、それぞれ個別に終了する。浄化可能な契印による移動スキル封鎖・攻撃力低下・攻撃速度低下も解除する。",
+     "0.6초 준비 후 자신과 3칸 내 아군의 현재 군중 제어를 해제하고 4초간 방어력 35를 부여합니다. 독, 화상, 출혈, 일반 능력치 약화는 제거하지 않으며 지속 제어 면역도 부여하지 않습니다.반복 시전의 방어력은 중첩되며 각 효과의 지속 시간은 개별 적용됩니다.정화 가능한 계약인의 이동 스킬 봉쇄, 공격력 감소 및 공격 속도 감소도 해제합니다."
     ]
    }
   ],
@@ -6447,15 +6447,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "每隔0.3秒发射一枚骨矛，共4枚，每枚发射时重新选择全场距离自己最远的可锁定敌人，不限4格。骨矛飞行0.2秒后造成42基础物理伤害，实际造成伤害后治疗自身18基础生命。眩晕、沉默或死亡中断后续发射；已飞出的骨矛继续命中，但不治疗已阵亡的自身。",
-   "Fires successive bone spears at distant enemies and heals after dealing damage. Control can interrupt later shots.",
-   "遠い敵へ骨槍を連射し、ダメージを与えると回復する。制御で後続の射撃が中断される。",
-   "먼 적에게 뼈창을 연사하고 피해를 주면 회복합니다. 군중 제어로 후속 발사가 중단될 수 있습니다."
+   "Fire 4 bone spears, one every 0.3s, each retargeting the farthest targetable enemy anywhere on the board, without a 4-hex limit. After 0.2s flight, deal 42 physical damage and heal yourself for 18 HP if damage is dealt. Stun, silence or death stops later shots. Spears already airborne still hit but cannot heal a dead caster.",
+   "0.3秒ごとに計4本の骨槍を発射。発射ごとに盤面全体で最遠の指定可能な敵を選び、4マス制限はない。0.2秒後に42物理ダメージを与え、実ダメージ発生時に自身を18回復。スタン・沈黙・死亡で後続発射を中断。飛翔中の槍は命中するが死亡した術者は回復しない。",
+   "0.3초마다 뼈 창을 발사해 총 4발을 쏩니다. 매 발사마다 전장 전체에서 가장 먼 지정 가능 적을 다시 선택하며 4칸 제한은 없습니다. 0.2초 비행 후 물리 피해 42를 주고 실제 피해를 주면 자신을 18 회복합니다. 기절, 침묵, 사망은 후속 발사를 중단합니다. 이미 발사된 창은 적중하지만 죽은 시전자는 회복하지 않습니다."
   ],
   "description": [
    "每隔0.3秒发射一枚骨矛，共4枚，每枚发射时重新选择全场距离自己最远的可锁定敌人，不限4格。骨矛飞行0.2秒后造成42基础物理伤害，实际造成伤害后治疗自身18基础生命。眩晕、沉默或死亡中断后续发射；已飞出的骨矛继续命中，但不治疗已阵亡的自身。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.9/4倍。伤害和治疗随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
-   "Fires successive bone spears at distant enemies and heals after dealing damage. Control can interrupt later shots.",
-   "遠い敵へ骨槍を連射し、ダメージを与えると回復する。制御で後続の射撃が中断される。",
-   "먼 적에게 뼈창을 연사하고 피해를 주면 회복합니다. 군중 제어로 후속 발사가 중단될 수 있습니다."
+   "Fire 4 bone spears, one every 0.3s, each retargeting the farthest targetable enemy anywhere on the board, without a 4-hex limit. After 0.2s flight, deal 42 physical damage and heal yourself for 18 HP if damage is dealt. Stun, silence or death stops later shots. Spears already airborne still hit but cannot heal a dead caster.",
+   "0.3秒ごとに計4本の骨槍を発射。発射ごとに盤面全体で最遠の指定可能な敵を選び、4マス制限はない。0.2秒後に42物理ダメージを与え、実ダメージ発生時に自身を18回復。スタン・沈黙・死亡で後続発射を中断。飛翔中の槍は命中するが死亡した術者は回復しない。",
+   "0.3초마다 뼈 창을 발사해 총 4발을 쏩니다. 매 발사마다 전장 전체에서 가장 먼 지정 가능 적을 다시 선택하며 4칸 제한은 없습니다. 0.2초 비행 후 물리 피해 42를 주고 실제 피해를 주면 자신을 18 회복합니다. 기절, 침묵, 사망은 후속 발사를 중단합니다. 이미 발사된 창은 적중하지만 죽은 시전자는 회복하지 않습니다."
   ],
   "group": [
    "原始荒野",
@@ -6472,7 +6472,7 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "四矛汲取",
-   "Four-Bolt Siphon",
+   "Four-Spear Drain",
    "四槍吸収",
    "사창 흡수"
   ],
@@ -6531,9 +6531,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "每隔0.3秒发射一枚骨矛，共4枚，每枚发射时重新选择全场距离自己最远的可锁定敌人，不限4格。骨矛飞行0.2秒后造成42物理伤害，实际造成伤害后治疗自身18生命。眩晕、沉默或死亡中断后续发射；已飞出的骨矛继续命中，但不治疗已阵亡的自身。",
-     "Fire 4 bone bolts 0.3s apart. Each selects the farthest targetable enemy anywhere on the board. After 0.2s travel, deal 42 physical damage and heal yourself for 18 HP if damage is dealt. Stun, silence or death interrupts further shots. Bolts already fired persist, but cannot heal a dead caster.",
-     "0.3秒間隔で骨槍を4発放ち、各発射時に盤面全域で最も遠い指定可能な敵を選ぶ。0.2秒後に42物理ダメージを与え、実際にダメージを与えた場合は自身を18回復。スタン・沈黙・死亡で後続発射を中断。発射済みの槍は残るが、死亡した術者は回復しない。",
-     "0.3초 간격으로 뼈창 4개를 발사하며 매번 전장 전체에서 가장 먼 지정 가능한 적을 선택합니다. 0.2초 비행 후 물리 피해 42를 주고 실제 피해를 주면 자신을 18 치유합니다. 기절, 침묵, 사망은 후속 발사를 중단합니다. 발사된 창은 남지만 사망한 시전자를 치유하지 않습니다."
+     "Fire 4 bone spears, one every 0.3s, each retargeting the farthest targetable enemy anywhere on the board, without a 4-hex limit. After 0.2s flight, deal 42 physical damage and heal yourself for 18 HP if damage is dealt. Stun, silence or death stops later shots. Spears already airborne still hit but cannot heal a dead caster.",
+     "0.3秒ごとに計4本の骨槍を発射。発射ごとに盤面全体で最遠の指定可能な敵を選び、4マス制限はない。0.2秒後に42物理ダメージを与え、実ダメージ発生時に自身を18回復。スタン・沈黙・死亡で後続発射を中断。飛翔中の槍は命中するが死亡した術者は回復しない。",
+     "0.3초마다 뼈 창을 발사해 총 4발을 쏩니다. 매 발사마다 전장 전체에서 가장 먼 지정 가능 적을 다시 선택하며 4칸 제한은 없습니다. 0.2초 비행 후 물리 피해 42를 주고 실제 피해를 주면 자신을 18 회복합니다. 기절, 침묵, 사망은 후속 발사를 중단합니다. 이미 발사된 창은 적중하지만 죽은 시전자는 회복하지 않습니다."
     ]
    },
    {
@@ -6590,9 +6590,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "每隔0.3秒发射一枚骨矛，共4枚，每枚发射时重新选择全场距离自己最远的可锁定敌人，不限4格。骨矛飞行0.2秒后造成79.8物理伤害，实际造成伤害后治疗自身34.2生命。眩晕、沉默或死亡中断后续发射；已飞出的骨矛继续命中，但不治疗已阵亡的自身。",
-     "Fire 4 bone bolts 0.3s apart. Each selects the farthest targetable enemy anywhere on the board. After 0.2s travel, deal 79.8 physical damage and heal yourself for 34.2 HP if damage is dealt. Stun, silence or death interrupts further shots. Bolts already fired persist, but cannot heal a dead caster.",
-     "0.3秒間隔で骨槍を4発放ち、各発射時に盤面全域で最も遠い指定可能な敵を選ぶ。0.2秒後に79.8物理ダメージを与え、実際にダメージを与えた場合は自身を34.2回復。スタン・沈黙・死亡で後続発射を中断。発射済みの槍は残るが、死亡した術者は回復しない。",
-     "0.3초 간격으로 뼈창 4개를 발사하며 매번 전장 전체에서 가장 먼 지정 가능한 적을 선택합니다. 0.2초 비행 후 물리 피해 79.8를 주고 실제 피해를 주면 자신을 34.2 치유합니다. 기절, 침묵, 사망은 후속 발사를 중단합니다. 발사된 창은 남지만 사망한 시전자를 치유하지 않습니다."
+     "Fire 4 bone spears, one every 0.3s, each retargeting the farthest targetable enemy anywhere on the board, without a 4-hex limit. After 0.2s flight, deal 79.8 physical damage and heal yourself for 34.2 HP if damage is dealt. Stun, silence or death stops later shots. Spears already airborne still hit but cannot heal a dead caster.",
+     "0.3秒ごとに計4本の骨槍を発射。発射ごとに盤面全体で最遠の指定可能な敵を選び、4マス制限はない。0.2秒後に79.8物理ダメージを与え、実ダメージ発生時に自身を34.2回復。スタン・沈黙・死亡で後続発射を中断。飛翔中の槍は命中するが死亡した術者は回復しない。",
+     "0.3초마다 뼈 창을 발사해 총 4발을 쏩니다. 매 발사마다 전장 전체에서 가장 먼 지정 가능 적을 다시 선택하며 4칸 제한은 없습니다. 0.2초 비행 후 물리 피해 79.8를 주고 실제 피해를 주면 자신을 34.2 회복합니다. 기절, 침묵, 사망은 후속 발사를 중단합니다. 이미 발사된 창은 적중하지만 죽은 시전자는 회복하지 않습니다."
     ]
    },
    {
@@ -6649,9 +6649,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "每隔0.3秒发射一枚骨矛，共4枚，每枚发射时重新选择全场距离自己最远的可锁定敌人，不限4格。骨矛飞行0.2秒后造成168物理伤害，实际造成伤害后治疗自身72生命。眩晕、沉默或死亡中断后续发射；已飞出的骨矛继续命中，但不治疗已阵亡的自身。",
-     "Fire 4 bone bolts 0.3s apart. Each selects the farthest targetable enemy anywhere on the board. After 0.2s travel, deal 168 physical damage and heal yourself for 72 HP if damage is dealt. Stun, silence or death interrupts further shots. Bolts already fired persist, but cannot heal a dead caster.",
-     "0.3秒間隔で骨槍を4発放ち、各発射時に盤面全域で最も遠い指定可能な敵を選ぶ。0.2秒後に168物理ダメージを与え、実際にダメージを与えた場合は自身を72回復。スタン・沈黙・死亡で後続発射を中断。発射済みの槍は残るが、死亡した術者は回復しない。",
-     "0.3초 간격으로 뼈창 4개를 발사하며 매번 전장 전체에서 가장 먼 지정 가능한 적을 선택합니다. 0.2초 비행 후 물리 피해 168를 주고 실제 피해를 주면 자신을 72 치유합니다. 기절, 침묵, 사망은 후속 발사를 중단합니다. 발사된 창은 남지만 사망한 시전자를 치유하지 않습니다."
+     "Fire 4 bone spears, one every 0.3s, each retargeting the farthest targetable enemy anywhere on the board, without a 4-hex limit. After 0.2s flight, deal 168 physical damage and heal yourself for 72 HP if damage is dealt. Stun, silence or death stops later shots. Spears already airborne still hit but cannot heal a dead caster.",
+     "0.3秒ごとに計4本の骨槍を発射。発射ごとに盤面全体で最遠の指定可能な敵を選び、4マス制限はない。0.2秒後に168物理ダメージを与え、実ダメージ発生時に自身を72回復。スタン・沈黙・死亡で後続発射を中断。飛翔中の槍は命中するが死亡した術者は回復しない。",
+     "0.3초마다 뼈 창을 발사해 총 4발을 쏩니다. 매 발사마다 전장 전체에서 가장 먼 지정 가능 적을 다시 선택하며 4칸 제한은 없습니다. 0.2초 비행 후 물리 피해 168를 주고 실제 피해를 주면 자신을 72 회복합니다. 기절, 침묵, 사망은 후속 발사를 중단합니다. 이미 발사된 창은 적중하지만 죽은 시전자는 회복하지 않습니다."
     ]
    }
   ],
@@ -6671,15 +6671,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "在全场敌人最密集的一处半径2格区域撕开地狱裂口，人数相同时优先较远的可锁定目标。0.5秒后爆发120基础法术伤害，随后每秒造成35基础法术伤害，共3次；最后收拢爆发150基础法术伤害。裂口位置固定，每次结算只伤害当时仍在区域内的敌人，不附带控制。",
-   "Opens a fixed rift beneath clustered enemies, followed by repeated damage and a final burst.",
-   "敵が密集した場所に裂け目を作り、継続ダメージの後に最後の爆発を起こす。",
-   "적이 밀집한 고정 위치에 균열을 열어 반복 피해와 마지막 폭발을 일으킵니다."
+   "Open a rift of radius 2 hex(es) at the densest enemy cluster anywhere on the board, preferring a farther targetable enemy on ties. After 0.5s deal 120 magic damage, then 35 magic damage each second for 3 pulses, and finally 150 magic damage. The rift stays fixed; only enemies still inside are hit. No control effects.",
+   "盤面全体で敵が最も密集する地点に半径2マスの裂け目を開く。同数なら遠い指定可能な敵を優先。0.5秒後に120、続けて毎秒35を3回、最後に150の魔法ダメージ。位置は固定で各判定時に範囲内にいる敵だけが対象。行動妨害はない。",
+   "전장 전체에서 적이 가장 밀집한 곳에 반경 2칸의 균열을 엽니다. 동률이면 더 먼 지정 가능 적을 우선합니다. 0.5초 후 마법 피해 120, 이후 매초 35을 3회, 마지막으로 150를 줍니다. 위치는 고정되며 각 판정 시 범위 안의 적만 맞습니다. 제어 효과는 없습니다."
   ],
   "description": [
    "在全场敌人最密集的一处半径2格区域撕开地狱裂口，人数相同时优先较远的可锁定目标。0.5秒后爆发120基础法术伤害，随后每秒造成35基础法术伤害，共3次；最后收拢爆发150基础法术伤害。裂口位置固定，每次结算只伤害当时仍在区域内的敌人，不附带控制。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至2/4.5倍。主要效果随当前攻击力提高。一、二星沿用基础机制；三星的范围、目标数量等变化见下文。\n【三星五费】三星时：在最多3名不同敌人所在的位置依次打开裂口，各相隔0.2秒。每道裂口分别造成原技能的初始伤害、持续伤害和最后爆发；位置固定，敌人走出范围便不会受到该处伤害。敌人不足3名时只生成对应数量的裂口。",
-   "Opens a fixed rift beneath clustered enemies, followed by repeated damage and a final burst.",
-   "敵が密集した場所に裂け目を作り、継続ダメージの後に最後の爆発を起こす。",
-   "적이 밀집한 고정 위치에 균열을 열어 반복 피해와 마지막 폭발을 일으킵니다."
+   "Open a rift of radius 2 hex(es) at the densest enemy cluster anywhere on the board, preferring a farther targetable enemy on ties. After 0.5s deal 120 magic damage, then 35 magic damage each second for 3 pulses, and finally 150 magic damage. The rift stays fixed; only enemies still inside are hit. No control effects.",
+   "盤面全体で敵が最も密集する地点に半径2マスの裂け目を開く。同数なら遠い指定可能な敵を優先。0.5秒後に120、続けて毎秒35を3回、最後に150の魔法ダメージ。位置は固定で各判定時に範囲内にいる敵だけが対象。行動妨害はない。",
+   "전장 전체에서 적이 가장 밀집한 곳에 반경 2칸의 균열을 엽니다. 동률이면 더 먼 지정 가능 적을 우선합니다. 0.5초 후 마법 피해 120, 이후 매초 35을 3회, 마지막으로 150를 줍니다. 위치는 고정되며 각 판정 시 범위 안의 적만 맞습니다. 제어 효과는 없습니다."
   ],
   "group": [
    "原始荒野",
@@ -6696,7 +6696,7 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "地狱裂隙",
-   "Hell Rift",
+   "Infernal Rift",
    "地獄の裂け目",
    "지옥 균열"
   ],
@@ -6755,9 +6755,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "在全场敌人最密集的一处半径2格区域撕开地狱裂口，人数相同时优先较远的可锁定目标。0.5秒后爆发120法术伤害，随后每秒造成35法术伤害，共3次；最后收拢爆发150法术伤害。裂口位置固定，每次结算只伤害当时仍在区域内的敌人，不附带控制。",
-     "Open a radius-2 rift at the densest enemy position anywhere on the board, preferring a farther targetable enemy on ties. After 0.5s, each rift deals 120 magic damage, then 35 once per second for 3 pulses, then a final 150. Positions remain fixed and each hit only affects enemies still inside. No crowd control.",
-     "盤面全域で敵が最も密集する位置に半径2マスの裂け目を開く。同数なら遠い指定可能な敵を優先。各裂け目は0.5秒後に120魔法ダメージ、続いて毎秒35を3回、最後に150を与える。位置は固定され、各判定時に内部にいる敵だけが対象。行動妨害はない。",
-     "전장 전체에서 적이 가장 밀집한 위치에 반경 2칸 균열을 엽니다. 동수이면 더 먼 지정 가능한 적을 우선합니다. 각 균열은 0.5초 후 마법 피해 120, 이후 매초 35씩 3회, 마지막에 150을 줍니다. 위치는 고정되며 각 판정 시 내부에 남은 적만 피해를 받습니다. 군중 제어는 없습니다."
+     "Open a rift of radius 2 hex(es) at the densest enemy cluster anywhere on the board, preferring a farther targetable enemy on ties. After 0.5s deal 120 magic damage, then 35 magic damage each second for 3 pulses, and finally 150 magic damage. The rift stays fixed; only enemies still inside are hit. No control effects.",
+     "盤面全体で敵が最も密集する地点に半径2マスの裂け目を開く。同数なら遠い指定可能な敵を優先。0.5秒後に120、続けて毎秒35を3回、最後に150の魔法ダメージ。位置は固定で各判定時に範囲内にいる敵だけが対象。行動妨害はない。",
+     "전장 전체에서 적이 가장 밀집한 곳에 반경 2칸의 균열을 엽니다. 동률이면 더 먼 지정 가능 적을 우선합니다. 0.5초 후 마법 피해 120, 이후 매초 35을 3회, 마지막으로 150를 줍니다. 위치는 고정되며 각 판정 시 범위 안의 적만 맞습니다. 제어 효과는 없습니다."
     ]
    },
    {
@@ -6814,9 +6814,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "在全场敌人最密集的一处半径2格区域撕开地狱裂口，人数相同时优先较远的可锁定目标。0.5秒后爆发239.5法术伤害，随后每秒造成69.85法术伤害，共3次；最后收拢爆发299.38法术伤害。裂口位置固定，每次结算只伤害当时仍在区域内的敌人，不附带控制。",
-     "Open a radius-2 rift at the densest enemy position anywhere on the board, preferring a farther targetable enemy on ties. After 0.5s, each rift deals 239.5 magic damage, then 69.85 once per second for 3 pulses, then a final 299.38. Positions remain fixed and each hit only affects enemies still inside. No crowd control.",
-     "盤面全域で敵が最も密集する位置に半径2マスの裂け目を開く。同数なら遠い指定可能な敵を優先。各裂け目は0.5秒後に239.5魔法ダメージ、続いて毎秒69.85を3回、最後に299.38を与える。位置は固定され、各判定時に内部にいる敵だけが対象。行動妨害はない。",
-     "전장 전체에서 적이 가장 밀집한 위치에 반경 2칸 균열을 엽니다. 동수이면 더 먼 지정 가능한 적을 우선합니다. 각 균열은 0.5초 후 마법 피해 239.5, 이후 매초 69.85씩 3회, 마지막에 299.38을 줍니다. 위치는 고정되며 각 판정 시 내부에 남은 적만 피해를 받습니다. 군중 제어는 없습니다."
+     "Open a rift of radius 2 hex(es) at the densest enemy cluster anywhere on the board, preferring a farther targetable enemy on ties. After 0.5s deal 239.5 magic damage, then 69.85 magic damage each second for 3 pulses, and finally 299.38 magic damage. The rift stays fixed; only enemies still inside are hit. No control effects.",
+     "盤面全体で敵が最も密集する地点に半径2マスの裂け目を開く。同数なら遠い指定可能な敵を優先。0.5秒後に239.5、続けて毎秒69.85を3回、最後に299.38の魔法ダメージ。位置は固定で各判定時に範囲内にいる敵だけが対象。行動妨害はない。",
+     "전장 전체에서 적이 가장 밀집한 곳에 반경 2칸의 균열을 엽니다. 동률이면 더 먼 지정 가능 적을 우선합니다. 0.5초 후 마법 피해 239.5, 이후 매초 69.85을 3회, 마지막으로 299.38를 줍니다. 위치는 고정되며 각 판정 시 범위 안의 적만 맞습니다. 제어 효과는 없습니다."
     ]
    },
    {
@@ -6873,9 +6873,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "在最多3名不同敌人处分别撕开半径2格的地狱裂口，依次间隔0.2秒；敌人不足时只生成对应数量。0.5秒后爆发540法术伤害，随后每秒造成157.5法术伤害，共3次；最后收拢爆发675法术伤害。裂口位置固定，每次结算只伤害当时仍在区域内的敌人，不附带控制。",
-     "Open radius-2 rifts at up to 3 different enemies, 0.2s apart. After 0.5s, each rift deals 540 magic damage, then 157.5 once per second for 3 pulses, then a final 675. Positions remain fixed and each hit only affects enemies still inside. No crowd control.",
-     "異なる敵最大3体の位置に0.2秒間隔で半径2マスの裂け目を開く。各裂け目は0.5秒後に540魔法ダメージ、続いて毎秒157.5を3回、最後に675を与える。位置は固定され、各判定時に内部にいる敵だけが対象。行動妨害はない。",
-     "서로 다른 적 최대 3명의 위치에 0.2초 간격으로 반경 2칸 균열을 엽니다. 각 균열은 0.5초 후 마법 피해 540, 이후 매초 157.5씩 3회, 마지막에 675을 줍니다. 위치는 고정되며 각 판정 시 내부에 남은 적만 피해를 받습니다. 군중 제어는 없습니다."
+     "Open radius-2 rifts at up to 3 different enemies, 0.2s apart; fewer enemies create fewer rifts. Each deals 540 magic damage after 0.5s, then 157.5 each second for 3 pulses, and finally 675. Rifts stay fixed and only hit enemies currently inside. No control effects.",
+     "最大3体の別々の敵に半径2マスの裂け目を0.2秒間隔で開く。敵が少なければその数だけ生成。各裂け目は0.5秒後に540、毎秒157.5を3回、最後に675魔法ダメージ。位置は固定で、その時点で範囲内にいる敵のみ対象。行動妨害なし。",
+     "서로 다른 적 최대 3명에게 반경 2칸 균열을 0.2초 간격으로 엽니다. 적이 부족하면 그 수만 생성합니다. 각 균열은 0.5초 후 마법 피해 540, 매초 157.5를 3회, 마지막으로 675을 줍니다. 위치가 고정되며 현재 범위 안의 적만 맞습니다. 제어 효과는 없습니다."
     ]
    }
   ],
@@ -6894,16 +6894,16 @@ export const catalog:WikiEntry[] = [
    "망치머리 비룡"
   ],
   "summary": [
-   "锁定方向引导2秒龙息，每0.5秒对前方3格直线路径内敌人造成55基础法术伤害，共4次；期间不能移动、普攻或再次施法，眩晕、沉默、被迫位移或死亡会中断。",
-   "Channels a straight-line breath attack. Stuns, silence, forced movement or death can interrupt it.",
-   "直線上へブレスを放つ。スタン、沈黙、強制移動、死亡で中断される。",
-   "직선 브레스를 시전합니다. 기절, 침묵, 강제 이동 또는 사망으로 중단됩니다."
+   "锁定方向引导2秒龙息，每0.5秒对前方3格直线路径内敌人造成110基础法术伤害，共4次。期间不能移动、普攻或再次施法；眩晕、沉默、被迫位移或死亡会中断。",
+   "Channel a fixed-direction breath for 2s, dealing 110 base magic damage every 0.5s along a 3-hex line, 4 pulses total. Cannot walk, attack or cast while channeling. Stun, silence, forced movement or death interrupts it.",
+   "方向を固定して2秒間ブレスを放ち、前方3マスの直線上に0.5秒ごとに基礎魔法ダメージ110、合計4回。詠唱中は移動・通常攻撃・再発動不可。スタン・沈黙・強制移動・死亡で中断。",
+   "방향을 고정한 2초 브레스로 전방 3칸 직선에 0.5초마다 기본 마법 피해 110을 총 4회 줍니다. 도중 이동·기본 공격·재시전 불가. 기절·침묵·강제 이동·사망 시 중단됩니다."
   ],
   "description": [
-   "锁定方向引导2秒龙息，每0.5秒对前方3格直线路径内敌人造成55基础法术伤害，共4次；期间不能移动、普攻或再次施法，眩晕、沉默、被迫位移或死亡会中断。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至2/4.5倍。主要效果随当前攻击力提高。一、二星沿用基础机制；三星的范围、目标数量等变化见下文。\n【三星五费】三星时：龙息持续3秒，每0.5秒伤害一次，共6次，长度增加到6格，并持续朝向目标。目标死亡、隐身或离开射程后，转向射程内最近的可选中敌人；没有目标则结束。引导期间免疫推拉位移，但眩晕、沉默和死亡仍会中断。",
-   "Channels a straight-line breath attack. Stuns, silence, forced movement or death can interrupt it.",
-   "直線上へブレスを放つ。スタン、沈黙、強制移動、死亡で中断される。",
-   "직선 브레스를 시전합니다. 기절, 침묵, 강제 이동 또는 사망으로 중단됩니다."
+   "锁定方向引导2秒龙息，每0.5秒对前方3格直线路径内敌人造成110基础法术伤害，共4次。期间不能移动、普攻或再次施法；眩晕、沉默、被迫位移或死亡会中断。\n固定伤害和召唤物基础数值按一星描述，二/三星基础成长为2/4.5倍，并受施法者相应攻击或最大生命增益影响。\n【三星五费】三星时龙息持续3秒、共6次，长度6格并持续追踪合法目标。引导期间免疫推拉，但眩晕、沉默、死亡仍会中断。",
+   "Channel a fixed-direction breath for 2s, dealing 110 base magic damage every 0.5s along a 3-hex line, 4 pulses total. Cannot walk, attack or cast while channeling. Stun, silence, forced movement or death interrupts it.\nFlat damage and summon stats use 1-star references; 2/3-star power scales 2/4.5x and responds to the caster's relevant ATK or max-HP bonuses.\n[3-star legendary]At 3 stars: 3s, 6 pulses, 6-hex length and tracking of legal targets. Immune to push/pull while channeling, but stun, silence and death still interrupt.",
+   "方向を固定して2秒間ブレスを放ち、前方3マスの直線上に0.5秒ごとに基礎魔法ダメージ110、合計4回。詠唱中は移動・通常攻撃・再発動不可。スタン・沈黙・強制移動・死亡で中断。\n固定ダメージと召喚物能力は星1基準。星2/3で2/4.5倍となり、術者の対応する攻撃力・最大HP増加を反映。\n【星3・5コスト】星3：3秒・6回・長さ6マスとなり有効な対象を追尾。詠唱中は押し引き無効だが、スタン・沈黙・死亡で中断。",
+   "방향을 고정한 2초 브레스로 전방 3칸 직선에 0.5초마다 기본 마법 피해 110을 총 4회 줍니다. 도중 이동·기본 공격·재시전 불가. 기절·침묵·강제 이동·사망 시 중단됩니다.\n고정 피해와 소환수 수치는 1성 기준이며 2/3성 성장 배율은 2/4.5배로, 시전자의 해당 공격력·최대 체력 증가를 반영합니다.\n【3성 5코스트】3성: 3초·6회·길이 6칸이며 유효 대상을 추적합니다. 도중 밀기·당기기 면역이나 기절·침묵·사망으로 중단됩니다."
   ],
   "group": [
    "原始荒野",
@@ -6920,9 +6920,9 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "灼烬龙息",
-   "Ember Breath",
-   "灼熱の竜息",
-   "잿불 용숨"
+   "Cinder Breath",
+   "灼燼の竜息",
+   "잿불 숨결"
   ],
   "stars": [
    {
@@ -6978,10 +6978,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "锁定方向引导2秒龙息，每0.5秒对前方3格直线路径内敌人造成55法术伤害，共4次；期间不能移动、普攻或再次施法，眩晕、沉默、被迫位移或死亡会中断。",
-     "Channel a fixed-direction breath for 2s, dealing 55 magic damage every 0.5s along a 3-hex line, 4 pulses total. Cannot move, attack or recast during the channel. Stun, silence, forced displacement and death interrupt.",
-     "方向固定のブレスを2秒間放ち、前方3マスの直線上へ0.5秒ごとに55魔法ダメージ、計4回。詠唱中は移動・通常攻撃・再詠唱不可。スタン・沈黙・強制移動・死亡で中断。",
-     "방향이 고정된 브레스를 2초 동안 발사합니다. 전방 3칸 직선에 0.5초마다 마법 피해 55, 총 4회를 줍니다. 채널링 중 이동, 기본 공격, 재시전 불가. 기절, 침묵, 강제 이동, 사망으로 중단됩니다."
+     "锁定方向引导2秒龙息，每0.5秒对前方3格直线路径内敌人造成110基础法术伤害，共4次。期间不能移动、普攻或再次施法；眩晕、沉默、被迫位移或死亡会中断。",
+     "Channel a fixed-direction breath for 2s, dealing 110 base magic damage every 0.5s along a 3-hex line, 4 pulses total. Cannot walk, attack or cast while channeling. Stun, silence, forced movement or death interrupts it.",
+     "方向を固定して2秒間ブレスを放ち、前方3マスの直線上に0.5秒ごとに基礎魔法ダメージ110、合計4回。詠唱中は移動・通常攻撃・再発動不可。スタン・沈黙・強制移動・死亡で中断。",
+     "방향을 고정한 2초 브레스로 전방 3칸 직선에 0.5초마다 기본 마법 피해 110을 총 4회 줍니다. 도중 이동·기본 공격·재시전 불가. 기절·침묵·강제 이동·사망 시 중단됩니다."
     ]
    },
    {
@@ -7037,10 +7037,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "锁定方向引导2秒龙息，每0.5秒对前方3格直线路径内敌人造成109.82法术伤害，共4次；期间不能移动、普攻或再次施法，眩晕、沉默、被迫位移或死亡会中断。",
-     "Channel a fixed-direction breath for 2s, dealing 109.82 magic damage every 0.5s along a 3-hex line, 4 pulses total. Cannot move, attack or recast during the channel. Stun, silence, forced displacement and death interrupt.",
-     "方向固定のブレスを2秒間放ち、前方3マスの直線上へ0.5秒ごとに109.82魔法ダメージ、計4回。詠唱中は移動・通常攻撃・再詠唱不可。スタン・沈黙・強制移動・死亡で中断。",
-     "방향이 고정된 브레스를 2초 동안 발사합니다. 전방 3칸 직선에 0.5초마다 마법 피해 109.82, 총 4회를 줍니다. 채널링 중 이동, 기본 공격, 재시전 불가. 기절, 침묵, 강제 이동, 사망으로 중단됩니다."
+     "锁定方向引导2秒龙息，每0.5秒对前方3格直线路径内敌人造成219.64基础法术伤害，共4次。期间不能移动、普攻或再次施法；眩晕、沉默、被迫位移或死亡会中断。",
+     "Channel a fixed-direction breath for 2s, dealing 219.64 base magic damage every 0.5s along a 3-hex line, 4 pulses total. Cannot walk, attack or cast while channeling. Stun, silence, forced movement or death interrupts it.",
+     "方向を固定して2秒間ブレスを放ち、前方3マスの直線上に0.5秒ごとに基礎魔法ダメージ219.64、合計4回。詠唱中は移動・通常攻撃・再発動不可。スタン・沈黙・強制移動・死亡で中断。",
+     "방향을 고정한 2초 브레스로 전방 3칸 직선에 0.5초마다 기본 마법 피해 219.64을 총 4회 줍니다. 도중 이동·기본 공격·재시전 불가. 기절·침묵·강제 이동·사망 시 중단됩니다."
     ]
    },
    {
@@ -7096,10 +7096,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "持续朝向目标引导3秒龙息，每0.5秒对前方6格直线路径内敌人造成247.5法术伤害，共6次；期间不能移动、普攻或再次施法，免疫推拉位移；眩晕、沉默或死亡会中断。\n目标死亡、隐身或离开射程后，转向射程内最近的可选中敌人；没有目标则结束。",
-     "Channel a tracking breath for 3s, dealing 247.5 magic damage every 0.5s along a 6-hex line, 6 pulses total. Cannot move, attack or recast during the channel. Retarget the nearest targetable enemy in range if the target dies, hides or leaves range; end if none remains. Immune to forced displacement, but stun, silence and death interrupt.",
-     "対象を追尾するブレスを3秒間放ち、前方6マスの直線上へ0.5秒ごとに247.5魔法ダメージ、計6回。詠唱中は移動・通常攻撃・再詠唱不可。対象が死亡・潜伏・射程外となった場合は射程内の最も近い指定可能な敵へ変更し、いなければ終了。強制移動には免疫を持つが、スタン・沈黙・死亡で中断。",
-     "대상을 추적하는 브레스를 3초 동안 발사합니다. 전방 6칸 직선에 0.5초마다 마법 피해 247.5, 총 6회를 줍니다. 채널링 중 이동, 기본 공격, 재시전 불가. 대상이 사망, 은신하거나 사거리를 벗어나면 사거리 내 가장 가까운 지정 가능한 적으로 전환하며 없으면 종료합니다. 강제 이동에는 면역이지만 기절, 침묵, 사망으로 중단됩니다."
+     "持续朝向合法目标引导3秒龙息，每0.5秒对前方6格直线路径内敌人造成495法术伤害，共6次。期间不能移动、普攻或再次施法；免疫推拉，但眩晕、沉默或死亡会中断。目标失效时转向射程内最近的合法目标，没有目标则结束。",
+     "Channel a tracking breath for 3s, dealing 495 magic damage every 0.5s along a 6-hex line, 6 pulses total. Cannot walk, attack or cast while channeling. Immune to push/pull; stun, silence or death interrupts. If the target becomes invalid, track the nearest legal target in range, or end if none remains.",
+     "有効な対象を追尾して3秒間ブレスを放ち、前方6マスの直線上に0.5秒ごとに魔法ダメージ495、合計6回。移動・通常攻撃・再発動不可。押し引きは無効だがスタン・沈黙・死亡で中断。対象が無効なら射程内の最寄りの有効な敵へ向き直り、いなければ終了。",
+     "유효 대상을 추적하며 3초간 브레스를 시전하여 전방 6칸 직선에 0.5초마다 마법 피해 495을 총 6회 줍니다. 이동·기본 공격·재시전 불가. 밀기·당기기 면역이나 기절·침묵·사망 시 중단됩니다. 대상이 무효가 되면 사거리 내 가장 가까운 유효 대상을 추적하고 없으면 종료합니다."
     ]
    }
   ],
@@ -7118,16 +7118,16 @@ export const catalog:WikiEntry[] = [
    "균열아귀 거수"
   ],
   "summary": [
-   "重咬近战目标，造成250基础物理伤害加目标最大生命15%的物理伤害；命中后目标生命低于15%时直接吞杀，野怪首领免疫直接吞杀。击杀后恢复自身最大生命20%，并继续扑咬2格内生命比例最低且可到达的可锁定敌人，每次施法最多咬3次。未击杀时获得自身最大生命25%的护盾，持续3秒。后续扑咬可被控制打断。",
-   "Bites hard and can execute weakened non-boss targets. A kill heals it and enables limited follow-up bites.",
-   "強く噛みつき、弱った非ボスの敵を処刑できる。撃破すると回復し、限られた回数の追撃が可能。",
-   "강하게 물어 약해진 비보스 적을 처형할 수 있습니다. 처치하면 회복하고 제한된 후속 공격을 합니다."
+   "重咬近战目标，造成250基础物理伤害加目标最大生命15%的物理伤害；命中后目标生命低于15%时直接吞杀，野怪首领免疫直接吞杀。击杀后恢复自身最大生命20%，并继续扑咬2格内生命比例最低且可到达的可锁定敌人，每次施法最多咬3次。未击杀时获得自身最大生命15%的护盾，持续3秒，重复获得时刷新而不叠加。后续扑咬可被控制打断。",
+   "Bite a melee target for 250 base physical damage plus 15% of its max HP. Execute it below 15% HP after the hit; the neutral boss is immune to execution. On a kill, heal 20% of own max HP and leap to a reachable, targetable enemy within 2 hexes with the lowest HP percentage, up to 3 bites per cast. A failed kill grants a 15%-max-HP shield for 3s, refreshed rather than stacked. Control can interrupt follow-up bites.",
+   "近接対象に基礎物理ダメージ250＋対象の最大HP15%。命中後HP15%未満なら処刑（中立ボスは無効）。撃破で自身の最大HP20%を回復し、2マス以内で到達・選択可能なHP割合が最も低い敵へ追撃。1回の発動で最大3回。未撃破なら自身の最大HP15%のシールドを3秒獲得し、再付与は更新のみ。追撃は行動妨害で中断可能。",
+   "근접 대상에게 기본 물리 피해 250과 대상 최대 체력의 15%를 줍니다. 명중 후 체력 15% 미만이면 처형하며 중립 보스는 처형 면역입니다. 처치하면 자신의 최대 체력 20%를 회복하고 2칸 내 도달·지정 가능한 체력 비율이 가장 낮은 적에게 도약합니다. 시전당 최대 3회. 처치하지 못하면 3초간 최대 체력 15%의 보호막을 얻으며 중첩 대신 갱신합니다. 후속 공격은 제어 효과로 중단될 수 있습니다."
   ],
   "description": [
-   "重咬近战目标，造成250基础物理伤害加目标最大生命15%的物理伤害；命中后目标生命低于15%时直接吞杀，野怪首领免疫直接吞杀。击杀后恢复自身最大生命20%，并继续扑咬2格内生命比例最低且可到达的可锁定敌人，每次施法最多咬3次。未击杀时获得自身最大生命25%的护盾，持续3秒。后续扑咬可被控制打断。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至2/4.5倍。主要效果随当前攻击力提高。一、二星沿用基础机制；三星的范围、目标数量等变化见下文。\n【三星五费】三星时：吞杀条件提高为命中后生命低于25%（野怪首领N006仍免疫吞杀）。击杀后可扑向4格内生命比例最低且有合法落点的敌人；每次施放最多吞咬5次。未击杀、没有后续目标或受到中断控制时停止。回血和未击杀护盾沿用原规则。",
-   "Bites hard and can execute weakened non-boss targets. A kill heals it and enables limited follow-up bites.",
-   "強く噛みつき、弱った非ボスの敵を処刑できる。撃破すると回復し、限られた回数の追撃が可能。",
-   "강하게 물어 약해진 비보스 적을 처형할 수 있습니다. 처치하면 회복하고 제한된 후속 공격을 합니다."
+   "重咬近战目标，造成250基础物理伤害加目标最大生命15%的物理伤害；命中后目标生命低于15%时直接吞杀，野怪首领免疫直接吞杀。击杀后恢复自身最大生命20%，并继续扑咬2格内生命比例最低且可到达的可锁定敌人，每次施法最多咬3次。未击杀时获得自身最大生命15%的护盾，持续3秒，重复获得时刷新而不叠加。后续扑咬可被控制打断。\n固定伤害和召唤物基础数值按一星描述，二/三星基础成长为2/4.5倍，并受施法者相应攻击或最大生命增益影响。\n【三星五费】三星时吞杀阈值为25%，追击范围4格，每次施法最多咬5次。其余回血、护盾与中断规则相同。",
+   "Bite a melee target for 250 base physical damage plus 15% of its max HP. Execute it below 15% HP after the hit; the neutral boss is immune to execution. On a kill, heal 20% of own max HP and leap to a reachable, targetable enemy within 2 hexes with the lowest HP percentage, up to 3 bites per cast. A failed kill grants a 15%-max-HP shield for 3s, refreshed rather than stacked. Control can interrupt follow-up bites.\nFlat damage and summon stats use 1-star references; 2/3-star power scales 2/4.5x and responds to the caster's relevant ATK or max-HP bonuses.\n[3-star legendary]At 3 stars: execute threshold 25%, follow-up range 4 hexes, up to 5 bites per cast. Healing, shield and interruption rules remain.",
+   "近接対象に基礎物理ダメージ250＋対象の最大HP15%。命中後HP15%未満なら処刑（中立ボスは無効）。撃破で自身の最大HP20%を回復し、2マス以内で到達・選択可能なHP割合が最も低い敵へ追撃。1回の発動で最大3回。未撃破なら自身の最大HP15%のシールドを3秒獲得し、再付与は更新のみ。追撃は行動妨害で中断可能。\n固定ダメージと召喚物能力は星1基準。星2/3で2/4.5倍となり、術者の対応する攻撃力・最大HP増加を反映。\n【星3・5コスト】星3：処刑閾値25%、追撃範囲4マス、最大5回。回復・シールド・中断規則は同じ。",
+   "근접 대상에게 기본 물리 피해 250과 대상 최대 체력의 15%를 줍니다. 명중 후 체력 15% 미만이면 처형하며 중립 보스는 처형 면역입니다. 처치하면 자신의 최대 체력 20%를 회복하고 2칸 내 도달·지정 가능한 체력 비율이 가장 낮은 적에게 도약합니다. 시전당 최대 3회. 처치하지 못하면 3초간 최대 체력 15%의 보호막을 얻으며 중첩 대신 갱신합니다. 후속 공격은 제어 효과로 중단될 수 있습니다.\n고정 피해와 소환수 수치는 1성 기준이며 2/3성 성장 배율은 2/4.5배로, 시전자의 해당 공격력·최대 체력 증가를 반영합니다.\n【3성 5코스트】3성: 처형 기준 25%, 추격 범위 4칸, 시전당 최대 5회. 회복·보호막·중단 규칙은 같습니다."
   ],
   "group": [
    "原始荒野",
@@ -7145,7 +7145,7 @@ export const catalog:WikiEntry[] = [
   "skillName": [
    "吞食狂潮",
    "Devouring Frenzy",
-   "貪食の狂潮",
+   "捕食の狂潮",
    "포식 광란"
   ],
   "stars": [
@@ -7178,7 +7178,7 @@ export const catalog:WikiEntry[] = [
      },
      {
       "label": "能量上限",
-      "value": "100"
+      "value": "140"
      },
      {
       "label": "暴击率",
@@ -7202,10 +7202,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "重咬近战目标，造成250物理伤害加目标最大生命15%的物理伤害；命中后目标生命低于15%时直接吞杀，野怪首领免疫直接吞杀。击杀后恢复自身最大生命20%，并继续扑咬2格内生命比例最低且可到达的可锁定敌人，每次施法最多咬3次。未击杀时获得自身最大生命25%的护盾，持续3秒。后续扑咬可被控制打断。",
-     "Bite a melee target for 250 physical damage plus 15% of its max HP. Execute if below 15% HP after the hit; the neutral boss is execution-immune. On a kill, heal 20% of own max HP and pounce to the reachable, targetable enemy with the lowest HP percentage within 2 hexes, up to 3 bites per cast. On a failed kill, gain a shield equal to 25% of own max HP for 3s and stop. Stop if no next target exists or control interrupts.",
-     "近接対象に250＋対象最大HPの15%の物理ダメージ。命中後HPが15%未満なら即死させるが、野生ボスには即死無効。撃破時に自身の最大HPの20%を回復し、2マス以内で到達・指定可能なHP割合が最も低い敵へ跳びかかる。1回の詠唱で最大3回。撃破失敗時は自身最大HPの25%のシールドを3秒間得て終了。次の対象がいない場合や行動妨害でも停止する。",
-     "근접 대상에게 물리 피해 250과 대상 최대 체력의 15%를 줍니다. 적중 후 체력이 15% 미만이면 처형하며 야생 보스는 처형에 면역입니다. 처치 시 자신의 최대 체력 20%를 회복하고 2칸 내 도달 및 지정 가능한 적 중 체력 비율이 가장 낮은 적에게 도약합니다. 시전당 최대 3회입니다. 처치하지 못하면 자신의 최대 체력 25% 보호막을 3초 동안 얻고 종료합니다. 다음 대상이 없거나 제어로 중단되어도 멈춥니다."
+     "重咬近战目标，造成250基础物理伤害加目标最大生命15%的物理伤害；命中后目标生命低于15%时直接吞杀，野怪首领免疫直接吞杀。击杀后恢复自身最大生命20%，并继续扑咬2格内生命比例最低且可到达的可锁定敌人，每次施法最多咬3次。未击杀时获得自身最大生命15%的护盾，持续3秒，重复获得时刷新而不叠加。后续扑咬可被控制打断。",
+     "Bite a melee target for 250 base physical damage plus 15% of its max HP. Execute it below 15% HP after the hit; the neutral boss is immune to execution. On a kill, heal 20% of own max HP and leap to a reachable, targetable enemy within 2 hexes with the lowest HP percentage, up to 3 bites per cast. A failed kill grants a 15%-max-HP shield for 3s, refreshed rather than stacked. Control can interrupt follow-up bites.",
+     "近接対象に基礎物理ダメージ250＋対象の最大HP15%。命中後HP15%未満なら処刑（中立ボスは無効）。撃破で自身の最大HP20%を回復し、2マス以内で到達・選択可能なHP割合が最も低い敵へ追撃。1回の発動で最大3回。未撃破なら自身の最大HP15%のシールドを3秒獲得し、再付与は更新のみ。追撃は行動妨害で中断可能。",
+     "근접 대상에게 기본 물리 피해 250과 대상 최대 체력의 15%를 줍니다. 명중 후 체력 15% 미만이면 처형하며 중립 보스는 처형 면역입니다. 처치하면 자신의 최대 체력 20%를 회복하고 2칸 내 도달·지정 가능한 체력 비율이 가장 낮은 적에게 도약합니다. 시전당 최대 3회. 처치하지 못하면 3초간 최대 체력 15%의 보호막을 얻으며 중첩 대신 갱신합니다. 후속 공격은 제어 효과로 중단될 수 있습니다."
     ]
    },
    {
@@ -7237,7 +7237,7 @@ export const catalog:WikiEntry[] = [
      },
      {
       "label": "能量上限",
-      "value": "100"
+      "value": "140"
      },
      {
       "label": "暴击率",
@@ -7261,10 +7261,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "重咬近战目标，造成499.18物理伤害加目标最大生命15%的物理伤害；命中后目标生命低于15%时直接吞杀，野怪首领免疫直接吞杀。击杀后恢复自身最大生命20%，并继续扑咬2格内生命比例最低且可到达的可锁定敌人，每次施法最多咬3次。未击杀时获得自身最大生命25%的护盾，持续3秒。后续扑咬可被控制打断。",
-     "Bite a melee target for 499.18 physical damage plus 15% of its max HP. Execute if below 15% HP after the hit; the neutral boss is execution-immune. On a kill, heal 20% of own max HP and pounce to the reachable, targetable enemy with the lowest HP percentage within 2 hexes, up to 3 bites per cast. On a failed kill, gain a shield equal to 25% of own max HP for 3s and stop. Stop if no next target exists or control interrupts.",
-     "近接対象に499.18＋対象最大HPの15%の物理ダメージ。命中後HPが15%未満なら即死させるが、野生ボスには即死無効。撃破時に自身の最大HPの20%を回復し、2マス以内で到達・指定可能なHP割合が最も低い敵へ跳びかかる。1回の詠唱で最大3回。撃破失敗時は自身最大HPの25%のシールドを3秒間得て終了。次の対象がいない場合や行動妨害でも停止する。",
-     "근접 대상에게 물리 피해 499.18과 대상 최대 체력의 15%를 줍니다. 적중 후 체력이 15% 미만이면 처형하며 야생 보스는 처형에 면역입니다. 처치 시 자신의 최대 체력 20%를 회복하고 2칸 내 도달 및 지정 가능한 적 중 체력 비율이 가장 낮은 적에게 도약합니다. 시전당 최대 3회입니다. 처치하지 못하면 자신의 최대 체력 25% 보호막을 3초 동안 얻고 종료합니다. 다음 대상이 없거나 제어로 중단되어도 멈춥니다."
+     "重咬近战目标，造成499.18基础物理伤害加目标最大生命15%的物理伤害；命中后目标生命低于15%时直接吞杀，野怪首领免疫直接吞杀。击杀后恢复自身最大生命20%，并继续扑咬2格内生命比例最低且可到达的可锁定敌人，每次施法最多咬3次。未击杀时获得自身最大生命15%的护盾，持续3秒，重复获得时刷新而不叠加。后续扑咬可被控制打断。",
+     "Bite a melee target for 499.18 base physical damage plus 15% of its max HP. Execute it below 15% HP after the hit; the neutral boss is immune to execution. On a kill, heal 20% of own max HP and leap to a reachable, targetable enemy within 2 hexes with the lowest HP percentage, up to 3 bites per cast. A failed kill grants a 15%-max-HP shield for 3s, refreshed rather than stacked. Control can interrupt follow-up bites.",
+     "近接対象に基礎物理ダメージ499.18＋対象の最大HP15%。命中後HP15%未満なら処刑（中立ボスは無効）。撃破で自身の最大HP20%を回復し、2マス以内で到達・選択可能なHP割合が最も低い敵へ追撃。1回の発動で最大3回。未撃破なら自身の最大HP15%のシールドを3秒獲得し、再付与は更新のみ。追撃は行動妨害で中断可能。",
+     "근접 대상에게 기본 물리 피해 499.18과 대상 최대 체력의 15%를 줍니다. 명중 후 체력 15% 미만이면 처형하며 중립 보스는 처형 면역입니다. 처치하면 자신의 최대 체력 20%를 회복하고 2칸 내 도달·지정 가능한 체력 비율이 가장 낮은 적에게 도약합니다. 시전당 최대 3회. 처치하지 못하면 3초간 최대 체력 15%의 보호막을 얻으며 중첩 대신 갱신합니다. 후속 공격은 제어 효과로 중단될 수 있습니다."
     ]
    },
    {
@@ -7296,7 +7296,7 @@ export const catalog:WikiEntry[] = [
      },
      {
       "label": "能量上限",
-      "value": "100"
+      "value": "140"
      },
      {
       "label": "暴击率",
@@ -7320,10 +7320,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "重咬近战目标，造成1125物理伤害加目标最大生命15%的物理伤害；命中后目标生命低于25%时直接吞杀，野怪首领免疫直接吞杀。击杀后恢复自身最大生命20%，并继续扑咬4格内生命比例最低且可到达的可锁定敌人，每次施法最多咬5次。未击杀时获得自身最大生命25%的护盾，持续3秒。后续扑咬可被控制打断。",
-     "Bite a melee target for 1125 physical damage plus 15% of its max HP. Execute if below 25% HP after the hit; the neutral boss is execution-immune. On a kill, heal 20% of own max HP and pounce to the reachable, targetable enemy with the lowest HP percentage within 4 hexes, up to 5 bites per cast. On a failed kill, gain a shield equal to 25% of own max HP for 3s and stop. Stop if no next target exists or control interrupts.",
-     "近接対象に1125＋対象最大HPの15%の物理ダメージ。命中後HPが25%未満なら即死させるが、野生ボスには即死無効。撃破時に自身の最大HPの20%を回復し、4マス以内で到達・指定可能なHP割合が最も低い敵へ跳びかかる。1回の詠唱で最大5回。撃破失敗時は自身最大HPの25%のシールドを3秒間得て終了。次の対象がいない場合や行動妨害でも停止する。",
-     "근접 대상에게 물리 피해 1125과 대상 최대 체력의 15%를 줍니다. 적중 후 체력이 25% 미만이면 처형하며 야생 보스는 처형에 면역입니다. 처치 시 자신의 최대 체력 20%를 회복하고 4칸 내 도달 및 지정 가능한 적 중 체력 비율이 가장 낮은 적에게 도약합니다. 시전당 최대 5회입니다. 처치하지 못하면 자신의 최대 체력 25% 보호막을 3초 동안 얻고 종료합니다. 다음 대상이 없거나 제어로 중단되어도 멈춥니다."
+     "重咬近战目标，造成1125基础物理伤害加目标最大生命15%的物理伤害；命中后目标生命低于25%时直接吞杀，野怪首领免疫直接吞杀。击杀后恢复自身最大生命20%，并继续扑咬4格内生命比例最低且可到达的可锁定敌人，每次施法最多咬5次。未击杀时获得自身最大生命15%的护盾，持续3秒，重复获得时刷新而不叠加。后续扑咬可被控制打断。",
+     "Bite a melee target for 1125 base physical damage plus 15% of its max HP. Execute it below 25% HP after the hit; the neutral boss is immune to execution. On a kill, heal 20% of own max HP and leap to a reachable, targetable enemy within 4 hexes with the lowest HP percentage, up to 5 bites per cast. A failed kill grants a 15%-max-HP shield for 3s, refreshed rather than stacked. Control can interrupt follow-up bites.",
+     "近接対象に基礎物理ダメージ1125＋対象の最大HP15%。命中後HP25%未満なら処刑（中立ボスは無効）。撃破で自身の最大HP20%を回復し、4マス以内で到達・選択可能なHP割合が最も低い敵へ追撃。1回の発動で最大5回。未撃破なら自身の最大HP15%のシールドを3秒獲得し、再付与は更新のみ。追撃は行動妨害で中断可能。",
+     "근접 대상에게 기본 물리 피해 1125과 대상 최대 체력의 15%를 줍니다. 명중 후 체력 25% 미만이면 처형하며 중립 보스는 처형 면역입니다. 처치하면 자신의 최대 체력 20%를 회복하고 4칸 내 도달·지정 가능한 체력 비율이 가장 낮은 적에게 도약합니다. 시전당 최대 5회. 처치하지 못하면 3초간 최대 체력 15%의 보호막을 얻으며 중첩 대신 갱신합니다. 후속 공격은 제어 효과로 중단될 수 있습니다."
     ]
    }
   ],
@@ -7343,15 +7343,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "普通攻击命中时有35%概率追加25基础物理伤害。",
-   "Basic attacks have a chance to deal additional physical damage.",
-   "通常攻撃が確率で追加の物理ダメージを与える。",
-   "기본 공격이 일정 확률로 추가 물리 피해를 줍니다."
+   "Basic attack hits have a 35% chance to deal 25 additional physical damage.",
+   "通常攻撃命中時、35%の確率で追加の25物理ダメージ。",
+   "기본 공격 적중 시 35% 확률로 추가 물리 피해 25을 줍니다."
   ],
   "description": [
    "普通攻击命中时有35%概率追加25基础物理伤害。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.8/3倍。主要效果随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
-   "Basic attacks have a chance to deal additional physical damage.",
-   "通常攻撃が確率で追加の物理ダメージを与える。",
-   "기본 공격이 일정 확률로 추가 물리 피해를 줍니다."
+   "Basic attack hits have a 35% chance to deal 25 additional physical damage.",
+   "通常攻撃命中時、35%の確率で追加の25物理ダメージ。",
+   "기본 공격 적중 시 35% 확률로 추가 물리 피해 25을 줍니다."
   ],
   "group": [
    "幽冥灵境",
@@ -7369,7 +7369,7 @@ export const catalog:WikiEntry[] = [
   "skillName": [
    "连环踢击",
    "Chain Kick",
-   "連続蹴り",
+   "連環蹴り",
    "연속 발차기"
   ],
   "stars": [
@@ -7428,8 +7428,8 @@ export const catalog:WikiEntry[] = [
     "description": [
      "普通攻击命中时有35%概率追加25物理伤害。",
      "Basic attack hits have a 35% chance to deal 25 additional physical damage.",
-     "通常攻撃命中時、35%の確率で25物理ダメージを追加する。",
-     "기본 공격 적중 시 35% 확률로 물리 피해 25를 추가합니다."
+     "通常攻撃命中時、35%の確率で追加の25物理ダメージ。",
+     "기본 공격 적중 시 35% 확률로 추가 물리 피해 25을 줍니다."
     ]
    },
    {
@@ -7487,8 +7487,8 @@ export const catalog:WikiEntry[] = [
     "description": [
      "普通攻击命中时有35%概率追加44.87物理伤害。",
      "Basic attack hits have a 35% chance to deal 44.87 additional physical damage.",
-     "通常攻撃命中時、35%の確率で44.87物理ダメージを追加する。",
-     "기본 공격 적중 시 35% 확률로 물리 피해 44.87를 추가합니다."
+     "通常攻撃命中時、35%の確率で追加の44.87物理ダメージ。",
+     "기본 공격 적중 시 35% 확률로 추가 물리 피해 44.87을 줍니다."
     ]
    },
    {
@@ -7546,8 +7546,8 @@ export const catalog:WikiEntry[] = [
     "description": [
      "普通攻击命中时有35%概率追加75物理伤害。",
      "Basic attack hits have a 35% chance to deal 75 additional physical damage.",
-     "通常攻撃命中時、35%の確率で75物理ダメージを追加する。",
-     "기본 공격 적중 시 35% 확률로 물리 피해 75를 추가합니다."
+     "通常攻撃命中時、35%の確率で追加の75物理ダメージ。",
+     "기본 공격 적중 시 35% 확률로 추가 물리 피해 75을 줍니다."
     ]
    }
   ],
@@ -7568,15 +7568,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "普通攻击命中时，为当前生命值最低的存活友军恢复25基础生命。治疗量受自身当前攻击力、星级与治疗增益影响。",
-   "Basic attacks heal a living ally with the lowest current health.",
-   "通常攻撃で、現在HPが最も低い生存中の味方を回復する。",
-   "기본 공격으로 현재 체력이 가장 낮은 생존 아군을 회복합니다."
+   "On basic attack hit, heal the living ally with the lowest current HP for 25. Healing scales with current ATK, star level and healing bonuses.",
+   "通常攻撃命中時、現在HPが最も低い生存味方を25回復。自身の現在攻撃力・星・回復強化が適用される。",
+   "기본 공격 적중 시 현재 체력이 가장 낮은 생존 아군을 25 회복합니다. 현재 공격력, 별 등급, 치유 강화의 영향을 받습니다."
   ],
   "description": [
    "普通攻击命中时，为当前生命值最低的存活友军恢复25基础生命。治疗量受自身当前攻击力、星级与治疗增益影响。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.8/3倍。治疗随当前攻击力提高，并受治疗增益影响。范围、控制时间、概率和目标数量不变。",
-   "Basic attacks heal a living ally with the lowest current health.",
-   "通常攻撃で、現在HPが最も低い生存中の味方を回復する。",
-   "기본 공격으로 현재 체력이 가장 낮은 생존 아군을 회복합니다."
+   "On basic attack hit, heal the living ally with the lowest current HP for 25. Healing scales with current ATK, star level and healing bonuses.",
+   "通常攻撃命中時、現在HPが最も低い生存味方を25回復。自身の現在攻撃力・星・回復強化が適用される。",
+   "기본 공격 적중 시 현재 체력이 가장 낮은 생존 아군을 25 회복합니다. 현재 공격력, 별 등급, 치유 강화의 영향을 받습니다."
   ],
   "group": [
    "幽冥灵境",
@@ -7593,8 +7593,8 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "抚慰",
-   "Soothe",
-   "慰め",
+   "Soothing Touch",
+   "癒やし",
    "위로"
   ],
   "stars": [
@@ -7652,9 +7652,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "普通攻击命中时，为当前生命值最低的存活友军恢复25生命。治疗量受自身当前攻击力、星级与治疗增益影响。",
-     "On a basic attack hit, heal the living ally with the lowest current HP for 25. Healing scales with current ATK and healing bonuses.",
-     "通常攻撃命中時、現在HPが最も低い生存味方を25回復する。回復量は現在の攻撃力と回復強化に連動する。",
-     "기본 공격 적중 시 현재 체력이 가장 낮은 생존 아군을 25 치유합니다. 치유량은 현재 공격력과 치유 증가 효과에 비례합니다."
+     "On basic attack hit, heal the living ally with the lowest current HP for 25. Healing scales with current ATK, star level and healing bonuses.",
+     "通常攻撃命中時、現在HPが最も低い生存味方を25回復。自身の現在攻撃力・星・回復強化が適用される。",
+     "기본 공격 적중 시 현재 체력이 가장 낮은 생존 아군을 25 회복합니다. 현재 공격력, 별 등급, 치유 강화의 영향을 받습니다."
     ]
    },
    {
@@ -7711,9 +7711,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "普通攻击命中时，为当前生命值最低的存活友军恢复45生命。治疗量受自身当前攻击力、星级与治疗增益影响。",
-     "On a basic attack hit, heal the living ally with the lowest current HP for 45. Healing scales with current ATK and healing bonuses.",
-     "通常攻撃命中時、現在HPが最も低い生存味方を45回復する。回復量は現在の攻撃力と回復強化に連動する。",
-     "기본 공격 적중 시 현재 체력이 가장 낮은 생존 아군을 45 치유합니다. 치유량은 현재 공격력과 치유 증가 효과에 비례합니다."
+     "On basic attack hit, heal the living ally with the lowest current HP for 45. Healing scales with current ATK, star level and healing bonuses.",
+     "通常攻撃命中時、現在HPが最も低い生存味方を45回復。自身の現在攻撃力・星・回復強化が適用される。",
+     "기본 공격 적중 시 현재 체력이 가장 낮은 생존 아군을 45 회복합니다. 현재 공격력, 별 등급, 치유 강화의 영향을 받습니다."
     ]
    },
    {
@@ -7770,9 +7770,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "普通攻击命中时，为当前生命值最低的存活友军恢复75生命。治疗量受自身当前攻击力、星级与治疗增益影响。",
-     "On a basic attack hit, heal the living ally with the lowest current HP for 75. Healing scales with current ATK and healing bonuses.",
-     "通常攻撃命中時、現在HPが最も低い生存味方を75回復する。回復量は現在の攻撃力と回復強化に連動する。",
-     "기본 공격 적중 시 현재 체력이 가장 낮은 생존 아군을 75 치유합니다. 치유량은 현재 공격력과 치유 증가 효과에 비례합니다."
+     "On basic attack hit, heal the living ally with the lowest current HP for 75. Healing scales with current ATK, star level and healing bonuses.",
+     "通常攻撃命中時、現在HPが最も低い生存味方を75回復。自身の現在攻撃力・星・回復強化が適用される。",
+     "기본 공격 적중 시 현재 체력이 가장 낮은 생존 아군을 75 회복합니다. 현재 공격력, 별 등급, 치유 강화의 영향을 받습니다."
     ]
    }
   ],
@@ -7793,15 +7793,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "开战获得4/4.5/5秒控制免疫（一/二/三星），期间不受眩晕、禁锢、缴械、沉默、减速或嘲讽影响。不能免疫伤害。",
-   "Starts combat briefly immune to crowd control, but still takes damage.",
-   "開戦直後は制御を無効化するが、ダメージは受ける。",
-   "전투 시작 직후 군중 제어에 면역이지만 피해는 받습니다."
+   "Gain crowd-control immunity for 4s at combat start, blocking stun, root, disarm, silence, slow and taunt. Does not prevent damage.",
+   "開戦から4秒間、スタン・拘束・武装解除・沈黙・減速・挑発を無効化。ダメージは防がない。",
+   "전투 시작 시 4초간 기절, 속박, 무장 해제, 침묵, 둔화, 도발에 면역입니다. 피해는 막지 않습니다."
   ],
   "description": [
    "开战获得4/4.5/5秒控制免疫（一/二/三星），期间不受眩晕、禁锢、缴械、沉默、减速或嘲讽影响。不能免疫伤害。",
-   "Starts combat briefly immune to crowd control, but still takes damage.",
-   "開戦直後は制御を無効化するが、ダメージは受ける。",
-   "전투 시작 직후 군중 제어에 면역이지만 피해는 받습니다."
+   "Gain crowd-control immunity for 4s at combat start, blocking stun, root, disarm, silence, slow and taunt. Does not prevent damage.",
+   "開戦から4秒間、スタン・拘束・武装解除・沈黙・減速・挑発を無効化。ダメージは防がない。",
+   "전투 시작 시 4초간 기절, 속박, 무장 해제, 침묵, 둔화, 도발에 면역입니다. 피해는 막지 않습니다."
   ],
   "group": [
    "幽冥灵境",
@@ -7818,9 +7818,9 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "风耳定心",
-   "Steady Ears",
+   "Steadfast Ears",
    "風耳の平静",
-   "바람귀 평정"
+   "바람 귀의 평정"
   ],
   "stars": [
    {
@@ -7877,9 +7877,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "开战获得4秒控制免疫，期间不受眩晕、禁锢、缴械、沉默、减速或嘲讽影响。不能免疫伤害。",
-     "At combat start, gain control immunity for 4s, blocking stun, root, disarm, silence, slow and taunt. Does not prevent damage.",
-     "戦闘開始時、4秒間行動妨害免疫を得て、スタン・移動不能・武装解除・沈黙・減速・挑発を防ぐ。ダメージは防がない。",
-     "전투 시작 시 4초 동안 제어 면역을 얻어 기절, 속박, 무장 해제, 침묵, 둔화, 도발을 막습니다. 피해는 막지 않습니다."
+     "Gain crowd-control immunity for 4s at combat start, blocking stun, root, disarm, silence, slow and taunt. Does not prevent damage.",
+     "開戦から4秒間、スタン・拘束・武装解除・沈黙・減速・挑発を無効化。ダメージは防がない。",
+     "전투 시작 시 4초간 기절, 속박, 무장 해제, 침묵, 둔화, 도발에 면역입니다. 피해는 막지 않습니다."
     ]
    },
    {
@@ -7936,9 +7936,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "开战获得4.5秒控制免疫，期间不受眩晕、禁锢、缴械、沉默、减速或嘲讽影响。不能免疫伤害。",
-     "At combat start, gain control immunity for 4.5s, blocking stun, root, disarm, silence, slow and taunt. Does not prevent damage.",
-     "戦闘開始時、4.5秒間行動妨害免疫を得て、スタン・移動不能・武装解除・沈黙・減速・挑発を防ぐ。ダメージは防がない。",
-     "전투 시작 시 4.5초 동안 제어 면역을 얻어 기절, 속박, 무장 해제, 침묵, 둔화, 도발을 막습니다. 피해는 막지 않습니다."
+     "Gain crowd-control immunity for 4.5s at combat start, blocking stun, root, disarm, silence, slow and taunt. Does not prevent damage.",
+     "開戦から4.5秒間、スタン・拘束・武装解除・沈黙・減速・挑発を無効化。ダメージは防がない。",
+     "전투 시작 시 4.5초간 기절, 속박, 무장 해제, 침묵, 둔화, 도발에 면역입니다. 피해는 막지 않습니다."
     ]
    },
    {
@@ -7995,9 +7995,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "开战获得5秒控制免疫，期间不受眩晕、禁锢、缴械、沉默、减速或嘲讽影响。不能免疫伤害。",
-     "At combat start, gain control immunity for 5s, blocking stun, root, disarm, silence, slow and taunt. Does not prevent damage.",
-     "戦闘開始時、5秒間行動妨害免疫を得て、スタン・移動不能・武装解除・沈黙・減速・挑発を防ぐ。ダメージは防がない。",
-     "전투 시작 시 5초 동안 제어 면역을 얻어 기절, 속박, 무장 해제, 침묵, 둔화, 도발을 막습니다. 피해는 막지 않습니다."
+     "Gain crowd-control immunity for 5s at combat start, blocking stun, root, disarm, silence, slow and taunt. Does not prevent damage.",
+     "開戦から5秒間、スタン・拘束・武装解除・沈黙・減速・挑発を無効化。ダメージは防がない。",
+     "전투 시작 시 5초간 기절, 속박, 무장 해제, 침묵, 둔화, 도발에 면역입니다. 피해는 막지 않습니다."
     ]
    }
   ],
@@ -8018,15 +8018,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "普攻命中标记目标4秒；3名不同正式友军的普攻命中该目标后，触发65基础物理撕裂并清除标记。施加标记的普攻计入一次，召唤物不计数。",
-   "Marks its target. Basic hits from three different regular allies trigger a burst; summons do not count.",
-   "対象を標記し、異なる通常の味方3体の攻撃で追加ダメージを発動する。召喚物は数えない。",
-   "대상에게 표식을 남깁니다. 서로 다른 일반 아군 3명의 기본 공격으로 폭발하며 소환물은 제외됩니다."
+   "Basic attack hits mark the target for 4s. Basic attacks by 3 different non-summoned allies trigger 65 base physical damage and clear the mark. The marking hit counts; summons do not.",
+   "通常攻撃で4秒間マーク。異なる非召喚味方3体の通常攻撃が命中すると65基礎物理ダメージを与え、マークを消費。付与した攻撃も数えるが召喚物は数えない。",
+   "기본 공격 적중 시 4초 표식을 남깁니다. 서로 다른 비소환 아군 3명의 기본 공격이 적중하면 기본 물리 피해 65를 주고 표식을 지웁니다. 표식을 남긴 공격은 포함하며 소환수는 제외합니다."
   ],
   "description": [
    "普攻命中标记目标4秒；3名不同正式友军的普攻命中该目标后，触发65基础物理撕裂并清除标记。施加标记的普攻计入一次，召唤物不计数。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.8/3倍。主要效果随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
-   "Marks its target. Basic hits from three different regular allies trigger a burst; summons do not count.",
-   "対象を標記し、異なる通常の味方3体の攻撃で追加ダメージを発動する。召喚物は数えない。",
-   "대상에게 표식을 남깁니다. 서로 다른 일반 아군 3명의 기본 공격으로 폭발하며 소환물은 제외됩니다."
+   "Basic attack hits mark the target for 4s. Basic attacks by 3 different non-summoned allies trigger 65 base physical damage and clear the mark. The marking hit counts; summons do not.",
+   "通常攻撃で4秒間マーク。異なる非召喚味方3体の通常攻撃が命中すると65基礎物理ダメージを与え、マークを消費。付与した攻撃も数えるが召喚物は数えない。",
+   "기본 공격 적중 시 4초 표식을 남깁니다. 서로 다른 비소환 아군 3명의 기본 공격이 적중하면 기본 물리 피해 65를 주고 표식을 지웁니다. 표식을 남긴 공격은 포함하며 소환수는 제외합니다."
   ],
   "group": [
    "幽冥灵境",
@@ -8102,9 +8102,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "普攻命中标记目标4秒；3名不同正式友军的普攻命中该目标后，触发65基础物理撕裂并清除标记。施加标记的普攻计入一次，召唤物不计数。",
-     "Basic attack hits mark the target for 4s. When 3 different non-summoned allies hit it with basic attacks, deal 65 physical damage and remove the mark. The marking hit counts.",
-     "通常攻撃命中で対象を4秒間マーク。異なる非召喚味方3体の通常攻撃が命中すると65物理ダメージを与え、マークを解除する。マークを付与した攻撃も1回に数える。",
-     "기본 공격 적중 시 대상을 4초 동안 표식합니다. 서로 다른 비소환 아군 3명의 기본 공격이 적중하면 물리 피해 65를 주고 표식을 제거합니다. 표식을 부여한 공격도 포함됩니다."
+     "Basic attack hits mark the target for 4s. Basic attacks by 3 different non-summoned allies trigger 65 base physical damage and clear the mark. The marking hit counts; summons do not.",
+     "通常攻撃で4秒間マーク。異なる非召喚味方3体の通常攻撃が命中すると65基礎物理ダメージを与え、マークを消費。付与した攻撃も数えるが召喚物は数えない。",
+     "기본 공격 적중 시 4초 표식을 남깁니다. 서로 다른 비소환 아군 3명의 기본 공격이 적중하면 기본 물리 피해 65를 주고 표식을 지웁니다. 표식을 남긴 공격은 포함하며 소환수는 제외합니다."
     ]
    },
    {
@@ -8161,9 +8161,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "普攻命中标记目标4秒；3名不同正式友军的普攻命中该目标后，触发65基础物理撕裂并清除标记。施加标记的普攻计入一次，召唤物不计数。",
-     "Basic attack hits mark the target for 4s. When 3 different non-summoned allies hit it with basic attacks, deal 116.8 physical damage and remove the mark. The marking hit counts.",
-     "通常攻撃命中で対象を4秒間マーク。異なる非召喚味方3体の通常攻撃が命中すると116.8物理ダメージを与え、マークを解除する。マークを付与した攻撃も1回に数える。",
-     "기본 공격 적중 시 대상을 4초 동안 표식합니다. 서로 다른 비소환 아군 3명의 기본 공격이 적중하면 물리 피해 116.8를 주고 표식을 제거합니다. 표식을 부여한 공격도 포함됩니다."
+     "Basic attack hits mark the target for 4s. Basic attacks by 3 different non-summoned allies trigger 65 base physical damage and clear the mark. The marking hit counts; summons do not.",
+     "通常攻撃で4秒間マーク。異なる非召喚味方3体の通常攻撃が命中すると65基礎物理ダメージを与え、マークを消費。付与した攻撃も数えるが召喚物は数えない。",
+     "기본 공격 적중 시 4초 표식을 남깁니다. 서로 다른 비소환 아군 3명의 기본 공격이 적중하면 기본 물리 피해 65를 주고 표식을 지웁니다. 표식을 남긴 공격은 포함하며 소환수는 제외합니다."
     ]
    },
    {
@@ -8220,9 +8220,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "普攻命中标记目标4秒；3名不同正式友军的普攻命中该目标后，触发65基础物理撕裂并清除标记。施加标记的普攻计入一次，召唤物不计数。",
-     "Basic attack hits mark the target for 4s. When 3 different non-summoned allies hit it with basic attacks, deal 195 physical damage and remove the mark. The marking hit counts.",
-     "通常攻撃命中で対象を4秒間マーク。異なる非召喚味方3体の通常攻撃が命中すると195物理ダメージを与え、マークを解除する。マークを付与した攻撃も1回に数える。",
-     "기본 공격 적중 시 대상을 4초 동안 표식합니다. 서로 다른 비소환 아군 3명의 기본 공격이 적중하면 물리 피해 195를 주고 표식을 제거합니다. 표식을 부여한 공격도 포함됩니다."
+     "Basic attack hits mark the target for 4s. Basic attacks by 3 different non-summoned allies trigger 65 base physical damage and clear the mark. The marking hit counts; summons do not.",
+     "通常攻撃で4秒間マーク。異なる非召喚味方3体の通常攻撃が命中すると65基礎物理ダメージを与え、マークを消費。付与した攻撃も数えるが召喚物は数えない。",
+     "기본 공격 적중 시 4초 표식을 남깁니다. 서로 다른 비소환 아군 3명의 기본 공격이 적중하면 기본 물리 피해 65를 주고 표식을 지웁니다. 표식을 남긴 공격은 포함하며 소환수는 제외합니다."
     ]
    }
   ],
@@ -8242,16 +8242,16 @@ export const catalog:WikiEntry[] = [
    "꽃을 부르는 요정"
   ],
   "summary": [
-   "在合法邻格召唤260生命、30攻击、3格射程的固定花台；存活4秒后攻击增加15、射程增加1，每名施法者最多同时拥有2座花台。",
-   "Summons stationary flower platforms that grow stronger if they survive. Requires free adjacent hexes.",
-   "生き残ると強化される固定式の花台を召喚する。隣接する空きマスが必要。",
-   "생존하면 강해지는 고정 꽃대를 소환합니다. 인접한 빈 칸이 필요합니다."
+   "在合法邻格召唤180生命、18攻击、3格射程的固定花台。存活4秒后攻击增加15、射程增加1；每名施法者最多同时拥有2座花台。",
+   "Summon a stationary flower turret in a free adjacent cell with 180 HP, 18 ATK and 3-hex range. After surviving 4s it gains 15 ATK and 1 range. Up to 2 living turrets per caster.",
+   "隣接空きマスにHP180・攻撃力18・射程3マスの固定花台を召喚。4秒生存すると攻撃力が15、射程が1増加。術者ごとに同時存在は2体まで。",
+   "인접 빈칸에 체력 180, 공격력 18, 사거리 3칸의 고정 꽃 포탑을 소환합니다. 4초 생존하면 공격력 15와 사거리 1을 얻습니다. 시전자당 동시에 최대 2개입니다."
   ],
   "description": [
-   "在合法邻格召唤260生命、30攻击、3格射程的固定花台；存活4秒后攻击增加15、射程增加1，每名施法者最多同时拥有2座花台。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.8/3倍。召唤物攻击随施法者攻击力提高，生命随施法者最大生命提高；孵化和成熟时重新计算。范围、控制时间、概率和目标数量不变。",
-   "Summons stationary flower platforms that grow stronger if they survive. Requires free adjacent hexes.",
-   "生き残ると強化される固定式の花台を召喚する。隣接する空きマスが必要。",
-   "생존하면 강해지는 고정 꽃대를 소환합니다. 인접한 빈 칸이 필요합니다."
+   "在合法邻格召唤180生命、18攻击、3格射程的固定花台。存活4秒后攻击增加15、射程增加1；每名施法者最多同时拥有2座花台。\n固定伤害和召唤物基础数值按一星描述，二/三星基础成长为1.8/3倍，并受施法者相应攻击或最大生命增益影响。",
+   "Summon a stationary flower turret in a free adjacent cell with 180 HP, 18 ATK and 3-hex range. After surviving 4s it gains 15 ATK and 1 range. Up to 2 living turrets per caster.\nFlat damage and summon stats use 1-star references; 2/3-star power scales 1.8/3x and responds to the caster's relevant ATK or max-HP bonuses.",
+   "隣接空きマスにHP180・攻撃力18・射程3マスの固定花台を召喚。4秒生存すると攻撃力が15、射程が1増加。術者ごとに同時存在は2体まで。\n固定ダメージと召喚物能力は星1基準。星2/3で1.8/3倍となり、術者の対応する攻撃力・最大HP増加を反映。",
+   "인접 빈칸에 체력 180, 공격력 18, 사거리 3칸의 고정 꽃 포탑을 소환합니다. 4초 생존하면 공격력 15와 사거리 1을 얻습니다. 시전자당 동시에 최대 2개입니다.\n고정 피해와 소환수 수치는 1성 기준이며 2/3성 성장 배율은 1.8/3배로, 시전자의 해당 공격력·최대 체력 증가를 반영합니다."
   ],
   "group": [
    "幽冥灵境",
@@ -8268,9 +8268,9 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "扎根花台",
-   "Rooted Turret",
-   "根付き花台",
-   "뿌리 꽃 포탑"
+   "Rooted Blossom",
+   "根付く花台",
+   "뿌리내린 꽃대"
   ],
   "stars": [
    {
@@ -8302,7 +8302,7 @@ export const catalog:WikiEntry[] = [
      },
      {
       "label": "能量上限",
-      "value": "55"
+      "value": "75"
      },
      {
       "label": "暴击率",
@@ -8326,10 +8326,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "在合法邻格召唤260生命、30攻击、3格射程的固定花台；存活4秒后攻击增加15、射程增加1，每名施法者最多同时拥有2座花台。",
-     "Summon a stationary flower turret in a legal adjacent hex with 260 HP, 30 ATK and 3-hex range. After surviving 4s it gains 15 ATK and 1 range. At most 2 per caster. HP scales with caster max HP and ATK with caster ATK; recalculate on maturation.",
-     "有効な隣接マスにHP260・攻撃力30・射程3マスの固定花台を召喚。4秒生存すると攻撃力が15、射程が1増加する。術者ごとに最大2台。HPは術者の最大HP、攻撃力は術者の攻撃力に連動し、成長時に再計算する。",
-     "유효한 인접 칸에 체력 260, 공격력 30, 사거리 3칸의 고정 꽃 포탑을 소환합니다. 4초 생존하면 공격력 15와 사거리 1이 증가합니다. 시전자당 최대 2개이며 체력은 시전자 최대 체력, 공격력은 시전자 공격력에 비례하고 성장 시 재계산됩니다."
+     "在合法邻格召唤180生命、18攻击、3格射程的固定花台。存活4秒后攻击增加15、射程增加1；每名施法者最多同时拥有2座花台。",
+     "Summon a stationary flower turret in a free adjacent cell with 180 HP, 18 ATK and 3-hex range. After surviving 4s it gains 15 ATK and 1 range. Up to 2 living turrets per caster.",
+     "隣接空きマスにHP180・攻撃力18・射程3マスの固定花台を召喚。4秒生存すると攻撃力が15、射程が1増加。術者ごとに同時存在は2体まで。",
+     "인접 빈칸에 체력 180, 공격력 18, 사거리 3칸의 고정 꽃 포탑을 소환합니다. 4초 생존하면 공격력 15와 사거리 1을 얻습니다. 시전자당 동시에 최대 2개입니다."
     ]
    },
    {
@@ -8361,7 +8361,7 @@ export const catalog:WikiEntry[] = [
      },
      {
       "label": "能量上限",
-      "value": "55"
+      "value": "75"
      },
      {
       "label": "暴击率",
@@ -8385,10 +8385,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "在合法邻格召唤468生命、54攻击、3格射程的固定花台；存活4秒后攻击增加27、射程增加1，每名施法者最多同时拥有2座花台。",
-     "Summon a stationary flower turret in a legal adjacent hex with 468 HP, 54 ATK and 3-hex range. After surviving 4s it gains 27 ATK and 1 range. At most 2 per caster. HP scales with caster max HP and ATK with caster ATK; recalculate on maturation.",
-     "有効な隣接マスにHP468・攻撃力54・射程3マスの固定花台を召喚。4秒生存すると攻撃力が27、射程が1増加する。術者ごとに最大2台。HPは術者の最大HP、攻撃力は術者の攻撃力に連動し、成長時に再計算する。",
-     "유효한 인접 칸에 체력 468, 공격력 54, 사거리 3칸의 고정 꽃 포탑을 소환합니다. 4초 생존하면 공격력 27와 사거리 1이 증가합니다. 시전자당 최대 2개이며 체력은 시전자 최대 체력, 공격력은 시전자 공격력에 비례하고 성장 시 재계산됩니다."
+     "在合法邻格召唤324生命、32.4攻击、3格射程的固定花台。存活4秒后攻击增加27、射程增加1；每名施法者最多同时拥有2座花台。",
+     "Summon a stationary flower turret in a free adjacent cell with 324 HP, 32.4 ATK and 3-hex range. After surviving 4s it gains 27 ATK and 1 range. Up to 2 living turrets per caster.",
+     "隣接空きマスにHP324・攻撃力32.4・射程3マスの固定花台を召喚。4秒生存すると攻撃力が27、射程が1増加。術者ごとに同時存在は2体まで。",
+     "인접 빈칸에 체력 324, 공격력 32.4, 사거리 3칸의 고정 꽃 포탑을 소환합니다. 4초 생존하면 공격력 27와 사거리 1을 얻습니다. 시전자당 동시에 최대 2개입니다."
     ]
    },
    {
@@ -8420,7 +8420,7 @@ export const catalog:WikiEntry[] = [
      },
      {
       "label": "能量上限",
-      "value": "55"
+      "value": "75"
      },
      {
       "label": "暴击率",
@@ -8444,10 +8444,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "在合法邻格召唤780生命、90攻击、3格射程的固定花台；存活4秒后攻击增加45、射程增加1，每名施法者最多同时拥有2座花台。",
-     "Summon a stationary flower turret in a legal adjacent hex with 780 HP, 90 ATK and 3-hex range. After surviving 4s it gains 45 ATK and 1 range. At most 2 per caster. HP scales with caster max HP and ATK with caster ATK; recalculate on maturation.",
-     "有効な隣接マスにHP780・攻撃力90・射程3マスの固定花台を召喚。4秒生存すると攻撃力が45、射程が1増加する。術者ごとに最大2台。HPは術者の最大HP、攻撃力は術者の攻撃力に連動し、成長時に再計算する。",
-     "유효한 인접 칸에 체력 780, 공격력 90, 사거리 3칸의 고정 꽃 포탑을 소환합니다. 4초 생존하면 공격력 45와 사거리 1이 증가합니다. 시전자당 최대 2개이며 체력은 시전자 최대 체력, 공격력은 시전자 공격력에 비례하고 성장 시 재계산됩니다."
+     "在合法邻格召唤540生命、54攻击、3格射程的固定花台。存活4秒后攻击增加45、射程增加1；每名施法者最多同时拥有2座花台。",
+     "Summon a stationary flower turret in a free adjacent cell with 540 HP, 54 ATK and 3-hex range. After surviving 4s it gains 45 ATK and 1 range. Up to 2 living turrets per caster.",
+     "隣接空きマスにHP540・攻撃力54・射程3マスの固定花台を召喚。4秒生存すると攻撃力が45、射程が1増加。術者ごとに同時存在は2体まで。",
+     "인접 빈칸에 체력 540, 공격력 54, 사거리 3칸의 고정 꽃 포탑을 소환합니다. 4초 생존하면 공격력 45와 사거리 1을 얻습니다. 시전자당 동시에 최대 2개입니다."
     ]
    }
   ],
@@ -8468,15 +8468,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "为全体存活友军各施加90基础护盾，护盾量随施法者最大生命、星级和护盾增益提高。",
-   "Shields all living allies. Shield strength scales with the caster's health, stars and shield bonuses.",
-   "生存中の味方全員にシールドを与える。自身のHP、星、シールド補正で強化される。",
-   "살아 있는 모든 아군에게 보호막을 줍니다. 시전자의 체력, 성급, 보호막 보너스에 따라 강화됩니다."
+   "Give every living ally a 90 shield, scaling with the caster's maximum HP, star level and shield bonuses.",
+   "生存する全味方へ90のシールド。術者の最大HP・星・シールド強化に応じて増加。",
+   "모든 생존 아군에게 보호막 90을 부여합니다. 시전자의 최대 체력, 별 등급, 보호막 강화에 따라 증가합니다."
   ],
   "description": [
    "为全体存活友军各施加90基础护盾，护盾量随施法者最大生命、星级和护盾增益提高。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.8/3倍。护盾随自身最大生命提高。范围、控制时间、概率和目标数量不变。",
-   "Shields all living allies. Shield strength scales with the caster's health, stars and shield bonuses.",
-   "生存中の味方全員にシールドを与える。自身のHP、星、シールド補正で強化される。",
-   "살아 있는 모든 아군에게 보호막을 줍니다. 시전자의 체력, 성급, 보호막 보너스에 따라 강화됩니다."
+   "Give every living ally a 90 shield, scaling with the caster's maximum HP, star level and shield bonuses.",
+   "生存する全味方へ90のシールド。術者の最大HP・星・シールド強化に応じて増加。",
+   "모든 생존 아군에게 보호막 90을 부여합니다. 시전자의 최대 체력, 별 등급, 보호막 강화에 따라 증가합니다."
   ],
   "group": [
    "幽冥灵境",
@@ -8495,7 +8495,7 @@ export const catalog:WikiEntry[] = [
    "花瓣庇护",
    "Petal Shelter",
    "花弁の庇護",
-   "꽃잎의 가호"
+   "꽃잎 가호"
   ],
   "stars": [
    {
@@ -8552,9 +8552,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "为全体存活友军各施加90护盾，护盾量随施法者最大生命、星级和护盾增益提高。",
-     "Grant each living ally a 90 shield, scaling with caster max HP and shield bonuses.",
-     "全ての生存味方に90のシールドを付与。術者の最大HPとシールド強化に連動する。",
-     "모든 생존 아군에게 보호막 90을 부여합니다. 시전자 최대 체력과 보호막 증가 효과에 비례합니다."
+     "Give every living ally a 90 shield, scaling with the caster's maximum HP, star level and shield bonuses.",
+     "生存する全味方へ90のシールド。術者の最大HP・星・シールド強化に応じて増加。",
+     "모든 생존 아군에게 보호막 90을 부여합니다. 시전자의 최대 체력, 별 등급, 보호막 강화에 따라 증가합니다."
     ]
    },
    {
@@ -8611,9 +8611,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "为全体存活友军各施加162护盾，护盾量随施法者最大生命、星级和护盾增益提高。",
-     "Grant each living ally a 162 shield, scaling with caster max HP and shield bonuses.",
-     "全ての生存味方に162のシールドを付与。術者の最大HPとシールド強化に連動する。",
-     "모든 생존 아군에게 보호막 162을 부여합니다. 시전자 최대 체력과 보호막 증가 효과에 비례합니다."
+     "Give every living ally a 162 shield, scaling with the caster's maximum HP, star level and shield bonuses.",
+     "生存する全味方へ162のシールド。術者の最大HP・星・シールド強化に応じて増加。",
+     "모든 생존 아군에게 보호막 162을 부여합니다. 시전자의 최대 체력, 별 등급, 보호막 강화에 따라 증가합니다."
     ]
    },
    {
@@ -8670,9 +8670,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "为全体存活友军各施加270护盾，护盾量随施法者最大生命、星级和护盾增益提高。",
-     "Grant each living ally a 270 shield, scaling with caster max HP and shield bonuses.",
-     "全ての生存味方に270のシールドを付与。術者の最大HPとシールド強化に連動する。",
-     "모든 생존 아군에게 보호막 270을 부여합니다. 시전자 최대 체력과 보호막 증가 효과에 비례합니다."
+     "Give every living ally a 270 shield, scaling with the caster's maximum HP, star level and shield bonuses.",
+     "生存する全味方へ270のシールド。術者の最大HP・星・シールド強化に応じて増加。",
+     "모든 생존 아군에게 보호막 270을 부여합니다. 시전자의 최대 체력, 별 등급, 보호막 강화에 따라 증가합니다."
     ]
    }
   ],
@@ -8692,16 +8692,16 @@ export const catalog:WikiEntry[] = [
    "꽃봉오리 정령"
   ],
   "summary": [
-   "能量满时，花苞绽放，对当前目标及其周围1格内的敌人造成180点基础法术伤害（随星级成长）。",
-   "At full energy, blooms to deal magic damage to a target and nearby enemies.",
-   "エネルギーが満ちると開花し、対象と周囲に魔法ダメージを与える。",
-   "에너지가 가득 차면 개화해 대상과 주변 적에게 마법 피해를 줍니다."
+   "能量满时，对当前目标及其周围1格内的敌人各造成180点基础法术伤害，随后使命中敌人的魔抗降低25%，持续4秒。主目标不会重复受到溅射伤害。同技能重复命中只刷新减魔抗时间，不叠加。",
+   "At full energy, deal 180 base magic damage once to the current target and each enemy within 1 hex of it, then reduce their MR by 25% for 4s. The main target does not take splash damage twice. Repeated hits refresh the MR reduction without stacking.",
+   "エネルギー満タン時、現在の対象とその周囲1マスの敵にそれぞれ基礎魔法ダメージ180を1回与え、その後4秒間、魔法防御を25%低下させる。主対象に範囲ダメージは重複しない。同じスキルの再命中は時間のみ更新し、低下量は重複しない。",
+   "에너지가 가득 차면 현재 대상과 주변 1칸의 적 각각에게 기본 마법 피해 180을 한 번 주고, 이후 4초간 마법 저항력을 25% 낮춥니다. 주 대상은 범위 피해를 중복으로 받지 않습니다. 같은 스킬에 다시 맞으면 저항력 감소의 시간만 갱신되며 중첩되지 않습니다."
   ],
   "description": [
-   "能量满时，花苞绽放，对当前目标及其周围1格内的敌人造成180点基础法术伤害（随星级成长）。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.9/4倍。主要效果随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
-   "At full energy, blooms to deal magic damage to a target and nearby enemies.",
-   "エネルギーが満ちると開花し、対象と周囲に魔法ダメージを与える。",
-   "에너지가 가득 차면 개화해 대상과 주변 적에게 마법 피해를 줍니다."
+   "能量满时，对当前目标及其周围1格内的敌人各造成180点基础法术伤害，随后使命中敌人的魔抗降低25%，持续4秒。主目标不会重复受到溅射伤害。同技能重复命中只刷新减魔抗时间，不叠加。\n【数值成长】伤害以一星为准，二星/三星基础成长为1.9/4倍，并受当前攻击力增益影响。减魔抗比例、持续时间与范围不随星级改变。",
+   "At full energy, deal 180 base magic damage once to the current target and each enemy within 1 hex of it, then reduce their MR by 25% for 4s. The main target does not take splash damage twice. Repeated hits refresh the MR reduction without stacking.\nDamage uses the 1-star reference, scaling 1.9/4x at 2/3 stars and with current ATK bonuses. MR reduction, duration and radius do not scale with stars.",
+   "エネルギー満タン時、現在の対象とその周囲1マスの敵にそれぞれ基礎魔法ダメージ180を1回与え、その後4秒間、魔法防御を25%低下させる。主対象に範囲ダメージは重複しない。同じスキルの再命中は時間のみ更新し、低下量は重複しない。\nダメージは星1基準。星2/3では1.9/4倍となり、現在の攻撃力増加も反映する。魔法防御低下率・持続時間・範囲は星で変化しない。",
+   "에너지가 가득 차면 현재 대상과 주변 1칸의 적 각각에게 기본 마법 피해 180을 한 번 주고, 이후 4초간 마법 저항력을 25% 낮춥니다. 주 대상은 범위 피해를 중복으로 받지 않습니다. 같은 스킬에 다시 맞으면 저항력 감소의 시간만 갱신되며 중첩되지 않습니다.\n피해는 1성 기준이며 2/3성에서 1.9/4배로 성장하고 현재 공격력 증가 효과를 반영합니다. 저항력 감소율, 지속 시간, 범위는 성급에 따라 변하지 않습니다."
   ],
   "group": [
    "幽冥灵境",
@@ -8776,10 +8776,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "能量满时，花苞绽放，对当前目标及其周围1格内的敌人造成180点法术伤害。",
-     "At full energy, bloom and deal 180 magic damage to the current target and enemies within 1 hex of it.",
-     "エネルギー満タン時に開花し、現在の対象とその1マス以内の敵に180魔法ダメージを与える。",
-     "에너지가 가득 차면 개화해 현재 대상과 대상의 1칸 내 적에게 마법 피해 180을 줍니다."
+     "能量满时，对当前目标及其周围1格内的敌人各造成180点基础法术伤害，随后使命中敌人的魔抗降低25%，持续4秒。主目标不会重复受到溅射伤害。同技能重复命中只刷新减魔抗时间，不叠加。",
+     "At full energy, deal 180 base magic damage once to the current target and each enemy within 1 hex of it, then reduce their MR by 25% for 4s. The main target does not take splash damage twice. Repeated hits refresh the MR reduction without stacking.",
+     "エネルギー満タン時、現在の対象とその周囲1マスの敵にそれぞれ基礎魔法ダメージ180を1回与え、その後4秒間、魔法防御を25%低下させる。主対象に範囲ダメージは重複しない。同じスキルの再命中は時間のみ更新し、低下量は重複しない。",
+     "에너지가 가득 차면 현재 대상과 주변 1칸의 적 각각에게 기본 마법 피해 180을 한 번 주고, 이후 4초간 마법 저항력을 25% 낮춥니다. 주 대상은 범위 피해를 중복으로 받지 않습니다. 같은 스킬에 다시 맞으면 저항력 감소의 시간만 갱신되며 중첩되지 않습니다."
     ]
    },
    {
@@ -8835,10 +8835,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "能量满时，花苞绽放，对当前目标及其周围1格内的敌人造成342点法术伤害。",
-     "At full energy, bloom and deal 342 magic damage to the current target and enemies within 1 hex of it.",
-     "エネルギー満タン時に開花し、現在の対象とその1マス以内の敵に342魔法ダメージを与える。",
-     "에너지가 가득 차면 개화해 현재 대상과 대상의 1칸 내 적에게 마법 피해 342을 줍니다."
+     "能量满时，对当前目标及其周围1格内的敌人各造成342点基础法术伤害，随后使命中敌人的魔抗降低25%，持续4秒。主目标不会重复受到溅射伤害。同技能重复命中只刷新减魔抗时间，不叠加。",
+     "At full energy, deal 342 base magic damage once to the current target and each enemy within 1 hex of it, then reduce their MR by 25% for 4s. The main target does not take splash damage twice. Repeated hits refresh the MR reduction without stacking.",
+     "エネルギー満タン時、現在の対象とその周囲1マスの敵にそれぞれ基礎魔法ダメージ342を1回与え、その後4秒間、魔法防御を25%低下させる。主対象に範囲ダメージは重複しない。同じスキルの再命中は時間のみ更新し、低下量は重複しない。",
+     "에너지가 가득 차면 현재 대상과 주변 1칸의 적 각각에게 기본 마법 피해 342을 한 번 주고, 이후 4초간 마법 저항력을 25% 낮춥니다. 주 대상은 범위 피해를 중복으로 받지 않습니다. 같은 스킬에 다시 맞으면 저항력 감소의 시간만 갱신되며 중첩되지 않습니다."
     ]
    },
    {
@@ -8894,10 +8894,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "能量满时，花苞绽放，对当前目标及其周围1格内的敌人造成720点法术伤害。",
-     "At full energy, bloom and deal 720 magic damage to the current target and enemies within 1 hex of it.",
-     "エネルギー満タン時に開花し、現在の対象とその1マス以内の敵に720魔法ダメージを与える。",
-     "에너지가 가득 차면 개화해 현재 대상과 대상의 1칸 내 적에게 마법 피해 720을 줍니다."
+     "能量满时，对当前目标及其周围1格内的敌人各造成720点基础法术伤害，随后使命中敌人的魔抗降低25%，持续4秒。主目标不会重复受到溅射伤害。同技能重复命中只刷新减魔抗时间，不叠加。",
+     "At full energy, deal 720 base magic damage once to the current target and each enemy within 1 hex of it, then reduce their MR by 25% for 4s. The main target does not take splash damage twice. Repeated hits refresh the MR reduction without stacking.",
+     "エネルギー満タン時、現在の対象とその周囲1マスの敵にそれぞれ基礎魔法ダメージ720を1回与え、その後4秒間、魔法防御を25%低下させる。主対象に範囲ダメージは重複しない。同じスキルの再命中は時間のみ更新し、低下量は重複しない。",
+     "에너지가 가득 차면 현재 대상과 주변 1칸의 적 각각에게 기본 마법 피해 720을 한 번 주고, 이후 4초간 마법 저항력을 25% 낮춥니다. 주 대상은 범위 피해를 중복으로 받지 않습니다. 같은 스킬에 다시 맞으면 저항력 감소의 시간만 갱신되며 중첩되지 않습니다."
     ]
    }
   ],
@@ -8917,16 +8917,16 @@ export const catalog:WikiEntry[] = [
    "잎새 혼령"
   ],
   "summary": [
-   "开战后融入虚空，获得30%额外闪避和30%移速，持续4秒。此效果不会让敌人失去对自身的锁定；闪避仍受总上限限制。",
-   "Starts with temporary dodge and movement speed. This does not make it untargetable.",
-   "開戦時に回避率と移動速度が上がる。対象指定を無効にはしない。",
-   "전투 시작 시 회피율과 이동 속도가 증가합니다. 대상 지정 불가 상태는 아닙니다."
+   "开战时获得30%移速，持续4秒。首次开始普攻时触发魂影，获得30%额外闪避和20%/25%/30%攻速（一/二/三星），持续6秒，每场战斗仅触发一次。魂影不阻止敌人锁定；闪避仅对普攻有效，仍受总上限限制。",
+   "At combat start gain 30% movement speed for 4s. Starting your first basic attack triggers Soulshade once per battle, granting 30% additional dodge and 20% attack speed for 6s. Soulshade does not prevent targeting. Dodge only affects basic attacks and respects the total cap.",
+   "開戦時に移動速度+30%を4秒獲得。最初の通常攻撃開始時、この戦闘で一度だけ魂影が発動し、追加回避率+30%と攻撃速度+20%を6秒獲得。魂影は対象指定を防がない。回避は通常攻撃のみ対象で総上限が適用される。",
+   "전투 시작 시 4초간 이동 속도 30% 증가. 첫 기본 공격 시작 시 전투당 한 번 혼영이 발동해 6초간 추가 회피율 30%와 공격 속도 20%를 얻습니다. 혼영은 대상 지정을 막지 않습니다. 회피는 기본 공격에만 적용되며 총 상한을 따릅니다."
   ],
   "description": [
-   "开战后融入虚空，获得30%额外闪避和30%移速，持续4秒。此效果不会让敌人失去对自身的锁定；闪避仍受总上限限制。\n【数值成长】普通属性增减在一/二/三星时为原数值的1/1.15/1.3倍。范围、控制时间、概率和目标数量不变。",
-   "Starts with temporary dodge and movement speed. This does not make it untargetable.",
-   "開戦時に回避率と移動速度が上がる。対象指定を無効にはしない。",
-   "전투 시작 시 회피율과 이동 속도가 증가합니다. 대상 지정 불가 상태는 아닙니다."
+   "开战时获得30%移速，持续4秒。首次开始普攻时触发魂影，获得30%额外闪避和20%/25%/30%攻速（一/二/三星），持续6秒，每场战斗仅触发一次。魂影不阻止敌人锁定；闪避仅对普攻有效，仍受总上限限制。",
+   "At combat start gain 30% movement speed for 4s. Starting your first basic attack triggers Soulshade once per battle, granting 30% additional dodge and 20% attack speed for 6s. Soulshade does not prevent targeting. Dodge only affects basic attacks and respects the total cap.",
+   "開戦時に移動速度+30%を4秒獲得。最初の通常攻撃開始時、この戦闘で一度だけ魂影が発動し、追加回避率+30%と攻撃速度+20%を6秒獲得。魂影は対象指定を防がない。回避は通常攻撃のみ対象で総上限が適用される。",
+   "전투 시작 시 4초간 이동 속도 30% 증가. 첫 기본 공격 시작 시 전투당 한 번 혼영이 발동해 6초간 추가 회피율 30%와 공격 속도 20%를 얻습니다. 혼영은 대상 지정을 막지 않습니다. 회피는 기본 공격에만 적용되며 총 상한을 따릅니다."
   ],
   "group": [
    "幽冥灵境",
@@ -8943,9 +8943,9 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "魂影",
-   "Soul Shadow",
+   "Soulshade",
    "魂影",
-   "영혼 그림자"
+   "혼영"
   ],
   "stars": [
    {
@@ -9001,10 +9001,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "开战后融入虚空，获得30%额外闪避和30%移速，持续4秒。期间无法被敌人直接锁定，但仍会受到范围伤害；闪避仍受总上限限制。",
-     "At combat start, hide and gain 30% additional dodge and 30% movement speed for 4s. Enemies cannot target you directly; area damage still hits. The total dodge cap applies.",
-     "戦闘開始時、4秒間潜伏し、追加回避率30%と移動速度30%を得る。敵の直接指定は受けないが範囲ダメージは受ける。総回避率の上限が適用される。",
-     "전투 시작 시 4초 동안 은신하고 추가 회피율 30%와 이동 속도 30%를 얻습니다. 적이 직접 대상으로 지정할 수 없지만 범위 피해는 받습니다. 총 회피율 상한이 적용됩니다."
+     "开战时获得30%移速，持续4秒。首次开始普攻时触发魂影，获得30%额外闪避和20%攻速，持续6秒，每场战斗仅触发一次。魂影不阻止敌人锁定；闪避仅对普攻有效，仍受总上限限制。",
+     "At combat start gain 30% movement speed for 4s. Starting your first basic attack triggers Soulshade once per battle, granting 30% additional dodge and 20% attack speed for 6s. Soulshade does not prevent targeting. Dodge only affects basic attacks and respects the total cap.",
+     "開戦時に移動速度+30%を4秒獲得。最初の通常攻撃開始時、この戦闘で一度だけ魂影が発動し、追加回避率+30%と攻撃速度+20%を6秒獲得。魂影は対象指定を防がない。回避は通常攻撃のみ対象で総上限が適用される。",
+     "전투 시작 시 4초간 이동 속도 30% 증가. 첫 기본 공격 시작 시 전투당 한 번 혼영이 발동해 6초간 추가 회피율 30%와 공격 속도 20%를 얻습니다. 혼영은 대상 지정을 막지 않습니다. 회피는 기본 공격에만 적용되며 총 상한을 따릅니다."
     ]
    },
    {
@@ -9060,10 +9060,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "开战后融入虚空，获得30%额外闪避和34.5%移速，持续4秒。期间无法被敌人直接锁定，但仍会受到范围伤害；闪避仍受总上限限制。",
-     "At combat start, hide and gain 30% additional dodge and 34.5% movement speed for 4s. Enemies cannot target you directly; area damage still hits. The total dodge cap applies.",
-     "戦闘開始時、4秒間潜伏し、追加回避率30%と移動速度34.5%を得る。敵の直接指定は受けないが範囲ダメージは受ける。総回避率の上限が適用される。",
-     "전투 시작 시 4초 동안 은신하고 추가 회피율 30%와 이동 속도 34.5%를 얻습니다. 적이 직접 대상으로 지정할 수 없지만 범위 피해는 받습니다. 총 회피율 상한이 적용됩니다."
+     "开战时获得30%移速，持续4秒。首次开始普攻时触发魂影，获得30%额外闪避和25%攻速，持续6秒，每场战斗仅触发一次。魂影不阻止敌人锁定；闪避仅对普攻有效，仍受总上限限制。",
+     "At combat start gain 30% movement speed for 4s. Starting your first basic attack triggers Soulshade once per battle, granting 30% additional dodge and 25% attack speed for 6s. Soulshade does not prevent targeting. Dodge only affects basic attacks and respects the total cap.",
+     "開戦時に移動速度+30%を4秒獲得。最初の通常攻撃開始時、この戦闘で一度だけ魂影が発動し、追加回避率+30%と攻撃速度+25%を6秒獲得。魂影は対象指定を防がない。回避は通常攻撃のみ対象で総上限が適用される。",
+     "전투 시작 시 4초간 이동 속도 30% 증가. 첫 기본 공격 시작 시 전투당 한 번 혼영이 발동해 6초간 추가 회피율 30%와 공격 속도 25%를 얻습니다. 혼영은 대상 지정을 막지 않습니다. 회피는 기본 공격에만 적용되며 총 상한을 따릅니다."
     ]
    },
    {
@@ -9119,10 +9119,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "开战后融入虚空，获得30%额外闪避和39%移速，持续4秒。期间无法被敌人直接锁定，但仍会受到范围伤害；闪避仍受总上限限制。",
-     "At combat start, hide and gain 30% additional dodge and 39% movement speed for 4s. Enemies cannot target you directly; area damage still hits. The total dodge cap applies.",
-     "戦闘開始時、4秒間潜伏し、追加回避率30%と移動速度39%を得る。敵の直接指定は受けないが範囲ダメージは受ける。総回避率の上限が適用される。",
-     "전투 시작 시 4초 동안 은신하고 추가 회피율 30%와 이동 속도 39%를 얻습니다. 적이 직접 대상으로 지정할 수 없지만 범위 피해는 받습니다. 총 회피율 상한이 적용됩니다."
+     "开战时获得30%移速，持续4秒。首次开始普攻时触发魂影，获得30%额外闪避和30%攻速，持续6秒，每场战斗仅触发一次。魂影不阻止敌人锁定；闪避仅对普攻有效，仍受总上限限制。",
+     "At combat start gain 30% movement speed for 4s. Starting your first basic attack triggers Soulshade once per battle, granting 30% additional dodge and 30% attack speed for 6s. Soulshade does not prevent targeting. Dodge only affects basic attacks and respects the total cap.",
+     "開戦時に移動速度+30%を4秒獲得。最初の通常攻撃開始時、この戦闘で一度だけ魂影が発動し、追加回避率+30%と攻撃速度+30%を6秒獲得。魂影は対象指定を防がない。回避は通常攻撃のみ対象で総上限が適用される。",
+     "전투 시작 시 4초간 이동 속도 30% 증가. 첫 기본 공격 시작 시 전투당 한 번 혼영이 발동해 6초간 추가 회피율 30%와 공격 속도 30%를 얻습니다. 혼영은 대상 지정을 막지 않습니다. 회피는 기본 공격에만 적용되며 총 상한을 따릅니다."
     ]
    }
   ],
@@ -9143,15 +9143,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "使2格内最近的可锁定敌人恐惧1.2秒并造成80基础法术伤害。恐惧期间停止攻击和施法，并尝试远离来源；无路可走时停留。技能造成有效伤害且目标存活时，使其造成的伤害降低25%，持续4秒。",
-   "Fears a nearby enemy and deals magic damage, then reduces its damage if the hit succeeds.",
-   "近くの敵を恐怖にし、魔法ダメージを与える。有効な命中後は敵のダメージも下げる。",
-   "가까운 적에게 공포와 마법 피해를 주고 유효 적중 후 대상의 피해량을 낮춥니다."
+   "Fear the nearest targetable enemy within 2 hex(es) for 1.2s and deal 80 magic damage. Fear stops attacks and casting and attempts to flee from the source; stay still if blocked. If the skill deals effective damage and the target survives, reduce its damage dealt by 25% for 4s.",
+   "2マス以内の最寄りの指定可能な敵を1.2秒恐怖状態にし、80魔法ダメージ。恐怖中は攻撃・詠唱を停止して発生源から離れようとし、経路がなければ留まる。有効なダメージを与え対象が生存した場合、その与ダメージを4秒間25%低下させる。",
+   "2칸 내 가장 가까운 지정 가능 적에게 1.2초 공포와 마법 피해 80를 줍니다. 공포 중 공격과 시전을 멈추고 시전자에게서 도망치며 길이 없으면 멈춥니다. 유효 피해를 주고 대상이 생존하면 4초간 대상의 피해량을 25% 낮춥니다."
   ],
   "description": [
    "使2格内最近的可锁定敌人恐惧1.2秒并造成80基础法术伤害。恐惧期间停止攻击和施法，并尝试远离来源；无路可走时停留。技能造成有效伤害且目标存活时，使其造成的伤害降低25%，持续4秒。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.9/4倍。主要效果随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
-   "Fears a nearby enemy and deals magic damage, then reduces its damage if the hit succeeds.",
-   "近くの敵を恐怖にし、魔法ダメージを与える。有効な命中後は敵のダメージも下げる。",
-   "가까운 적에게 공포와 마법 피해를 주고 유효 적중 후 대상의 피해량을 낮춥니다."
+   "Fear the nearest targetable enemy within 2 hex(es) for 1.2s and deal 80 magic damage. Fear stops attacks and casting and attempts to flee from the source; stay still if blocked. If the skill deals effective damage and the target survives, reduce its damage dealt by 25% for 4s.",
+   "2マス以内の最寄りの指定可能な敵を1.2秒恐怖状態にし、80魔法ダメージ。恐怖中は攻撃・詠唱を停止して発生源から離れようとし、経路がなければ留まる。有効なダメージを与え対象が生存した場合、その与ダメージを4秒間25%低下させる。",
+   "2칸 내 가장 가까운 지정 가능 적에게 1.2초 공포와 마법 피해 80를 줍니다. 공포 중 공격과 시전을 멈추고 시전자에게서 도망치며 길이 없으면 멈춥니다. 유효 피해를 주고 대상이 생존하면 4초간 대상의 피해량을 25% 낮춥니다."
   ],
   "group": [
    "幽冥灵境",
@@ -9168,9 +9168,9 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "惊惧逼退",
-   "Terrifying Repulsion",
-   "恐怖の退撃",
-   "공포 퇴격"
+   "Terrifying Retreat",
+   "恐怖の退散",
+   "공포 퇴각"
   ],
   "stars": [
    {
@@ -9227,9 +9227,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "使2格内最近的可锁定敌人恐惧1.2秒并造成80法术伤害。恐惧期间停止攻击和施法，并尝试远离来源；无路可走时停留。技能造成有效伤害且目标存活时，使其造成的伤害降低25%，持续4秒。",
-     "Fear the nearest targetable enemy within 2 hexes for 1.2s and deal 80 magic damage. Fear prevents attacking and casting and makes it try to flee; it stays still if blocked. If damage is dealt and the target survives, reduce its damage dealt by 25% for 4s.",
-     "2マス以内の最も近い指定可能な敵を1.2秒間恐怖にし、80魔法ダメージ。恐怖中は攻撃・詠唱を停止して逃走を試み、経路がなければ停止。ダメージを与えて対象が生存した場合、その与ダメージを4秒間25%低下させる。",
-     "2칸 내 가장 가까운 지정 가능한 적에게 1.2초 공포와 마법 피해 80을 줍니다. 공포 중 공격과 시전이 중단되고 도망을 시도하며 경로가 없으면 멈춥니다. 피해를 주고 대상이 생존하면 가하는 피해를 4초 동안 25% 감소시킵니다."
+     "Fear the nearest targetable enemy within 2 hex(es) for 1.2s and deal 80 magic damage. Fear stops attacks and casting and attempts to flee from the source; stay still if blocked. If the skill deals effective damage and the target survives, reduce its damage dealt by 25% for 4s.",
+     "2マス以内の最寄りの指定可能な敵を1.2秒恐怖状態にし、80魔法ダメージ。恐怖中は攻撃・詠唱を停止して発生源から離れようとし、経路がなければ留まる。有効なダメージを与え対象が生存した場合、その与ダメージを4秒間25%低下させる。",
+     "2칸 내 가장 가까운 지정 가능 적에게 1.2초 공포와 마법 피해 80를 줍니다. 공포 중 공격과 시전을 멈추고 시전자에게서 도망치며 길이 없으면 멈춥니다. 유효 피해를 주고 대상이 생존하면 4초간 대상의 피해량을 25% 낮춥니다."
     ]
    },
    {
@@ -9286,9 +9286,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "使2格内最近的可锁定敌人恐惧1.2秒并造成151.78法术伤害。恐惧期间停止攻击和施法，并尝试远离来源；无路可走时停留。技能造成有效伤害且目标存活时，使其造成的伤害降低25%，持续4秒。",
-     "Fear the nearest targetable enemy within 2 hexes for 1.2s and deal 151.78 magic damage. Fear prevents attacking and casting and makes it try to flee; it stays still if blocked. If damage is dealt and the target survives, reduce its damage dealt by 25% for 4s.",
-     "2マス以内の最も近い指定可能な敵を1.2秒間恐怖にし、151.78魔法ダメージ。恐怖中は攻撃・詠唱を停止して逃走を試み、経路がなければ停止。ダメージを与えて対象が生存した場合、その与ダメージを4秒間25%低下させる。",
-     "2칸 내 가장 가까운 지정 가능한 적에게 1.2초 공포와 마법 피해 151.78을 줍니다. 공포 중 공격과 시전이 중단되고 도망을 시도하며 경로가 없으면 멈춥니다. 피해를 주고 대상이 생존하면 가하는 피해를 4초 동안 25% 감소시킵니다."
+     "Fear the nearest targetable enemy within 2 hex(es) for 1.2s and deal 151.78 magic damage. Fear stops attacks and casting and attempts to flee from the source; stay still if blocked. If the skill deals effective damage and the target survives, reduce its damage dealt by 25% for 4s.",
+     "2マス以内の最寄りの指定可能な敵を1.2秒恐怖状態にし、151.78魔法ダメージ。恐怖中は攻撃・詠唱を停止して発生源から離れようとし、経路がなければ留まる。有効なダメージを与え対象が生存した場合、その与ダメージを4秒間25%低下させる。",
+     "2칸 내 가장 가까운 지정 가능 적에게 1.2초 공포와 마법 피해 151.78를 줍니다. 공포 중 공격과 시전을 멈추고 시전자에게서 도망치며 길이 없으면 멈춥니다. 유효 피해를 주고 대상이 생존하면 4초간 대상의 피해량을 25% 낮춥니다."
     ]
    },
    {
@@ -9345,9 +9345,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "使2格内最近的可锁定敌人恐惧1.2秒并造成320法术伤害。恐惧期间停止攻击和施法，并尝试远离来源；无路可走时停留。技能造成有效伤害且目标存活时，使其造成的伤害降低25%，持续4秒。",
-     "Fear the nearest targetable enemy within 2 hexes for 1.2s and deal 320 magic damage. Fear prevents attacking and casting and makes it try to flee; it stays still if blocked. If damage is dealt and the target survives, reduce its damage dealt by 25% for 4s.",
-     "2マス以内の最も近い指定可能な敵を1.2秒間恐怖にし、320魔法ダメージ。恐怖中は攻撃・詠唱を停止して逃走を試み、経路がなければ停止。ダメージを与えて対象が生存した場合、その与ダメージを4秒間25%低下させる。",
-     "2칸 내 가장 가까운 지정 가능한 적에게 1.2초 공포와 마법 피해 320을 줍니다. 공포 중 공격과 시전이 중단되고 도망을 시도하며 경로가 없으면 멈춥니다. 피해를 주고 대상이 생존하면 가하는 피해를 4초 동안 25% 감소시킵니다."
+     "Fear the nearest targetable enemy within 2 hex(es) for 1.2s and deal 320 magic damage. Fear stops attacks and casting and attempts to flee from the source; stay still if blocked. If the skill deals effective damage and the target survives, reduce its damage dealt by 25% for 4s.",
+     "2マス以内の最寄りの指定可能な敵を1.2秒恐怖状態にし、320魔法ダメージ。恐怖中は攻撃・詠唱を停止して発生源から離れようとし、経路がなければ留まる。有効なダメージを与え対象が生存した場合、その与ダメージを4秒間25%低下させる。",
+     "2칸 내 가장 가까운 지정 가능 적에게 1.2초 공포와 마법 피해 320를 줍니다. 공포 중 공격과 시전을 멈추고 시전자에게서 도망치며 길이 없으면 멈춥니다. 유효 피해를 주고 대상이 생존하면 4초간 대상의 피해량을 25% 낮춥니다."
     ]
    }
   ],
@@ -9367,16 +9367,16 @@ export const catalog:WikiEntry[] = [
    "유광 잠복충"
   ],
   "summary": [
-   "蓄力0.4秒后突进到最近敌人的空闲邻格，对最近敌人造成160基础物理伤害。施法前预占落点；无空位则保留能量，等待重试。",
-   "Charges briefly, then dashes to a free hex beside an enemy for a physical strike. Keeps its energy if no landing is available.",
-   "短く溜めて敵の隣へ突進し、物理攻撃する。着地点がなければエネルギーを保つ。",
-   "잠시 준비한 뒤 적 옆의 빈 칸으로 돌진해 물리 피해를 줍니다. 착지할 곳이 없으면 에너지를 유지합니다."
+   "蓄力0.4秒，锁定自身3格内可抵达、生命比例最低的敌人，造成240基础物理伤害。目标已在普攻范围内时直接咬击，否则突进到预占的空闲邻格。伤害结算前目标生命低于40%时，本次伤害提高25%。无合法目标时不消耗能量；蓄力期间目标失效或落点不再可用时取消并返还能量。",
+   "Charge for 0.4s, then bite the reachable enemy with the lowest HP ratio within 3 hex(es) for 240 physical damage. Bite in place if already in basic attack range; otherwise dash to a reserved empty adjacent cell. Deal 25% more damage if the target is below 40% HP before damage. Without a target, spend no energy. If the target or landing becomes invalid during charging, cancel and refund energy.",
+   "0.4秒溜め、3マス以内で到達可能なHP割合最低の敵へ240物理ダメージ。通常攻撃射程内ならその場で噛みつき、外なら確保した隣接空きマスへ突進。判定前の対象HPが40%未満ならダメージ+25%。対象がなければエネルギー消費なし。溜め中に対象や着地点が無効になれば中止して返還する。",
+   "0.4초 준비 후 3칸 내 도달 가능한 체력 비율 최저 적을 물어 물리 피해 240를 줍니다. 기본 공격 사거리 안이면 제자리에서, 아니면 예약된 인접 빈칸으로 돌진합니다. 피해 판정 전 대상 체력이 40% 미만이면 피해가 25% 증가합니다. 대상이 없으면 에너지를 쓰지 않으며 준비 중 대상이나 착지점이 무효화되면 취소하고 에너지를 반환합니다."
   ],
   "description": [
-   "蓄力0.4秒后突进到最近敌人的空闲邻格，对最近敌人造成160基础物理伤害。施法前预占落点；无空位则保留能量，等待重试。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.9/4倍。主要效果随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
-   "Charges briefly, then dashes to a free hex beside an enemy for a physical strike. Keeps its energy if no landing is available.",
-   "短く溜めて敵の隣へ突進し、物理攻撃する。着地点がなければエネルギーを保つ。",
-   "잠시 준비한 뒤 적 옆의 빈 칸으로 돌진해 물리 피해를 줍니다. 착지할 곳이 없으면 에너지를 유지합니다."
+   "蓄力0.4秒，锁定自身3格内可抵达、生命比例最低的敌人，造成240基础物理伤害。目标已在普攻范围内时直接咬击，否则突进到预占的空闲邻格。伤害结算前目标生命低于40%时，本次伤害提高25%。无合法目标时不消耗能量；蓄力期间目标失效或落点不再可用时取消并返还能量。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.9/4倍。主要效果随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
+   "Charge for 0.4s, then bite the reachable enemy with the lowest HP ratio within 3 hex(es) for 240 physical damage. Bite in place if already in basic attack range; otherwise dash to a reserved empty adjacent cell. Deal 25% more damage if the target is below 40% HP before damage. Without a target, spend no energy. If the target or landing becomes invalid during charging, cancel and refund energy.",
+   "0.4秒溜め、3マス以内で到達可能なHP割合最低の敵へ240物理ダメージ。通常攻撃射程内ならその場で噛みつき、外なら確保した隣接空きマスへ突進。判定前の対象HPが40%未満ならダメージ+25%。対象がなければエネルギー消費なし。溜め中に対象や着地点が無効になれば中止して返還する。",
+   "0.4초 준비 후 3칸 내 도달 가능한 체력 비율 최저 적을 물어 물리 피해 240를 줍니다. 기본 공격 사거리 안이면 제자리에서, 아니면 예약된 인접 빈칸으로 돌진합니다. 피해 판정 전 대상 체력이 40% 미만이면 피해가 25% 증가합니다. 대상이 없으면 에너지를 쓰지 않으며 준비 중 대상이나 착지점이 무효화되면 취소하고 에너지를 반환합니다."
   ],
   "group": [
    "幽冥灵境",
@@ -9393,7 +9393,7 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "潜袭",
-   "Lurking Assault",
+   "Lurking Bite",
    "潜襲",
    "잠복 습격"
   ],
@@ -9451,10 +9451,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "蓄力0.4秒后突进到最近敌人的空闲邻格，对最近敌人造成160物理伤害。施法前预占落点；无空位则保留能量，等待重试。",
-     "After a 0.4s windup, dash to an empty hex beside the nearest enemy and deal 160 physical damage. Reserve the landing before casting. If no hex is free, keep energy and retry later.",
-     "0.4秒溜めた後、最も近い敵の隣の空きマスへ突進し、160物理ダメージを与える。詠唱前に着地点を確保。空きがなければエネルギーを保持して再試行する。",
-     "0.4초 준비 후 가장 가까운 적 옆 빈칸으로 돌진해 물리 피해 160을 줍니다. 시전 전에 착지점을 예약하며 빈칸이 없으면 에너지를 유지하고 재시도합니다."
+     "蓄力0.4秒，锁定自身3格内可抵达、生命比例最低的敌人，造成240物理伤害。目标已在普攻范围内时直接咬击，否则突进到预占的空闲邻格。伤害结算前目标生命低于40%时，本次伤害提高25%。无合法目标时不消耗能量；蓄力期间目标失效或落点不再可用时取消并返还能量。",
+     "Charge for 0.4s, then bite the reachable enemy with the lowest HP ratio within 3 hex(es) for 240 physical damage. Bite in place if already in basic attack range; otherwise dash to a reserved empty adjacent cell. Deal 25% more damage if the target is below 40% HP before damage. Without a target, spend no energy. If the target or landing becomes invalid during charging, cancel and refund energy.",
+     "0.4秒溜め、3マス以内で到達可能なHP割合最低の敵へ240物理ダメージ。通常攻撃射程内ならその場で噛みつき、外なら確保した隣接空きマスへ突進。判定前の対象HPが40%未満ならダメージ+25%。対象がなければエネルギー消費なし。溜め中に対象や着地点が無効になれば中止して返還する。",
+     "0.4초 준비 후 3칸 내 도달 가능한 체력 비율 최저 적을 물어 물리 피해 240를 줍니다. 기본 공격 사거리 안이면 제자리에서, 아니면 예약된 인접 빈칸으로 돌진합니다. 피해 판정 전 대상 체력이 40% 미만이면 피해가 25% 증가합니다. 대상이 없으면 에너지를 쓰지 않으며 준비 중 대상이나 착지점이 무효화되면 취소하고 에너지를 반환합니다."
     ]
    },
    {
@@ -9510,10 +9510,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "蓄力0.4秒后突进到最近敌人的空闲邻格，对最近敌人造成304物理伤害。施法前预占落点；无空位则保留能量，等待重试。",
-     "After a 0.4s windup, dash to an empty hex beside the nearest enemy and deal 304 physical damage. Reserve the landing before casting. If no hex is free, keep energy and retry later.",
-     "0.4秒溜めた後、最も近い敵の隣の空きマスへ突進し、304物理ダメージを与える。詠唱前に着地点を確保。空きがなければエネルギーを保持して再試行する。",
-     "0.4초 준비 후 가장 가까운 적 옆 빈칸으로 돌진해 물리 피해 304을 줍니다. 시전 전에 착지점을 예약하며 빈칸이 없으면 에너지를 유지하고 재시도합니다."
+     "蓄力0.4秒，锁定自身3格内可抵达、生命比例最低的敌人，造成456物理伤害。目标已在普攻范围内时直接咬击，否则突进到预占的空闲邻格。伤害结算前目标生命低于40%时，本次伤害提高25%。无合法目标时不消耗能量；蓄力期间目标失效或落点不再可用时取消并返还能量。",
+     "Charge for 0.4s, then bite the reachable enemy with the lowest HP ratio within 3 hex(es) for 456 physical damage. Bite in place if already in basic attack range; otherwise dash to a reserved empty adjacent cell. Deal 25% more damage if the target is below 40% HP before damage. Without a target, spend no energy. If the target or landing becomes invalid during charging, cancel and refund energy.",
+     "0.4秒溜め、3マス以内で到達可能なHP割合最低の敵へ456物理ダメージ。通常攻撃射程内ならその場で噛みつき、外なら確保した隣接空きマスへ突進。判定前の対象HPが40%未満ならダメージ+25%。対象がなければエネルギー消費なし。溜め中に対象や着地点が無効になれば中止して返還する。",
+     "0.4초 준비 후 3칸 내 도달 가능한 체력 비율 최저 적을 물어 물리 피해 456를 줍니다. 기본 공격 사거리 안이면 제자리에서, 아니면 예약된 인접 빈칸으로 돌진합니다. 피해 판정 전 대상 체력이 40% 미만이면 피해가 25% 증가합니다. 대상이 없으면 에너지를 쓰지 않으며 준비 중 대상이나 착지점이 무효화되면 취소하고 에너지를 반환합니다."
     ]
    },
    {
@@ -9569,10 +9569,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "蓄力0.4秒后突进到最近敌人的空闲邻格，对最近敌人造成640物理伤害。施法前预占落点；无空位则保留能量，等待重试。",
-     "After a 0.4s windup, dash to an empty hex beside the nearest enemy and deal 640 physical damage. Reserve the landing before casting. If no hex is free, keep energy and retry later.",
-     "0.4秒溜めた後、最も近い敵の隣の空きマスへ突進し、640物理ダメージを与える。詠唱前に着地点を確保。空きがなければエネルギーを保持して再試行する。",
-     "0.4초 준비 후 가장 가까운 적 옆 빈칸으로 돌진해 물리 피해 640을 줍니다. 시전 전에 착지점을 예약하며 빈칸이 없으면 에너지를 유지하고 재시도합니다."
+     "蓄力0.4秒，锁定自身3格内可抵达、生命比例最低的敌人，造成960物理伤害。目标已在普攻范围内时直接咬击，否则突进到预占的空闲邻格。伤害结算前目标生命低于40%时，本次伤害提高25%。无合法目标时不消耗能量；蓄力期间目标失效或落点不再可用时取消并返还能量。",
+     "Charge for 0.4s, then bite the reachable enemy with the lowest HP ratio within 3 hex(es) for 960 physical damage. Bite in place if already in basic attack range; otherwise dash to a reserved empty adjacent cell. Deal 25% more damage if the target is below 40% HP before damage. Without a target, spend no energy. If the target or landing becomes invalid during charging, cancel and refund energy.",
+     "0.4秒溜め、3マス以内で到達可能なHP割合最低の敵へ960物理ダメージ。通常攻撃射程内ならその場で噛みつき、外なら確保した隣接空きマスへ突進。判定前の対象HPが40%未満ならダメージ+25%。対象がなければエネルギー消費なし。溜め中に対象や着地点が無効になれば中止して返還する。",
+     "0.4초 준비 후 3칸 내 도달 가능한 체력 비율 최저 적을 물어 물리 피해 960를 줍니다. 기본 공격 사거리 안이면 제자리에서, 아니면 예약된 인접 빈칸으로 돌진합니다. 피해 판정 전 대상 체력이 40% 미만이면 피해가 25% 증가합니다. 대상이 없으면 에너지를 쓰지 않으며 준비 중 대상이나 착지점이 무효화되면 취소하고 에너지를 반환합니다."
     ]
    }
   ],
@@ -9592,15 +9592,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "原地蓄势0.7秒，召下巨型暗金龙牙，对最近敌人造成210基础法术伤害并眩晕1.2秒。不会移动自身；伤害随星级提升，眩晕时长不变。",
-   "Calls down a giant dragon fang to damage and stun a nearby enemy, without moving itself.",
-   "その場で巨大な龍牙を落とし、近くの敵にダメージとスタンを与える。",
-   "제자리에서 거대한 용의 송곳니를 떨어뜨려 가까운 적에게 피해와 기절을 줍니다."
+   "Charge in place for 0.7s, then drop a giant dark-gold dragon fang on the nearest enemy for 210 magic damage and a 1.2s stun. The caster does not move; stun duration stays fixed.",
+   "その場で0.7秒溜め、最寄りの敵に巨大な暗金竜牙を落として210魔法ダメージと1.2秒のスタン。自身は移動せず、スタン時間は固定。",
+   "제자리에서 0.7초 준비 후 가장 가까운 적에게 거대한 암금 용의 송곳니를 떨어뜨려 마법 피해 210과 1.2초 기절을 줍니다. 자신은 이동하지 않으며 기절 시간은 고정입니다."
   ],
   "description": [
    "原地蓄势0.7秒，召下巨型暗金龙牙，对最近敌人造成210基础法术伤害并眩晕1.2秒。不会移动自身；伤害随星级提升，眩晕时长不变。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至2/4.5倍。主要效果随当前攻击力提高。一、二星沿用基础机制；三星的范围、目标数量等变化见下文。\n【三星五费】三星时：选择最近的最多3名不同敌人，依次落下龙牙，间隔0.3秒。每枚龙牙造成完整技能伤害，并眩晕1.2秒；目标已死亡时不会重复打击尸体。",
-   "Calls down a giant dragon fang to damage and stun a nearby enemy, without moving itself.",
-   "その場で巨大な龍牙を落とし、近くの敵にダメージとスタンを与える。",
-   "제자리에서 거대한 용의 송곳니를 떨어뜨려 가까운 적에게 피해와 기절을 줍니다."
+   "Charge in place for 0.7s, then drop a giant dark-gold dragon fang on the nearest enemy for 210 magic damage and a 1.2s stun. The caster does not move; stun duration stays fixed.",
+   "その場で0.7秒溜め、最寄りの敵に巨大な暗金竜牙を落として210魔法ダメージと1.2秒のスタン。自身は移動せず、スタン時間は固定。",
+   "제자리에서 0.7초 준비 후 가장 가까운 적에게 거대한 암금 용의 송곳니를 떨어뜨려 마법 피해 210과 1.2초 기절을 줍니다. 자신은 이동하지 않으며 기절 시간은 고정입니다."
   ],
   "group": [
    "幽冥灵境",
@@ -9676,9 +9676,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "原地蓄势0.7秒，召下巨型暗金龙牙，对最近敌人造成210法术伤害并眩晕1.2秒。不会移动自身；眩晕时长不变。",
-     "After a 0.7s windup, drop a dragon tooth on the nearest enemy, dealing 210 magic damage and stunning for 1.2s per target. The caster does not move.",
-     "0.7秒溜め、最も近い敵へ龍牙を落とす。各対象に210魔法ダメージと1.2秒スタン。自身は移動しない。",
-     "0.7초 준비 후 가장 가까운 적에게 용의 이빨을 떨어뜨립니다. 대상마다 마법 피해 210과 1.2초 기절을 줍니다. 시전자는 이동하지 않습니다."
+     "Charge in place for 0.7s, then drop a giant dark-gold dragon fang on the nearest enemy for 210 magic damage and a 1.2s stun. The caster does not move; stun duration stays fixed.",
+     "その場で0.7秒溜め、最寄りの敵に巨大な暗金竜牙を落として210魔法ダメージと1.2秒のスタン。自身は移動せず、スタン時間は固定。",
+     "제자리에서 0.7초 준비 후 가장 가까운 적에게 거대한 암금 용의 송곳니를 떨어뜨려 마법 피해 210과 1.2초 기절을 줍니다. 자신은 이동하지 않으며 기절 시간은 고정입니다."
     ]
    },
    {
@@ -9735,9 +9735,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "原地蓄势0.7秒，召下巨型暗金龙牙，对最近敌人造成419.32法术伤害并眩晕1.2秒。不会移动自身；眩晕时长不变。",
-     "After a 0.7s windup, drop a dragon tooth on the nearest enemy, dealing 419.32 magic damage and stunning for 1.2s per target. The caster does not move.",
-     "0.7秒溜め、最も近い敵へ龍牙を落とす。各対象に419.32魔法ダメージと1.2秒スタン。自身は移動しない。",
-     "0.7초 준비 후 가장 가까운 적에게 용의 이빨을 떨어뜨립니다. 대상마다 마법 피해 419.32과 1.2초 기절을 줍니다. 시전자는 이동하지 않습니다."
+     "Charge in place for 0.7s, then drop a giant dark-gold dragon fang on the nearest enemy for 419.32 magic damage and a 1.2s stun. The caster does not move; stun duration stays fixed.",
+     "その場で0.7秒溜め、最寄りの敵に巨大な暗金竜牙を落として419.32魔法ダメージと1.2秒のスタン。自身は移動せず、スタン時間は固定。",
+     "제자리에서 0.7초 준비 후 가장 가까운 적에게 거대한 암금 용의 송곳니를 떨어뜨려 마법 피해 419.32과 1.2초 기절을 줍니다. 자신은 이동하지 않으며 기절 시간은 고정입니다."
     ]
    },
    {
@@ -9794,9 +9794,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "原地蓄势0.7秒，召下巨型暗金龙牙，对最近的最多3名不同敌人依次造成945法术伤害并眩晕1.2秒。不会移动自身；眩晕时长不变。\n各次落牙间隔0.3秒，不打击已死亡目标。",
-     "After a 0.7s windup, drop a dragon tooth on up to 3 different nearest enemies, 0.3s apart, dealing 945 magic damage and stunning for 1.2s per target. The caster does not move. Skip targets that have already died.",
-     "0.7秒溜め、最も近い異なる敵最大3体へ0.3秒間隔で龍牙を落とす。各対象に945魔法ダメージと1.2秒スタン。自身は移動しない。既に死亡した対象には落とさない。",
-     "0.7초 준비 후 서로 다른 가장 가까운 적 최대 3명에게 0.3초 간격으로 용의 이빨을 떨어뜨립니다. 대상마다 마법 피해 945과 1.2초 기절을 줍니다. 시전자는 이동하지 않습니다. 이미 사망한 대상은 건너뜁니다."
+     "Charge in place for 0.7s, then drop fangs on up to 3 different nearest enemies for 945 magic damage and a 1.2s stun each. The caster does not move; stun duration stays fixed. Drops are 0.3s apart and skip dead targets.",
+     "その場で0.7秒溜め、近い順に最大3体の別々の敵へ竜牙を落とし、それぞれ945魔法ダメージと1.2秒スタン。自身は移動せずスタン時間は固定。落下間隔は0.3秒、死亡対象は攻撃しない。",
+     "제자리에서 0.7초 준비 후 가까운 서로 다른 적 최대 3명에게 송곳니를 떨어뜨려 각각 마법 피해 945와 1.2초 기절을 줍니다. 자신은 이동하지 않고 기절 시간은 고정입니다. 0.3초 간격으로 떨어지며 죽은 대상은 공격하지 않습니다."
     ]
    }
   ],
@@ -9816,15 +9816,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "阵亡4秒后复活，恢复50%/60%/75%最大生命（一/二/三星），每场战斗仅一次。三星复活时额外获得15%自身最大生命的护盾，持续3秒；护盾受增益影响，无法获得护盾时不生效。",
-   "Revives once per battle after a delay. Higher stars restore more health; three stars also grant a temporary shield.",
-   "戦闘中に一度、時間を置いて復活する。星が高いほど回復量が増え、星3では一時的なシールドも得る。",
-   "전투당 한 번 잠시 후 부활합니다. 성급이 높을수록 체력을 더 회복하며 3성은 임시 보호막도 얻습니다."
+   "Once per battle, revive 4s after death with 50% maximum HP.",
+   "戦闘ごとに一度、死亡から4秒後に最大HPの50%で復活。",
+   "전투당 한 번, 사망 4초 후 최대 체력의 50%로 부활합니다."
   ],
   "description": [
    "阵亡4秒后复活，恢复50%/60%/75%最大生命（一/二/三星），每场战斗仅一次。三星复活时额外获得15%自身最大生命的护盾，持续3秒；护盾受增益影响，无法获得护盾时不生效。",
-   "Revives once per battle after a delay. Higher stars restore more health; three stars also grant a temporary shield.",
-   "戦闘中に一度、時間を置いて復活する。星が高いほど回復量が増え、星3では一時的なシールドも得る。",
-   "전투당 한 번 잠시 후 부활합니다. 성급이 높을수록 체력을 더 회복하며 3성은 임시 보호막도 얻습니다."
+   "Once per battle, revive 4s after death with 50% maximum HP.",
+   "戦闘ごとに一度、死亡から4秒後に最大HPの50%で復活。",
+   "전투당 한 번, 사망 4초 후 최대 체력의 50%로 부활합니다."
   ],
   "group": [
    "幽冥灵境",
@@ -9900,9 +9900,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "阵亡4秒后复活，恢复50%最大生命，每场战斗仅一次。",
-     "Revive 4s after death with 50% max HP, once per battle.",
-     "死亡4秒後、最大HPの50%で復活。1戦につき1回。",
-     "사망 4초 후 최대 체력의 50%로 부활합니다. 전투당 한 번입니다."
+     "Once per battle, revive 4s after death with 50% maximum HP.",
+     "戦闘ごとに一度、死亡から4秒後に最大HPの50%で復活。",
+     "전투당 한 번, 사망 4초 후 최대 체력의 50%로 부활합니다."
     ]
    },
    {
@@ -9959,9 +9959,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "阵亡4秒后复活，恢复60%最大生命，每场战斗仅一次。",
-     "Revive 4s after death with 60% max HP, once per battle.",
-     "死亡4秒後、最大HPの60%で復活。1戦につき1回。",
-     "사망 4초 후 최대 체력의 60%로 부활합니다. 전투당 한 번입니다."
+     "Once per battle, revive 4s after death with 60% maximum HP.",
+     "戦闘ごとに一度、死亡から4秒後に最大HPの60%で復活。",
+     "전투당 한 번, 사망 4초 후 최대 체력의 60%로 부활합니다."
     ]
    },
    {
@@ -10018,9 +10018,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "阵亡4秒后复活，恢复75%最大生命，每场战斗仅一次。复活时额外获得15%自身最大生命的护盾，持续3秒；护盾受增益影响，无法获得护盾时不生效。",
-     "Revive 4s after death with 75% max HP, once per battle. On revival, also gain a shield equal to 15% of own max HP for 3s. Shield bonuses apply; shield prevention blocks it.",
-     "死亡4秒後、最大HPの75%で復活。1戦につき1回。復活時に自身最大HPの15%のシールドを3秒間得る。シールド強化が適用され、シールド獲得禁止中は得られない。",
-     "사망 4초 후 최대 체력의 75%로 부활합니다. 전투당 한 번입니다. 부활 시 자신의 최대 체력 15%만큼 보호막을 3초 동안 얻습니다. 보호막 증가 효과가 적용되며 보호막 획득 금지 시 생성되지 않습니다."
+     "Once per battle, revive 4s after death with 75% maximum HP. On revival, gain a shield equal to 15% of your maximum HP for 3s. Shield bonuses apply; shield prevention blocks the shield.",
+     "戦闘ごとに一度、死亡4秒後に最大HPの75%で復活。復活時に自身の最大HPの15%のシールドを3秒獲得。シールド強化が適用され、シールド獲得禁止時は得られない。",
+     "전투당 한 번, 사망 4초 후 최대 체력의 75%로 부활합니다. 부활 시 3초간 자신의 최대 체력 15% 보호막을 얻습니다. 보호막 강화가 적용되며 보호막 획득 금지 시 생성되지 않습니다."
     ]
    }
   ],
@@ -10040,15 +10040,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "给4格内最近敌人施加3秒烙印，记录其期间实际生命损失；结束或目标真正阵亡时，在其位置周围1格爆发40基础法伤加记录量的30%，追加量最多180基础伤害。爆发不记录到其他烙印。",
-   "Marks an enemy and records health lost during the mark, then detonates for nearby magic damage with a capped bonus.",
-   "敵を標記してHP損失を記録し、終了時に周囲へ魔法ダメージを与える。追加量には上限がある。",
-   "적에게 표식을 남겨 체력 손실을 기록한 뒤 주변에 마법 피해를 줍니다. 추가 피해에는 상한이 있습니다."
+   "Brand the nearest enemy within 4 hex(es) for 3s, recording actual HP lost. On expiry or true death, explode within 1 hex(es) for 40 magic damage plus 30% of recorded loss, capped at 180 bonus damage. This explosion is not recorded by other brands.",
+   "4マス以内の最寄りの敵へ3秒間の烙印を付与し、実際のHP減少を記録。終了時または本当の死亡時、周囲1マスへ40+記録量の30%の魔法ダメージ。追加分は最大180。この爆発は他の烙印に記録されない。",
+   "4칸 내 가장 가까운 적에게 3초 낙인을 찍어 실제 체력 손실을 기록합니다. 종료 또는 실제 사망 시 주변 1칸에 마법 피해 40+기록량의 30%를 주며 추가 피해는 최대 180입니다. 폭발 피해는 다른 낙인에 기록되지 않습니다."
   ],
   "description": [
    "给4格内最近敌人施加3秒烙印，记录其期间实际生命损失；结束或目标真正阵亡时，在其位置周围1格爆发40基础法伤加记录量的30%，追加量最多180基础伤害。爆发不记录到其他烙印。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.9/4倍。主要效果随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
-   "Marks an enemy and records health lost during the mark, then detonates for nearby magic damage with a capped bonus.",
-   "敵を標記してHP損失を記録し、終了時に周囲へ魔法ダメージを与える。追加量には上限がある。",
-   "적에게 표식을 남겨 체력 손실을 기록한 뒤 주변에 마법 피해를 줍니다. 추가 피해에는 상한이 있습니다."
+   "Brand the nearest enemy within 4 hex(es) for 3s, recording actual HP lost. On expiry or true death, explode within 1 hex(es) for 40 magic damage plus 30% of recorded loss, capped at 180 bonus damage. This explosion is not recorded by other brands.",
+   "4マス以内の最寄りの敵へ3秒間の烙印を付与し、実際のHP減少を記録。終了時または本当の死亡時、周囲1マスへ40+記録量の30%の魔法ダメージ。追加分は最大180。この爆発は他の烙印に記録されない。",
+   "4칸 내 가장 가까운 적에게 3초 낙인을 찍어 실제 체력 손실을 기록합니다. 종료 또는 실제 사망 시 주변 1칸에 마법 피해 40+기록량의 30%를 주며 추가 피해는 최대 180입니다. 폭발 피해는 다른 낙인에 기록되지 않습니다."
   ],
   "group": [
    "幽冥灵境",
@@ -10067,7 +10067,7 @@ export const catalog:WikiEntry[] = [
    "暮光烙印",
    "Twilight Brand",
    "黄昏の烙印",
-   "황혼 낙인"
+   "황혼의 낙인"
   ],
   "stars": [
    {
@@ -10124,9 +10124,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "给4格内最近敌人施加3秒烙印，记录其期间实际生命损失；结束或目标真正阵亡时，在其位置周围1格爆发40法伤加记录量的30%，追加量最多180伤害。爆发不记录到其他烙印。",
-     "Brand the nearest enemy within 4 hexes for 3s, recording actual HP lost. On expiration or true death, explode within 1 hex of it for 40 magic damage plus 30% of recorded loss, with the extra portion capped at 180. This explosion is not recorded by other brands.",
-     "4マス以内の最も近い敵に3秒間の烙印を付け、実際のHP減少を記録。終了時または本当に死亡した時、その1マス以内で爆発し、40魔法ダメージ＋記録量の30%を与える。追加分の上限は180。爆発は他の烙印に記録されない。",
-     "4칸 내 가장 가까운 적에게 3초 낙인을 부여해 실제 체력 손실을 기록합니다. 만료 또는 최종 사망 시 대상의 1칸 내에 마법 피해 40과 기록량의 30%를 주며 추가분 상한은 180입니다. 이 폭발은 다른 낙인에 기록되지 않습니다."
+     "Brand the nearest enemy within 4 hex(es) for 3s, recording actual HP lost. On expiry or true death, explode within 1 hex(es) for 40 magic damage plus 30% of recorded loss, capped at 180 bonus damage. This explosion is not recorded by other brands.",
+     "4マス以内の最寄りの敵へ3秒間の烙印を付与し、実際のHP減少を記録。終了時または本当の死亡時、周囲1マスへ40+記録量の30%の魔法ダメージ。追加分は最大180。この爆発は他の烙印に記録されない。",
+     "4칸 내 가장 가까운 적에게 3초 낙인을 찍어 실제 체력 손실을 기록합니다. 종료 또는 실제 사망 시 주변 1칸에 마법 피해 40+기록량의 30%를 주며 추가 피해는 최대 180입니다. 폭발 피해는 다른 낙인에 기록되지 않습니다."
     ]
    },
    {
@@ -10183,9 +10183,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "给4格内最近敌人施加3秒烙印，记录其期间实际生命损失；结束或目标真正阵亡时，在其位置周围1格爆发75.94法伤加记录量的30%，追加量最多341.71伤害。爆发不记录到其他烙印。",
-     "Brand the nearest enemy within 4 hexes for 3s, recording actual HP lost. On expiration or true death, explode within 1 hex of it for 75.94 magic damage plus 30% of recorded loss, with the extra portion capped at 341.71. This explosion is not recorded by other brands.",
-     "4マス以内の最も近い敵に3秒間の烙印を付け、実際のHP減少を記録。終了時または本当に死亡した時、その1マス以内で爆発し、75.94魔法ダメージ＋記録量の30%を与える。追加分の上限は341.71。爆発は他の烙印に記録されない。",
-     "4칸 내 가장 가까운 적에게 3초 낙인을 부여해 실제 체력 손실을 기록합니다. 만료 또는 최종 사망 시 대상의 1칸 내에 마법 피해 75.94과 기록량의 30%를 주며 추가분 상한은 341.71입니다. 이 폭발은 다른 낙인에 기록되지 않습니다."
+     "Brand the nearest enemy within 4 hex(es) for 3s, recording actual HP lost. On expiry or true death, explode within 1 hex(es) for 75.94 magic damage plus 30% of recorded loss, capped at 341.71 bonus damage. This explosion is not recorded by other brands.",
+     "4マス以内の最寄りの敵へ3秒間の烙印を付与し、実際のHP減少を記録。終了時または本当の死亡時、周囲1マスへ75.94+記録量の30%の魔法ダメージ。追加分は最大341.71。この爆発は他の烙印に記録されない。",
+     "4칸 내 가장 가까운 적에게 3초 낙인을 찍어 실제 체력 손실을 기록합니다. 종료 또는 실제 사망 시 주변 1칸에 마법 피해 75.94+기록량의 30%를 주며 추가 피해는 최대 341.71입니다. 폭발 피해는 다른 낙인에 기록되지 않습니다."
     ]
    },
    {
@@ -10242,9 +10242,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "给4格内最近敌人施加3秒烙印，记录其期间实际生命损失；结束或目标真正阵亡时，在其位置周围1格爆发160法伤加记录量的30%，追加量最多720伤害。爆发不记录到其他烙印。",
-     "Brand the nearest enemy within 4 hexes for 3s, recording actual HP lost. On expiration or true death, explode within 1 hex of it for 160 magic damage plus 30% of recorded loss, with the extra portion capped at 720. This explosion is not recorded by other brands.",
-     "4マス以内の最も近い敵に3秒間の烙印を付け、実際のHP減少を記録。終了時または本当に死亡した時、その1マス以内で爆発し、160魔法ダメージ＋記録量の30%を与える。追加分の上限は720。爆発は他の烙印に記録されない。",
-     "4칸 내 가장 가까운 적에게 3초 낙인을 부여해 실제 체력 손실을 기록합니다. 만료 또는 최종 사망 시 대상의 1칸 내에 마법 피해 160과 기록량의 30%를 주며 추가분 상한은 720입니다. 이 폭발은 다른 낙인에 기록되지 않습니다."
+     "Brand the nearest enemy within 4 hex(es) for 3s, recording actual HP lost. On expiry or true death, explode within 1 hex(es) for 160 magic damage plus 30% of recorded loss, capped at 720 bonus damage. This explosion is not recorded by other brands.",
+     "4マス以内の最寄りの敵へ3秒間の烙印を付与し、実際のHP減少を記録。終了時または本当の死亡時、周囲1マスへ160+記録量の30%の魔法ダメージ。追加分は最大720。この爆発は他の烙印に記録されない。",
+     "4칸 내 가장 가까운 적에게 3초 낙인을 찍어 실제 체력 손실을 기록합니다. 종료 또는 실제 사망 시 주변 1칸에 마법 피해 160+기록량의 30%를 주며 추가 피해는 최대 720입니다. 폭발 피해는 다른 낙인에 기록되지 않습니다."
     ]
    }
   ],
@@ -10264,16 +10264,16 @@ export const catalog:WikiEntry[] = [
    "밤장막 용"
   ],
   "summary": [
-   "蓄力0.6秒后，获得自身最大生命25%的护盾，自身及周围两格内的存活友军增加15护甲和15魔抗，持续4秒。双抗增益不叠加，重复施放刷新持续时间。",
-   "Gains a shield and temporarily increases the armor and magic resistance of itself and nearby allies.",
-   "自身にシールドを張り、自身と周囲の味方の物理・魔法防御を一時的に上げる。",
-   "보호막을 얻고 자신과 주변 아군의 방어력 및 마법 저항력을 일시적으로 높입니다."
+   "蓄力0.6秒后，获得自身最大生命30%的护盾，并让全体存活友军获得15%/20%减伤（一/二星），持续6秒。夜幕期间，其他友军生命低于30%时，获得其自身最大生命15%/20%的护盾（一/二星），从触发起持续4秒；施放时已低血立即触发。每次施法每名友军最多触发一次，不抵挡致命伤。重叠减伤取最高，救急护盾不叠加；自身护盾重复施放仅补足。禁止护盾时仍消耗本次救急机会。",
+   "After charging 0.6s, gain a shield of 30% maximum HP and grant all living allies 15% damage reduction for 6s. During Nightfall, other allies below 30% HP gain a shield of 15% of their own maximum HP for 4s; already-low allies trigger immediately. Once per ally per cast; does not prevent lethal damage. Overlapping reduction uses the highest value; emergency shields do not stack, and recasting only tops up your own shield. Shield prevention still consumes the emergency trigger.",
+   "0.6秒溜め、自身に最大HPの30%のシールド、全生存味方に6秒間15%の被ダメージ軽減を付与。夜幕中、他の味方のHPが30%未満になるとその最大HPの15%のシールドを4秒付与。既に低HPなら即発動。詠唱ごとに味方1体につき一度で、致死ダメージは防がない。軽減は最高値のみ、緊急シールドは重複せず、自身の再詠唱シールドは不足分のみ補充。獲得禁止でも緊急発動回数は消費する。",
+   "0.6초 준비 후 자신에게 최대 체력 30% 보호막을 주고 모든 생존 아군에게 6초간 피해 감소 15%를 부여합니다. 밤의 장막 중 다른 아군 체력이 30% 미만이면 해당 아군 최대 체력 15%의 보호막을 4초 부여하며 이미 낮으면 즉시 발동합니다. 시전당 아군별 1회이며 치명 피해를 막지 않습니다. 피해 감소는 최고값만 적용되고 긴급 보호막은 중첩되지 않으며 자신의 보호막 재시전은 부족분만 보충합니다. 보호막 금지 상태에서도 긴급 발동 기회는 소모됩니다."
   ],
   "description": [
-   "蓄力0.6秒后，获得自身最大生命25%的护盾，自身及周围两格内的存活友军增加15护甲和15魔抗，持续4秒。双抗增益不叠加，重复施放刷新持续时间。\n【数值成长】自身属性加成系数在一/二/三星时为原系数的1/1.11/1.5倍。普通属性增减在一/二/三星时为原数值的1/1.2/1.4倍。一、二星沿用基础机制；三星的范围、目标数量等变化见下文。\n【三星五费】三星时：护盾、护甲和魔抗改为给予全体存活友军。护盾使用施法者最大生命和技能成长计算；双抗和夜幕保护持续4秒。在保护期间，友军首次受到致命伤害时保留1点生命，并获得自身最大生命20%的护盾。每名单位每场战斗只能被这样救下一次，重复施法不会刷新次数；禁止获得护盾时仍保留1点生命，但不会获得额外护盾。",
-   "Gains a shield and temporarily increases the armor and magic resistance of itself and nearby allies.",
-   "自身にシールドを張り、自身と周囲の味方の物理・魔法防御を一時的に上げる。",
-   "보호막을 얻고 자신과 주변 아군의 방어력 및 마법 저항력을 일시적으로 높입니다."
+   "蓄力0.6秒后，获得自身最大生命30%的护盾，并让全体存活友军获得15%/20%减伤（一/二星），持续6秒。夜幕期间，其他友军生命低于30%时，获得其自身最大生命15%/20%的护盾（一/二星），从触发起持续4秒；施放时已低血立即触发。每次施法每名友军最多触发一次，不抵挡致命伤。重叠减伤取最高，救急护盾不叠加；自身护盾重复施放仅补足。禁止护盾时仍消耗本次救急机会。\n【三星五费】三星保留独立机制：全体存活友军获得施法者最大生命37.5%的护盾、21护甲和21魔抗，双抗与夜幕保护持续4秒。保护期间首次受到致命伤害时保留1点生命，并获得自身最大生命20%的护盾；每名单位每场战斗只能被救下一次。禁止护盾时仍保留1点生命。",
+   "After charging 0.6s, gain a shield of 30% maximum HP and grant all living allies 15% damage reduction for 6s. During Nightfall, other allies below 30% HP gain a shield of 15% of their own maximum HP for 4s; already-low allies trigger immediately. Once per ally per cast; does not prevent lethal damage. Overlapping reduction uses the highest value; emergency shields do not stack, and recasting only tops up your own shield. Shield prevention still consumes the emergency trigger.",
+   "0.6秒溜め、自身に最大HPの30%のシールド、全生存味方に6秒間15%の被ダメージ軽減を付与。夜幕中、他の味方のHPが30%未満になるとその最大HPの15%のシールドを4秒付与。既に低HPなら即発動。詠唱ごとに味方1体につき一度で、致死ダメージは防がない。軽減は最高値のみ、緊急シールドは重複せず、自身の再詠唱シールドは不足分のみ補充。獲得禁止でも緊急発動回数は消費する。",
+   "0.6초 준비 후 자신에게 최대 체력 30% 보호막을 주고 모든 생존 아군에게 6초간 피해 감소 15%를 부여합니다. 밤의 장막 중 다른 아군 체력이 30% 미만이면 해당 아군 최대 체력 15%의 보호막을 4초 부여하며 이미 낮으면 즉시 발동합니다. 시전당 아군별 1회이며 치명 피해를 막지 않습니다. 피해 감소는 최고값만 적용되고 긴급 보호막은 중첩되지 않으며 자신의 보호막 재시전은 부족분만 보충합니다. 보호막 금지 상태에서도 긴급 발동 기회는 소모됩니다."
   ],
   "group": [
    "幽冥灵境",
@@ -10289,10 +10289,10 @@ export const catalog:WikiEntry[] = [
    }
   ],
   "skillName": [
-   "夜幕护卫",
-   "Nightfall Guard",
-   "夜幕の護衛",
-   "밤의 호위"
+   "夜幕庇护",
+   "Nightfall Shelter",
+   "夜幕の庇護",
+   "밤의 장막 가호"
   ],
   "stars": [
    {
@@ -10324,7 +10324,7 @@ export const catalog:WikiEntry[] = [
      },
      {
       "label": "能量上限",
-      "value": "100"
+      "value": "160"
      },
      {
       "label": "暴击率",
@@ -10348,10 +10348,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "蓄力0.6秒后，获得自身最大生命25%的护盾，自身及周围两格内的存活友军增加15护甲和15魔抗，持续4秒。双抗增益不叠加，重复施放刷新持续时间。",
-     "After a 0.6s windup, gain a shield equal to 25% of caster max HP. Grant yourself and living allies within 2 hexes 15 armor and 15 magic resistance for 4s; recasts refresh, not stack.",
-     "0.6秒溜め、自身に術者最大HPの25%のシールドを付与。自身と2マス以内の生存味方の防御力・魔法耐性をそれぞれ15、4秒間上昇。重複せず再使用で時間更新。",
-     "0.6초 준비 후 자신에게 시전자 최대 체력 25%의 보호막을 부여합니다. 자신과 2칸 내 생존 아군의 방어력과 마법 저항력이 4초 동안 각각 15 증가하며 재시전은 시간만 갱신합니다."
+     "蓄力0.6秒后，获得自身最大生命30%的护盾，并让全体存活友军获得15%减伤，持续6秒。夜幕期间，其他友军生命低于30%时，获得其自身最大生命15%的护盾，从触发起持续4秒；施放时已低血立即触发。每次施法每名友军最多触发一次，不抵挡致命伤。重叠减伤取最高，救急护盾不叠加；自身护盾重复施放仅补足。禁止护盾时仍消耗本次救急机会。",
+     "After charging 0.6s, gain a shield of 30% maximum HP and grant all living allies 15% damage reduction for 6s. During Nightfall, other allies below 30% HP gain a shield of 15% of their own maximum HP for 4s; already-low allies trigger immediately. Once per ally per cast; does not prevent lethal damage. Overlapping reduction uses the highest value; emergency shields do not stack, and recasting only tops up your own shield. Shield prevention still consumes the emergency trigger.",
+     "0.6秒溜め、自身に最大HPの30%のシールド、全生存味方に6秒間15%の被ダメージ軽減を付与。夜幕中、他の味方のHPが30%未満になるとその最大HPの15%のシールドを4秒付与。既に低HPなら即発動。詠唱ごとに味方1体につき一度で、致死ダメージは防がない。軽減は最高値のみ、緊急シールドは重複せず、自身の再詠唱シールドは不足分のみ補充。獲得禁止でも緊急発動回数は消費する。",
+     "0.6초 준비 후 자신에게 최대 체력 30% 보호막을 주고 모든 생존 아군에게 6초간 피해 감소 15%를 부여합니다. 밤의 장막 중 다른 아군 체력이 30% 미만이면 해당 아군 최대 체력 15%의 보호막을 4초 부여하며 이미 낮으면 즉시 발동합니다. 시전당 아군별 1회이며 치명 피해를 막지 않습니다. 피해 감소는 최고값만 적용되고 긴급 보호막은 중첩되지 않으며 자신의 보호막 재시전은 부족분만 보충합니다. 보호막 금지 상태에서도 긴급 발동 기회는 소모됩니다."
     ]
    },
    {
@@ -10383,7 +10383,7 @@ export const catalog:WikiEntry[] = [
      },
      {
       "label": "能量上限",
-      "value": "100"
+      "value": "160"
      },
      {
       "label": "暴击率",
@@ -10407,10 +10407,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "蓄力0.6秒后，获得自身最大生命27.78%的护盾，自身及周围两格内的存活友军增加18护甲和18魔抗，持续4秒。双抗增益不叠加，重复施放刷新持续时间。",
-     "After a 0.6s windup, gain a shield equal to 27.78% of caster max HP. Grant yourself and living allies within 2 hexes 18 armor and 18 magic resistance for 4s; recasts refresh, not stack.",
-     "0.6秒溜め、自身に術者最大HPの27.78%のシールドを付与。自身と2マス以内の生存味方の防御力・魔法耐性をそれぞれ18、4秒間上昇。重複せず再使用で時間更新。",
-     "0.6초 준비 후 자신에게 시전자 최대 체력 27.78%의 보호막을 부여합니다. 자신과 2칸 내 생존 아군의 방어력과 마법 저항력이 4초 동안 각각 18 증가하며 재시전은 시간만 갱신합니다."
+     "蓄力0.6秒后，获得自身最大生命30%的护盾，并让全体存活友军获得20%减伤，持续6秒。夜幕期间，其他友军生命低于30%时，获得其自身最大生命20%的护盾，从触发起持续4秒；施放时已低血立即触发。每次施法每名友军最多触发一次，不抵挡致命伤。重叠减伤取最高，救急护盾不叠加；自身护盾重复施放仅补足。禁止护盾时仍消耗本次救急机会。",
+     "After charging 0.6s, gain a shield of 30% maximum HP and grant all living allies 20% damage reduction for 6s. During Nightfall, other allies below 30% HP gain a shield of 20% of their own maximum HP for 4s; already-low allies trigger immediately. Once per ally per cast; does not prevent lethal damage. Overlapping reduction uses the highest value; emergency shields do not stack, and recasting only tops up your own shield. Shield prevention still consumes the emergency trigger.",
+     "0.6秒溜め、自身に最大HPの30%のシールド、全生存味方に6秒間20%の被ダメージ軽減を付与。夜幕中、他の味方のHPが30%未満になるとその最大HPの20%のシールドを4秒付与。既に低HPなら即発動。詠唱ごとに味方1体につき一度で、致死ダメージは防がない。軽減は最高値のみ、緊急シールドは重複せず、自身の再詠唱シールドは不足分のみ補充。獲得禁止でも緊急発動回数は消費する。",
+     "0.6초 준비 후 자신에게 최대 체력 30% 보호막을 주고 모든 생존 아군에게 6초간 피해 감소 20%를 부여합니다. 밤의 장막 중 다른 아군 체력이 30% 미만이면 해당 아군 최대 체력 20%의 보호막을 4초 부여하며 이미 낮으면 즉시 발동합니다. 시전당 아군별 1회이며 치명 피해를 막지 않습니다. 피해 감소는 최고값만 적용되고 긴급 보호막은 중첩되지 않으며 자신의 보호막 재시전은 부족분만 보충합니다. 보호막 금지 상태에서도 긴급 발동 기회는 소모됩니다."
     ]
    },
    {
@@ -10442,7 +10442,7 @@ export const catalog:WikiEntry[] = [
      },
      {
       "label": "能量上限",
-      "value": "100"
+      "value": "160"
      },
      {
       "label": "暴击率",
@@ -10466,10 +10466,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "蓄力0.6秒后，为全体存活友军提供施法者最大生命37.5%的护盾，增加21护甲和21魔抗，持续4秒。双抗增益不叠加，重复施放刷新持续时间。\n在保护期间，友军首次受到致命伤害时保留1点生命，并获得自身最大生命20%的护盾。每名单位每场战斗只能被这样救下一次，重复施法不会刷新次数；禁止获得护盾时仍保留1点生命，但不会获得额外护盾。",
-     "After a 0.6s windup, give every living ally a shield equal to 37.5% of caster max HP. Grant every living ally 21 armor and 21 magic resistance for 4s; recasts refresh, not stack. During the 4s protection, the first lethal hit leaves an ally at 1 HP and grants a shield equal to 20% of that ally’s max HP. Each unit can be saved once per battle; recasts do not reset it. Shield prevention blocks the extra shield, not the 1-HP rescue.",
-     "0.6秒溜め、全ての生存味方に術者最大HPの37.5%のシールドを付与。全ての生存味方の防御力・魔法耐性をそれぞれ21、4秒間上昇。重複せず再使用で時間更新。保護中の最初の致死ダメージではHPを1残し、その味方の最大HP20%のシールドを与える。救済は各ユニット1戦1回で、再使用しても回数は戻らない。シールド禁止中もHPは1残るが追加シールドは得られない。",
-     "0.6초 준비 후 모든 생존 아군에게 시전자 최대 체력 37.5%의 보호막을 부여합니다. 모든 생존 아군의 방어력과 마법 저항력이 4초 동안 각각 21 증가하며 재시전은 시간만 갱신합니다. 보호 중 최초 치명적 피해를 받으면 체력 1을 남기고 해당 아군 최대 체력 20%의 보호막을 부여합니다. 유닛당 전투 한 번만 구제하며 재시전으로 초기화되지 않습니다. 보호막 금지 시에도 체력 1은 남지만 추가 보호막은 없습니다."
+     "蓄力0.6秒后，全体存活友军获得施法者最大生命37.5%的护盾、21护甲和21魔抗，双抗与夜幕保护持续4秒。保护期间首次受到致命伤害时保留1点生命，并获得自身最大生命20%的护盾；每名单位每场战斗只能被救下一次。禁止护盾时仍保留1点生命。",
+     "After charging 0.6s, grant every living ally a shield of 37.5% of the caster's maximum HP, 21 armor and 21 magic resistance. Resistances and Nightfall protection last 4s. The first lethal hit during protection leaves 1 HP and grants a shield of 20% of that ally's maximum HP. Each unit can be saved once per battle. Shield prevention still leaves 1 HP.",
+     "0.6秒溜め、全生存味方に術者の最大HPの37.5%のシールド、物理防御+21、魔法防御+21を付与。両防御と夜幕の保護は4秒持続。保護中の最初の致死ダメージでHP1を残し、その味方の最大HPの20%のシールドを付与。各ユニットは戦闘中一度だけ救済される。シールド禁止時もHP1を残す。",
+     "0.6초 준비 후 모든 생존 아군에게 시전자 최대 체력 37.5%의 보호막, 방어력 21, 마법 저항력 21을 부여합니다. 저항력과 밤의 장막 보호는 4초 지속됩니다. 보호 중 첫 치명 피해를 받으면 체력 1를 남기고 해당 아군 최대 체력 20%의 보호막을 얻습니다. 유닛당 전투 중 한 번만 구조됩니다. 보호막 금지 시에도 체력 1을 남깁니다."
     ]
    }
   ],
@@ -10490,15 +10490,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "召出魂镰，对当前生命值最低的敌人造成200基础法术伤害，并为全体存活友军恢复80基础生命。治疗不依赖击杀；不具有直接处决阈值。",
-   "Strikes the enemy with the lowest current health and heals all living allies. Healing does not require a kill.",
-   "現在HPが最も低い敵を攻撃し、生存中の味方全員を回復する。回復に撃破は不要。",
-   "현재 체력이 가장 낮은 적을 공격하고 모든 생존 아군을 회복합니다. 처치하지 않아도 회복됩니다."
+   "Strike the enemy with the lowest current HP using a soul scythe for 200 magic damage, and heal all living allies for 80. Healing requires no kill; there is no direct execute threshold.",
+   "現在HPが最も低い敵へ魂の鎌で200魔法ダメージを与え、全生存味方を80回復。撃破は不要で、直接処刑するHP閾値はない。",
+   "현재 체력이 가장 낮은 적에게 영혼의 낫으로 마법 피해 200을 주고 모든 생존 아군을 80 회복합니다. 처치 없이도 회복하며 직접 처형 기준은 없습니다."
   ],
   "description": [
    "召出魂镰，对当前生命值最低的敌人造成200基础法术伤害，并为全体存活友军恢复80基础生命。治疗不依赖击杀；不具有直接处决阈值。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至2/4.5倍。伤害和治疗随当前攻击力提高。一、二星沿用基础机制；三星的范围、目标数量等变化见下文。\n【三星五费】三星时：攻击全场生命比例最低的最多3名不同敌人，每个目标承受完整技能伤害，并保留原本的全队治疗。每击杀一名目标，额外治疗自身最大生命的20%；这部分治疗超过自身缺失生命的部分转为护盾。治疗增减和禁止获得护盾的效果照常生效。",
-   "Strikes the enemy with the lowest current health and heals all living allies. Healing does not require a kill.",
-   "現在HPが最も低い敵を攻撃し、生存中の味方全員を回復する。回復に撃破は不要。",
-   "현재 체력이 가장 낮은 적을 공격하고 모든 생존 아군을 회복합니다. 처치하지 않아도 회복됩니다."
+   "Strike the enemy with the lowest current HP using a soul scythe for 200 magic damage, and heal all living allies for 80. Healing requires no kill; there is no direct execute threshold.",
+   "現在HPが最も低い敵へ魂の鎌で200魔法ダメージを与え、全生存味方を80回復。撃破は不要で、直接処刑するHP閾値はない。",
+   "현재 체력이 가장 낮은 적에게 영혼의 낫으로 마법 피해 200을 주고 모든 생존 아군을 80 회복합니다. 처치 없이도 회복하며 직접 처형 기준은 없습니다."
   ],
   "group": [
    "幽冥灵境",
@@ -10516,7 +10516,7 @@ export const catalog:WikiEntry[] = [
   "skillName": [
    "引魂收割",
    "Soul Harvest",
-   "導魂の収穫",
+   "魂の収穫",
    "영혼 수확"
   ],
   "stars": [
@@ -10549,7 +10549,7 @@ export const catalog:WikiEntry[] = [
      },
      {
       "label": "能量上限",
-      "value": "85"
+      "value": "75"
      },
      {
       "label": "暴击率",
@@ -10574,9 +10574,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "召出魂镰，对当前生命值最低的敌人造成200法术伤害，并为全体存活友军恢复80生命。治疗不依赖击杀；不具有直接处决阈值。",
-     "Strike the enemy with the lowest current HP for 200 magic damage each and heal every living ally for 80. Healing does not require a kill; there is no execution threshold.",
-     "現在HPが最も低い敵にそれぞれ200魔法ダメージを与え、全生存味方を80回復する。回復に撃破は不要で、即死条件もない。",
-     "현재 체력이 가장 낮은 적에게 각각 마법 피해 200을 주고 모든 생존 아군을 80 치유합니다. 치유는 처치를 요구하지 않으며 처형 조건은 없습니다."
+     "Strike the enemy with the lowest current HP using a soul scythe for 200 magic damage, and heal all living allies for 80. Healing requires no kill; there is no direct execute threshold.",
+     "現在HPが最も低い敵へ魂の鎌で200魔法ダメージを与え、全生存味方を80回復。撃破は不要で、直接処刑するHP閾値はない。",
+     "현재 체력이 가장 낮은 적에게 영혼의 낫으로 마법 피해 200을 주고 모든 생존 아군을 80 회복합니다. 처치 없이도 회복하며 직접 처형 기준은 없습니다."
     ]
    },
    {
@@ -10608,7 +10608,7 @@ export const catalog:WikiEntry[] = [
      },
      {
       "label": "能量上限",
-      "value": "85"
+      "value": "75"
      },
      {
       "label": "暴击率",
@@ -10633,9 +10633,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "召出魂镰，对当前生命值最低的敌人造成399.17法术伤害，并为全体存活友军恢复159.67生命。治疗不依赖击杀；不具有直接处决阈值。",
-     "Strike the enemy with the lowest current HP for 399.17 magic damage each and heal every living ally for 159.67. Healing does not require a kill; there is no execution threshold.",
-     "現在HPが最も低い敵にそれぞれ399.17魔法ダメージを与え、全生存味方を159.67回復する。回復に撃破は不要で、即死条件もない。",
-     "현재 체력이 가장 낮은 적에게 각각 마법 피해 399.17을 주고 모든 생존 아군을 159.67 치유합니다. 치유는 처치를 요구하지 않으며 처형 조건은 없습니다."
+     "Strike the enemy with the lowest current HP using a soul scythe for 399.17 magic damage, and heal all living allies for 159.67. Healing requires no kill; there is no direct execute threshold.",
+     "現在HPが最も低い敵へ魂の鎌で399.17魔法ダメージを与え、全生存味方を159.67回復。撃破は不要で、直接処刑するHP閾値はない。",
+     "현재 체력이 가장 낮은 적에게 영혼의 낫으로 마법 피해 399.17을 주고 모든 생존 아군을 159.67 회복합니다. 처치 없이도 회복하며 직접 처형 기준은 없습니다."
     ]
    },
    {
@@ -10667,7 +10667,7 @@ export const catalog:WikiEntry[] = [
      },
      {
       "label": "能量上限",
-      "value": "85"
+      "value": "75"
      },
      {
       "label": "暴击率",
@@ -10692,9 +10692,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "召出魂镰，对生命比例最低的最多3名不同敌人造成900法术伤害，并为全体存活友军恢复360生命。治疗不依赖击杀；不具有直接处决阈值。\n每击杀一名目标，额外治疗自身最大生命的20%；这部分治疗超过自身缺失生命的部分转为护盾。治疗增减和禁止获得护盾的效果照常生效。",
-     "Strike up to 3 different enemies with the lowest HP percentages for 900 magic damage each and heal every living ally for 360. Healing does not require a kill; there is no execution threshold. Each kill additionally heals yourself for 20% max HP; excess self-healing becomes a shield. Healing modifiers and shield prevention apply.",
-     "HP割合が最も低い異なる敵最大3体にそれぞれ900魔法ダメージを与え、全生存味方を360回復する。回復に撃破は不要で、即死条件もない。撃破ごとに自身の最大HP20%を追加回復し、この回復の余剰分をシールドに変える。回復補正とシールド禁止が適用される。",
-     "체력 비율이 가장 낮은 서로 다른 적 최대 3명에게 각각 마법 피해 900을 주고 모든 생존 아군을 360 치유합니다. 치유는 처치를 요구하지 않으며 처형 조건은 없습니다. 처치마다 자신의 최대 체력 20%를 추가 회복하며 이 자가 치유의 초과분은 보호막으로 바뀝니다. 치유 보정과 보호막 금지가 적용됩니다."
+     "Strike up to 3 different enemies with the lowest HP ratios for 900 magic damage and heal all living allies for 360. Healing requires no kill; there is no direct execute threshold. Each kill additionally heals you for 20% maximum HP; excess healing becomes a shield. Healing modifiers and shield prevention still apply.",
+     "HP割合が最も低い別々の敵を最大3体攻撃して900魔法ダメージを与え、全生存味方を360回復。撃破不要で直接処刑閾値はない。撃破ごとに自身の最大HPの20%を追加回復し、過剰回復分をシールドへ変換。回復増減とシールド禁止は通常通り適用。",
+     "체력 비율이 가장 낮은 서로 다른 적 최대 3명에게 마법 피해 900을 주고 모든 생존 아군을 360 회복합니다. 처치가 필요 없으며 직접 처형 기준은 없습니다. 처치마다 자신의 최대 체력 20%를 추가 회복하고 초과 회복량은 보호막으로 전환합니다. 치유 증감과 보호막 금지 효과는 그대로 적용됩니다."
     ]
    }
   ],
@@ -10714,15 +10714,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "普通攻击命中后增加自身6点攻击力，持续3秒，最多叠加3层。",
-   "Basic attacks stack a temporary attack bonus.",
-   "通常攻撃で一時的な攻撃力を積み重ねる。",
-   "기본 공격으로 일시적인 공격력 중첩을 쌓습니다."
+   "Basic attack hits grant 6 ATK for 3s, stacking up to 3 times.",
+   "通常攻撃命中で攻撃力+6を3秒間獲得。最大3重複。",
+   "기본 공격 적중 시 3초간 공격력 6 증가. 최대 3중첩."
   ],
   "description": [
    "普通攻击命中后增加自身6点攻击力，持续3秒，最多叠加3层。\n【数值成长】普通属性增减在一/二/三星时为原数值的1/1.15/1.3倍。范围、控制时间、概率和目标数量不变。",
-   "Basic attacks stack a temporary attack bonus.",
-   "通常攻撃で一時的な攻撃力を積み重ねる。",
-   "기본 공격으로 일시적인 공격력 중첩을 쌓습니다."
+   "Basic attack hits grant 6 ATK for 3s, stacking up to 3 times.",
+   "通常攻撃命中で攻撃力+6を3秒間獲得。最大3重複。",
+   "기본 공격 적중 시 3초간 공격력 6 증가. 최대 3중첩."
   ],
   "group": [
    "几何秘境",
@@ -10799,8 +10799,8 @@ export const catalog:WikiEntry[] = [
     "description": [
      "普通攻击命中后增加自身6点攻击力，持续3秒，最多叠加3层。",
      "Basic attack hits grant 6 ATK for 3s, stacking up to 3 times.",
-     "通常攻撃命中時に攻撃力が3秒間6上昇。最大3スタック。",
-     "기본 공격 적중 시 공격력이 3초 동안 6 증가합니다. 최대 3중첩입니다."
+     "通常攻撃命中で攻撃力+6を3秒間獲得。最大3重複。",
+     "기본 공격 적중 시 3초간 공격력 6 증가. 최대 3중첩."
     ]
    },
    {
@@ -10858,8 +10858,8 @@ export const catalog:WikiEntry[] = [
     "description": [
      "普通攻击命中后增加自身6.9点攻击力，持续3秒，最多叠加3层。",
      "Basic attack hits grant 6.9 ATK for 3s, stacking up to 3 times.",
-     "通常攻撃命中時に攻撃力が3秒間6.9上昇。最大3スタック。",
-     "기본 공격 적중 시 공격력이 3초 동안 6.9 증가합니다. 최대 3중첩입니다."
+     "通常攻撃命中で攻撃力+6.9を3秒間獲得。最大3重複。",
+     "기본 공격 적중 시 3초간 공격력 6.9 증가. 최대 3중첩."
     ]
    },
    {
@@ -10917,8 +10917,8 @@ export const catalog:WikiEntry[] = [
     "description": [
      "普通攻击命中后增加自身7.8点攻击力，持续3秒，最多叠加3层。",
      "Basic attack hits grant 7.8 ATK for 3s, stacking up to 3 times.",
-     "通常攻撃命中時に攻撃力が3秒間7.8上昇。最大3スタック。",
-     "기본 공격 적중 시 공격력이 3초 동안 7.8 증가합니다. 최대 3중첩입니다."
+     "通常攻撃命中で攻撃力+7.8を3秒間獲得。最大3重複。",
+     "기본 공격 적중 시 3초간 공격력 7.8 증가. 최대 3중첩."
     ]
    }
   ],
@@ -10937,16 +10937,16 @@ export const catalog:WikiEntry[] = [
    "외눈 박쥐"
   ],
   "summary": [
-   "开战后获得25%攻速和25%移速，持续4秒。",
-   "Starts combat with a temporary attack-speed and movement-speed boost.",
-   "開戦時に一時的な攻撃速度と移動速度を得る。",
-   "전투 시작 시 공격 속도와 이동 속도가 일시적으로 증가합니다."
+   "开战后获得50%攻速，持续4秒。不再增加移速。",
+   "At combat start gain 50% attack speed for 4s. No movement-speed bonus.",
+   "開戦時に攻撃速度+50%を4秒獲得。移動速度は増加しない。",
+   "전투 시작 시 4초간 공격 속도 50% 증가. 이동 속도는 증가하지 않습니다."
   ],
   "description": [
-   "开战后获得25%攻速和25%移速，持续4秒。\n【数值成长】普通属性增减在一/二/三星时为原数值的1/1.15/1.3倍。范围、控制时间、概率和目标数量不变。",
-   "Starts combat with a temporary attack-speed and movement-speed boost.",
-   "開戦時に一時的な攻撃速度と移動速度を得る。",
-   "전투 시작 시 공격 속도와 이동 속도가 일시적으로 증가합니다."
+   "开战后获得50%攻速，持续4秒。不再增加移速。\n【数值成长】普通属性增减在一/二/三星时为原数值的1/1.15/1.3倍。范围、控制时间、概率和目标数量不变。",
+   "At combat start gain 50% attack speed for 4s. No movement-speed bonus.",
+   "開戦時に攻撃速度+50%を4秒獲得。移動速度は増加しない。",
+   "전투 시작 시 4초간 공격 속도 50% 증가. 이동 속도는 증가하지 않습니다."
   ],
   "group": [
    "几何秘境",
@@ -10964,7 +10964,7 @@ export const catalog:WikiEntry[] = [
   "skillName": [
    "蝠翼疾风",
    "Batwing Gale",
-   "蝙翼の疾風",
+   "蝠翼の疾風",
    "박쥐 날개 질풍"
   ],
   "stars": [
@@ -11021,10 +11021,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "开战后获得25%攻速和25%移速，持续4秒。",
-     "At combat start, gain 25% attack speed and 25% movement speed for 4s.",
-     "戦闘開始時、攻撃速度と移動速度が4秒間それぞれ25%上昇する。",
-     "전투 시작 시 4초 동안 공격 속도와 이동 속도가 각각 25% 증가합니다."
+     "开战后获得50%攻速，持续4秒。不再增加移速。",
+     "At combat start gain 50% attack speed for 4s. No movement-speed bonus.",
+     "開戦時に攻撃速度+50%を4秒獲得。移動速度は増加しない。",
+     "전투 시작 시 4초간 공격 속도 50% 증가. 이동 속도는 증가하지 않습니다."
     ]
    },
    {
@@ -11080,10 +11080,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "开战后获得28.75%攻速和28.75%移速，持续4秒。",
-     "At combat start, gain 28.75% attack speed and 28.75% movement speed for 4s.",
-     "戦闘開始時、攻撃速度と移動速度が4秒間それぞれ28.75%上昇する。",
-     "전투 시작 시 4초 동안 공격 속도와 이동 속도가 각각 28.75% 증가합니다."
+     "开战后获得57.5%攻速，持续4秒。不再增加移速。",
+     "At combat start gain 57.5% attack speed for 4s. No movement-speed bonus.",
+     "開戦時に攻撃速度+57.5%を4秒獲得。移動速度は増加しない。",
+     "전투 시작 시 4초간 공격 속도 57.5% 증가. 이동 속도는 증가하지 않습니다."
     ]
    },
    {
@@ -11139,10 +11139,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "开战后获得32.5%攻速和32.5%移速，持续4秒。",
-     "At combat start, gain 32.5% attack speed and 32.5% movement speed for 4s.",
-     "戦闘開始時、攻撃速度と移動速度が4秒間それぞれ32.5%上昇する。",
-     "전투 시작 시 4초 동안 공격 속도와 이동 속도가 각각 32.5% 증가합니다."
+     "开战后获得65%攻速，持续4秒。不再增加移速。",
+     "At combat start gain 65% attack speed for 4s. No movement-speed bonus.",
+     "開戦時に攻撃速度+65%を4秒獲得。移動速度は増加しない。",
+     "전투 시작 시 4초간 공격 속도 65% 증가. 이동 속도는 증가하지 않습니다."
     ]
    }
   ],
@@ -11163,15 +11163,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "每第三次普攻结算时，以三棱蜂矛削减当前目标18护甲，持续3秒，并追加45基础物理伤害。同一巨蜂卫的破甲刷新持续时间，不重复叠加。追加伤害随星级提升。",
-   "Every third basic attack reduces the target's armor and adds physical damage. Repeated armor reduction refreshes its duration.",
-   "3回ごとの通常攻撃で敵の防御を下げ、追加物理ダメージを与える。防御低下は重ならず更新される。",
-   "세 번째 기본 공격마다 적 방어력을 낮추고 추가 물리 피해를 줍니다. 방어력 감소는 중첩 대신 갱신됩니다."
+   "Every third basic attack reduces the current target's armor by 18 for 3s and deals 45 additional physical damage. Armor reduction from the same wasp guard refreshes without stacking.",
+   "通常攻撃3回ごとに現在の対象の物理防御を3秒間18低下させ、45追加物理ダメージ。同じ蜂衛による防御低下は時間更新のみで重複しない。",
+   "세 번째 기본 공격마다 현재 대상의 방어력을 3초간 18 낮추고 추가 물리 피해 45를 줍니다. 같은 거대 벌 수호병의 방어력 감소는 시간만 갱신하며 중첩되지 않습니다."
   ],
   "description": [
    "每第三次普攻结算时，以三棱蜂矛削减当前目标18护甲，持续3秒，并追加45基础物理伤害。同一巨蜂卫的破甲刷新持续时间，不重复叠加。追加伤害随星级提升。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.8/3倍。主要效果随当前攻击力提高。普通属性增减在一/二/三星时为原数值的1/1.15/1.3倍。范围、控制时间、概率和目标数量不变。",
-   "Every third basic attack reduces the target's armor and adds physical damage. Repeated armor reduction refreshes its duration.",
-   "3回ごとの通常攻撃で敵の防御を下げ、追加物理ダメージを与える。防御低下は重ならず更新される。",
-   "세 번째 기본 공격마다 적 방어력을 낮추고 추가 물리 피해를 줍니다. 방어력 감소는 중첩 대신 갱신됩니다."
+   "Every third basic attack reduces the current target's armor by 18 for 3s and deals 45 additional physical damage. Armor reduction from the same wasp guard refreshes without stacking.",
+   "通常攻撃3回ごとに現在の対象の物理防御を3秒間18低下させ、45追加物理ダメージ。同じ蜂衛による防御低下は時間更新のみで重複しない。",
+   "세 번째 기본 공격마다 현재 대상의 방어력을 3초간 18 낮추고 추가 물리 피해 45를 줍니다. 같은 거대 벌 수호병의 방어력 감소는 시간만 갱신하며 중첩되지 않습니다."
   ],
   "group": [
    "几何秘境",
@@ -11188,8 +11188,8 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "三棱破甲",
-   "Prismatic Pierce",
-   "三稜破甲",
+   "Prismatic Sunder",
+   "三稜の破甲",
    "삼각 파갑"
   ],
   "stars": [
@@ -11247,9 +11247,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "每第三次普攻结算时，以三棱蜂矛削减当前目标18护甲，持续3秒，并追加45物理伤害。同一巨蜂卫的破甲刷新持续时间，不重复叠加。",
-     "Every third basic attack reduces the current target’s armor by 18 for 3s and deals 45 additional physical damage. Armor reduction from the same caster refreshes without stacking.",
-     "通常攻撃3回ごとに、現在の対象の防御力を3秒間18低下させ、45物理ダメージを追加。同じ個体の防御低下は時間更新のみで重複しない。",
-     "매 세 번째 기본 공격은 현재 대상의 방어력을 3초 동안 18 감소시키고 물리 피해 45를 추가합니다. 같은 개체의 방어력 감소는 시간만 갱신하며 중첩되지 않습니다."
+     "Every third basic attack reduces the current target's armor by 18 for 3s and deals 45 additional physical damage. Armor reduction from the same wasp guard refreshes without stacking.",
+     "通常攻撃3回ごとに現在の対象の物理防御を3秒間18低下させ、45追加物理ダメージ。同じ蜂衛による防御低下は時間更新のみで重複しない。",
+     "세 번째 기본 공격마다 현재 대상의 방어력을 3초간 18 낮추고 추가 물리 피해 45를 줍니다. 같은 거대 벌 수호병의 방어력 감소는 시간만 갱신하며 중첩되지 않습니다."
     ]
    },
    {
@@ -11306,9 +11306,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "每第三次普攻结算时，以三棱蜂矛削减当前目标20.7护甲，持续3秒，并追加80.86物理伤害。同一巨蜂卫的破甲刷新持续时间，不重复叠加。",
-     "Every third basic attack reduces the current target’s armor by 20.7 for 3s and deals 80.86 additional physical damage. Armor reduction from the same caster refreshes without stacking.",
-     "通常攻撃3回ごとに、現在の対象の防御力を3秒間20.7低下させ、80.86物理ダメージを追加。同じ個体の防御低下は時間更新のみで重複しない。",
-     "매 세 번째 기본 공격은 현재 대상의 방어력을 3초 동안 20.7 감소시키고 물리 피해 80.86를 추가합니다. 같은 개체의 방어력 감소는 시간만 갱신하며 중첩되지 않습니다."
+     "Every third basic attack reduces the current target's armor by 20.7 for 3s and deals 80.86 additional physical damage. Armor reduction from the same wasp guard refreshes without stacking.",
+     "通常攻撃3回ごとに現在の対象の物理防御を3秒間20.7低下させ、80.86追加物理ダメージ。同じ蜂衛による防御低下は時間更新のみで重複しない。",
+     "세 번째 기본 공격마다 현재 대상의 방어력을 3초간 20.7 낮추고 추가 물리 피해 80.86를 줍니다. 같은 거대 벌 수호병의 방어력 감소는 시간만 갱신하며 중첩되지 않습니다."
     ]
    },
    {
@@ -11365,9 +11365,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "每第三次普攻结算时，以三棱蜂矛削减当前目标23.4护甲，持续3秒，并追加135物理伤害。同一巨蜂卫的破甲刷新持续时间，不重复叠加。",
-     "Every third basic attack reduces the current target’s armor by 23.4 for 3s and deals 135 additional physical damage. Armor reduction from the same caster refreshes without stacking.",
-     "通常攻撃3回ごとに、現在の対象の防御力を3秒間23.4低下させ、135物理ダメージを追加。同じ個体の防御低下は時間更新のみで重複しない。",
-     "매 세 번째 기본 공격은 현재 대상의 방어력을 3초 동안 23.4 감소시키고 물리 피해 135를 추가합니다. 같은 개체의 방어력 감소는 시간만 갱신하며 중첩되지 않습니다."
+     "Every third basic attack reduces the current target's armor by 23.4 for 3s and deals 135 additional physical damage. Armor reduction from the same wasp guard refreshes without stacking.",
+     "通常攻撃3回ごとに現在の対象の物理防御を3秒間23.4低下させ、135追加物理ダメージ。同じ蜂衛による防御低下は時間更新のみで重複しない。",
+     "세 번째 기본 공격마다 현재 대상의 방어력을 3초간 23.4 낮추고 추가 물리 피해 135를 줍니다. 같은 거대 벌 수호병의 방어력 감소는 시간만 갱신하며 중첩되지 않습니다."
     ]
    }
   ],
@@ -11388,15 +11388,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "给最近敌人种下4秒毒种，每秒造成18基础法术伤害；目标真正阵亡时，剩余毒种最多传播给周围2格的2名敌人，仅传播一代且继承原到期时间。同一来源对同一目标刷新而不叠加，每个来源最多同时保留3枚毒种，超出时移除最早施加的一枚。",
-   "Plants a damaging poison seed. When its host dies, the remaining effect can spread once to nearby enemies.",
-   "継続ダメージの毒種を植える。宿主が死亡すると、残り時間を引き継いで一度だけ周囲へ広がる。",
-   "지속 피해를 주는 독씨를 심습니다. 숙주가 죽으면 남은 효과가 한 번 주변으로 전파됩니다."
+   "Plant a poison seed on the nearest enemy for 4s, dealing 18 magic damage per second. On true death, spread the remaining seed to up to 2 enemies within 2 hex(es), for one generation only with the original expiry. Same-source seeds refresh without stacking. Maximum 3 active seeds per source; excess removes the oldest.",
+   "最寄りの敵に4秒間の毒種を植え、毎秒18魔法ダメージ。本当の死亡時、残り時間の種を2マス以内の最大2体へ一世代だけ伝播し、元の終了時刻を引き継ぐ。同一発生源は更新のみで重複せず、最大3個まで。超過時は最古の種を除去。",
+   "가장 가까운 적에게 4초 독 씨앗을 심어 매초 마법 피해 18을 줍니다. 실제 사망 시 남은 씨앗이 2칸 내 최대 2명의 적에게 한 세대만 퍼지고 원래 만료 시간을 유지합니다. 같은 출처는 갱신만 하며 중첩되지 않습니다. 출처당 최대 3개이고 초과 시 가장 오래된 씨앗을 제거합니다."
   ],
   "description": [
    "给最近敌人种下4秒毒种，每秒造成18基础法术伤害；目标真正阵亡时，剩余毒种最多传播给周围2格的2名敌人，仅传播一代且继承原到期时间。同一来源对同一目标刷新而不叠加，每个来源最多同时保留3枚毒种，超出时移除最早施加的一枚。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.8/3倍。主要效果随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
-   "Plants a damaging poison seed. When its host dies, the remaining effect can spread once to nearby enemies.",
-   "継続ダメージの毒種を植える。宿主が死亡すると、残り時間を引き継いで一度だけ周囲へ広がる。",
-   "지속 피해를 주는 독씨를 심습니다. 숙주가 죽으면 남은 효과가 한 번 주변으로 전파됩니다."
+   "Plant a poison seed on the nearest enemy for 4s, dealing 18 magic damage per second. On true death, spread the remaining seed to up to 2 enemies within 2 hex(es), for one generation only with the original expiry. Same-source seeds refresh without stacking. Maximum 3 active seeds per source; excess removes the oldest.",
+   "最寄りの敵に4秒間の毒種を植え、毎秒18魔法ダメージ。本当の死亡時、残り時間の種を2マス以内の最大2体へ一世代だけ伝播し、元の終了時刻を引き継ぐ。同一発生源は更新のみで重複せず、最大3個まで。超過時は最古の種を除去。",
+   "가장 가까운 적에게 4초 독 씨앗을 심어 매초 마법 피해 18을 줍니다. 실제 사망 시 남은 씨앗이 2칸 내 최대 2명의 적에게 한 세대만 퍼지고 원래 만료 시간을 유지합니다. 같은 출처는 갱신만 하며 중첩되지 않습니다. 출처당 최대 3개이고 초과 시 가장 오래된 씨앗을 제거합니다."
   ],
   "group": [
    "几何秘境",
@@ -11414,8 +11414,8 @@ export const catalog:WikiEntry[] = [
   "skillName": [
    "寄生毒种",
    "Parasitic Seed",
-   "寄生毒種",
-   "기생 독 씨앗"
+   "寄生の毒種",
+   "기생 독씨앗"
   ],
   "stars": [
    {
@@ -11472,9 +11472,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "给最近敌人种下4秒毒种，每秒造成18法术伤害；目标真正阵亡时，剩余毒种最多传播给周围2格的2名敌人，仅传播一代且继承原到期时间。同一来源对同一目标刷新而不叠加，每个来源最多同时保留3枚毒种，超出时移除最早施加的一枚。",
-     "Plant a poison seed on the nearest enemy for 4s, dealing 18 magic damage per second. On true death, spread the remaining seed to at most 2 enemies within 2 hexes, once only, keeping the original expiry. Seeds from the same caster refresh rather than stack on a target. At most 3 active seeds per caster; remove the oldest when exceeded.",
-     "最も近い敵に4秒間の毒種を付け、毎秒18魔法ダメージ。本当に死亡すると、2マス以内の敵最大2体へ残り時間のまま一度だけ伝播。同じ術者から同じ敵への毒種は時間更新のみ。術者ごとに最大3個で、超えると最古の種を除去する。",
-     "가장 가까운 적에게 4초 독 씨앗을 심어 매초 마법 피해 18을 줍니다. 최종 사망 시 원래 만료 시간을 유지하며 2칸 내 적 최대 2명에게 한 세대만 전파합니다. 같은 시전자가 같은 대상에게 부여하면 시간만 갱신합니다. 시전자당 최대 3개이며 초과 시 가장 오래된 씨앗을 제거합니다."
+     "Plant a poison seed on the nearest enemy for 4s, dealing 18 magic damage per second. On true death, spread the remaining seed to up to 2 enemies within 2 hex(es), for one generation only with the original expiry. Same-source seeds refresh without stacking. Maximum 3 active seeds per source; excess removes the oldest.",
+     "最寄りの敵に4秒間の毒種を植え、毎秒18魔法ダメージ。本当の死亡時、残り時間の種を2マス以内の最大2体へ一世代だけ伝播し、元の終了時刻を引き継ぐ。同一発生源は更新のみで重複せず、最大3個まで。超過時は最古の種を除去。",
+     "가장 가까운 적에게 4초 독 씨앗을 심어 매초 마법 피해 18을 줍니다. 실제 사망 시 남은 씨앗이 2칸 내 최대 2명의 적에게 한 세대만 퍼지고 원래 만료 시간을 유지합니다. 같은 출처는 갱신만 하며 중첩되지 않습니다. 출처당 최대 3개이고 초과 시 가장 오래된 씨앗을 제거합니다."
     ]
    },
    {
@@ -11531,9 +11531,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "给最近敌人种下4秒毒种，每秒造成32.4法术伤害；目标真正阵亡时，剩余毒种最多传播给周围2格的2名敌人，仅传播一代且继承原到期时间。同一来源对同一目标刷新而不叠加，每个来源最多同时保留3枚毒种，超出时移除最早施加的一枚。",
-     "Plant a poison seed on the nearest enemy for 4s, dealing 32.4 magic damage per second. On true death, spread the remaining seed to at most 2 enemies within 2 hexes, once only, keeping the original expiry. Seeds from the same caster refresh rather than stack on a target. At most 3 active seeds per caster; remove the oldest when exceeded.",
-     "最も近い敵に4秒間の毒種を付け、毎秒32.4魔法ダメージ。本当に死亡すると、2マス以内の敵最大2体へ残り時間のまま一度だけ伝播。同じ術者から同じ敵への毒種は時間更新のみ。術者ごとに最大3個で、超えると最古の種を除去する。",
-     "가장 가까운 적에게 4초 독 씨앗을 심어 매초 마법 피해 32.4을 줍니다. 최종 사망 시 원래 만료 시간을 유지하며 2칸 내 적 최대 2명에게 한 세대만 전파합니다. 같은 시전자가 같은 대상에게 부여하면 시간만 갱신합니다. 시전자당 최대 3개이며 초과 시 가장 오래된 씨앗을 제거합니다."
+     "Plant a poison seed on the nearest enemy for 4s, dealing 32.4 magic damage per second. On true death, spread the remaining seed to up to 2 enemies within 2 hex(es), for one generation only with the original expiry. Same-source seeds refresh without stacking. Maximum 3 active seeds per source; excess removes the oldest.",
+     "最寄りの敵に4秒間の毒種を植え、毎秒32.4魔法ダメージ。本当の死亡時、残り時間の種を2マス以内の最大2体へ一世代だけ伝播し、元の終了時刻を引き継ぐ。同一発生源は更新のみで重複せず、最大3個まで。超過時は最古の種を除去。",
+     "가장 가까운 적에게 4초 독 씨앗을 심어 매초 마법 피해 32.4을 줍니다. 실제 사망 시 남은 씨앗이 2칸 내 최대 2명의 적에게 한 세대만 퍼지고 원래 만료 시간을 유지합니다. 같은 출처는 갱신만 하며 중첩되지 않습니다. 출처당 최대 3개이고 초과 시 가장 오래된 씨앗을 제거합니다."
     ]
    },
    {
@@ -11590,9 +11590,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "给最近敌人种下4秒毒种，每秒造成54法术伤害；目标真正阵亡时，剩余毒种最多传播给周围2格的2名敌人，仅传播一代且继承原到期时间。同一来源对同一目标刷新而不叠加，每个来源最多同时保留3枚毒种，超出时移除最早施加的一枚。",
-     "Plant a poison seed on the nearest enemy for 4s, dealing 54 magic damage per second. On true death, spread the remaining seed to at most 2 enemies within 2 hexes, once only, keeping the original expiry. Seeds from the same caster refresh rather than stack on a target. At most 3 active seeds per caster; remove the oldest when exceeded.",
-     "最も近い敵に4秒間の毒種を付け、毎秒54魔法ダメージ。本当に死亡すると、2マス以内の敵最大2体へ残り時間のまま一度だけ伝播。同じ術者から同じ敵への毒種は時間更新のみ。術者ごとに最大3個で、超えると最古の種を除去する。",
-     "가장 가까운 적에게 4초 독 씨앗을 심어 매초 마법 피해 54을 줍니다. 최종 사망 시 원래 만료 시간을 유지하며 2칸 내 적 최대 2명에게 한 세대만 전파합니다. 같은 시전자가 같은 대상에게 부여하면 시간만 갱신합니다. 시전자당 최대 3개이며 초과 시 가장 오래된 씨앗을 제거합니다."
+     "Plant a poison seed on the nearest enemy for 4s, dealing 54 magic damage per second. On true death, spread the remaining seed to up to 2 enemies within 2 hex(es), for one generation only with the original expiry. Same-source seeds refresh without stacking. Maximum 3 active seeds per source; excess removes the oldest.",
+     "最寄りの敵に4秒間の毒種を植え、毎秒54魔法ダメージ。本当の死亡時、残り時間の種を2マス以内の最大2体へ一世代だけ伝播し、元の終了時刻を引き継ぐ。同一発生源は更新のみで重複せず、最大3個まで。超過時は最古の種を除去。",
+     "가장 가까운 적에게 4초 독 씨앗을 심어 매초 마법 피해 54을 줍니다. 실제 사망 시 남은 씨앗이 2칸 내 최대 2명의 적에게 한 세대만 퍼지고 원래 만료 시간을 유지합니다. 같은 출처는 갱신만 하며 중첩되지 않습니다. 출처당 최대 3개이고 초과 시 가장 오래된 씨앗을 제거합니다."
     ]
    }
   ],
@@ -11613,15 +11613,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "禁锢最近敌人2秒，每0.5秒造成20基础法术伤害；到期或目标真正阵亡时破茧，对周围1格敌人造成60基础法术伤害。免控可阻挡禁锢，但不阻挡毒伤和破茧。",
-   "Traps a target in a poisonous cocoon, then bursts around it. Control immunity does not prevent the poison damage.",
-   "敵を毒の繭で拘束し、最後に周囲へ爆発する。制御無効でも毒ダメージは防げない。",
-   "적을 독고치로 속박한 뒤 주변에 폭발합니다. 군중 제어 면역으로 독 피해를 막지는 못합니다."
+   "Root the nearest enemy for 2s, dealing 20 magic damage every 0.5s. On expiry or true death, burst within 1 hex(es) for 60 magic damage. Control immunity blocks the root, not poison damage or the burst.",
+   "最寄りの敵を2秒拘束し、0.5秒ごとに20魔法ダメージ。終了時または本当の死亡時に繭が破裂し、周囲1マスへ60魔法ダメージ。行動妨害無効は拘束だけを防ぎ、毒や破裂ダメージは防がない。",
+   "가장 가까운 적을 2초 속박하여 0.5초마다 마법 피해 20를 줍니다. 종료 또는 실제 사망 시 고치가 터져 주변 1칸에 마법 피해 60를 줍니다. 제어 면역은 속박만 막으며 독과 폭발 피해는 막지 않습니다."
   ],
   "description": [
    "禁锢最近敌人2秒，每0.5秒造成20基础法术伤害；到期或目标真正阵亡时破茧，对周围1格敌人造成60基础法术伤害。免控可阻挡禁锢，但不阻挡毒伤和破茧。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.8/3倍。主要效果随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
-   "Traps a target in a poisonous cocoon, then bursts around it. Control immunity does not prevent the poison damage.",
-   "敵を毒の繭で拘束し、最後に周囲へ爆発する。制御無効でも毒ダメージは防げない。",
-   "적을 독고치로 속박한 뒤 주변에 폭발합니다. 군중 제어 면역으로 독 피해를 막지는 못합니다."
+   "Root the nearest enemy for 2s, dealing 20 magic damage every 0.5s. On expiry or true death, burst within 1 hex(es) for 60 magic damage. Control immunity blocks the root, not poison damage or the burst.",
+   "最寄りの敵を2秒拘束し、0.5秒ごとに20魔法ダメージ。終了時または本当の死亡時に繭が破裂し、周囲1マスへ60魔法ダメージ。行動妨害無効は拘束だけを防ぎ、毒や破裂ダメージは防がない。",
+   "가장 가까운 적을 2초 속박하여 0.5초마다 마법 피해 20를 줍니다. 종료 또는 실제 사망 시 고치가 터져 주변 1칸에 마법 피해 60를 줍니다. 제어 면역은 속박만 막으며 독과 폭발 피해는 막지 않습니다."
   ],
   "group": [
    "几何秘境",
@@ -11639,8 +11639,8 @@ export const catalog:WikiEntry[] = [
   "skillName": [
    "毒茧孵爆",
    "Venom Cocoon",
-   "毒繭破裂",
-   "독 고치 폭발"
+   "毒繭爆発",
+   "독고치 폭발"
   ],
   "stars": [
    {
@@ -11697,9 +11697,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "禁锢最近敌人2秒，每0.5秒造成20法术伤害；到期或目标真正阵亡时破茧，对周围1格敌人造成60法术伤害。免控可阻挡禁锢，但不阻挡毒伤和破茧。",
-     "Root the nearest enemy for 2s, dealing 20 magic damage every 0.5s. On expiry or true death, burst for 60 magic damage to enemies within 1 hex. Control immunity blocks the root, but not the poison or burst.",
-     "最も近い敵を2秒間移動不能にし、0.5秒ごとに20魔法ダメージ。終了または本当の死亡時に破裂し、1マス以内の敵に60魔法ダメージ。行動妨害免疫は移動不能だけを防ぎ、毒や破裂ダメージは防がない。",
-     "가장 가까운 적을 2초 속박하고 0.5초마다 마법 피해 20을 줍니다. 만료 또는 최종 사망 시 폭발해 1칸 내 적에게 마법 피해 60을 줍니다. 제어 면역은 속박만 막고 독이나 폭발 피해는 막지 않습니다."
+     "Root the nearest enemy for 2s, dealing 20 magic damage every 0.5s. On expiry or true death, burst within 1 hex(es) for 60 magic damage. Control immunity blocks the root, not poison damage or the burst.",
+     "最寄りの敵を2秒拘束し、0.5秒ごとに20魔法ダメージ。終了時または本当の死亡時に繭が破裂し、周囲1マスへ60魔法ダメージ。行動妨害無効は拘束だけを防ぎ、毒や破裂ダメージは防がない。",
+     "가장 가까운 적을 2초 속박하여 0.5초마다 마법 피해 20를 줍니다. 종료 또는 실제 사망 시 고치가 터져 주변 1칸에 마법 피해 60를 줍니다. 제어 면역은 속박만 막으며 독과 폭발 피해는 막지 않습니다."
     ]
    },
    {
@@ -11756,9 +11756,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "禁锢最近敌人2秒，每0.5秒造成35.94法术伤害；到期或目标真正阵亡时破茧，对周围1格敌人造成107.83法术伤害。免控可阻挡禁锢，但不阻挡毒伤和破茧。",
-     "Root the nearest enemy for 2s, dealing 35.94 magic damage every 0.5s. On expiry or true death, burst for 107.83 magic damage to enemies within 1 hex. Control immunity blocks the root, but not the poison or burst.",
-     "最も近い敵を2秒間移動不能にし、0.5秒ごとに35.94魔法ダメージ。終了または本当の死亡時に破裂し、1マス以内の敵に107.83魔法ダメージ。行動妨害免疫は移動不能だけを防ぎ、毒や破裂ダメージは防がない。",
-     "가장 가까운 적을 2초 속박하고 0.5초마다 마법 피해 35.94을 줍니다. 만료 또는 최종 사망 시 폭발해 1칸 내 적에게 마법 피해 107.83을 줍니다. 제어 면역은 속박만 막고 독이나 폭발 피해는 막지 않습니다."
+     "Root the nearest enemy for 2s, dealing 35.94 magic damage every 0.5s. On expiry or true death, burst within 1 hex(es) for 107.83 magic damage. Control immunity blocks the root, not poison damage or the burst.",
+     "最寄りの敵を2秒拘束し、0.5秒ごとに35.94魔法ダメージ。終了時または本当の死亡時に繭が破裂し、周囲1マスへ107.83魔法ダメージ。行動妨害無効は拘束だけを防ぎ、毒や破裂ダメージは防がない。",
+     "가장 가까운 적을 2초 속박하여 0.5초마다 마법 피해 35.94를 줍니다. 종료 또는 실제 사망 시 고치가 터져 주변 1칸에 마법 피해 107.83를 줍니다. 제어 면역은 속박만 막으며 독과 폭발 피해는 막지 않습니다."
     ]
    },
    {
@@ -11815,9 +11815,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "禁锢最近敌人2秒，每0.5秒造成60法术伤害；到期或目标真正阵亡时破茧，对周围1格敌人造成180法术伤害。免控可阻挡禁锢，但不阻挡毒伤和破茧。",
-     "Root the nearest enemy for 2s, dealing 60 magic damage every 0.5s. On expiry or true death, burst for 180 magic damage to enemies within 1 hex. Control immunity blocks the root, but not the poison or burst.",
-     "最も近い敵を2秒間移動不能にし、0.5秒ごとに60魔法ダメージ。終了または本当の死亡時に破裂し、1マス以内の敵に180魔法ダメージ。行動妨害免疫は移動不能だけを防ぎ、毒や破裂ダメージは防がない。",
-     "가장 가까운 적을 2초 속박하고 0.5초마다 마법 피해 60을 줍니다. 만료 또는 최종 사망 시 폭발해 1칸 내 적에게 마법 피해 180을 줍니다. 제어 면역은 속박만 막고 독이나 폭발 피해는 막지 않습니다."
+     "Root the nearest enemy for 2s, dealing 60 magic damage every 0.5s. On expiry or true death, burst within 1 hex(es) for 180 magic damage. Control immunity blocks the root, not poison damage or the burst.",
+     "最寄りの敵を2秒拘束し、0.5秒ごとに60魔法ダメージ。終了時または本当の死亡時に繭が破裂し、周囲1マスへ180魔法ダメージ。行動妨害無効は拘束だけを防ぎ、毒や破裂ダメージは防がない。",
+     "가장 가까운 적을 2초 속박하여 0.5초마다 마법 피해 60를 줍니다. 종료 또는 실제 사망 시 고치가 터져 주변 1칸에 마법 피해 180를 줍니다. 제어 면역은 속박만 막으며 독과 폭발 피해는 막지 않습니다."
     ]
    }
   ],
@@ -11837,15 +11837,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "消耗80能量，持续4秒吸取自身1格内最近的最多2名可锁定敌人。每0.5秒对每个目标造成15基础法术伤害，并按实际造成的总伤害100%回复自身生命，共8次。目标离开1格、死亡或无法锁定时断开；自身死亡、眩晕或沉默时结束。不拖拽、不禁锢。每次伤害读取自身当前攻击力，回复受治疗效果影响。",
-   "Drains nearby enemies and heals from damage dealt. Links break when targets leave range; control can interrupt the channel.",
-   "近くの敵から吸収し、与えたダメージで回復する。射程外で接続が切れ、制御で中断される。",
-   "주변 적의 생명력을 흡수해 준 피해로 회복합니다. 사거리 밖에서는 연결이 끊어지고 군중 제어로 중단됩니다."
+   "Spend 80 energy to drain up to 2 nearest targetable enemies within 1 hex(es) for 4s. Every 0.5s deal 15 magic damage per target and heal for 100% of total actual damage, for 8 pulses. Links break if targets leave 1 hex(es), die or become untargetable. Death, stun or silence ends the cast. No pull or root. Each pulse uses current ATK; healing modifiers apply.",
+   "80エネルギーを消費し、1マス以内の近い指定可能な敵を最大2体、4秒吸収。0.5秒ごとに各対象へ15魔法ダメージ、実ダメージ合計の100%を回復。計8回。対象が1マス外・死亡・指定不可なら切断。自身の死亡・スタン・沈黙で終了。引き寄せや拘束はない。各回に現在攻撃力を参照し、回復補正が適用される。",
+   "에너지 80을 소모해 1칸 내 가까운 지정 가능 적 최대 2명을 4초간 흡수합니다. 0.5초마다 대상별 마법 피해 15를 주고 총 실제 피해의 100%를 회복하며 총 8회 발동합니다. 대상이 1칸 밖으로 나가거나 죽거나 지정 불가가 되면 연결이 끊어집니다. 자신이 죽거나 기절 또는 침묵하면 종료합니다. 당기기나 속박은 없습니다. 매회 현재 공격력을 반영하며 치유 보정이 적용됩니다."
   ],
   "description": [
    "消耗80能量，持续4秒吸取自身1格内最近的最多2名可锁定敌人。每0.5秒对每个目标造成15基础法术伤害，并按实际造成的总伤害100%回复自身生命，共8次。目标离开1格、死亡或无法锁定时断开；自身死亡、眩晕或沉默时结束。不拖拽、不禁锢。每次伤害读取自身当前攻击力，回复受治疗效果影响。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.8/3倍。每次吸血伤害随当前攻击力提高；按实际吸取量治疗自身。范围、控制时间、概率和目标数量不变。",
-   "Drains nearby enemies and heals from damage dealt. Links break when targets leave range; control can interrupt the channel.",
-   "近くの敵から吸収し、与えたダメージで回復する。射程外で接続が切れ、制御で中断される。",
-   "주변 적의 생명력을 흡수해 준 피해로 회복합니다. 사거리 밖에서는 연결이 끊어지고 군중 제어로 중단됩니다."
+   "Spend 80 energy to drain up to 2 nearest targetable enemies within 1 hex(es) for 4s. Every 0.5s deal 15 magic damage per target and heal for 100% of total actual damage, for 8 pulses. Links break if targets leave 1 hex(es), die or become untargetable. Death, stun or silence ends the cast. No pull or root. Each pulse uses current ATK; healing modifiers apply.",
+   "80エネルギーを消費し、1マス以内の近い指定可能な敵を最大2体、4秒吸収。0.5秒ごとに各対象へ15魔法ダメージ、実ダメージ合計の100%を回復。計8回。対象が1マス外・死亡・指定不可なら切断。自身の死亡・スタン・沈黙で終了。引き寄せや拘束はない。各回に現在攻撃力を参照し、回復補正が適用される。",
+   "에너지 80을 소모해 1칸 내 가까운 지정 가능 적 최대 2명을 4초간 흡수합니다. 0.5초마다 대상별 마법 피해 15를 주고 총 실제 피해의 100%를 회복하며 총 8회 발동합니다. 대상이 1칸 밖으로 나가거나 죽거나 지정 불가가 되면 연결이 끊어집니다. 자신이 죽거나 기절 또는 침묵하면 종료합니다. 당기기나 속박은 없습니다. 매회 현재 공격력을 반영하며 치유 보정이 적용됩니다."
   ],
   "group": [
    "几何秘境",
@@ -11862,7 +11862,7 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "根须汲取",
-   "Root Siphon",
+   "Root Drain",
    "根の吸収",
    "뿌리 흡수"
   ],
@@ -11921,9 +11921,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "消耗80能量，持续4秒吸取自身1格内最近的最多2名可锁定敌人。每0.5秒对每个目标造成15法术伤害，并按实际造成的总伤害100%回复自身生命，共8次。目标离开1格、死亡或无法锁定时断开；自身死亡、眩晕或沉默时结束。不拖拽、不禁锢。每次伤害读取自身当前攻击力，回复受治疗效果影响。",
-     "Spend 80 energy to drain up to 2 nearest targetable enemies within 1 hex for 4s. Every 0.5s, deal 15 magic damage to each and heal for 100% of total actual damage, for 8 pulses. Disconnect targets that leave range, die or become untargetable. Caster death, stun or silence ends the channel. No pull or root. Each pulse uses current ATK; healing modifiers apply.",
-     "エネルギー80を消費し、1マス以内の最も近い指定可能な敵最大2体を4秒間吸収。0.5秒ごとに各15魔法ダメージ、計8回。実際の合計ダメージの100%を自身のHPとして回復。射程外・死亡・指定不能で接続解除。術者の死亡・スタン・沈黙で終了。引き寄せや移動不能はない。毎回現在の攻撃力を参照し、回復補正も適用する。",
-     "에너지 80을 소모해 1칸 내 가장 가까운 지정 가능한 적 최대 2명을 4초 동안 흡수합니다. 0.5초마다 각각 마법 피해 15, 총 8회를 주고 실제 총 피해의 100%만큼 자신을 치유합니다. 대상이 범위를 벗어나거나 사망 또는 지정 불가가 되면 연결을 끊습니다. 시전자 사망, 기절, 침묵으로 종료합니다. 끌어당김과 속박은 없으며 매회 현재 공격력을 읽고 치유 보정을 적용합니다."
+     "Spend 80 energy to drain up to 2 nearest targetable enemies within 1 hex(es) for 4s. Every 0.5s deal 15 magic damage per target and heal for 100% of total actual damage, for 8 pulses. Links break if targets leave 1 hex(es), die or become untargetable. Death, stun or silence ends the cast. No pull or root. Each pulse uses current ATK; healing modifiers apply.",
+     "80エネルギーを消費し、1マス以内の近い指定可能な敵を最大2体、4秒吸収。0.5秒ごとに各対象へ15魔法ダメージ、実ダメージ合計の100%を回復。計8回。対象が1マス外・死亡・指定不可なら切断。自身の死亡・スタン・沈黙で終了。引き寄せや拘束はない。各回に現在攻撃力を参照し、回復補正が適用される。",
+     "에너지 80을 소모해 1칸 내 가까운 지정 가능 적 최대 2명을 4초간 흡수합니다. 0.5초마다 대상별 마법 피해 15를 주고 총 실제 피해의 100%를 회복하며 총 8회 발동합니다. 대상이 1칸 밖으로 나가거나 죽거나 지정 불가가 되면 연결이 끊어집니다. 자신이 죽거나 기절 또는 침묵하면 종료합니다. 당기기나 속박은 없습니다. 매회 현재 공격력을 반영하며 치유 보정이 적용됩니다."
     ]
    },
    {
@@ -11980,9 +11980,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "消耗80能量，持续4秒吸取自身1格内最近的最多2名可锁定敌人。每0.5秒对每个目标造成26.91法术伤害，并按实际造成的总伤害100%回复自身生命，共8次。目标离开1格、死亡或无法锁定时断开；自身死亡、眩晕或沉默时结束。不拖拽、不禁锢。每次伤害读取自身当前攻击力，回复受治疗效果影响。",
-     "Spend 80 energy to drain up to 2 nearest targetable enemies within 1 hex for 4s. Every 0.5s, deal 26.91 magic damage to each and heal for 100% of total actual damage, for 8 pulses. Disconnect targets that leave range, die or become untargetable. Caster death, stun or silence ends the channel. No pull or root. Each pulse uses current ATK; healing modifiers apply.",
-     "エネルギー80を消費し、1マス以内の最も近い指定可能な敵最大2体を4秒間吸収。0.5秒ごとに各26.91魔法ダメージ、計8回。実際の合計ダメージの100%を自身のHPとして回復。射程外・死亡・指定不能で接続解除。術者の死亡・スタン・沈黙で終了。引き寄せや移動不能はない。毎回現在の攻撃力を参照し、回復補正も適用する。",
-     "에너지 80을 소모해 1칸 내 가장 가까운 지정 가능한 적 최대 2명을 4초 동안 흡수합니다. 0.5초마다 각각 마법 피해 26.91, 총 8회를 주고 실제 총 피해의 100%만큼 자신을 치유합니다. 대상이 범위를 벗어나거나 사망 또는 지정 불가가 되면 연결을 끊습니다. 시전자 사망, 기절, 침묵으로 종료합니다. 끌어당김과 속박은 없으며 매회 현재 공격력을 읽고 치유 보정을 적용합니다."
+     "Spend 80 energy to drain up to 2 nearest targetable enemies within 1 hex(es) for 4s. Every 0.5s deal 26.91 magic damage per target and heal for 100% of total actual damage, for 8 pulses. Links break if targets leave 1 hex(es), die or become untargetable. Death, stun or silence ends the cast. No pull or root. Each pulse uses current ATK; healing modifiers apply.",
+     "80エネルギーを消費し、1マス以内の近い指定可能な敵を最大2体、4秒吸収。0.5秒ごとに各対象へ26.91魔法ダメージ、実ダメージ合計の100%を回復。計8回。対象が1マス外・死亡・指定不可なら切断。自身の死亡・スタン・沈黙で終了。引き寄せや拘束はない。各回に現在攻撃力を参照し、回復補正が適用される。",
+     "에너지 80을 소모해 1칸 내 가까운 지정 가능 적 최대 2명을 4초간 흡수합니다. 0.5초마다 대상별 마법 피해 26.91를 주고 총 실제 피해의 100%를 회복하며 총 8회 발동합니다. 대상이 1칸 밖으로 나가거나 죽거나 지정 불가가 되면 연결이 끊어집니다. 자신이 죽거나 기절 또는 침묵하면 종료합니다. 당기기나 속박은 없습니다. 매회 현재 공격력을 반영하며 치유 보정이 적용됩니다."
     ]
    },
    {
@@ -12039,9 +12039,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "消耗80能量，持续4秒吸取自身1格内最近的最多2名可锁定敌人。每0.5秒对每个目标造成45法术伤害，并按实际造成的总伤害100%回复自身生命，共8次。目标离开1格、死亡或无法锁定时断开；自身死亡、眩晕或沉默时结束。不拖拽、不禁锢。每次伤害读取自身当前攻击力，回复受治疗效果影响。",
-     "Spend 80 energy to drain up to 2 nearest targetable enemies within 1 hex for 4s. Every 0.5s, deal 45 magic damage to each and heal for 100% of total actual damage, for 8 pulses. Disconnect targets that leave range, die or become untargetable. Caster death, stun or silence ends the channel. No pull or root. Each pulse uses current ATK; healing modifiers apply.",
-     "エネルギー80を消費し、1マス以内の最も近い指定可能な敵最大2体を4秒間吸収。0.5秒ごとに各45魔法ダメージ、計8回。実際の合計ダメージの100%を自身のHPとして回復。射程外・死亡・指定不能で接続解除。術者の死亡・スタン・沈黙で終了。引き寄せや移動不能はない。毎回現在の攻撃力を参照し、回復補正も適用する。",
-     "에너지 80을 소모해 1칸 내 가장 가까운 지정 가능한 적 최대 2명을 4초 동안 흡수합니다. 0.5초마다 각각 마법 피해 45, 총 8회를 주고 실제 총 피해의 100%만큼 자신을 치유합니다. 대상이 범위를 벗어나거나 사망 또는 지정 불가가 되면 연결을 끊습니다. 시전자 사망, 기절, 침묵으로 종료합니다. 끌어당김과 속박은 없으며 매회 현재 공격력을 읽고 치유 보정을 적용합니다."
+     "Spend 80 energy to drain up to 2 nearest targetable enemies within 1 hex(es) for 4s. Every 0.5s deal 45 magic damage per target and heal for 100% of total actual damage, for 8 pulses. Links break if targets leave 1 hex(es), die or become untargetable. Death, stun or silence ends the cast. No pull or root. Each pulse uses current ATK; healing modifiers apply.",
+     "80エネルギーを消費し、1マス以内の近い指定可能な敵を最大2体、4秒吸収。0.5秒ごとに各対象へ45魔法ダメージ、実ダメージ合計の100%を回復。計8回。対象が1マス外・死亡・指定不可なら切断。自身の死亡・スタン・沈黙で終了。引き寄せや拘束はない。各回に現在攻撃力を参照し、回復補正が適用される。",
+     "에너지 80을 소모해 1칸 내 가까운 지정 가능 적 최대 2명을 4초간 흡수합니다. 0.5초마다 대상별 마법 피해 45를 주고 총 실제 피해의 100%를 회복하며 총 8회 발동합니다. 대상이 1칸 밖으로 나가거나 죽거나 지정 불가가 되면 연결이 끊어집니다. 자신이 죽거나 기절 또는 침묵하면 종료합니다. 당기기나 속박은 없습니다. 매회 현재 공격력을 반영하며 치유 보정이 적용됩니다."
     ]
    }
   ],
@@ -12062,15 +12062,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "生命首次降到75%、50%、25%时各碎甲一次。为全场除自身及召唤物外生命比例最低的最多2名存活友军各提供70基础护盾，不限距离；同时以自身为中心，对2格内所有敌人造成70基础法术伤害。每条生命阈值每场只触发一次，复活不重置。护盾读取自身最大生命，伤害读取自身当前攻击力，并随星级成长。",
-   "At health thresholds, shields wounded allies and damages nearby enemies. Each threshold triggers only once per battle.",
-   "HPが一定値を下回ると傷ついた味方を保護し、周囲の敵へダメージを与える。各閾値は戦闘中一度のみ。",
-   "체력이 기준 이하로 떨어지면 부상 아군에게 보호막을 주고 주변 적을 공격합니다. 각 기준은 전투당 한 번만 발동합니다."
+   "Trigger once on first falling below each of 75%, 50% and 25% HP. Shield up to 2 living non-summoned allies other than yourself with the lowest HP ratios anywhere on the board for 70; also deal 70 magic damage to all enemies within 2 hex(es). Each threshold triggers once per battle and is not reset by revival. Shields use your maximum HP; damage uses current ATK; both scale with star level.",
+   "HPが初めて75%・50%・25%を下回るたびに発動。盤面全体から自身と召喚物以外のHP割合が低い生存味方を最大2体選び、各70のシールドを付与。同時に自身から2マス以内の全敵へ70魔法ダメージ。各閾値は戦闘ごとに一度で復活してもリセットしない。シールドは最大HP、ダメージは現在攻撃力と星を参照。",
+   "체력이 처음 75%, 50%, 25% 아래로 내려갈 때 각각 발동합니다. 전장 전체에서 자신과 소환수를 제외한 체력 비율 최저 생존 아군 최대 2명에게 보호막 70를 주고 자신 주변 2칸 모든 적에게 마법 피해 70을 줍니다. 각 기준은 전투당 한 번이며 부활로 초기화되지 않습니다. 보호막은 최대 체력, 피해는 현재 공격력을 반영하고 별 등급에 따라 성장합니다."
   ],
   "description": [
    "生命首次降到75%、50%、25%时各碎甲一次。为全场除自身及召唤物外生命比例最低的最多2名存活友军各提供70基础护盾，不限距离；同时以自身为中心，对2格内所有敌人造成70基础法术伤害。每条生命阈值每场只触发一次，复活不重置。护盾读取自身最大生命，伤害读取自身当前攻击力，并随星级成长。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.9/4倍。碎甲伤害随当前攻击力提高；友军护盾随自身最大生命提高。范围、控制时间、概率和目标数量不变。",
-   "At health thresholds, shields wounded allies and damages nearby enemies. Each threshold triggers only once per battle.",
-   "HPが一定値を下回ると傷ついた味方を保護し、周囲の敵へダメージを与える。各閾値は戦闘中一度のみ。",
-   "체력이 기준 이하로 떨어지면 부상 아군에게 보호막을 주고 주변 적을 공격합니다. 각 기준은 전투당 한 번만 발동합니다."
+   "Trigger once on first falling below each of 75%, 50% and 25% HP. Shield up to 2 living non-summoned allies other than yourself with the lowest HP ratios anywhere on the board for 70; also deal 70 magic damage to all enemies within 2 hex(es). Each threshold triggers once per battle and is not reset by revival. Shields use your maximum HP; damage uses current ATK; both scale with star level.",
+   "HPが初めて75%・50%・25%を下回るたびに発動。盤面全体から自身と召喚物以外のHP割合が低い生存味方を最大2体選び、各70のシールドを付与。同時に自身から2マス以内の全敵へ70魔法ダメージ。各閾値は戦闘ごとに一度で復活してもリセットしない。シールドは最大HP、ダメージは現在攻撃力と星を参照。",
+   "체력이 처음 75%, 50%, 25% 아래로 내려갈 때 각각 발동합니다. 전장 전체에서 자신과 소환수를 제외한 체력 비율 최저 생존 아군 최대 2명에게 보호막 70를 주고 자신 주변 2칸 모든 적에게 마법 피해 70을 줍니다. 각 기준은 전투당 한 번이며 부활로 초기화되지 않습니다. 보호막은 최대 체력, 피해는 현재 공격력을 반영하고 별 등급에 따라 성장합니다."
   ],
   "group": [
    "几何秘境",
@@ -12087,9 +12087,9 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "碎甲护友",
-   "Shattered Armor Shelter",
-   "砕甲の庇護",
-   "파갑 아군 보호"
+   "Shattered Armor Guard",
+   "砕甲の護り",
+   "갑옷 파쇄 수호"
   ],
   "stars": [
    {
@@ -12146,9 +12146,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "生命首次降到75%、50%、25%时各碎甲一次。为全场除自身及召唤物外生命比例最低的最多2名存活友军各提供70护盾，不限距离；同时以自身为中心，对2格内所有敌人造成70法术伤害。每条生命阈值每场只触发一次，复活不重置。护盾读取自身最大生命，伤害读取自身当前攻击力，并随星级成长。",
-     "Trigger once when HP first falls to each of 75%, 50% and 25%. Grant a 70 shield to up to 2 living non-summoned allies other than self with the lowest HP percentages anywhere on the board, and deal 70 magic damage to every enemy within 2 hexes of self. Each threshold triggers once per battle; revival does not reset it. Shields scale with own max HP and damage with current ATK.",
-     "HPが初めて75%・50%・25%へ低下した時に各1回発動。自身と召喚物を除く盤面全域の生存味方からHP割合が最も低い最大2体へ70シールドを付与し、自身から2マス以内の全敵へ70魔法ダメージ。各閾値は1戦1回で復活でも戻らない。シールドは自身最大HP、ダメージは現在の攻撃力に連動する。",
-     "체력이 처음 75%, 50%, 25%에 도달할 때 각각 한 번 발동합니다. 전장 전체에서 자신과 소환물을 제외한 생존 아군 중 체력 비율이 가장 낮은 최대 2명에게 보호막 70을 주고 자신의 2칸 내 모든 적에게 마법 피해 70을 줍니다. 각 조건은 전투당 한 번이며 부활로 초기화되지 않습니다. 보호막은 자신의 최대 체력, 피해는 현재 공격력에 비례합니다."
+     "Trigger once on first falling below each of 75%, 50% and 25% HP. Shield up to 2 living non-summoned allies other than yourself with the lowest HP ratios anywhere on the board for 70; also deal 70 magic damage to all enemies within 2 hex(es). Each threshold triggers once per battle and is not reset by revival. Shields use your maximum HP; damage uses current ATK; both scale with star level.",
+     "HPが初めて75%・50%・25%を下回るたびに発動。盤面全体から自身と召喚物以外のHP割合が低い生存味方を最大2体選び、各70のシールドを付与。同時に自身から2マス以内の全敵へ70魔法ダメージ。各閾値は戦闘ごとに一度で復活してもリセットしない。シールドは最大HP、ダメージは現在攻撃力と星を参照。",
+     "체력이 처음 75%, 50%, 25% 아래로 내려갈 때 각각 발동합니다. 전장 전체에서 자신과 소환수를 제외한 체력 비율 최저 생존 아군 최대 2명에게 보호막 70를 주고 자신 주변 2칸 모든 적에게 마법 피해 70을 줍니다. 각 기준은 전투당 한 번이며 부활로 초기화되지 않습니다. 보호막은 최대 체력, 피해는 현재 공격력을 반영하고 별 등급에 따라 성장합니다."
     ]
    },
    {
@@ -12205,9 +12205,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "生命首次降到75%、50%、25%时各碎甲一次。为全场除自身及召唤物外生命比例最低的最多2名存活友军各提供133护盾，不限距离；同时以自身为中心，对2格内所有敌人造成133法术伤害。每条生命阈值每场只触发一次，复活不重置。护盾读取自身最大生命，伤害读取自身当前攻击力，并随星级成长。",
-     "Trigger once when HP first falls to each of 75%, 50% and 25%. Grant a 133 shield to up to 2 living non-summoned allies other than self with the lowest HP percentages anywhere on the board, and deal 133 magic damage to every enemy within 2 hexes of self. Each threshold triggers once per battle; revival does not reset it. Shields scale with own max HP and damage with current ATK.",
-     "HPが初めて75%・50%・25%へ低下した時に各1回発動。自身と召喚物を除く盤面全域の生存味方からHP割合が最も低い最大2体へ133シールドを付与し、自身から2マス以内の全敵へ133魔法ダメージ。各閾値は1戦1回で復活でも戻らない。シールドは自身最大HP、ダメージは現在の攻撃力に連動する。",
-     "체력이 처음 75%, 50%, 25%에 도달할 때 각각 한 번 발동합니다. 전장 전체에서 자신과 소환물을 제외한 생존 아군 중 체력 비율이 가장 낮은 최대 2명에게 보호막 133을 주고 자신의 2칸 내 모든 적에게 마법 피해 133을 줍니다. 각 조건은 전투당 한 번이며 부활로 초기화되지 않습니다. 보호막은 자신의 최대 체력, 피해는 현재 공격력에 비례합니다."
+     "Trigger once on first falling below each of 75%, 50% and 25% HP. Shield up to 2 living non-summoned allies other than yourself with the lowest HP ratios anywhere on the board for 133; also deal 133 magic damage to all enemies within 2 hex(es). Each threshold triggers once per battle and is not reset by revival. Shields use your maximum HP; damage uses current ATK; both scale with star level.",
+     "HPが初めて75%・50%・25%を下回るたびに発動。盤面全体から自身と召喚物以外のHP割合が低い生存味方を最大2体選び、各133のシールドを付与。同時に自身から2マス以内の全敵へ133魔法ダメージ。各閾値は戦闘ごとに一度で復活してもリセットしない。シールドは最大HP、ダメージは現在攻撃力と星を参照。",
+     "체력이 처음 75%, 50%, 25% 아래로 내려갈 때 각각 발동합니다. 전장 전체에서 자신과 소환수를 제외한 체력 비율 최저 생존 아군 최대 2명에게 보호막 133를 주고 자신 주변 2칸 모든 적에게 마법 피해 133을 줍니다. 각 기준은 전투당 한 번이며 부활로 초기화되지 않습니다. 보호막은 최대 체력, 피해는 현재 공격력을 반영하고 별 등급에 따라 성장합니다."
     ]
    },
    {
@@ -12264,9 +12264,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "生命首次降到75%、50%、25%时各碎甲一次。为全场除自身及召唤物外生命比例最低的最多2名存活友军各提供280护盾，不限距离；同时以自身为中心，对2格内所有敌人造成280法术伤害。每条生命阈值每场只触发一次，复活不重置。护盾读取自身最大生命，伤害读取自身当前攻击力，并随星级成长。",
-     "Trigger once when HP first falls to each of 75%, 50% and 25%. Grant a 280 shield to up to 2 living non-summoned allies other than self with the lowest HP percentages anywhere on the board, and deal 280 magic damage to every enemy within 2 hexes of self. Each threshold triggers once per battle; revival does not reset it. Shields scale with own max HP and damage with current ATK.",
-     "HPが初めて75%・50%・25%へ低下した時に各1回発動。自身と召喚物を除く盤面全域の生存味方からHP割合が最も低い最大2体へ280シールドを付与し、自身から2マス以内の全敵へ280魔法ダメージ。各閾値は1戦1回で復活でも戻らない。シールドは自身最大HP、ダメージは現在の攻撃力に連動する。",
-     "체력이 처음 75%, 50%, 25%에 도달할 때 각각 한 번 발동합니다. 전장 전체에서 자신과 소환물을 제외한 생존 아군 중 체력 비율이 가장 낮은 최대 2명에게 보호막 280을 주고 자신의 2칸 내 모든 적에게 마법 피해 280을 줍니다. 각 조건은 전투당 한 번이며 부활로 초기화되지 않습니다. 보호막은 자신의 최대 체력, 피해는 현재 공격력에 비례합니다."
+     "Trigger once on first falling below each of 75%, 50% and 25% HP. Shield up to 2 living non-summoned allies other than yourself with the lowest HP ratios anywhere on the board for 280; also deal 280 magic damage to all enemies within 2 hex(es). Each threshold triggers once per battle and is not reset by revival. Shields use your maximum HP; damage uses current ATK; both scale with star level.",
+     "HPが初めて75%・50%・25%を下回るたびに発動。盤面全体から自身と召喚物以外のHP割合が低い生存味方を最大2体選び、各280のシールドを付与。同時に自身から2マス以内の全敵へ280魔法ダメージ。各閾値は戦闘ごとに一度で復活してもリセットしない。シールドは最大HP、ダメージは現在攻撃力と星を参照。",
+     "체력이 처음 75%, 50%, 25% 아래로 내려갈 때 각각 발동합니다. 전장 전체에서 자신과 소환수를 제외한 체력 비율 최저 생존 아군 최대 2명에게 보호막 280를 주고 자신 주변 2칸 모든 적에게 마법 피해 280을 줍니다. 각 기준은 전투당 한 번이며 부활로 초기화되지 않습니다. 보호막은 최대 체력, 피해는 현재 공격력을 반영하고 별 등급에 따라 성장합니다."
     ]
    }
   ],
@@ -12285,16 +12285,16 @@ export const catalog:WikiEntry[] = [
    "용암 정령"
   ],
   "summary": [
-   "在3格内敌人最密集的位置喷发40基础法伤，并留下半径1格的熔池4秒，每0.5秒造成35基础法伤；离开后不再受熔池伤害，后来进入的敌人同样受伤。",
-   "Erupts beneath clustered enemies and leaves a damaging lava pool. Leaving the pool avoids later ticks.",
-   "敵の密集地点で噴火し、溶岩池を残す。範囲から出ると後続の持続ダメージを避けられる。",
-   "적 밀집 지점에서 분출하고 용암 웅덩이를 남깁니다. 범위를 벗어나면 후속 지속 피해를 피할 수 있습니다."
+   "在3格内敌人最密集的位置造成40基础法术伤害，并留下半径1格的熔池4秒，每0.5秒造成24基础法术伤害。敌人离开后不再受到该熔池伤害，后来进入的敌人同样受伤。",
+   "Erupt at the densest enemy location within 3 hexes for 40 base magic damage, leaving a 1-hex-radius pool for 4s that deals 24 base magic damage every 0.5s. Leaving stops that pool's damage; enemies entering later also take damage.",
+   "3マス以内で敵が最も密集する地点に基礎魔法ダメージ40。半径1マスの溶岩池を4秒残し、0.5秒ごとに基礎魔法ダメージ24。外へ出るとその池のダメージは止まり、後から入った敵にも有効。",
+   "3칸 내 적이 가장 밀집한 위치에 기본 마법 피해 40을 주고, 반경 1칸의 용암 지대를 4초간 남깁니다. 0.5초마다 기본 마법 피해 24를 주며, 벗어나면 해당 지대 피해가 멈추고 나중에 진입한 적도 피해를 받습니다."
   ],
   "description": [
-   "在3格内敌人最密集的位置喷发40基础法伤，并留下半径1格的熔池4秒，每0.5秒造成35基础法伤；离开后不再受熔池伤害，后来进入的敌人同样受伤。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至1.9/4倍。主要效果随当前攻击力提高。范围、控制时间、概率和目标数量不变。",
-   "Erupts beneath clustered enemies and leaves a damaging lava pool. Leaving the pool avoids later ticks.",
-   "敵の密集地点で噴火し、溶岩池を残す。範囲から出ると後続の持続ダメージを避けられる。",
-   "적 밀집 지점에서 분출하고 용암 웅덩이를 남깁니다. 범위를 벗어나면 후속 지속 피해를 피할 수 있습니다."
+   "在3格内敌人最密集的位置造成40基础法术伤害，并留下半径1格的熔池4秒，每0.5秒造成24基础法术伤害。敌人离开后不再受到该熔池伤害，后来进入的敌人同样受伤。\n固定伤害和召唤物基础数值按一星描述，二/三星基础成长为1.9/4倍，并受施法者相应攻击或最大生命增益影响。",
+   "Erupt at the densest enemy location within 3 hexes for 40 base magic damage, leaving a 1-hex-radius pool for 4s that deals 24 base magic damage every 0.5s. Leaving stops that pool's damage; enemies entering later also take damage.\nFlat damage and summon stats use 1-star references; 2/3-star power scales 1.9/4x and responds to the caster's relevant ATK or max-HP bonuses.",
+   "3マス以内で敵が最も密集する地点に基礎魔法ダメージ40。半径1マスの溶岩池を4秒残し、0.5秒ごとに基礎魔法ダメージ24。外へ出るとその池のダメージは止まり、後から入った敵にも有効。\n固定ダメージと召喚物能力は星1基準。星2/3で1.9/4倍となり、術者の対応する攻撃力・最大HP増加を反映。",
+   "3칸 내 적이 가장 밀집한 위치에 기본 마법 피해 40을 주고, 반경 1칸의 용암 지대를 4초간 남깁니다. 0.5초마다 기본 마법 피해 24를 주며, 벗어나면 해당 지대 피해가 멈추고 나중에 진입한 적도 피해를 받습니다.\n고정 피해와 소환수 수치는 1성 기준이며 2/3성 성장 배율은 1.9/4배로, 시전자의 해당 공격력·최대 체력 증가를 반영합니다."
   ],
   "group": [
    "几何秘境",
@@ -12311,8 +12311,8 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "喷发熔池",
-   "Magma Eruption",
-   "溶岩噴火",
+   "Lava Eruption",
+   "溶岩噴出",
    "용암 분출"
   ],
   "stars": [
@@ -12369,10 +12369,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "在3格内敌人最密集的位置喷发40法伤，并留下半径1格的熔池4秒，每0.5秒造成35法伤；离开后不再受熔池伤害，后来进入的敌人同样受伤。",
-     "Erupt at the densest enemy position within 3 hexes for 40 magic damage. Leave a radius-1 magma pool for 4s, dealing 35 magic damage every 0.5s. Enemies stop taking pool damage after leaving; later entrants are also hit.",
-     "3マス以内で敵が最も密集する位置に噴火し、40魔法ダメージ。半径1マスの溶岩池を4秒間残し、0.5秒ごとに35魔法ダメージ。外へ出ると池のダメージは止まり、後から入った敵も対象となる。",
-     "3칸 내 적이 가장 밀집한 위치에 분출해 마법 피해 40을 줍니다. 반경 1칸 용암 웅덩이를 4초 남기며 0.5초마다 마법 피해 35를 줍니다. 밖으로 나가면 웅덩이 피해가 멈추고 나중에 진입한 적도 피해를 받습니다."
+     "在3格内敌人最密集的位置造成40基础法术伤害，并留下半径1格的熔池4秒，每0.5秒造成24基础法术伤害。敌人离开后不再受到该熔池伤害，后来进入的敌人同样受伤。",
+     "Erupt at the densest enemy location within 3 hexes for 40 base magic damage, leaving a 1-hex-radius pool for 4s that deals 24 base magic damage every 0.5s. Leaving stops that pool's damage; enemies entering later also take damage.",
+     "3マス以内で敵が最も密集する地点に基礎魔法ダメージ40。半径1マスの溶岩池を4秒残し、0.5秒ごとに基礎魔法ダメージ24。外へ出るとその池のダメージは止まり、後から入った敵にも有効。",
+     "3칸 내 적이 가장 밀집한 위치에 기본 마법 피해 40을 주고, 반경 1칸의 용암 지대를 4초간 남깁니다. 0.5초마다 기본 마법 피해 24를 주며, 벗어나면 해당 지대 피해가 멈추고 나중에 진입한 적도 피해를 받습니다."
     ]
    },
    {
@@ -12428,10 +12428,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "在3格内敌人最密集的位置喷发75.94法伤，并留下半径1格的熔池4秒，每0.5秒造成66.44法伤；离开后不再受熔池伤害，后来进入的敌人同样受伤。",
-     "Erupt at the densest enemy position within 3 hexes for 75.94 magic damage. Leave a radius-1 magma pool for 4s, dealing 66.44 magic damage every 0.5s. Enemies stop taking pool damage after leaving; later entrants are also hit.",
-     "3マス以内で敵が最も密集する位置に噴火し、75.94魔法ダメージ。半径1マスの溶岩池を4秒間残し、0.5秒ごとに66.44魔法ダメージ。外へ出ると池のダメージは止まり、後から入った敵も対象となる。",
-     "3칸 내 적이 가장 밀집한 위치에 분출해 마법 피해 75.94을 줍니다. 반경 1칸 용암 웅덩이를 4초 남기며 0.5초마다 마법 피해 66.44를 줍니다. 밖으로 나가면 웅덩이 피해가 멈추고 나중에 진입한 적도 피해를 받습니다."
+     "在3格内敌人最密集的位置造成75.94基础法术伤害，并留下半径1格的熔池4秒，每0.5秒造成45.56基础法术伤害。敌人离开后不再受到该熔池伤害，后来进入的敌人同样受伤。",
+     "Erupt at the densest enemy location within 3 hexes for 75.94 base magic damage, leaving a 1-hex-radius pool for 4s that deals 45.56 base magic damage every 0.5s. Leaving stops that pool's damage; enemies entering later also take damage.",
+     "3マス以内で敵が最も密集する地点に基礎魔法ダメージ75.94。半径1マスの溶岩池を4秒残し、0.5秒ごとに基礎魔法ダメージ45.56。外へ出るとその池のダメージは止まり、後から入った敵にも有効。",
+     "3칸 내 적이 가장 밀집한 위치에 기본 마법 피해 75.94을 주고, 반경 1칸의 용암 지대를 4초간 남깁니다. 0.5초마다 기본 마법 피해 45.56를 주며, 벗어나면 해당 지대 피해가 멈추고 나중에 진입한 적도 피해를 받습니다."
     ]
    },
    {
@@ -12487,10 +12487,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "在3格内敌人最密集的位置喷发160法伤，并留下半径1格的熔池4秒，每0.5秒造成140法伤；离开后不再受熔池伤害，后来进入的敌人同样受伤。",
-     "Erupt at the densest enemy position within 3 hexes for 160 magic damage. Leave a radius-1 magma pool for 4s, dealing 140 magic damage every 0.5s. Enemies stop taking pool damage after leaving; later entrants are also hit.",
-     "3マス以内で敵が最も密集する位置に噴火し、160魔法ダメージ。半径1マスの溶岩池を4秒間残し、0.5秒ごとに140魔法ダメージ。外へ出ると池のダメージは止まり、後から入った敵も対象となる。",
-     "3칸 내 적이 가장 밀집한 위치에 분출해 마법 피해 160을 줍니다. 반경 1칸 용암 웅덩이를 4초 남기며 0.5초마다 마법 피해 140를 줍니다. 밖으로 나가면 웅덩이 피해가 멈추고 나중에 진입한 적도 피해를 받습니다."
+     "在3格内敌人最密集的位置造成160基础法术伤害，并留下半径1格的熔池4秒，每0.5秒造成96基础法术伤害。敌人离开后不再受到该熔池伤害，后来进入的敌人同样受伤。",
+     "Erupt at the densest enemy location within 3 hexes for 160 base magic damage, leaving a 1-hex-radius pool for 4s that deals 96 base magic damage every 0.5s. Leaving stops that pool's damage; enemies entering later also take damage.",
+     "3マス以内で敵が最も密集する地点に基礎魔法ダメージ160。半径1マスの溶岩池を4秒残し、0.5秒ごとに基礎魔法ダメージ96。外へ出るとその池のダメージは止まり、後から入った敵にも有効。",
+     "3칸 내 적이 가장 밀집한 위치에 기본 마법 피해 160을 주고, 반경 1칸의 용암 지대를 4초간 남깁니다. 0.5초마다 기본 마법 피해 96를 주며, 벗어나면 해당 지대 피해가 멈추고 나중에 진입한 적도 피해를 받습니다."
     ]
    }
   ],
@@ -12511,15 +12511,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "朝最近敌人发出长4格、宽约1格的棱晶射线，对路径内敌人造成170基础真实伤害，并为自身生成90基础护盾。射线穿透敌人，不附加灼烧。",
-   "Fires a piercing line of true damage and gains a shield. It does not apply a burn.",
-   "貫通する直線の確定ダメージを放ち、自身にシールドを得る。火傷は与えない。",
-   "관통하는 직선 고정 피해를 주고 보호막을 얻습니다. 화상은 부여하지 않습니다."
+   "Fire a prism beam toward the nearest enemy, 4 hex(es) long and about 1 wide, dealing 170 true damage along its path and granting yourself a 90 shield. Pierces enemies; no burn.",
+   "最寄りの敵へ長さ4・幅約1マスのプリズム光線を放ち、経路上に170確定ダメージを与え、自身に90のシールド。敵を貫通し、炎上は付与しない。",
+   "가장 가까운 적에게 길이 4칸, 너비 약 1칸의 프리즘 광선을 발사해 경로에 고정 피해 170를 주고 자신에게 보호막 90을 부여합니다. 적을 관통하며 화상은 없습니다."
   ],
   "description": [
    "朝最近敌人发出长4格、宽约1格的棱晶射线，对路径内敌人造成170基础真实伤害，并为自身生成90基础护盾。射线穿透敌人，不附加灼烧。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至2/4.5倍。伤害随当前攻击力提高；护盾随自身最大生命提高。一、二星沿用基础机制；三星的范围、目标数量等变化见下文。\n【三星五费】三星时：主射线延伸至棋盘边界，对直线路径内的敌人造成完整真实伤害；随后向最多3名未被主射线命中的不同敌人折射，每条分支造成主射线50%的伤害。同一次施放中，每名敌人只承受一次主射线或分支伤害，并保留原本的自身护盾。",
-   "Fires a piercing line of true damage and gains a shield. It does not apply a burn.",
-   "貫通する直線の確定ダメージを放ち、自身にシールドを得る。火傷は与えない。",
-   "관통하는 직선 고정 피해를 주고 보호막을 얻습니다. 화상은 부여하지 않습니다."
+   "Fire a prism beam toward the nearest enemy, 4 hex(es) long and about 1 wide, dealing 170 true damage along its path and granting yourself a 90 shield. Pierces enemies; no burn.",
+   "最寄りの敵へ長さ4・幅約1マスのプリズム光線を放ち、経路上に170確定ダメージを与え、自身に90のシールド。敵を貫通し、炎上は付与しない。",
+   "가장 가까운 적에게 길이 4칸, 너비 약 1칸의 프리즘 광선을 발사해 경로에 고정 피해 170를 주고 자신에게 보호막 90을 부여합니다. 적을 관통하며 화상은 없습니다."
   ],
   "group": [
    "几何秘境",
@@ -12536,9 +12536,9 @@ export const catalog:WikiEntry[] = [
   ],
   "skillName": [
    "棱光裁线",
-   "Prismatic Judgment",
-   "稜光の裁線",
-   "프리즘 심판선"
+   "Prismatic Severance",
+   "稜光の裁断",
+   "프리즘 절단"
   ],
   "stars": [
    {
@@ -12595,9 +12595,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "朝最近敌人发出长4格、宽约1格的棱晶射线，对路径内敌人造成170真实伤害，并为自身生成90护盾。射线穿透敌人，不附加灼烧。",
-     "Fire a ray toward the nearest enemy, 4 hexes long and about 1 hex wide. Deal 170 true damage along the path and gain a 90 shield. It pierces enemies and applies no burn.",
-     "最も近い敵へ長さ4マスの、幅約1マスの光線を放つ。経路上に170確定ダメージを与え、自身に90シールド。敵を貫通し、炎上は付与しない。",
-     "가장 가까운 적을 향해 길이 4칸의 폭 약 1칸 광선을 발사합니다. 경로에 고정 피해 170을 주고 자신에게 보호막 90을 부여합니다. 적을 관통하며 화상은 없습니다."
+     "Fire a prism beam toward the nearest enemy, 4 hex(es) long and about 1 wide, dealing 170 true damage along its path and granting yourself a 90 shield. Pierces enemies; no burn.",
+     "最寄りの敵へ長さ4・幅約1マスのプリズム光線を放ち、経路上に170確定ダメージを与え、自身に90のシールド。敵を貫通し、炎上は付与しない。",
+     "가장 가까운 적에게 길이 4칸, 너비 약 1칸의 프리즘 광선을 발사해 경로에 고정 피해 170를 주고 자신에게 보호막 90을 부여합니다. 적을 관통하며 화상은 없습니다."
     ]
    },
    {
@@ -12654,9 +12654,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "朝最近敌人发出长4格、宽约1格的棱晶射线，对路径内敌人造成340真实伤害，并为自身生成180护盾。射线穿透敌人，不附加灼烧。",
-     "Fire a ray toward the nearest enemy, 4 hexes long and about 1 hex wide. Deal 340 true damage along the path and gain a 180 shield. It pierces enemies and applies no burn.",
-     "最も近い敵へ長さ4マスの、幅約1マスの光線を放つ。経路上に340確定ダメージを与え、自身に180シールド。敵を貫通し、炎上は付与しない。",
-     "가장 가까운 적을 향해 길이 4칸의 폭 약 1칸 광선을 발사합니다. 경로에 고정 피해 340을 주고 자신에게 보호막 180을 부여합니다. 적을 관통하며 화상은 없습니다."
+     "Fire a prism beam toward the nearest enemy, 4 hex(es) long and about 1 wide, dealing 340 true damage along its path and granting yourself a 180 shield. Pierces enemies; no burn.",
+     "最寄りの敵へ長さ4・幅約1マスのプリズム光線を放ち、経路上に340確定ダメージを与え、自身に180のシールド。敵を貫通し、炎上は付与しない。",
+     "가장 가까운 적에게 길이 4칸, 너비 약 1칸의 프리즘 광선을 발사해 경로에 고정 피해 340를 주고 자신에게 보호막 180을 부여합니다. 적을 관통하며 화상은 없습니다."
     ]
    },
    {
@@ -12713,9 +12713,9 @@ export const catalog:WikiEntry[] = [
     ],
     "description": [
      "朝最近敌人发出延伸至棋盘边界、宽约1格的棱晶射线，对路径内敌人造成765真实伤害，并为自身生成405护盾。射线穿透敌人，不附加灼烧。\n随后向最多3名未被主射线命中的不同敌人折射，每条分支造成主射线50%的伤害。同一次施放中，每名敌人只承受一次主射线或分支伤害。",
-     "Fire a ray toward the nearest enemy, extending to the board edge and about 1 hex wide. Deal 765 true damage along the path and gain a 405 shield. It pierces enemies and applies no burn. Refract toward up to 3 different enemies not hit by the main ray, dealing 50% of main-ray damage per branch. Each enemy is hit only once per cast, by the main ray or a branch.",
-     "最も近い敵へ盤面端まで届く、幅約1マスの光線を放つ。経路上に765確定ダメージを与え、自身に405シールド。敵を貫通し、炎上は付与しない。主光線が当たらなかった異なる敵最大3体へ屈折し、各分岐は主光線の50%のダメージを与える。各敵は1回の詠唱で主光線か分岐のどちらか1回だけ命中する。",
-     "가장 가까운 적을 향해 전장 끝까지 뻗는 폭 약 1칸 광선을 발사합니다. 경로에 고정 피해 765을 주고 자신에게 보호막 405을 부여합니다. 적을 관통하며 화상은 없습니다. 주 광선에 맞지 않은 서로 다른 적 최대 3명에게 굴절하며 각 분기는 주 광선 피해의 50%를 줍니다. 시전당 각 적은 주 광선 또는 분기 중 한 번만 맞습니다."
+     "Fire a beam to the board edge toward the nearest enemy, about 1 hex(es) wide, dealing 765 true damage and granting yourself a 405 shield. Pierces enemies; no burn. Refract to up to 3 different enemies missed by the main beam, each branch dealing 50% of its damage. Each enemy takes only one main or branch hit per cast.",
+     "最寄りの敵へ盤面端まで届く幅約1マスの光線を放ち、765確定ダメージと自身に405のシールド。貫通し炎上なし。主光線に当たらなかった別々の敵最大3体へ屈折し、各分岐は主光線の50%のダメージ。1回の詠唱で各敵は主光線か分岐のどちらか1回だけ被弾。",
+     "가장 가까운 적을 향해 전장 끝까지 너비 약 1칸의 광선을 발사해 고정 피해 765을 주고 자신에게 보호막 405를 부여합니다. 관통하며 화상은 없습니다. 주 광선에 맞지 않은 서로 다른 적 최대 3명에게 굴절하고 각 갈래는 주 광선 피해의 50%를 줍니다. 시전당 적마다 주 광선 또는 갈래 피해를 한 번만 받습니다."
     ]
    }
   ],
@@ -12734,16 +12734,16 @@ export const catalog:WikiEntry[] = [
    "미믹 상자"
   ],
   "summary": [
-   "在自身合法邻格放下250生命的诱饵箱，吸引2格内最多2名可受嘲讽敌人1.5秒；诱饵被打破或4秒到期后，对周围1格造成140基础法伤。每名施法者最多同时存在1个诱饵。",
-   "Places a decoy chest that taunts nearby enemies, then explodes when destroyed or expired.",
-   "近くの敵を挑発する囮の宝箱を置く。破壊または時間切れで爆発する。",
-   "주변 적을 도발하는 미끼 상자를 놓습니다. 파괴되거나 시간이 끝나면 폭발합니다."
+   "优先朝敌人方向的合法邻格放下400生命的诱饵，嘲讽2格内最多2名可受嘲讽敌人3秒。诱饵被击破或4秒到期后，对周围1格造成240基础法术伤害。每名施法者最多同时拥有1个诱饵；没有合法空位时无法召唤。",
+   "Place a 400-HP lure in a legal adjacent cell, preferring cells toward enemies. It taunts up to 2 susceptible enemies within 2 hexes for 3s. On destruction or after 4s, it deals 240 base magic damage within 1 hex. Maximum 1 living lure per caster; requires a free legal cell.",
+   "敵に近い隣接空きマスを優先してHP400の囮を設置。2マス以内の挑発可能な敵を最大2体、3秒挑発。破壊または4秒経過で周囲1マスに基礎魔法ダメージ240。術者ごとに同時存在は1体まで。設置可能な空きマスが必要。",
+   "적 방향의 인접 빈칸을 우선하여 체력 400의 미끼를 놓습니다. 2칸 내 도발 가능한 적 최대 2명을 3초간 도발합니다. 파괴되거나 4초가 지나면 주변 1칸에 기본 마법 피해 240을 줍니다. 시전자당 동시에 1개만 존재하며 빈칸이 필요합니다."
   ],
   "description": [
-   "在自身合法邻格放下250生命的诱饵箱，吸引2格内最多2名可受嘲讽敌人1.5秒；诱饵被打破或4秒到期后，对周围1格造成140基础法伤。每名施法者最多同时存在1个诱饵。\n【数值成长】上文固定数值以一星为准。二星/三星主要数值提升至2/4.5倍。主要效果随当前攻击力提高。召唤物攻击随施法者攻击力提高，生命随施法者最大生命提高；孵化和成熟时重新计算。一、二星沿用基础机制；三星的范围、目标数量等变化见下文。\n【三星五费】三星时：一次放置最多3个诱饵，每名施法者最多同时拥有3个存活诱饵。每个诱饵分别执行原本的嘲讽、存活4秒和被击破后的爆炸。只占用自身周围合法空位；空位或召唤容量不足时，只生成能够放下的数量。",
-   "Places a decoy chest that taunts nearby enemies, then explodes when destroyed or expired.",
-   "近くの敵を挑発する囮の宝箱を置く。破壊または時間切れで爆発する。",
-   "주변 적을 도발하는 미끼 상자를 놓습니다. 파괴되거나 시간이 끝나면 폭발합니다."
+   "优先朝敌人方向的合法邻格放下400生命的诱饵，嘲讽2格内最多2名可受嘲讽敌人3秒。诱饵被击破或4秒到期后，对周围1格造成240基础法术伤害。每名施法者最多同时拥有1个诱饵；没有合法空位时无法召唤。\n固定伤害和召唤物基础数值按一星描述，二/三星基础成长为2/4.5倍，并受施法者相应攻击或最大生命增益影响。\n【三星五费】三星时一次最多召唤3个诱饵，同时存活上限为3。逐个选择不同合法邻格，空位或召唤容量不足时只生成能放下的数量。",
+   "Place a 400-HP lure in a legal adjacent cell, preferring cells toward enemies. It taunts up to 2 susceptible enemies within 2 hexes for 3s. On destruction or after 4s, it deals 240 base magic damage within 1 hex. Maximum 1 living lure per caster; requires a free legal cell.\nFlat damage and summon stats use 1-star references; 2/3-star power scales 2/4.5x and responds to the caster's relevant ATK or max-HP bonuses.\n[3-star legendary]At 3 stars: summon up to 3 lures per cast, with 3 living lures maximum. Each uses a distinct legal adjacent cell, limited by free cells and summon capacity.",
+   "敵に近い隣接空きマスを優先してHP400の囮を設置。2マス以内の挑発可能な敵を最大2体、3秒挑発。破壊または4秒経過で周囲1マスに基礎魔法ダメージ240。術者ごとに同時存在は1体まで。設置可能な空きマスが必要。\n固定ダメージと召喚物能力は星1基準。星2/3で2/4.5倍となり、術者の対応する攻撃力・最大HP増加を反映。\n【星3・5コスト】星3：1回で最大3体、同時存在も3体まで。それぞれ異なる隣接空きマスを使い、空きマスと召喚上限に制限される。",
+   "적 방향의 인접 빈칸을 우선하여 체력 400의 미끼를 놓습니다. 2칸 내 도발 가능한 적 최대 2명을 3초간 도발합니다. 파괴되거나 4초가 지나면 주변 1칸에 기본 마법 피해 240을 줍니다. 시전자당 동시에 1개만 존재하며 빈칸이 필요합니다.\n고정 피해와 소환수 수치는 1성 기준이며 2/3성 성장 배율은 2/4.5배로, 시전자의 해당 공격력·최대 체력 증가를 반영합니다.\n【3성 5코스트】3성: 한 번에 최대 3개, 동시 생존 최대 3개입니다. 각각 다른 인접 빈칸을 사용하며 빈칸과 소환 한도의 제한을 받습니다."
   ],
   "group": [
    "几何秘境",
@@ -12770,7 +12770,7 @@ export const catalog:WikiEntry[] = [
     "stats": [
      {
       "label": "生命值",
-      "value": "1050"
+      "value": "1350"
      },
      {
       "label": "攻击力",
@@ -12794,7 +12794,7 @@ export const catalog:WikiEntry[] = [
      },
      {
       "label": "能量上限",
-      "value": "100"
+      "value": "70"
      },
      {
       "label": "暴击率",
@@ -12818,10 +12818,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "在自身合法邻格放下250生命的诱饵箱，吸引2格内最多2名可受嘲讽敌人1.5秒；诱饵被打破或4秒到期后，对周围1格造成140法伤。每名施法者最多同时存在1个诱饵。",
-     "Place up to 1 decoys, each with 250 HP, in legal adjacent empty hexes. Each taunts up to 2 susceptible enemies within 2 hexes for 1.5s. On destruction or after 4s, it explodes for 140 magic damage within 1 hex. At most 1 living decoys per caster. Limited by available hexes and summon capacity.",
-     "隣接する有効な空きマスにHP250の囮を最大1体設置。各囮は2マス以内の挑発可能な敵最大2体を1.5秒間挑発し、破壊時または4秒後に1マス以内へ140魔法ダメージを与える。術者ごとに生存囮は最大1体。空きマスと召喚上限の範囲でのみ生成する。",
-     "인접한 유효 빈칸에 각각 체력 250의 미끼를 최대 1개 설치합니다. 각 미끼는 2칸 내 도발 가능한 적 최대 2명을 1.5초 도발합니다. 파괴되거나 4초가 지나면 폭발해 1칸 내에 마법 피해 140을 줍니다. 시전자당 생존 미끼 최대 1개이며 빈칸과 소환 한도 내에서만 생성됩니다."
+     "优先朝敌人方向的合法邻格放下400生命的诱饵，嘲讽2格内最多2名可受嘲讽敌人3秒。诱饵被击破或4秒到期后，对周围1格造成240基础法术伤害。每名施法者最多同时拥有1个诱饵；没有合法空位时无法召唤。",
+     "Place a 400-HP lure in a legal adjacent cell, preferring cells toward enemies. It taunts up to 2 susceptible enemies within 2 hexes for 3s. On destruction or after 4s, it deals 240 base magic damage within 1 hex. Maximum 1 living lure per caster; requires a free legal cell.",
+     "敵に近い隣接空きマスを優先してHP400の囮を設置。2マス以内の挑発可能な敵を最大2体、3秒挑発。破壊または4秒経過で周囲1マスに基礎魔法ダメージ240。術者ごとに同時存在は1体まで。設置可能な空きマスが必要。",
+     "적 방향의 인접 빈칸을 우선하여 체력 400의 미끼를 놓습니다. 2칸 내 도발 가능한 적 최대 2명을 3초간 도발합니다. 파괴되거나 4초가 지나면 주변 1칸에 기본 마법 피해 240을 줍니다. 시전자당 동시에 1개만 존재하며 빈칸이 필요합니다."
     ]
    },
    {
@@ -12829,7 +12829,7 @@ export const catalog:WikiEntry[] = [
     "stats": [
      {
       "label": "生命值",
-      "value": "1890"
+      "value": "2430"
      },
      {
       "label": "攻击力",
@@ -12853,7 +12853,7 @@ export const catalog:WikiEntry[] = [
      },
      {
       "label": "能量上限",
-      "value": "100"
+      "value": "70"
      },
      {
       "label": "暴击率",
@@ -12877,10 +12877,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "在自身合法邻格放下500生命的诱饵箱，吸引2格内最多2名可受嘲讽敌人1.5秒；诱饵被打破或4秒到期后，对周围1格造成279.59法伤。每名施法者最多同时存在1个诱饵。",
-     "Place up to 1 decoys, each with 500 HP, in legal adjacent empty hexes. Each taunts up to 2 susceptible enemies within 2 hexes for 1.5s. On destruction or after 4s, it explodes for 279.59 magic damage within 1 hex. At most 1 living decoys per caster. Limited by available hexes and summon capacity.",
-     "隣接する有効な空きマスにHP500の囮を最大1体設置。各囮は2マス以内の挑発可能な敵最大2体を1.5秒間挑発し、破壊時または4秒後に1マス以内へ279.59魔法ダメージを与える。術者ごとに生存囮は最大1体。空きマスと召喚上限の範囲でのみ生成する。",
-     "인접한 유효 빈칸에 각각 체력 500의 미끼를 최대 1개 설치합니다. 각 미끼는 2칸 내 도발 가능한 적 최대 2명을 1.5초 도발합니다. 파괴되거나 4초가 지나면 폭발해 1칸 내에 마법 피해 279.59을 줍니다. 시전자당 생존 미끼 최대 1개이며 빈칸과 소환 한도 내에서만 생성됩니다."
+     "优先朝敌人方向的合法邻格放下800生命的诱饵，嘲讽2格内最多2名可受嘲讽敌人3秒。诱饵被击破或4秒到期后，对周围1格造成479.29基础法术伤害。每名施法者最多同时拥有1个诱饵；没有合法空位时无法召唤。",
+     "Place a 800-HP lure in a legal adjacent cell, preferring cells toward enemies. It taunts up to 2 susceptible enemies within 2 hexes for 3s. On destruction or after 4s, it deals 479.29 base magic damage within 1 hex. Maximum 1 living lure per caster; requires a free legal cell.",
+     "敵に近い隣接空きマスを優先してHP800の囮を設置。2マス以内の挑発可能な敵を最大2体、3秒挑発。破壊または4秒経過で周囲1マスに基礎魔法ダメージ479.29。術者ごとに同時存在は1体まで。設置可能な空きマスが必要。",
+     "적 방향의 인접 빈칸을 우선하여 체력 800의 미끼를 놓습니다. 2칸 내 도발 가능한 적 최대 2명을 3초간 도발합니다. 파괴되거나 4초가 지나면 주변 1칸에 기본 마법 피해 479.29을 줍니다. 시전자당 동시에 1개만 존재하며 빈칸이 필요합니다."
     ]
    },
    {
@@ -12888,7 +12888,7 @@ export const catalog:WikiEntry[] = [
     "stats": [
      {
       "label": "生命值",
-      "value": "3150"
+      "value": "4050"
      },
      {
       "label": "攻击力",
@@ -12912,7 +12912,7 @@ export const catalog:WikiEntry[] = [
      },
      {
       "label": "能量上限",
-      "value": "100"
+      "value": "70"
      },
      {
       "label": "暴击率",
@@ -12936,10 +12936,10 @@ export const catalog:WikiEntry[] = [
      }
     ],
     "description": [
-     "在自身合法邻格放下最多3个各1125生命的诱饵箱，吸引2格内最多2名可受嘲讽敌人1.5秒；诱饵被打破或4秒到期后，对周围1格造成630法伤。每名施法者最多同时存在3个诱饵。\n仅占用自身周围合法空位；空位或召唤容量不足时，只生成能够放下的数量。",
-     "Place up to 3 decoys, each with 1125 HP, in legal adjacent empty hexes. Each taunts up to 2 susceptible enemies within 2 hexes for 1.5s. On destruction or after 4s, it explodes for 630 magic damage within 1 hex. At most 3 living decoys per caster. Limited by available hexes and summon capacity.",
-     "隣接する有効な空きマスにHP1125の囮を最大3体設置。各囮は2マス以内の挑発可能な敵最大2体を1.5秒間挑発し、破壊時または4秒後に1マス以内へ630魔法ダメージを与える。術者ごとに生存囮は最大3体。空きマスと召喚上限の範囲でのみ生成する。",
-     "인접한 유효 빈칸에 각각 체력 1125의 미끼를 최대 3개 설치합니다. 각 미끼는 2칸 내 도발 가능한 적 최대 2명을 1.5초 도발합니다. 파괴되거나 4초가 지나면 폭발해 1칸 내에 마법 피해 630을 줍니다. 시전자당 생존 미끼 최대 3개이며 빈칸과 소환 한도 내에서만 생성됩니다."
+     "优先朝敌人方向，在不同合法邻格放下最多3个各1800生命的诱饵。每个诱饵嘲讽2格内最多2名可受嘲讽敌人3秒；被击破或4秒到期后，对周围1格造成1080法术伤害。每名施法者最多同时拥有3个诱饵，空位或召唤容量不足时只生成能放下的数量。",
+     "Place up to 3 lures with 1800 HP each in distinct legal adjacent cells, preferring cells toward enemies. Each taunts up to 2 susceptible enemies within 2 hexes for 3s. On destruction or after 4s, it deals 1080 magic damage within 1 hex. Up to 3 living lures per caster, limited by free cells and summon capacity.",
+     "敵に近い異なる隣接空きマスを優先し、HP1800の囮を最大3体設置。各囮は2マス以内の挑発可能な敵を最大2体、3秒挑発。破壊または4秒経過で周囲1マスに魔法ダメージ1080。術者ごとに同時存在は3体まで。空きマスと召喚上限の範囲で生成する。",
+     "적 방향의 서로 다른 인접 빈칸을 우선하여 체력 1800의 미끼를 최대 3개 놓습니다. 각각 2칸 내 도발 가능한 적 최대 2명을 3초간 도발합니다. 파괴되거나 4초가 지나면 주변 1칸에 마법 피해 1080을 줍니다. 시전자당 동시에 최대 3개이며 빈칸과 소환 한도 내에서 생성됩니다."
     ]
    }
   ],
@@ -12958,16 +12958,16 @@ export const catalog:WikiEntry[] = [
    "군체"
   ],
   "summary": [
-   "虫群迁徙：虫族周期孵出短命虫群，普攻命中后寄附啃咬；宿主阵亡则转移，高档迁徙时可繁殖一次，不占棋盘格。",
-   "Hatches short-lived swarms that attach on basic attacks and migrate after a host dies. Higher tiers enable limited reproduction.",
-   "短命の虫群を孵し、通常攻撃で敵に付着させる。宿主の死亡後に移動し、高段階では限られた繁殖が可能。",
-   "수명이 짧은 벌레떼를 부화시켜 기본 공격으로 적에게 붙입니다. 숙주 사망 후 이동하며 높은 단계에서는 제한적으로 번식합니다."
+   "入场1.5秒后开始，每8秒孵出一群，存在4秒；下一次有效普攻送至目标，每秒造成孵化时攻击14%的法伤，转移不重置寿命。宿主死亡后迁移至2格内另一敌人；队伍总量上限6，单敌人上限2。本体阵亡不会取消已寄附虫群；未出动虫群随本体阵亡消失。",
+   "Start after 1.5s; hatch a swarm every 8s, lasting 4s. The next valid basic attack attaches it to the target, dealing 14% of ATK at hatching as magic damage every 1s. On host death, migrate within 2 hexes without resetting lifetime. Team cap 6, per-host cap 2. Attached swarms survive the owner; idle swarms do not.",
+   "1.5秒後から8秒ごとに虫群を孵化し、4秒持続。次の有効な通常攻撃で寄生し、1秒ごとに孵化時攻撃力の14%の魔法ダメージ。宿主死亡時は2マス以内へ移り、寿命は更新しない。チーム上限6、宿主ごと2。寄生済みは本体死亡後も残るが、待機中は消える。",
+   "1.5초 후부터 8초마다 벌레떼를 부화시키며 4초 지속됩니다. 다음 유효 기본 공격으로 기생하여 1초마다 부화 당시 공격력의 14% 마법 피해를 줍니다. 숙주 사망 시 2칸 내로 이동하며 수명은 갱신되지 않습니다. 팀 최대 6, 숙주당 2. 기생한 무리는 본체 사망 후에도 남지만 대기 무리는 사라집니다."
   ],
   "description": [
-   "虫群迁徙：虫族周期孵出短命虫群，普攻命中后寄附啃咬；宿主阵亡则转移，高档迁徙时可繁殖一次，不占棋盘格。",
-   "Hatches short-lived swarms that attach on basic attacks and migrate after a host dies. Higher tiers enable limited reproduction.",
-   "短命の虫群を孵し、通常攻撃で敵に付着させる。宿主の死亡後に移動し、高段階では限られた繁殖が可能。",
-   "수명이 짧은 벌레떼를 부화시켜 기본 공격으로 적에게 붙입니다. 숙주 사망 후 이동하며 높은 단계에서는 제한적으로 번식합니다."
+   "2: 入场1.5秒后开始，每8秒孵出一群，存在4秒；下一次有效普攻送至目标，每秒造成孵化时攻击14%的法伤，转移不重置寿命。宿主死亡后迁移至2格内另一敌人；队伍总量上限6，单敌人上限2。本体阵亡不会取消已寄附虫群；未出动虫群随本体阵亡消失。\n4: 入场1.5秒后开始，每7秒孵出一群，存在5秒；下一次有效普攻送至目标，每秒造成孵化时攻击18%的法伤，转移不重置寿命。宿主死亡后迁移至2格内另一敌人；队伍总量上限10，单敌人上限3。本体阵亡不会取消已寄附虫群；未出动虫群随本体阵亡消失。\n6: 入场1.5秒后开始，每6秒孵出一群，存在6秒；下一次有效普攻送至目标，每秒造成孵化时攻击21%的法伤，转移不重置寿命。宿主死亡后迁移至3格内另一敌人；队伍总量上限14，单敌人上限4。每群仅一次：迁徙时向其他附近宿主分出至多1群半伤害子代，子代继承剩余寿命且不能繁殖。本体阵亡不会取消已寄附虫群；未出动虫群随本体阵亡消失。\n8: 入场1.5秒后开始，每5秒孵出一群，存在6秒；下一次有效普攻送至目标，每秒造成孵化时攻击25%的法伤，转移不重置寿命。宿主死亡后迁移至3格内另一敌人；队伍总量上限18，单敌人上限5。每群仅一次：迁徙时向其他附近宿主分出至多2群半伤害子代，子代继承剩余寿命且不能繁殖。本体阵亡不会取消已寄附虫群；未出动虫群随本体阵亡消失。",
+   "2: Start after 1.5s; hatch a swarm every 8s, lasting 4s. The next valid basic attack attaches it to the target, dealing 14% of ATK at hatching as magic damage every 1s. On host death, migrate within 2 hexes without resetting lifetime. Team cap 6, per-host cap 2. Attached swarms survive the owner; idle swarms do not.\n4: Start after 1.5s; hatch a swarm every 7s, lasting 5s. The next valid basic attack attaches it to the target, dealing 18% of ATK at hatching as magic damage every 1s. On host death, migrate within 2 hexes without resetting lifetime. Team cap 10, per-host cap 3. Attached swarms survive the owner; idle swarms do not.\n6: Start after 1.5s; hatch a swarm every 6s, lasting 6s. The next valid basic attack attaches it to the target, dealing 21% of ATK at hatching as magic damage every 1s. On host death, migrate within 3 hexes without resetting lifetime. Team cap 14, per-host cap 4. Attached swarms survive the owner; idle swarms do not. Once per swarm, migration creates up to 1 children at 50% damage on other nearby hosts; children inherit remaining lifetime and cannot reproduce.\n8: Start after 1.5s; hatch a swarm every 5s, lasting 6s. The next valid basic attack attaches it to the target, dealing 25% of ATK at hatching as magic damage every 1s. On host death, migrate within 3 hexes without resetting lifetime. Team cap 18, per-host cap 5. Attached swarms survive the owner; idle swarms do not. Once per swarm, migration creates up to 2 children at 50% damage on other nearby hosts; children inherit remaining lifetime and cannot reproduce.",
+   "2: 1.5秒後から8秒ごとに虫群を孵化し、4秒持続。次の有効な通常攻撃で寄生し、1秒ごとに孵化時攻撃力の14%の魔法ダメージ。宿主死亡時は2マス以内へ移り、寿命は更新しない。チーム上限6、宿主ごと2。寄生済みは本体死亡後も残るが、待機中は消える。\n4: 1.5秒後から7秒ごとに虫群を孵化し、5秒持続。次の有効な通常攻撃で寄生し、1秒ごとに孵化時攻撃力の18%の魔法ダメージ。宿主死亡時は2マス以内へ移り、寿命は更新しない。チーム上限10、宿主ごと3。寄生済みは本体死亡後も残るが、待機中は消える。\n6: 1.5秒後から6秒ごとに虫群を孵化し、6秒持続。次の有効な通常攻撃で寄生し、1秒ごとに孵化時攻撃力の21%の魔法ダメージ。宿主死亡時は3マス以内へ移り、寿命は更新しない。チーム上限14、宿主ごと4。寄生済みは本体死亡後も残るが、待機中は消える。 移動時に1回だけ、近くの別宿主へ最大1群の子を分岐。ダメージ50%、残り寿命を継承し再繁殖不可。\n8: 1.5秒後から5秒ごとに虫群を孵化し、6秒持続。次の有効な通常攻撃で寄生し、1秒ごとに孵化時攻撃力の25%の魔法ダメージ。宿主死亡時は3マス以内へ移り、寿命は更新しない。チーム上限18、宿主ごと5。寄生済みは本体死亡後も残るが、待機中は消える。 移動時に1回だけ、近くの別宿主へ最大2群の子を分岐。ダメージ50%、残り寿命を継承し再繁殖不可。",
+   "2: 1.5초 후부터 8초마다 벌레떼를 부화시키며 4초 지속됩니다. 다음 유효 기본 공격으로 기생하여 1초마다 부화 당시 공격력의 14% 마법 피해를 줍니다. 숙주 사망 시 2칸 내로 이동하며 수명은 갱신되지 않습니다. 팀 최대 6, 숙주당 2. 기생한 무리는 본체 사망 후에도 남지만 대기 무리는 사라집니다.\n4: 1.5초 후부터 7초마다 벌레떼를 부화시키며 5초 지속됩니다. 다음 유효 기본 공격으로 기생하여 1초마다 부화 당시 공격력의 18% 마법 피해를 줍니다. 숙주 사망 시 2칸 내로 이동하며 수명은 갱신되지 않습니다. 팀 최대 10, 숙주당 3. 기생한 무리는 본체 사망 후에도 남지만 대기 무리는 사라집니다.\n6: 1.5초 후부터 6초마다 벌레떼를 부화시키며 6초 지속됩니다. 다음 유효 기본 공격으로 기생하여 1초마다 부화 당시 공격력의 21% 마법 피해를 줍니다. 숙주 사망 시 3칸 내로 이동하며 수명은 갱신되지 않습니다. 팀 최대 14, 숙주당 4. 기생한 무리는 본체 사망 후에도 남지만 대기 무리는 사라집니다. 무리당 한 번 이동 시 주변 다른 숙주에게 최대 1개의 자손을 만듭니다. 피해 50%, 남은 수명 계승, 재번식 불가.\n8: 1.5초 후부터 5초마다 벌레떼를 부화시키며 6초 지속됩니다. 다음 유효 기본 공격으로 기생하여 1초마다 부화 당시 공격력의 25% 마법 피해를 줍니다. 숙주 사망 시 3칸 내로 이동하며 수명은 갱신되지 않습니다. 팀 최대 18, 숙주당 5. 기생한 무리는 본체 사망 후에도 남지만 대기 무리는 사라집니다. 무리당 한 번 이동 시 주변 다른 숙주에게 최대 2개의 자손을 만듭니다. 피해 50%, 남은 수명 계승, 재번식 불가."
   ],
   "group": [
    "生态羁绊",
@@ -13045,16 +13045,16 @@ export const catalog:WikiEntry[] = [
    "공습"
   ],
   "summary": [
-   "掠袭航线：主动行进积累掠袭，强化下一次普攻；周期性侧移到合法空格，高档在经过的格子留下顺风区。",
-   "Movement charges an enhanced attack. Periodic sidesteps seek legal hexes; higher tiers leave wind zones for allies.",
-   "移動で強化攻撃を蓄積する。定期的に合法な空きマスへ側移し、高段階では味方用の風域を残す。",
-   "이동으로 강화 공격을 충전합니다. 주기적으로 빈 칸에 측면 이동하며 높은 단계에서는 아군을 위한 바람 지대를 남깁니다."
+   "普通行进或本羁绊侧移累计2格获得一次掠袭，6秒内下一次有效普攻附加35%攻击物伤。每5秒尝试沿当前目标同距离的相邻空格侧移，恢复0.25秒；不会打断施法或普攻前摇，定身、眩晕、嘲讽和堵路会阻止侧移。技能位移、追猎跳步与被推拉不计入移动充能，死亡清空掠袭。",
+   "Walking or trait sidesteps over 2 hexes empower the next valid basic hit within 6s for 35% ATK physical damage. Attempt a legal sidestep at equal distance from the target every 5s, with 0.25s recovery. Does not interrupt casting or attack windup. Root, stun, taunt or blocked cells prevent it. Skill movement and forced displacement do not charge it; death clears the charge.",
+   "通常移動・特性の横移動を計2マス行うと、6秒以内の次の有効な通常攻撃に攻撃力35%の物理追加ダメージ。5秒ごとに対象との距離を維持する有効な隣接空きマスへ横移動し、硬直0.25秒。詠唱・攻撃準備は中断せず、移動不能・スタン・挑発・閉塞で移動不可。スキル移動と強制移動は蓄積せず、死亡で消える。",
+   "걷기나 특성 옆걸음으로 2칸 이동하면 6초 내 다음 유효 기본 공격에 공격력 35%의 물리 추가 피해를 줍니다. 5초마다 대상과 같은 거리를 유지하는 유효 빈칸으로 이동하며 회복 시간은 0.25초입니다. 시전과 공격 준비를 중단하지 않으며 속박, 기절, 도발, 막힌 칸은 이동을 막습니다. 스킬 이동과 강제 이동은 충전되지 않고 사망 시 충전이 사라집니다."
   ],
   "description": [
-   "掠袭航线：主动行进积累掠袭，强化下一次普攻；周期性侧移到合法空格，高档在经过的格子留下顺风区。",
-   "Movement charges an enhanced attack. Periodic sidesteps seek legal hexes; higher tiers leave wind zones for allies.",
-   "移動で強化攻撃を蓄積する。定期的に合法な空きマスへ側移し、高段階では味方用の風域を残す。",
-   "이동으로 강화 공격을 충전합니다. 주기적으로 빈 칸에 측면 이동하며 높은 단계에서는 아군을 위한 바람 지대를 남깁니다."
+   "2: 普通行进或本羁绊侧移累计2格获得一次掠袭，6秒内下一次有效普攻附加35%攻击物伤。每5秒尝试沿当前目标同距离的相邻空格侧移，恢复0.25秒；不会打断施法或普攻前摇，定身、眩晕、嘲讽和堵路会阻止侧移。技能位移、追猎跳步与被推拉不计入移动充能，死亡清空掠袭。\n4: 普通行进或本羁绊侧移累计2格获得一次掠袭，6秒内下一次有效普攻附加55%攻击物伤。每4秒尝试沿当前目标同距离的相邻空格侧移，恢复0.25秒；不会打断施法或普攻前摇，定身、眩晕、嘲讽和堵路会阻止侧移。技能位移、追猎跳步与被推拉不计入移动充能，死亡清空掠袭。\n6: 普通行进或本羁绊侧移累计2格获得一次掠袭，6秒内下一次有效普攻附加75%攻击物伤。每3秒尝试沿当前目标同距离的相邻空格侧移，恢复0.25秒；不会打断施法或普攻前摇，定身、眩晕、嘲讽和堵路会阻止侧移。经过格子留下2.5秒顺风，友军在格内移速+0.6，离开后残留0.3秒，不叠加；每队最多8片。技能位移、追猎跳步与被推拉不计入移动充能，死亡清空掠袭。",
+   "2: Walking or trait sidesteps over 2 hexes empower the next valid basic hit within 6s for 35% ATK physical damage. Attempt a legal sidestep at equal distance from the target every 5s, with 0.25s recovery. Does not interrupt casting or attack windup. Root, stun, taunt or blocked cells prevent it. Skill movement and forced displacement do not charge it; death clears the charge.\n4: Walking or trait sidesteps over 2 hexes empower the next valid basic hit within 6s for 55% ATK physical damage. Attempt a legal sidestep at equal distance from the target every 4s, with 0.25s recovery. Does not interrupt casting or attack windup. Root, stun, taunt or blocked cells prevent it. Skill movement and forced displacement do not charge it; death clears the charge.\n6: Walking or trait sidesteps over 2 hexes empower the next valid basic hit within 6s for 75% ATK physical damage. Attempt a legal sidestep at equal distance from the target every 3s, with 0.25s recovery. Does not interrupt casting or attack windup. Root, stun, taunt or blocked cells prevent it. Skill movement and forced displacement do not charge it; death clears the charge. Traversed cells leave wind for 2.5s: allies gain 0.6 movement speed while inside and for 0.3s after leaving, without stacking. Team cap 8 zones.",
+   "2: 通常移動・特性の横移動を計2マス行うと、6秒以内の次の有効な通常攻撃に攻撃力35%の物理追加ダメージ。5秒ごとに対象との距離を維持する有効な隣接空きマスへ横移動し、硬直0.25秒。詠唱・攻撃準備は中断せず、移動不能・スタン・挑発・閉塞で移動不可。スキル移動と強制移動は蓄積せず、死亡で消える。\n4: 通常移動・特性の横移動を計2マス行うと、6秒以内の次の有効な通常攻撃に攻撃力55%の物理追加ダメージ。4秒ごとに対象との距離を維持する有効な隣接空きマスへ横移動し、硬直0.25秒。詠唱・攻撃準備は中断せず、移動不能・スタン・挑発・閉塞で移動不可。スキル移動と強制移動は蓄積せず、死亡で消える。\n6: 通常移動・特性の横移動を計2マス行うと、6秒以内の次の有効な通常攻撃に攻撃力75%の物理追加ダメージ。3秒ごとに対象との距離を維持する有効な隣接空きマスへ横移動し、硬直0.25秒。詠唱・攻撃準備は中断せず、移動不能・スタン・挑発・閉塞で移動不可。スキル移動と強制移動は蓄積せず、死亡で消える。 通過マスに2.5秒の追い風。味方の移動速度+0.6、退出後0.3秒残留、重複なし。チーム最大8区域。",
+   "2: 걷기나 특성 옆걸음으로 2칸 이동하면 6초 내 다음 유효 기본 공격에 공격력 35%의 물리 추가 피해를 줍니다. 5초마다 대상과 같은 거리를 유지하는 유효 빈칸으로 이동하며 회복 시간은 0.25초입니다. 시전과 공격 준비를 중단하지 않으며 속박, 기절, 도발, 막힌 칸은 이동을 막습니다. 스킬 이동과 강제 이동은 충전되지 않고 사망 시 충전이 사라집니다.\n4: 걷기나 특성 옆걸음으로 2칸 이동하면 6초 내 다음 유효 기본 공격에 공격력 55%의 물리 추가 피해를 줍니다. 4초마다 대상과 같은 거리를 유지하는 유효 빈칸으로 이동하며 회복 시간은 0.25초입니다. 시전과 공격 준비를 중단하지 않으며 속박, 기절, 도발, 막힌 칸은 이동을 막습니다. 스킬 이동과 강제 이동은 충전되지 않고 사망 시 충전이 사라집니다.\n6: 걷기나 특성 옆걸음으로 2칸 이동하면 6초 내 다음 유효 기본 공격에 공격력 75%의 물리 추가 피해를 줍니다. 3초마다 대상과 같은 거리를 유지하는 유효 빈칸으로 이동하며 회복 시간은 0.25초입니다. 시전과 공격 준비를 중단하지 않으며 속박, 기절, 도발, 막힌 칸은 이동을 막습니다. 스킬 이동과 강제 이동은 충전되지 않고 사망 시 충전이 사라집니다. 지나간 칸에 2.5초 순풍: 아군 이동 속도 +0.6, 이탈 후 0.3초 잔류, 중첩 불가. 팀 최대 8구역."
   ],
   "group": [
    "生态羁绊",
@@ -13121,16 +13121,16 @@ export const catalog:WikiEntry[] = [
    "포위 사냥"
   ],
   "summary": [
-   "包围狩猎：不同兽族从不同六边形方向命中同一敌人，暴露有限次数的弱点；高档最后一次撕裂波及邻敌。",
-   "Different beasts attack from different hex directions to expose a shared target's weakness. Higher tiers add splash damage.",
-   "異なる獣が別方向から同じ敵を攻撃すると弱点を露出させる。高段階では周囲にも波及する。",
-   "서로 다른 야수가 다른 방향에서 같은 적을 공격하면 약점을 드러냅니다. 높은 단계에서는 주변에도 피해를 줍니다."
+   "4秒内两名不同兽族从不同方向有效普攻，暴露弱点2秒，可撕裂1次，每次附加45%攻击物伤。原定暴露结束后冷却4秒；提前消耗不缩短冷却。",
+   "Within 4s, two distinct Beasts hit the same enemy from different directions. Expose it for 2s with 1 rends, each adding 45% ATK physical damage. Cooldown 4s begins at the originally scheduled end of exposure; early consumption does not shorten it.",
+   "4秒以内に異なる獣族2体が別方向から同じ敵へ有効な通常攻撃を命中させると、弱点を2秒露出。1回まで攻撃力45%の物理裂傷を追加。予定されていた露出終了時点からクールダウン4秒。早く使い切っても短縮しない。",
+   "4초 내 서로 다른 야수 2명이 다른 방향에서 같은 적에게 유효 기본 공격을 적중하면 2초 동안 약점을 노출합니다. 최대 1회 공격력 45%의 물리 추가 피해. 원래 노출 종료 시점부터 재사용 4초이며 일찍 소모해도 단축되지 않습니다."
   ],
   "description": [
-   "包围狩猎：不同兽族从不同六边形方向命中同一敌人，暴露有限次数的弱点；高档最后一次撕裂波及邻敌。",
-   "Different beasts attack from different hex directions to expose a shared target's weakness. Higher tiers add splash damage.",
-   "異なる獣が別方向から同じ敵を攻撃すると弱点を露出させる。高段階では周囲にも波及する。",
-   "서로 다른 야수가 다른 방향에서 같은 적을 공격하면 약점을 드러냅니다. 높은 단계에서는 주변에도 피해를 줍니다."
+   "2: 4秒内两名不同兽族从不同方向有效普攻，暴露弱点2秒，可撕裂1次，每次附加45%攻击物伤。原定暴露结束后冷却4秒；提前消耗不缩短冷却。\n3: 4秒内两名不同兽族从不同方向有效普攻，暴露弱点3秒，可撕裂2次，每次附加60%攻击物伤。原定暴露结束后冷却3.5秒；提前消耗不缩短冷却。\n5: 4秒内两名不同兽族从不同方向有效普攻，暴露弱点4秒，可撕裂3次，每次附加75%攻击物伤。原定暴露结束后冷却3秒；提前消耗不缩短冷却。最后一击对最多两名相邻敌人造成30%攻击物伤。",
+   "2: Within 4s, two distinct Beasts hit the same enemy from different directions. Expose it for 2s with 1 rends, each adding 45% ATK physical damage. Cooldown 4s begins at the originally scheduled end of exposure; early consumption does not shorten it.\n3: Within 4s, two distinct Beasts hit the same enemy from different directions. Expose it for 3s with 2 rends, each adding 60% ATK physical damage. Cooldown 3.5s begins at the originally scheduled end of exposure; early consumption does not shorten it.\n5: Within 4s, two distinct Beasts hit the same enemy from different directions. Expose it for 4s with 3 rends, each adding 75% ATK physical damage. Cooldown 3s begins at the originally scheduled end of exposure; early consumption does not shorten it. The last rend splashes up to two adjacent enemies for 30% ATK physical damage.",
+   "2: 4秒以内に異なる獣族2体が別方向から同じ敵へ有効な通常攻撃を命中させると、弱点を2秒露出。1回まで攻撃力45%の物理裂傷を追加。予定されていた露出終了時点からクールダウン4秒。早く使い切っても短縮しない。\n3: 4秒以内に異なる獣族2体が別方向から同じ敵へ有効な通常攻撃を命中させると、弱点を3秒露出。2回まで攻撃力60%の物理裂傷を追加。予定されていた露出終了時点からクールダウン3.5秒。早く使い切っても短縮しない。\n5: 4秒以内に異なる獣族2体が別方向から同じ敵へ有効な通常攻撃を命中させると、弱点を4秒露出。3回まで攻撃力75%の物理裂傷を追加。予定されていた露出終了時点からクールダウン3秒。早く使い切っても短縮しない。 最後の裂傷は隣接敵最大2体へ攻撃力30%の物理飛散ダメージ。",
+   "2: 4초 내 서로 다른 야수 2명이 다른 방향에서 같은 적에게 유효 기본 공격을 적중하면 2초 동안 약점을 노출합니다. 최대 1회 공격력 45%의 물리 추가 피해. 원래 노출 종료 시점부터 재사용 4초이며 일찍 소모해도 단축되지 않습니다.\n3: 4초 내 서로 다른 야수 2명이 다른 방향에서 같은 적에게 유효 기본 공격을 적중하면 3초 동안 약점을 노출합니다. 최대 2회 공격력 60%의 물리 추가 피해. 원래 노출 종료 시점부터 재사용 3.5초이며 일찍 소모해도 단축되지 않습니다.\n5: 4초 내 서로 다른 야수 2명이 다른 방향에서 같은 적에게 유효 기본 공격을 적중하면 4초 동안 약점을 노출합니다. 최대 3회 공격력 75%의 물리 추가 피해. 원래 노출 종료 시점부터 재사용 3초이며 일찍 소모해도 단축되지 않습니다. 마지막 타격은 인접 적 최대 2명에게 공격력 30% 물리 확산 피해."
   ],
   "group": [
    "生态羁绊",
@@ -13194,16 +13194,16 @@ export const catalog:WikiEntry[] = [
    "거체"
   ],
   "summary": [
-   "承受敌方直接伤害积蓄冲击，短暂蓄势后向前方释放震波；高档击退，撞墙或堵路转为碰撞伤害。",
-   "Taking direct damage builds a forward shockwave. Higher tiers knock back enemies or cause collision damage if blocked.",
-   "直接ダメージを受けて前方への衝撃波を蓄積する。高段階では押し戻し、塞がれた場所では衝突ダメージを与える。",
-   "직접 피해를 받으면 전방 충격파를 축적합니다. 높은 단계에서는 밀쳐내며 막힌 경우 충돌 피해를 줍니다."
+   "承受敌方直接伤害累计达到自身最大生命15%后，蓄势0.5秒，向前方2格范围释放自身最大生命8%的物理震波；冷却4秒。蓄势中受打断控制或位置改变会取消。",
+   "After accumulating enemy direct damage equal to 15% of own max HP, wind up for 0.5s and release a forward shockwave within 2 hexes for 8% own max HP physical damage. Cooldown 4s. Interrupting control or position changes cancel the windup.",
+   "敵の直接ダメージを自身最大HPの15%蓄積すると、0.5秒溜めて前方2マスへ自身最大HPの8%の物理衝撃波。クールダウン4秒。妨害や位置変化で溜めを中断。",
+   "적 직접 피해를 자신의 최대 체력 15%만큼 누적하면 0.5초 준비 후 전방 2칸에 자신의 최대 체력 8% 물리 충격파를 방출합니다. 재사용 4초. 방해 제어나 위치 변경은 준비를 취소합니다."
   ],
   "description": [
-   "承受敌方直接伤害积蓄冲击，短暂蓄势后向前方释放震波；高档击退，撞墙或堵路转为碰撞伤害。",
-   "Taking direct damage builds a forward shockwave. Higher tiers knock back enemies or cause collision damage if blocked.",
-   "直接ダメージを受けて前方への衝撃波を蓄積する。高段階では押し戻し、塞がれた場所では衝突ダメージを与える。",
-   "직접 피해를 받으면 전방 충격파를 축적합니다. 높은 단계에서는 밀쳐내며 막힌 경우 충돌 피해를 줍니다."
+   "2: 承受敌方直接伤害累计达到自身最大生命15%后，蓄势0.5秒，向前方2格范围释放自身最大生命8%的物理震波；冷却4秒。蓄势中受打断控制或位置改变会取消。\n4: 承受敌方直接伤害累计达到自身最大生命13%后，蓄势0.5秒，向前方3格范围释放自身最大生命11%的物理震波；冷却3.5秒。蓄势中受打断控制或位置改变会取消。\n6: 承受敌方直接伤害累计达到自身最大生命11%后，蓄势0.5秒，向前方3格范围释放自身最大生命14%的物理震波；冷却3秒。蓄势中受打断控制或位置改变会取消。 震波额外击退1格，受阻时追加震波伤害40%的碰撞物伤；同一目标的击退保护间隔为2秒。",
+   "2: After accumulating enemy direct damage equal to 15% of own max HP, wind up for 0.5s and release a forward shockwave within 2 hexes for 8% own max HP physical damage. Cooldown 4s. Interrupting control or position changes cancel the windup.\n4: After accumulating enemy direct damage equal to 13% of own max HP, wind up for 0.5s and release a forward shockwave within 3 hexes for 11% own max HP physical damage. Cooldown 3.5s. Interrupting control or position changes cancel the windup.\n6: After accumulating enemy direct damage equal to 11% of own max HP, wind up for 0.5s and release a forward shockwave within 3 hexes for 14% own max HP physical damage. Cooldown 3s. Interrupting control or position changes cancel the windup. Also push 1 hex; if blocked, add 40% of shockwave damage as physical collision damage. Per-target push protection lasts 2s.",
+   "2: 敵の直接ダメージを自身最大HPの15%蓄積すると、0.5秒溜めて前方2マスへ自身最大HPの8%の物理衝撃波。クールダウン4秒。妨害や位置変化で溜めを中断。\n4: 敵の直接ダメージを自身最大HPの13%蓄積すると、0.5秒溜めて前方3マスへ自身最大HPの11%の物理衝撃波。クールダウン3.5秒。妨害や位置変化で溜めを中断。\n6: 敵の直接ダメージを自身最大HPの11%蓄積すると、0.5秒溜めて前方3マスへ自身最大HPの14%の物理衝撃波。クールダウン3秒。妨害や位置変化で溜めを中断。 追加で1マス押し戻し、閉塞時は衝撃波の40%の物理衝突ダメージ。同じ対象の押し戻し保護は2秒。",
+   "2: 적 직접 피해를 자신의 최대 체력 15%만큼 누적하면 0.5초 준비 후 전방 2칸에 자신의 최대 체력 8% 물리 충격파를 방출합니다. 재사용 4초. 방해 제어나 위치 변경은 준비를 취소합니다.\n4: 적 직접 피해를 자신의 최대 체력 13%만큼 누적하면 0.5초 준비 후 전방 3칸에 자신의 최대 체력 11% 물리 충격파를 방출합니다. 재사용 3.5초. 방해 제어나 위치 변경은 준비를 취소합니다.\n6: 적 직접 피해를 자신의 최대 체력 11%만큼 누적하면 0.5초 준비 후 전방 3칸에 자신의 최대 체력 14% 물리 충격파를 방출합니다. 재사용 3초. 방해 제어나 위치 변경은 준비를 취소합니다. 추가로 1칸 밀치며 막히면 충격파 피해의 40% 물리 충돌 피해. 대상별 밀치기 보호는 2초."
   ],
   "group": [
    "生态羁绊",
@@ -13267,16 +13267,16 @@ export const catalog:WikiEntry[] = [
    "강화 갑각"
   ],
   "summary": [
-   "受击长壳，满层进入硬壳，之后蜕壳恢复生命并短暂加速；高档脱壳留下保护区域。",
-   "Hits grow armor into a hard shell, followed by a healing molt and brief speed boost. Higher tiers leave a protective area.",
-   "被弾で硬い殻を育て、脱皮時に回復と短い加速を得る。高段階では保護領域を残す。",
-   "피격 시 단단한 껍질을 키우고 탈피할 때 회복과 짧은 가속을 얻습니다. 높은 단계에서는 보호 구역을 남깁니다."
+   "受有效攻击叠加甲壳，每层护甲+6，最多3层。满层后进入2.5秒硬壳，层数提供的护甲翻倍；随后清除壳层，恢复自身最大生命8%，移速+0.8，持续2秒，再重新长壳。",
+   "Valid incoming attacks build up to 3 shell stacks, each granting 6 armor. At full stacks, double their armor for 2.5s; then shed all stacks, heal 8% max HP and gain 0.8 movement speed for 2s before regrowing.",
+   "有効な被攻撃で甲殻を最大3層蓄積し、各層防御力+6。満層で2.5秒間その防御力が倍増。その後全層を脱ぎ、最大HPの8%回復と移動速度+0.8を2秒得て再成長する。",
+   "유효 공격을 받으면 갑각을 최대 3중첩 쌓으며 중첩당 방어력 +6. 최대 중첩에서 2.5초 동안 해당 방어력이 두 배가 됩니다. 이후 중첩을 제거하고 최대 체력 8%를 회복하며 2초 동안 이동 속도 +0.8 후 다시 성장합니다."
   ],
   "description": [
-   "受击长壳，满层进入硬壳，之后蜕壳恢复生命并短暂加速；高档脱壳留下保护区域。",
-   "Hits grow armor into a hard shell, followed by a healing molt and brief speed boost. Higher tiers leave a protective area.",
-   "被弾で硬い殻を育て、脱皮時に回復と短い加速を得る。高段階では保護領域を残す。",
-   "피격 시 단단한 껍질을 키우고 탈피할 때 회복과 짧은 가속을 얻습니다. 높은 단계에서는 보호 구역을 남깁니다."
+   "2: 受有效攻击叠加甲壳，每层护甲+6，最多3层。满层后进入2.5秒硬壳，层数提供的护甲翻倍；随后清除壳层，恢复自身最大生命8%，移速+0.8，持续2秒，再重新长壳。\n4: 受有效攻击叠加甲壳，每层护甲+9，最多4层。满层后进入2.5秒硬壳，层数提供的护甲翻倍；随后清除壳层，恢复自身最大生命12%，移速+1.2，持续2秒，再重新长壳。 蜕壳处留下3秒保护区，1格内友军护甲+12，同类区域取较强值。",
+   "2: Valid incoming attacks build up to 3 shell stacks, each granting 6 armor. At full stacks, double their armor for 2.5s; then shed all stacks, heal 8% max HP and gain 0.8 movement speed for 2s before regrowing.\n4: Valid incoming attacks build up to 4 shell stacks, each granting 9 armor. At full stacks, double their armor for 2.5s; then shed all stacks, heal 12% max HP and gain 1.2 movement speed for 2s before regrowing. Shedding leaves a 3s zone granting 12 armor to allies within 1 hex; overlapping zones use the strongest value.",
+   "2: 有効な被攻撃で甲殻を最大3層蓄積し、各層防御力+6。満層で2.5秒間その防御力が倍増。その後全層を脱ぎ、最大HPの8%回復と移動速度+0.8を2秒得て再成長する。\n4: 有効な被攻撃で甲殻を最大4層蓄積し、各層防御力+9。満層で2.5秒間その防御力が倍増。その後全層を脱ぎ、最大HPの12%回復と移動速度+1.2を2秒得て再成長する。 脱皮地点に3秒の保護区域を残し、1マス以内の味方の防御力+12。重複時は最大値。",
+   "2: 유효 공격을 받으면 갑각을 최대 3중첩 쌓으며 중첩당 방어력 +6. 최대 중첩에서 2.5초 동안 해당 방어력이 두 배가 됩니다. 이후 중첩을 제거하고 최대 체력 8%를 회복하며 2초 동안 이동 속도 +0.8 후 다시 성장합니다.\n4: 유효 공격을 받으면 갑각을 최대 4중첩 쌓으며 중첩당 방어력 +9. 최대 중첩에서 2.5초 동안 해당 방어력이 두 배가 됩니다. 이후 중첩을 제거하고 최대 체력 12%를 회복하며 2초 동안 이동 속도 +1.2 후 다시 성장합니다. 탈피 위치에 3초 보호 구역, 1칸 내 아군 방어력 +12. 중첩 시 강한 값만 적용."
   ],
   "group": [
    "生态羁绊",
@@ -13329,16 +13329,16 @@ export const catalog:WikiEntry[] = [
    "생명의 씨앗"
   ],
   "summary": [
-   "存活时在邻格播种，成熟花园连接后加强治疗并减速敌人；高档成功施法催熟并缠绕敌人。",
-   "Plants gardens in adjacent hexes. Connected gardens improve healing and slow enemies; higher tiers accelerate growth on casts.",
-   "隣のマスに庭を育てる。つながった庭は回復を強め、敵を減速させる。高段階では詠唱で成長が進む。",
-   "인접 칸에 정원을 심습니다. 연결된 정원은 회복을 강화하고 적을 둔화시킵니다. 높은 단계에서는 시전으로 성장을 촉진합니다."
+   "每4秒播种，2秒成熟，从播种起存在8秒；每名植物最多2片，每队最多8片。成熟花园每秒治疗1格内友军：相连时为播种者最大生命1.5%，未相连时减半，并对范围内敌人施加0.65秒减速。播种者阵亡后花园消失。",
+   "Sow every 4s; mature after 2s and expire 8s after sowing. Cap 2 gardens per Flora unit, 8 per team. Each second, mature gardens heal allies within 1 hex for 1.5% of the sower’s max HP when linked, half when isolated, and slow nearby enemies for 0.65s. Gardens disappear when the sower dies.",
+   "4秒ごとに播種し、2秒後に成熟、播種から8秒で消滅。植物1体につき2個、チーム8個まで。成熟花園は毎秒1マス以内の味方を回復し、接続時は播種者最大HPの1.5%、孤立時は半分。敵には0.65秒の減速。播種者死亡で消滅。",
+   "4초마다 씨를 심고 2초 후 성숙하며 파종부터 8초 후 사라집니다. 식물당 2개, 팀당 8개. 성숙 정원은 매초 1칸 내 아군을 치유하며 연결 시 파종자 최대 체력 1.5%, 고립 시 절반입니다. 주변 적에게 0.65초 둔화를 부여하며 파종자 사망 시 사라집니다."
   ],
   "description": [
-   "存活时在邻格播种，成熟花园连接后加强治疗并减速敌人；高档成功施法催熟并缠绕敌人。",
-   "Plants gardens in adjacent hexes. Connected gardens improve healing and slow enemies; higher tiers accelerate growth on casts.",
-   "隣のマスに庭を育てる。つながった庭は回復を強め、敵を減速させる。高段階では詠唱で成長が進む。",
-   "인접 칸에 정원을 심습니다. 연결된 정원은 회복을 강화하고 적을 둔화시킵니다. 높은 단계에서는 시전으로 성장을 촉진합니다."
+   "2: 每4秒播种，2秒成熟，从播种起存在8秒；每名植物最多2片，每队最多8片。成熟花园每秒治疗1格内友军：相连时为播种者最大生命1.5%，未相连时减半，并对范围内敌人施加0.65秒减速。播种者阵亡后花园消失。\n3: 每3.5秒播种，2秒成熟，从播种起存在8秒；每名植物最多3片，每队最多8片。成熟花园每秒治疗1格内友军：相连时为播种者最大生命1.6%，未相连时减半，并对范围内敌人施加0.65秒减速。播种者阵亡后花园消失。\n4: 每3秒播种，2秒成熟，从播种起存在8秒；每名植物最多3片，每队最多8片。成熟花园每秒治疗1格内友军：相连时为播种者最大生命2%，未相连时减半，并对范围内敌人施加0.65秒减速。播种者阵亡后花园消失。 成功施法可催熟自身2格内花园，并对花园1格内敌人尝试定身0.6秒；同一敌人的缠绕触发间隔为3秒。",
+   "2: Sow every 4s; mature after 2s and expire 8s after sowing. Cap 2 gardens per Flora unit, 8 per team. Each second, mature gardens heal allies within 1 hex for 1.5% of the sower’s max HP when linked, half when isolated, and slow nearby enemies for 0.65s. Gardens disappear when the sower dies.\n3: Sow every 3.5s; mature after 2s and expire 8s after sowing. Cap 3 gardens per Flora unit, 8 per team. Each second, mature gardens heal allies within 1 hex for 1.6% of the sower’s max HP when linked, half when isolated, and slow nearby enemies for 0.65s. Gardens disappear when the sower dies.\n4: Sow every 3s; mature after 2s and expire 8s after sowing. Cap 3 gardens per Flora unit, 8 per team. Each second, mature gardens heal allies within 1 hex for 2% of the sower’s max HP when linked, half when isolated, and slow nearby enemies for 0.65s. Gardens disappear when the sower dies. Successful casts mature your gardens within 2 hexes and attempt to root enemies within 1 hex of them for 0.6s; per-enemy root interval 3s.",
+   "2: 4秒ごとに播種し、2秒後に成熟、播種から8秒で消滅。植物1体につき2個、チーム8個まで。成熟花園は毎秒1マス以内の味方を回復し、接続時は播種者最大HPの1.5%、孤立時は半分。敵には0.65秒の減速。播種者死亡で消滅。\n3: 3.5秒ごとに播種し、2秒後に成熟、播種から8秒で消滅。植物1体につき3個、チーム8個まで。成熟花園は毎秒1マス以内の味方を回復し、接続時は播種者最大HPの1.6%、孤立時は半分。敵には0.65秒の減速。播種者死亡で消滅。\n4: 3秒ごとに播種し、2秒後に成熟、播種から8秒で消滅。植物1体につき3個、チーム8個まで。成熟花園は毎秒1マス以内の味方を回復し、接続時は播種者最大HPの2%、孤立時は半分。敵には0.65秒の減速。播種者死亡で消滅。 詠唱成功で自身から2マス以内の花園を成熟させ、花園1マス以内の敵を0.6秒移動不能にする。同一敵への発動間隔3秒。",
+   "2: 4초마다 씨를 심고 2초 후 성숙하며 파종부터 8초 후 사라집니다. 식물당 2개, 팀당 8개. 성숙 정원은 매초 1칸 내 아군을 치유하며 연결 시 파종자 최대 체력 1.5%, 고립 시 절반입니다. 주변 적에게 0.65초 둔화를 부여하며 파종자 사망 시 사라집니다.\n3: 3.5초마다 씨를 심고 2초 후 성숙하며 파종부터 8초 후 사라집니다. 식물당 3개, 팀당 8개. 성숙 정원은 매초 1칸 내 아군을 치유하며 연결 시 파종자 최대 체력 1.6%, 고립 시 절반입니다. 주변 적에게 0.65초 둔화를 부여하며 파종자 사망 시 사라집니다.\n4: 3초마다 씨를 심고 2초 후 성숙하며 파종부터 8초 후 사라집니다. 식물당 3개, 팀당 8개. 성숙 정원은 매초 1칸 내 아군을 치유하며 연결 시 파종자 최대 체력 2%, 고립 시 절반입니다. 주변 적에게 0.65초 둔화를 부여하며 파종자 사망 시 사라집니다. 시전 성공 시 자신의 2칸 내 정원을 성숙시키고 정원 1칸 내 적에게 0.6초 속박을 시도합니다. 적별 발동 간격 3초."
   ],
   "group": [
    "生态羁绊",
@@ -13399,16 +13399,16 @@ export const catalog:WikiEntry[] = [
    "영혼불"
   ],
   "summary": [
-   "绑定敌方魂影，后续有效普攻回传额外法伤；目标死亡留下魂能，由存活幽冥继承。",
-   "Binds enemy soul shadows and adds magic damage through basic attacks. A dead target leaves soul energy for surviving allies of this trait.",
-   "敵の魂影を結び、通常攻撃で追加魔法ダメージを返す。対象死亡後の魂力は生き残った同特性の味方が継ぐ。",
-   "적의 영혼 그림자를 연결해 기본 공격으로 추가 마법 피해를 줍니다. 대상 사망 후 영혼 에너지를 같은 특성의 생존 아군이 계승합니다."
+   "每6秒尝试绑定3格内最近敌人的魂影，持续6秒。后续有效普攻命中宿主时，额外造成自身攻击25%的法伤，单次上限为目标最大生命8%。宿主死亡留下魂能，由存活幽冥继承；每层使该魂影附伤提高10%，每只最多3层，队伍待分配魂能最多6份。",
+   "Every 6s, bind the nearest enemy within 3 hexes for 6s. Valid basic hits on the host add 25% ATK magic damage, capped at 8% target max HP per hit. Host death leaves soul energy inherited by living Spectral units: +10% to this bonus per stack, up to 3 per unit; team bank cap 6.",
+   "6秒ごとに3マス以内の最も近い敵を6秒束縛。宿主への有効な通常攻撃で攻撃力25%の魔法追加ダメージ、1回の上限は対象最大HPの8%。宿主死亡時の魂能を生存幽冥が継承し、1層ごとにこの追加ダメージ+10%、各3層まで。チームの未配分魂能上限6。",
+   "6초마다 3칸 내 가장 가까운 적의 영혼을 6초 결속합니다. 숙주에게 유효 기본 공격 적중 시 공격력 25% 마법 추가 피해, 적중당 대상 최대 체력 8% 상한. 숙주 사망 시 생존 망령이 영혼 에너지를 계승하며 중첩당 해당 추가 피해 +10%, 개체당 최대 3중첩, 팀 미분배 최대 6개입니다."
   ],
   "description": [
-   "绑定敌方魂影，后续有效普攻回传额外法伤；目标死亡留下魂能，由存活幽冥继承。",
-   "Binds enemy soul shadows and adds magic damage through basic attacks. A dead target leaves soul energy for surviving allies of this trait.",
-   "敵の魂影を結び、通常攻撃で追加魔法ダメージを返す。対象死亡後の魂力は生き残った同特性の味方が継ぐ。",
-   "적의 영혼 그림자를 연결해 기본 공격으로 추가 마법 피해를 줍니다. 대상 사망 후 영혼 에너지를 같은 특성의 생존 아군이 계승합니다."
+   "2: 每6秒尝试绑定3格内最近敌人的魂影，持续6秒。后续有效普攻命中宿主时，额外造成自身攻击25%的法伤，单次上限为目标最大生命8%。宿主死亡留下魂能，由存活幽冥继承；每层使该魂影附伤提高10%，每只最多3层，队伍待分配魂能最多6份。\n3: 每5秒尝试绑定3格内最近敌人的魂影，持续6秒。后续有效普攻命中宿主时，额外造成自身攻击35%的法伤，单次上限为目标最大生命10%。宿主死亡留下魂能，由存活幽冥继承；每层使该魂影附伤提高10%，每只最多3层，队伍待分配魂能最多6份。\n4: 每4秒尝试绑定4格内最近敌人的魂影，持续6秒。后续有效普攻命中宿主时，额外造成自身攻击45%的法伤，单次上限为目标最大生命12%。宿主死亡留下魂能，由存活幽冥继承；每层使该魂影附伤提高10%，每只最多3层，队伍待分配魂能最多6份。",
+   "2: Every 6s, bind the nearest enemy within 3 hexes for 6s. Valid basic hits on the host add 25% ATK magic damage, capped at 8% target max HP per hit. Host death leaves soul energy inherited by living Spectral units: +10% to this bonus per stack, up to 3 per unit; team bank cap 6.\n3: Every 5s, bind the nearest enemy within 3 hexes for 6s. Valid basic hits on the host add 35% ATK magic damage, capped at 10% target max HP per hit. Host death leaves soul energy inherited by living Spectral units: +10% to this bonus per stack, up to 3 per unit; team bank cap 6.\n4: Every 4s, bind the nearest enemy within 4 hexes for 6s. Valid basic hits on the host add 45% ATK magic damage, capped at 12% target max HP per hit. Host death leaves soul energy inherited by living Spectral units: +10% to this bonus per stack, up to 3 per unit; team bank cap 6.",
+   "2: 6秒ごとに3マス以内の最も近い敵を6秒束縛。宿主への有効な通常攻撃で攻撃力25%の魔法追加ダメージ、1回の上限は対象最大HPの8%。宿主死亡時の魂能を生存幽冥が継承し、1層ごとにこの追加ダメージ+10%、各3層まで。チームの未配分魂能上限6。\n3: 5秒ごとに3マス以内の最も近い敵を6秒束縛。宿主への有効な通常攻撃で攻撃力35%の魔法追加ダメージ、1回の上限は対象最大HPの10%。宿主死亡時の魂能を生存幽冥が継承し、1層ごとにこの追加ダメージ+10%、各3層まで。チームの未配分魂能上限6。\n4: 4秒ごとに4マス以内の最も近い敵を6秒束縛。宿主への有効な通常攻撃で攻撃力45%の魔法追加ダメージ、1回の上限は対象最大HPの12%。宿主死亡時の魂能を生存幽冥が継承し、1層ごとにこの追加ダメージ+10%、各3層まで。チームの未配分魂能上限6。",
+   "2: 6초마다 3칸 내 가장 가까운 적의 영혼을 6초 결속합니다. 숙주에게 유효 기본 공격 적중 시 공격력 25% 마법 추가 피해, 적중당 대상 최대 체력 8% 상한. 숙주 사망 시 생존 망령이 영혼 에너지를 계승하며 중첩당 해당 추가 피해 +10%, 개체당 최대 3중첩, 팀 미분배 최대 6개입니다.\n3: 5초마다 3칸 내 가장 가까운 적의 영혼을 6초 결속합니다. 숙주에게 유효 기본 공격 적중 시 공격력 35% 마법 추가 피해, 적중당 대상 최대 체력 10% 상한. 숙주 사망 시 생존 망령이 영혼 에너지를 계승하며 중첩당 해당 추가 피해 +10%, 개체당 최대 3중첩, 팀 미분배 최대 6개입니다.\n4: 4초마다 4칸 내 가장 가까운 적의 영혼을 6초 결속합니다. 숙주에게 유효 기본 공격 적중 시 공격력 45% 마법 추가 피해, 적중당 대상 최대 체력 12% 상한. 숙주 사망 시 생존 망령이 영혼 에너지를 계승하며 중첩당 해당 추가 피해 +10%, 개체당 최대 3중첩, 팀 미분배 최대 6개입니다."
   ],
   "group": [
    "生态羁绊",
@@ -13470,16 +13470,16 @@ export const catalog:WikiEntry[] = [
    "용의 위엄"
   ],
   "summary": [
-   "沉眠蓄积，成功施法加快觉醒；觉醒后获得有限次数吐息，再衰退并重新蓄积。",
-   "Charges toward awakening, accelerated by successful casts. Awakening grants limited breath attacks, followed by a recovery cycle.",
-   "詠唱成功で目覚めへの蓄積を早める。覚醒後は限られた回数のブレスを放ち、休息を経て再び蓄積する。",
-   "성공적인 시전으로 각성을 앞당깁니다. 각성 후 제한된 브레스 공격을 하고 휴식 후 다시 충전합니다."
+   "蓄积8秒后觉醒，成功施法使蓄积提前2秒。觉醒最多持续6秒，获得2次吐息：有效普攻附加攻击50%法伤，最多命中目标及其相邻敌人共1名。次数耗尽或到时后衰退3秒，再开始蓄积。",
+   "Awaken after 8s of charging; each successful cast advances charging by 2s. Awakening lasts up to 6s with 2 breaths: valid basic hits add 50% ATK magic damage to up to 1 enemies including the target and adjacent enemies. After charges run out or time expires, rest 3s and recharge.",
+   "8秒蓄積で覚醒し、成功した詠唱で2秒短縮。覚醒は最大6秒、吐息2回。有効な通常攻撃に攻撃力50%の魔法ダメージを追加し、対象と隣接敵の計1体まで命中。使い切るか時間切れで3秒休止して再蓄積。",
+   "8초 충전 후 각성하며 성공한 시전마다 충전이 2초 앞당겨집니다. 최대 6초 동안 숨결 2회: 유효 기본 공격에 공격력 50% 마법 피해를 추가하며 대상과 인접 적 합계 최대 1명에게 적중합니다. 소진 또는 만료 후 3초 휴식하고 재충전합니다."
   ],
   "description": [
-   "沉眠蓄积，成功施法加快觉醒；觉醒后获得有限次数吐息，再衰退并重新蓄积。",
-   "Charges toward awakening, accelerated by successful casts. Awakening grants limited breath attacks, followed by a recovery cycle.",
-   "詠唱成功で目覚めへの蓄積を早める。覚醒後は限られた回数のブレスを放ち、休息を経て再び蓄積する。",
-   "성공적인 시전으로 각성을 앞당깁니다. 각성 후 제한된 브레스 공격을 하고 휴식 후 다시 충전합니다."
+   "1: 蓄积8秒后觉醒，成功施法使蓄积提前2秒。觉醒最多持续6秒，获得2次吐息：有效普攻附加攻击50%法伤，最多命中目标及其相邻敌人共1名。次数耗尽或到时后衰退3秒，再开始蓄积。\n2: 蓄积7秒后觉醒，成功施法使蓄积提前2.5秒。觉醒最多持续6秒，获得3次吐息：有效普攻附加攻击65%法伤，最多命中目标及其相邻敌人共2名。次数耗尽或到时后衰退3秒，再开始蓄积。\n3: 蓄积6秒后觉醒，成功施法使蓄积提前3秒。觉醒最多持续6秒，获得4次吐息：有效普攻附加攻击80%法伤，最多命中目标及其相邻敌人共3名。次数耗尽或到时后衰退3秒，再开始蓄积。",
+   "1: Awaken after 8s of charging; each successful cast advances charging by 2s. Awakening lasts up to 6s with 2 breaths: valid basic hits add 50% ATK magic damage to up to 1 enemies including the target and adjacent enemies. After charges run out or time expires, rest 3s and recharge.\n2: Awaken after 7s of charging; each successful cast advances charging by 2.5s. Awakening lasts up to 6s with 3 breaths: valid basic hits add 65% ATK magic damage to up to 2 enemies including the target and adjacent enemies. After charges run out or time expires, rest 3s and recharge.\n3: Awaken after 6s of charging; each successful cast advances charging by 3s. Awakening lasts up to 6s with 4 breaths: valid basic hits add 80% ATK magic damage to up to 3 enemies including the target and adjacent enemies. After charges run out or time expires, rest 3s and recharge.",
+   "1: 8秒蓄積で覚醒し、成功した詠唱で2秒短縮。覚醒は最大6秒、吐息2回。有効な通常攻撃に攻撃力50%の魔法ダメージを追加し、対象と隣接敵の計1体まで命中。使い切るか時間切れで3秒休止して再蓄積。\n2: 7秒蓄積で覚醒し、成功した詠唱で2.5秒短縮。覚醒は最大6秒、吐息3回。有効な通常攻撃に攻撃力65%の魔法ダメージを追加し、対象と隣接敵の計2体まで命中。使い切るか時間切れで3秒休止して再蓄積。\n3: 6秒蓄積で覚醒し、成功した詠唱で3秒短縮。覚醒は最大6秒、吐息4回。有効な通常攻撃に攻撃力80%の魔法ダメージを追加し、対象と隣接敵の計3体まで命中。使い切るか時間切れで3秒休止して再蓄積。",
+   "1: 8초 충전 후 각성하며 성공한 시전마다 충전이 2초 앞당겨집니다. 최대 6초 동안 숨결 2회: 유효 기본 공격에 공격력 50% 마법 피해를 추가하며 대상과 인접 적 합계 최대 1명에게 적중합니다. 소진 또는 만료 후 3초 휴식하고 재충전합니다.\n2: 7초 충전 후 각성하며 성공한 시전마다 충전이 2.5초 앞당겨집니다. 최대 6초 동안 숨결 3회: 유효 기본 공격에 공격력 65% 마법 피해를 추가하며 대상과 인접 적 합계 최대 2명에게 적중합니다. 소진 또는 만료 후 3초 휴식하고 재충전합니다.\n3: 6초 충전 후 각성하며 성공한 시전마다 충전이 3초 앞당겨집니다. 최대 6초 동안 숨결 4회: 유효 기본 공격에 공격력 80% 마법 피해를 추가하며 대상과 인접 적 합계 최대 3명에게 적중합니다. 소진 또는 만료 후 3초 휴식하고 재충전합니다."
   ],
   "group": [
    "生态羁绊",
@@ -13540,16 +13540,16 @@ export const catalog:WikiEntry[] = [
    "연합 방어"
   ],
   "summary": [
-   "护卫契约：绑定非守卫友军，分担伤害并积蓄反击；六守卫首次危急时展开堡垒保护。",
-   "Protects a non-guardian ally by sharing damage and charging a counterattack. The highest tier adds emergency protection.",
-   "守衛以外の味方を結び、ダメージを肩代わりして反撃を蓄積する。最高段階では緊急保護が加わる。",
-   "수호자가 아닌 아군과 연결해 피해를 분담하고 반격을 충전합니다. 최고 단계에서는 긴급 보호가 추가됩니다."
+   "战斗开局时，每名友军获得自身最大生命值12%的护盾（每单位每场一次）。每名守卫绑定最近未被绑定的非守卫友军，2格内分担18%伤害；累计承受自身最大生命12%的转移伤害后，反击附近敌人造成自身最大生命7%法伤，冷却4秒。",
+   "At combat start, each ally gains a shield equal to 12% of its own max HP, once per battle. Each Guardian binds the nearest unbound non-Guardian ally and shares 18% damage within 2 hexes. After taking transferred damage equal to 12% own max HP, counter nearby enemies for 7% own max HP magic damage; cooldown 4s.",
+   "開戦時、各味方に自身最大HPの12%のシールドを1戦1回付与。各守衛は最も近い未契約の非守衛味方と結び、2マス以内で18%のダメージを分担。転送ダメージが自身最大HPの12%に達すると、近くの敵へ自身最大HPの7%の魔法反撃。クールダウン4秒。",
+   "전투 시작 시 각 아군은 자신의 최대 체력 12% 보호막을 전투당 한 번 얻습니다. 수호자는 가장 가까운 미결속 비수호 아군과 연결해 2칸 내 피해 18%를 분담합니다. 이전 피해가 자신의 최대 체력 12%에 도달하면 주변 적에게 자신의 최대 체력 7% 마법 반격, 재사용 4초입니다."
   ],
   "description": [
-   "护卫契约：绑定非守卫友军，分担伤害并积蓄反击；六守卫首次危急时展开堡垒保护。",
-   "Protects a non-guardian ally by sharing damage and charging a counterattack. The highest tier adds emergency protection.",
-   "守衛以外の味方を結び、ダメージを肩代わりして反撃を蓄積する。最高段階では緊急保護が加わる。",
-   "수호자가 아닌 아군과 연결해 피해를 분담하고 반격을 충전합니다. 최고 단계에서는 긴급 보호가 추가됩니다."
+   "2: 战斗开局时，每名友军获得自身最大生命值12%的护盾（每单位每场一次）。每名守卫绑定最近未被绑定的非守卫友军，2格内分担18%伤害；累计承受自身最大生命12%的转移伤害后，反击附近敌人造成自身最大生命7%法伤，冷却4秒。\n4: 战斗开局时，每名友军获得自身最大生命值20%的护盾（每单位每场一次）。每名守卫绑定最近未被绑定的非守卫友军，2格内分担26%伤害；累计承受自身最大生命10%的转移伤害后，反击附近敌人造成自身最大生命10%法伤，冷却3秒。\n守卫阵亡时，将剩余护盾的50%转移给一名友军。\n6: 战斗开局时，每名友军获得自身最大生命值30%的护盾（每单位每场一次）。每名守卫绑定最近未被绑定的非守卫友军，2格内分担34%伤害；累计承受自身最大生命8%的转移伤害后，反击附近敌人造成自身最大生命13%法伤，冷却2.5秒。每名守卫每场首次契约目标将降至30%生命时，先阻挡至多守卫最大生命18%的本次伤害。\n守卫阵亡时，将剩余护盾的50%转移给一名友军。",
+   "2: At combat start, each ally gains a shield equal to 12% of its own max HP, once per battle. Each Guardian binds the nearest unbound non-Guardian ally and shares 18% damage within 2 hexes. After taking transferred damage equal to 12% own max HP, counter nearby enemies for 7% own max HP magic damage; cooldown 4s.\n4: At combat start, each ally gains a shield equal to 20% of its own max HP, once per battle. Each Guardian binds the nearest unbound non-Guardian ally and shares 26% damage within 2 hexes. After taking transferred damage equal to 10% own max HP, counter nearby enemies for 10% own max HP magic damage; cooldown 3s.\nOn Guardian death, transfer 50% of its remaining shield to an ally.\n6: At combat start, each ally gains a shield equal to 30% of its own max HP, once per battle. Each Guardian binds the nearest unbound non-Guardian ally and shares 34% damage within 2 hexes. After taking transferred damage equal to 8% own max HP, counter nearby enemies for 13% own max HP magic damage; cooldown 2.5s. Once per Guardian, before its partner falls to 30% HP, block up to 18% Guardian max HP from that hit.\nOn Guardian death, transfer 50% of its remaining shield to an ally.",
+   "2: 開戦時、各味方に自身最大HPの12%のシールドを1戦1回付与。各守衛は最も近い未契約の非守衛味方と結び、2マス以内で18%のダメージを分担。転送ダメージが自身最大HPの12%に達すると、近くの敵へ自身最大HPの7%の魔法反撃。クールダウン4秒。\n4: 開戦時、各味方に自身最大HPの20%のシールドを1戦1回付与。各守衛は最も近い未契約の非守衛味方と結び、2マス以内で26%のダメージを分担。転送ダメージが自身最大HPの10%に達すると、近くの敵へ自身最大HPの10%の魔法反撃。クールダウン3秒。\n守衛死亡時、残りシールドの50%を味方1体へ移す。\n6: 開戦時、各味方に自身最大HPの30%のシールドを1戦1回付与。各守衛は最も近い未契約の非守衛味方と結び、2マス以内で34%のダメージを分担。転送ダメージが自身最大HPの8%に達すると、近くの敵へ自身最大HPの13%の魔法反撃。クールダウン2.5秒。 各守衛1戦1回、契約対象がHP30%へ下がる直前、その一撃を守衛最大HPの18%まで遮断。\n守衛死亡時、残りシールドの50%を味方1体へ移す。",
+   "2: 전투 시작 시 각 아군은 자신의 최대 체력 12% 보호막을 전투당 한 번 얻습니다. 수호자는 가장 가까운 미결속 비수호 아군과 연결해 2칸 내 피해 18%를 분담합니다. 이전 피해가 자신의 최대 체력 12%에 도달하면 주변 적에게 자신의 최대 체력 7% 마법 반격, 재사용 4초입니다.\n4: 전투 시작 시 각 아군은 자신의 최대 체력 20% 보호막을 전투당 한 번 얻습니다. 수호자는 가장 가까운 미결속 비수호 아군과 연결해 2칸 내 피해 26%를 분담합니다. 이전 피해가 자신의 최대 체력 10%에 도달하면 주변 적에게 자신의 최대 체력 10% 마법 반격, 재사용 3초입니다.\n수호자 사망 시 남은 보호막의 50%를 아군 한 명에게 이전합니다.\n6: 전투 시작 시 각 아군은 자신의 최대 체력 30% 보호막을 전투당 한 번 얻습니다. 수호자는 가장 가까운 미결속 비수호 아군과 연결해 2칸 내 피해 34%를 분담합니다. 이전 피해가 자신의 최대 체력 8%에 도달하면 주변 적에게 자신의 최대 체력 13% 마법 반격, 재사용 2.5초입니다. 수호자당 한 번, 결속 대상이 체력 30%로 내려가기 전 해당 피해를 수호자 최대 체력 18%까지 차단.\n수호자 사망 시 남은 보호막의 50%를 아군 한 명에게 이전합니다."
   ],
   "group": [
    "职能羁绊",
@@ -13615,16 +13615,16 @@ export const catalog:WikiEntry[] = [
    "사냥"
   ],
   "summary": [
-   "追猎换靶：锁定附近可达的低生命猎物；参与击杀后追击新目标，并强化一次普攻；六猎手可积累限时连杀。",
-   "Pursues reachable enemies with low health. Helping kill prey enables a chase and an empowered attack; higher tiers reward chained kills.",
-   "到達できる瀕死の敵を追う。獲物の撃破に参加すると追撃と強化攻撃を得て、高段階では連続撃破を強化する。",
-   "접근 가능한 저체력 적을 추적합니다. 처치에 기여하면 추격과 강화 공격을 얻고 높은 단계에서는 연속 처치가 강화됩니다."
+   "锁定3格内可达的最低生命比例敌人3秒，嘲讽优先。近4秒内伤害过的猎物阵亡后，2秒内获得一次至多1格合法追击；6秒内对下一猎物的一次普攻附加45%攻击物伤。",
+   "Lock onto the reachable enemy with the lowest HP percentage within 3 hexes for 3s; taunt takes priority. When prey damaged within the last 4s dies, gain one legal chase of up to 1 hexes within 2s, then one basic hit on the next prey within 6s adds 45% ATK physical damage.",
+   "3マス以内で到達可能なHP割合が最も低い敵を3秒ロック。挑発優先。過去4秒以内に攻撃した獲物が死亡すると、2秒以内に最大1マスの有効な追撃移動を1回得る。続く6秒以内の次の獲物への通常攻撃1回に攻撃力45%の物理ダメージを追加。",
+   "3칸 내 도달 가능한 적 중 체력 비율이 가장 낮은 적을 3초 고정하며 도발이 우선합니다. 최근 4초 내 피해를 준 사냥감이 사망하면 2초 내 최대 1칸 추격 1회, 이후 6초 내 다음 사냥감에 대한 기본 공격 1회에 공격력 45% 물리 추가 피해를 얻습니다."
   ],
   "description": [
-   "追猎换靶：锁定附近可达的低生命猎物；参与击杀后追击新目标，并强化一次普攻；六猎手可积累限时连杀。",
-   "Pursues reachable enemies with low health. Helping kill prey enables a chase and an empowered attack; higher tiers reward chained kills.",
-   "到達できる瀕死の敵を追う。獲物の撃破に参加すると追撃と強化攻撃を得て、高段階では連続撃破を強化する。",
-   "접근 가능한 저체력 적을 추적합니다. 처치에 기여하면 추격과 강화 공격을 얻고 높은 단계에서는 연속 처치가 강화됩니다."
+   "2: 锁定3格内可达的最低生命比例敌人3秒，嘲讽优先。近4秒内伤害过的猎物阵亡后，2秒内获得一次至多1格合法追击；6秒内对下一猎物的一次普攻附加45%攻击物伤。\n4: 锁定4格内可达的最低生命比例敌人4秒，嘲讽优先。近4秒内伤害过的猎物阵亡后，2秒内获得一次至多2格合法追击；6秒内对下一猎物的一次普攻附加65%攻击物伤。\n6: 锁定5格内可达的最低生命比例敌人4秒，嘲讽优先。近4秒内伤害过的猎物阵亡后，2秒内获得一次至多2格合法追击；6秒内对下一猎物的一次普攻附加65%攻击物伤。6秒内连续参与猎物击杀可叠至3层，后两层各再增加20%攻击的追击伤害；超时或阵亡清空。",
+   "2: Lock onto the reachable enemy with the lowest HP percentage within 3 hexes for 3s; taunt takes priority. When prey damaged within the last 4s dies, gain one legal chase of up to 1 hexes within 2s, then one basic hit on the next prey within 6s adds 45% ATK physical damage.\n4: Lock onto the reachable enemy with the lowest HP percentage within 4 hexes for 4s; taunt takes priority. When prey damaged within the last 4s dies, gain one legal chase of up to 2 hexes within 2s, then one basic hit on the next prey within 6s adds 65% ATK physical damage.\n6: Lock onto the reachable enemy with the lowest HP percentage within 5 hexes for 4s; taunt takes priority. When prey damaged within the last 4s dies, gain one legal chase of up to 2 hexes within 2s, then one basic hit on the next prey within 6s adds 65% ATK physical damage. Participate in consecutive prey kills within 6s to build up to 3 stacks; each later stack adds 20% ATK pursuit damage. Timeout or death clears stacks.",
+   "2: 3マス以内で到達可能なHP割合が最も低い敵を3秒ロック。挑発優先。過去4秒以内に攻撃した獲物が死亡すると、2秒以内に最大1マスの有効な追撃移動を1回得る。続く6秒以内の次の獲物への通常攻撃1回に攻撃力45%の物理ダメージを追加。\n4: 4マス以内で到達可能なHP割合が最も低い敵を4秒ロック。挑発優先。過去4秒以内に攻撃した獲物が死亡すると、2秒以内に最大2マスの有効な追撃移動を1回得る。続く6秒以内の次の獲物への通常攻撃1回に攻撃力65%の物理ダメージを追加。\n6: 5マス以内で到達可能なHP割合が最も低い敵を4秒ロック。挑発優先。過去4秒以内に攻撃した獲物が死亡すると、2秒以内に最大2マスの有効な追撃移動を1回得る。続く6秒以内の次の獲物への通常攻撃1回に攻撃力65%の物理ダメージを追加。 6秒以内の連続獲物撃破参加で最大3層。追加各層は追撃ダメージに攻撃力20%を加算。時間切れ・死亡で解除。",
+   "2: 3칸 내 도달 가능한 적 중 체력 비율이 가장 낮은 적을 3초 고정하며 도발이 우선합니다. 최근 4초 내 피해를 준 사냥감이 사망하면 2초 내 최대 1칸 추격 1회, 이후 6초 내 다음 사냥감에 대한 기본 공격 1회에 공격력 45% 물리 추가 피해를 얻습니다.\n4: 4칸 내 도달 가능한 적 중 체력 비율이 가장 낮은 적을 4초 고정하며 도발이 우선합니다. 최근 4초 내 피해를 준 사냥감이 사망하면 2초 내 최대 2칸 추격 1회, 이후 6초 내 다음 사냥감에 대한 기본 공격 1회에 공격력 65% 물리 추가 피해를 얻습니다.\n6: 5칸 내 도달 가능한 적 중 체력 비율이 가장 낮은 적을 4초 고정하며 도발이 우선합니다. 최근 4초 내 피해를 준 사냥감이 사망하면 2초 내 최대 2칸 추격 1회, 이후 6초 내 다음 사냥감에 대한 기본 공격 1회에 공격력 65% 물리 추가 피해를 얻습니다. 6초 내 연속 사냥감 처치 기여 시 최대 3중첩, 후속 중첩마다 추격 피해에 공격력 20% 추가. 시간 초과나 사망 시 초기화."
   ],
   "group": [
    "职能羁绊",
@@ -13772,16 +13772,16 @@ export const catalog:WikiEntry[] = [
    "협력"
   ],
   "summary": [
-   "救援接力：支援的有效治疗和护盾实际吸收为受益者储存救援印记，下一次普攻命中将治疗传给附近伤员，高档再衰减接力一次。",
-   "Effective healing and absorbed shield damage store rescue energy. A later basic hit passes healing to another wounded ally.",
-   "有効な回復とシールド吸収が救援量を蓄える。次の通常攻撃で別の傷ついた味方へ回復を渡す。",
-   "유효 회복과 보호막 흡수로 구조 에너지를 저장합니다. 이후 기본 공격으로 다른 부상 아군에게 회복을 전달합니다."
+   "支援有效治疗或支援护盾实际吸收的30%转为受益者救援储量，上限为其最大生命8%，持续6秒。受益者下一次造成有效伤害的普攻将储量传给3格内生命比例最低的其他非召唤伤员；无目标时保留至过期。满血治疗、单纯加盾及剥盾不充能；接力不能给自身充能。",
+   "30% of effective Support healing or damage actually absorbed by Support shields becomes rescue reserves on the beneficiary, capped at 8% beneficiary max HP for 6s. Its next basic attack dealing effective damage transfers reserves to the other injured non-summoned ally with the lowest HP percentage within 3 hexes. With no target, keep reserves until expiry. Overhealing, merely granting or stripping shields does not charge reserves; relay healing cannot recharge itself.",
+   "支援の実回復量または支援シールドの実吸収量の30%を受益者の救援貯蓄へ。上限は受益者最大HPの8%、6秒持続。次の有効ダメージを与える通常攻撃で、3マス以内の別の負傷した非召喚味方のうちHP割合が最も低い者へ渡す。対象不在なら期限まで保持。過剰回復・単なるシールド付与や剥離は蓄積せず、接力は自己再充填しない。",
+   "지원의 유효 치유 또는 지원 보호막 실제 흡수량의 30%를 수혜자의 구조 저장량으로 전환합니다. 수혜자 최대 체력 8% 상한, 6초 지속. 다음 유효 피해 기본 공격으로 3칸 내 다른 부상 비소환 아군 중 체력 비율이 가장 낮은 대상에게 전달합니다. 대상이 없으면 만료까지 보존합니다. 초과 치유, 보호막 부여/제거만으로 충전되지 않고 전달 치유는 재충전하지 않습니다."
   ],
   "description": [
-   "救援接力：支援的有效治疗和护盾实际吸收为受益者储存救援印记，下一次普攻命中将治疗传给附近伤员，高档再衰减接力一次。",
-   "Effective healing and absorbed shield damage store rescue energy. A later basic hit passes healing to another wounded ally.",
-   "有効な回復とシールド吸収が救援量を蓄える。次の通常攻撃で別の傷ついた味方へ回復を渡す。",
-   "유효 회복과 보호막 흡수로 구조 에너지를 저장합니다. 이후 기본 공격으로 다른 부상 아군에게 회복을 전달합니다."
+   "2: 支援有效治疗或支援护盾实际吸收的30%转为受益者救援储量，上限为其最大生命8%，持续6秒。受益者下一次造成有效伤害的普攻将储量传给3格内生命比例最低的其他非召唤伤员；无目标时保留至过期。满血治疗、单纯加盾及剥盾不充能；接力不能给自身充能。\n3: 支援有效治疗或支援护盾实际吸收的45%转为受益者救援储量，上限为其最大生命12%，持续6秒。受益者下一次造成有效伤害的普攻将储量传给3格内生命比例最低的其他非召唤伤员；无目标时保留至过期。满血治疗、单纯加盾及剥盾不充能；接力不能给自身充能。\n4: 支援有效治疗或支援护盾实际吸收的55%转为受益者救援储量，上限为其最大生命15%，持续6秒。受益者下一次造成有效伤害的普攻将储量传给3格内生命比例最低的其他非召唤伤员；无目标时保留至过期。0.3秒后从首位受益者向另一伤员追加50%基础治疗，整条接力不回访。满血治疗、单纯加盾及剥盾不充能；接力不能给自身充能。",
+   "2: 30% of effective Support healing or damage actually absorbed by Support shields becomes rescue reserves on the beneficiary, capped at 8% beneficiary max HP for 6s. Its next basic attack dealing effective damage transfers reserves to the other injured non-summoned ally with the lowest HP percentage within 3 hexes. With no target, keep reserves until expiry. Overhealing, merely granting or stripping shields does not charge reserves; relay healing cannot recharge itself.\n3: 45% of effective Support healing or damage actually absorbed by Support shields becomes rescue reserves on the beneficiary, capped at 12% beneficiary max HP for 6s. Its next basic attack dealing effective damage transfers reserves to the other injured non-summoned ally with the lowest HP percentage within 3 hexes. With no target, keep reserves until expiry. Overhealing, merely granting or stripping shields does not charge reserves; relay healing cannot recharge itself.\n4: 55% of effective Support healing or damage actually absorbed by Support shields becomes rescue reserves on the beneficiary, capped at 15% beneficiary max HP for 6s. Its next basic attack dealing effective damage transfers reserves to the other injured non-summoned ally with the lowest HP percentage within 3 hexes. With no target, keep reserves until expiry. Overhealing, merely granting or stripping shields does not charge reserves; relay healing cannot recharge itself. After 0.3s, relay from the first recipient to another injured ally at 50% base healing. The chain never revisits a unit.",
+   "2: 支援の実回復量または支援シールドの実吸収量の30%を受益者の救援貯蓄へ。上限は受益者最大HPの8%、6秒持続。次の有効ダメージを与える通常攻撃で、3マス以内の別の負傷した非召喚味方のうちHP割合が最も低い者へ渡す。対象不在なら期限まで保持。過剰回復・単なるシールド付与や剥離は蓄積せず、接力は自己再充填しない。\n3: 支援の実回復量または支援シールドの実吸収量の45%を受益者の救援貯蓄へ。上限は受益者最大HPの12%、6秒持続。次の有効ダメージを与える通常攻撃で、3マス以内の別の負傷した非召喚味方のうちHP割合が最も低い者へ渡す。対象不在なら期限まで保持。過剰回復・単なるシールド付与や剥離は蓄積せず、接力は自己再充填しない。\n4: 支援の実回復量または支援シールドの実吸収量の55%を受益者の救援貯蓄へ。上限は受益者最大HPの15%、6秒持続。次の有効ダメージを与える通常攻撃で、3マス以内の別の負傷した非召喚味方のうちHP割合が最も低い者へ渡す。対象不在なら期限まで保持。過剰回復・単なるシールド付与や剥離は蓄積せず、接力は自己再充填しない。 0.3秒後、最初の受益者から別の負傷味方へ基礎回復量50%の接力を追加。同じ者を再訪しない。",
+   "2: 지원의 유효 치유 또는 지원 보호막 실제 흡수량의 30%를 수혜자의 구조 저장량으로 전환합니다. 수혜자 최대 체력 8% 상한, 6초 지속. 다음 유효 피해 기본 공격으로 3칸 내 다른 부상 비소환 아군 중 체력 비율이 가장 낮은 대상에게 전달합니다. 대상이 없으면 만료까지 보존합니다. 초과 치유, 보호막 부여/제거만으로 충전되지 않고 전달 치유는 재충전하지 않습니다.\n3: 지원의 유효 치유 또는 지원 보호막 실제 흡수량의 45%를 수혜자의 구조 저장량으로 전환합니다. 수혜자 최대 체력 12% 상한, 6초 지속. 다음 유효 피해 기본 공격으로 3칸 내 다른 부상 비소환 아군 중 체력 비율이 가장 낮은 대상에게 전달합니다. 대상이 없으면 만료까지 보존합니다. 초과 치유, 보호막 부여/제거만으로 충전되지 않고 전달 치유는 재충전하지 않습니다.\n4: 지원의 유효 치유 또는 지원 보호막 실제 흡수량의 55%를 수혜자의 구조 저장량으로 전환합니다. 수혜자 최대 체력 15% 상한, 6초 지속. 다음 유효 피해 기본 공격으로 3칸 내 다른 부상 비소환 아군 중 체력 비율이 가장 낮은 대상에게 전달합니다. 대상이 없으면 만료까지 보존합니다. 초과 치유, 보호막 부여/제거만으로 충전되지 않고 전달 치유는 재충전하지 않습니다. 0.3초 후 첫 수혜자에서 다른 부상 아군에게 기본 치유량 50%로 추가 전달. 같은 유닛을 재방문하지 않습니다."
   ],
   "group": [
    "职能羁绊",
@@ -13845,16 +13845,16 @@ export const catalog:WikiEntry[] = [
    "세 토끼 협공"
   ],
   "summary": [
-   "三兔合击：三名成员分别命中同一敌人留下各自印记，集齐后蓄势夹击；成员必须存活，合击后全队共享冷却。",
-   "Three different rabbit members mark one enemy to trigger a coordinated strike. Contributors must remain alive.",
-   "異なる3体の兎が同じ敵を標記して連携攻撃する。貢献した仲間が生存している必要がある。",
-   "서로 다른 토끼 3명이 같은 적에게 표식을 남겨 협동 공격합니다. 참여한 아군이 생존해야 합니다."
+   "M031、M032、M033在4秒内分别有效命中同一敌人，三名贡献者存活时于0.2秒后合击，造成三者攻击总和65%的物理伤害并尝试眩晕0.4秒；全队冷却6秒。重复同种成员不能替代其他兔子，二次伤害不记印；目标或任一贡献者阵亡取消蓄势，不返还冷却。",
+   "M031, M032 and M033 must each hit the same enemy within 4s. If all three contributors survive, strike after 0.2s for 65% of their combined ATK as physical damage and attempt a 0.4s stun. Team cooldown 6s. Duplicate species cannot replace a member; secondary damage does not count. Target or contributor death cancels the windup without refunding cooldown.",
+   "M031・M032・M033が4秒以内に同じ敵へ各1回有効命中。全員生存なら0.2秒後、3体の合計攻撃力65%の物理合撃と0.4秒スタン。チーム共通クールダウン6秒。同種で代用不可、二次ダメージは数えない。対象または参加者死亡で中止し、クールダウンは返らない。",
+   "M031, M032, M033이 4초 내 같은 적에게 각각 유효 적중해야 합니다. 세 기여자가 생존하면 0.2초 후 합산 공격력 65% 물리 합격과 0.4초 기절을 시도합니다. 팀 재사용 6초. 같은 종으로 대체할 수 없고 2차 피해는 제외됩니다. 대상이나 기여자 사망 시 취소되며 재사용 시간은 돌려주지 않습니다."
   ],
   "description": [
-   "三兔合击：三名成员分别命中同一敌人留下各自印记，集齐后蓄势夹击；成员必须存活，合击后全队共享冷却。",
-   "Three different rabbit members mark one enemy to trigger a coordinated strike. Contributors must remain alive.",
-   "異なる3体の兎が同じ敵を標記して連携攻撃する。貢献した仲間が生存している必要がある。",
-   "서로 다른 토끼 3명이 같은 적에게 표식을 남겨 협동 공격합니다. 참여한 아군이 생존해야 합니다."
+   "3: M031、M032、M033在4秒内分别有效命中同一敌人，三名贡献者存活时于0.2秒后合击，造成三者攻击总和65%的物理伤害并尝试眩晕0.4秒；全队冷却6秒。重复同种成员不能替代其他兔子，二次伤害不记印；目标或任一贡献者阵亡取消蓄势，不返还冷却。",
+   "3: M031, M032 and M033 must each hit the same enemy within 4s. If all three contributors survive, strike after 0.2s for 65% of their combined ATK as physical damage and attempt a 0.4s stun. Team cooldown 6s. Duplicate species cannot replace a member; secondary damage does not count. Target or contributor death cancels the windup without refunding cooldown.",
+   "3: M031・M032・M033が4秒以内に同じ敵へ各1回有効命中。全員生存なら0.2秒後、3体の合計攻撃力65%の物理合撃と0.4秒スタン。チーム共通クールダウン6秒。同種で代用不可、二次ダメージは数えない。対象または参加者死亡で中止し、クールダウンは返らない。",
+   "3: M031, M032, M033이 4초 내 같은 적에게 각각 유효 적중해야 합니다. 세 기여자가 생존하면 0.2초 후 합산 공격력 65% 물리 합격과 0.4초 기절을 시도합니다. 팀 재사용 6초. 같은 종으로 대체할 수 없고 2차 피해는 제외됩니다. 대상이나 기여자 사망 시 취소되며 재사용 시간은 돌려주지 않습니다."
   ],
   "group": [
    "特殊羁绊",
@@ -13896,16 +13896,16 @@ export const catalog:WikiEntry[] = [
    "집게와 송곳니"
   ],
   "summary": [
-   "赤纹魔蛛有效命中植入蛛种，红螯惧兽成功控制同一目标后孵化爆发并尝试束缚。",
-   "The spider plants a seed; its partner's successful control on the same target hatches it for a burst and an attempted root.",
-   "蜘蛛が種を植え、相棒が同じ敵への制御に成功すると孵化して爆発し、拘束を試みる。",
-   "거미가 씨앗을 심고 짝이 같은 대상에게 군중 제어를 성공시키면 부화해 폭발하고 속박을 시도합니다."
+   "赤纹魔蛛有效命中敌人时植入蛛种，持续5秒；红螯惧兽在此期间成功控制同一目标后，引爆蛛种，造成植入时魔蛛攻击90%的法伤，并尝试定身0.7秒。同一目标冷却3秒，每队最多3枚蛛种；魔蛛或宿主阵亡、蛛种到期会清除。",
+   "A valid hit by M004 plants a seed for 5s. If M016 successfully controls that target in time, detonate for 90% of M004’s ATK at planting as magic damage and attempt a 0.7s root. Per-target cooldown 3s, team cap 3 seeds. Owner/host death or expiry removes the seed.",
+   "M004の有効命中で5秒間の種を植える。時間内にM016が同じ敵への制御に成功すると、植え付け時のM004攻撃力90%の魔法ダメージと0.7秒移動不能を試みる。対象ごとクールダウン3秒、チーム上限3個。本体・宿主死亡や期限切れで消える。",
+   "M004의 유효 적중이 5초 씨앗을 심습니다. 그동안 M016이 같은 적 제어에 성공하면 설치 당시 M004 공격력 90% 마법 피해와 0.7초 속박을 시도합니다. 대상당 재사용 3초, 팀 최대 3개. 본체/숙주 사망 또는 만료 시 사라집니다."
   ],
   "description": [
-   "赤纹魔蛛有效命中植入蛛种，红螯惧兽成功控制同一目标后孵化爆发并尝试束缚。",
-   "The spider plants a seed; its partner's successful control on the same target hatches it for a burst and an attempted root.",
-   "蜘蛛が種を植え、相棒が同じ敵への制御に成功すると孵化して爆発し、拘束を試みる。",
-   "거미가 씨앗을 심고 짝이 같은 대상에게 군중 제어를 성공시키면 부화해 폭발하고 속박을 시도합니다."
+   "2: 赤纹魔蛛有效命中敌人时植入蛛种，持续5秒；红螯惧兽在此期间成功控制同一目标后，引爆蛛种，造成植入时魔蛛攻击90%的法伤，并尝试定身0.7秒。同一目标冷却3秒，每队最多3枚蛛种；魔蛛或宿主阵亡、蛛种到期会清除。",
+   "2: A valid hit by M004 plants a seed for 5s. If M016 successfully controls that target in time, detonate for 90% of M004’s ATK at planting as magic damage and attempt a 0.7s root. Per-target cooldown 3s, team cap 3 seeds. Owner/host death or expiry removes the seed.",
+   "2: M004の有効命中で5秒間の種を植える。時間内にM016が同じ敵への制御に成功すると、植え付け時のM004攻撃力90%の魔法ダメージと0.7秒移動不能を試みる。対象ごとクールダウン3秒、チーム上限3個。本体・宿主死亡や期限切れで消える。",
+   "2: M004의 유효 적중이 5초 씨앗을 심습니다. 그동안 M016이 같은 적 제어에 성공하면 설치 당시 M004 공격력 90% 마법 피해와 0.7초 속박을 시도합니다. 대상당 재사용 3초, 팀 최대 3개. 본체/숙주 사망 또는 만료 시 사라집니다."
   ],
   "group": [
    "特殊羁绊",
@@ -14418,16 +14418,16 @@ export const catalog:WikiEntry[] = [
    "독행"
   ],
   "summary": [
-   "连续 1 秒没有相邻友军本体时，自身普攻和原技能伤害提高 8%。相邻友军出现立即失效；召唤物不计；其他羁绊派生伤害不加成。",
-   "After 1s without an adjacent living allied non-summon, basic attacks and original skill damage gain 8%. An adjacent ally cancels it immediately. Summons do not count. Other trait damage is excluded.",
-   "隣接する生存中の味方本体がいない状態が 1 秒続くと、自身の通常攻撃と元のスキルのダメージが 8% 増加。味方が隣接すると即解除。召喚物は人数・隣接判定に含めず、他の絆の派生ダメージは強化しない。",
-   "인접한 생존 아군 본체가 없는 상태로 1초가 지나면 자신의 기본 공격과 원래 스킬 피해가 8% 증가합니다. 아군이 인접하면 즉시 해제됩니다. 소환수는 계산하지 않으며 다른 시너지의 파생 피해는 강화하지 않습니다."
+   "战斗开始时没有相邻友军本体的成员，本场普攻和原技能伤害提高 8%。仅开战判定一次；召唤物不计；其他羁绊派生伤害不加成。",
+   "Members with no adjacent allied non-summoned unit at combat start deal 8% more basic attack and original skill damage for the entire battle. Checked once; summons and trait-generated damage are excluded.",
+   "戦闘開始時に隣接する味方本体がいないメンバーは、この戦闘中、通常攻撃と本来のスキルのダメージが8%増加。開始時に一度だけ判定。召喚物と特性の派生ダメージは対象外。",
+   "전투 시작 시 인접한 아군 본체가 없는 구성원은 전투 내내 기본 공격과 원래 스킬 피해가 8% 증가합니다. 시작 시 한 번만 판정하며, 소환수와 시너지 파생 피해는 제외됩니다."
   ],
   "description": [
-   "2: 连续 1 秒没有相邻友军本体时，自身普攻和原技能伤害提高 8%。相邻友军出现立即失效；召唤物不计；其他羁绊派生伤害不加成。\n4: 连续 1 秒没有相邻友军本体时，自身普攻和原技能伤害提高 14%。相邻友军出现立即失效；召唤物不计；其他羁绊派生伤害不加成。",
-   "2: After 1s without an adjacent living allied non-summon, basic attacks and original skill damage gain 8%. An adjacent ally cancels it immediately. Summons do not count. Other trait damage is excluded.\n4: After 1s without an adjacent living allied non-summon, basic attacks and original skill damage gain 14%. An adjacent ally cancels it immediately. Summons do not count. Other trait damage is excluded.",
-   "2: 隣接する生存中の味方本体がいない状態が 1 秒続くと、自身の通常攻撃と元のスキルのダメージが 8% 増加。味方が隣接すると即解除。召喚物は人数・隣接判定に含めず、他の絆の派生ダメージは強化しない。\n4: 隣接する生存中の味方本体がいない状態が 1 秒続くと、自身の通常攻撃と元のスキルのダメージが 14% 増加。味方が隣接すると即解除。召喚物は人数・隣接判定に含めず、他の絆の派生ダメージは強化しない。",
-   "2: 인접한 생존 아군 본체가 없는 상태로 1초가 지나면 자신의 기본 공격과 원래 스킬 피해가 8% 증가합니다. 아군이 인접하면 즉시 해제됩니다. 소환수는 계산하지 않으며 다른 시너지의 파생 피해는 강화하지 않습니다.\n4: 인접한 생존 아군 본체가 없는 상태로 1초가 지나면 자신의 기본 공격과 원래 스킬 피해가 14% 증가합니다. 아군이 인접하면 즉시 해제됩니다. 소환수는 계산하지 않으며 다른 시너지의 파생 피해는 강화하지 않습니다."
+   "2: 战斗开始时没有相邻友军本体的成员，本场普攻和原技能伤害提高 8%。仅开战判定一次；召唤物不计；其他羁绊派生伤害不加成。\n4: 战斗开始时没有相邻友军本体的成员，本场普攻和原技能伤害提高 14%。仅开战判定一次；召唤物不计；其他羁绊派生伤害不加成。",
+   "2: Members with no adjacent allied non-summoned unit at combat start deal 8% more basic attack and original skill damage for the entire battle. Checked once; summons and trait-generated damage are excluded.\n4: Members with no adjacent allied non-summoned unit at combat start deal 14% more basic attack and original skill damage for the entire battle. Checked once; summons and trait-generated damage are excluded.",
+   "2: 戦闘開始時に隣接する味方本体がいないメンバーは、この戦闘中、通常攻撃と本来のスキルのダメージが8%増加。開始時に一度だけ判定。召喚物と特性の派生ダメージは対象外。\n4: 戦闘開始時に隣接する味方本体がいないメンバーは、この戦闘中、通常攻撃と本来のスキルのダメージが14%増加。開始時に一度だけ判定。召喚物と特性の派生ダメージは対象外。",
+   "2: 전투 시작 시 인접한 아군 본체가 없는 구성원은 전투 내내 기본 공격과 원래 스킬 피해가 8% 증가합니다. 시작 시 한 번만 판정하며, 소환수와 시너지 파생 피해는 제외됩니다.\n4: 전투 시작 시 인접한 아군 본체가 없는 구성원은 전투 내내 기본 공격과 원래 스킬 피해가 14% 증가합니다. 시작 시 한 번만 판정하며, 소환수와 시너지 파생 피해는 제외됩니다."
   ],
   "group": [
    "职能羁绊",
@@ -14446,19 +14446,19 @@ export const catalog:WikiEntry[] = [
    {
     "count": 2,
     "description": [
-     "连续 1 秒没有相邻友军本体时，自身普攻和原技能伤害提高 8%。相邻友军出现立即失效；召唤物不计；其他羁绊派生伤害不加成。",
-     "After 1s without an adjacent living allied non-summon, basic attacks and original skill damage gain 8%. An adjacent ally cancels it immediately. Summons do not count. Other trait damage is excluded.",
-     "隣接する生存中の味方本体がいない状態が 1 秒続くと、自身の通常攻撃と元のスキルのダメージが 8% 増加。味方が隣接すると即解除。召喚物は人数・隣接判定に含めず、他の絆の派生ダメージは強化しない。",
-     "인접한 생존 아군 본체가 없는 상태로 1초가 지나면 자신의 기본 공격과 원래 스킬 피해가 8% 증가합니다. 아군이 인접하면 즉시 해제됩니다. 소환수는 계산하지 않으며 다른 시너지의 파생 피해는 강화하지 않습니다."
+     "战斗开始时没有相邻友军本体的成员，本场普攻和原技能伤害提高 8%。仅开战判定一次；召唤物不计；其他羁绊派生伤害不加成。",
+     "Members with no adjacent allied non-summoned unit at combat start deal 8% more basic attack and original skill damage for the entire battle. Checked once; summons and trait-generated damage are excluded.",
+     "戦闘開始時に隣接する味方本体がいないメンバーは、この戦闘中、通常攻撃と本来のスキルのダメージが8%増加。開始時に一度だけ判定。召喚物と特性の派生ダメージは対象外。",
+     "전투 시작 시 인접한 아군 본체가 없는 구성원은 전투 내내 기본 공격과 원래 스킬 피해가 8% 증가합니다. 시작 시 한 번만 판정하며, 소환수와 시너지 파생 피해는 제외됩니다."
     ]
    },
    {
     "count": 4,
     "description": [
-     "连续 1 秒没有相邻友军本体时，自身普攻和原技能伤害提高 14%。相邻友军出现立即失效；召唤物不计；其他羁绊派生伤害不加成。",
-     "After 1s without an adjacent living allied non-summon, basic attacks and original skill damage gain 14%. An adjacent ally cancels it immediately. Summons do not count. Other trait damage is excluded.",
-     "隣接する生存中の味方本体がいない状態が 1 秒続くと、自身の通常攻撃と元のスキルのダメージが 14% 増加。味方が隣接すると即解除。召喚物は人数・隣接判定に含めず、他の絆の派生ダメージは強化しない。",
-     "인접한 생존 아군 본체가 없는 상태로 1초가 지나면 자신의 기본 공격과 원래 스킬 피해가 14% 증가합니다. 아군이 인접하면 즉시 해제됩니다. 소환수는 계산하지 않으며 다른 시너지의 파생 피해는 강화하지 않습니다."
+     "战斗开始时没有相邻友军本体的成员，本场普攻和原技能伤害提高 14%。仅开战判定一次；召唤物不计；其他羁绊派生伤害不加成。",
+     "Members with no adjacent allied non-summoned unit at combat start deal 14% more basic attack and original skill damage for the entire battle. Checked once; summons and trait-generated damage are excluded.",
+     "戦闘開始時に隣接する味方本体がいないメンバーは、この戦闘中、通常攻撃と本来のスキルのダメージが14%増加。開始時に一度だけ判定。召喚物と特性の派生ダメージは対象外。",
+     "전투 시작 시 인접한 아군 본체가 없는 구성원은 전투 내내 기본 공격과 원래 스킬 피해가 14% 증가합니다. 시작 시 한 번만 판정하며, 소환수와 시너지 파생 피해는 제외됩니다."
     ]
    }
   ],
@@ -14475,21 +14475,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "连击印",
-   "Combo Seal",
-   "連撃印",
+   "Combo Sigil",
+   "連撃の印",
    "연격 인장"
   ],
   "summary": [
    "普攻30%概率追加一次50%攻击力的额外攻击",
-   "Basic attacks can add physical damage; useful for sustained attackers.",
-   "通常攻撃が確率で追加物理ダメージを与える。継続攻撃向け。",
-   "기본 공격이 일정 확률로 추가 물리 피해를 줍니다. 지속 공격에 적합합니다."
+   "Basic attacks have a 30% chance to make an extra attack dealing 50% ATK.",
+   "通常攻撃時、30%の確率で攻撃力の50%の追加攻撃を行う。",
+   "기본 공격 시 30% 확률로 공격력의 50%에 해당하는 추가 공격을 합니다."
   ],
   "description": [
    "普攻30%概率追加一次50%攻击力的额外攻击",
-   "Basic attacks can add physical damage; useful for sustained attackers.",
-   "通常攻撃が確率で追加物理ダメージを与える。継続攻撃向け。",
-   "기본 공격이 일정 확률로 추가 물리 피해를 줍니다. 지속 공격에 적합합니다."
+   "Basic attacks have a 30% chance to make an extra attack dealing 50% ATK.",
+   "通常攻撃時、30%の確率で攻撃力の50%の追加攻撃を行う。",
+   "기본 공격 시 30% 확률로 공격력의 50%에 해당하는 추가 공격을 합니다."
   ],
   "group": [
    "战斗契印",
@@ -14536,15 +14536,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "每第3次普攻对目标及其相邻敌人各造成28魔法伤害。",
-   "Periodic basic attacks chain magic damage through nearby enemies.",
-   "一定回数の通常攻撃で対象と周囲へ連鎖する魔法ダメージ。",
-   "일정 횟수의 기본 공격마다 대상과 주변 적에게 연쇄 마법 피해를 줍니다."
+   "Every third basic attack deals 28 magic damage to the target and each adjacent enemy.",
+   "通常攻撃3回ごとに、対象とその隣接する敵それぞれに28の魔法ダメージを与える。",
+   "기본 공격 3회마다 대상과 대상에 인접한 각 적에게 마법 피해 28을 줍니다."
   ],
   "description": [
    "每第3次普攻对目标及其相邻敌人各造成28魔法伤害。",
-   "Periodic basic attacks chain magic damage through nearby enemies.",
-   "一定回数の通常攻撃で対象と周囲へ連鎖する魔法ダメージ。",
-   "일정 횟수의 기본 공격마다 대상과 주변 적에게 연쇄 마법 피해를 줍니다."
+   "Every third basic attack deals 28 magic damage to the target and each adjacent enemy.",
+   "通常攻撃3回ごとに、対象とその隣接する敵それぞれに28の魔法ダメージを与える。",
+   "기본 공격 3회마다 대상과 대상에 인접한 각 적에게 마법 피해 28을 줍니다."
   ],
   "group": [
    "战斗契印",
@@ -14582,19 +14582,19 @@ export const catalog:WikiEntry[] = [
    "溅射利刃",
    "Splash Blade",
    "飛散の刃",
-   "확산 칼날"
+   "비산의 칼날"
   ],
   "summary": [
    "普攻对目标相邻敌人造成28%攻击力物理溅射伤害。",
-   "Basic attacks splash physical damage beside the target.",
-   "通常攻撃が対象に隣接する敵へ物理ダメージを広げる。",
-   "기본 공격이 대상 인접 적에게 물리 피해를 확산합니다."
+   "Basic attacks deal physical splash damage equal to 28% ATK to enemies adjacent to the target.",
+   "通常攻撃が対象に隣接する敵に攻撃力の28%の物理範囲ダメージを与える。",
+   "기본 공격이 대상에 인접한 적에게 공격력의 28%에 해당하는 물리 광역 피해를 줍니다."
   ],
   "description": [
    "普攻对目标相邻敌人造成28%攻击力物理溅射伤害。",
-   "Basic attacks splash physical damage beside the target.",
-   "通常攻撃が対象に隣接する敵へ物理ダメージを広げる。",
-   "기본 공격이 대상 인접 적에게 물리 피해를 확산합니다."
+   "Basic attacks deal physical splash damage equal to 28% ATK to enemies adjacent to the target.",
+   "通常攻撃が対象に隣接する敵に攻撃力の28%の物理範囲ダメージを与える。",
+   "기본 공격이 대상에 인접한 적에게 공격력의 28%에 해당하는 물리 광역 피해를 줍니다."
   ],
   "group": [
    "战斗契印",
@@ -14628,19 +14628,19 @@ export const catalog:WikiEntry[] = [
    "巨杀之刃",
    "Giant Slayer",
    "巨殺の刃",
-   "거인 학살검"
+   "거인 학살자"
   ],
   "summary": [
    "对生命高于50%的目标伤害+25%",
-   "Deals more damage to targets with a high remaining-health ratio.",
-   "残りHP割合の高い敵に与えるダメージが増える。",
-   "남은 체력 비율이 높은 대상에게 더 큰 피해를 줍니다."
+   "Deal 25% more damage to targets above 50% health.",
+   "体力が50%を超える対象へのダメージが25%増加する。",
+   "체력이 50%를 초과하는 대상에게 주는 피해가 25% 증가합니다."
   ],
   "description": [
    "对生命高于50%的目标伤害+25%",
-   "Deals more damage to targets with a high remaining-health ratio.",
-   "残りHP割合の高い敵に与えるダメージが増える。",
-   "남은 체력 비율이 높은 대상에게 더 큰 피해를 줍니다."
+   "Deal 25% more damage to targets above 50% health.",
+   "体力が50%を超える対象へのダメージが25%増加する。",
+   "체력이 50%를 초과하는 대상에게 주는 피해가 25% 증가합니다."
   ],
   "group": [
    "战斗契印",
@@ -14676,21 +14676,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "蓝潮符",
-   "Blue Tide Rune",
-   "青潮の符",
+   "Blue Tide Sigil",
+   "蒼潮の符",
    "푸른 물결 부적"
   ],
   "summary": [
    "普攻额外回复6能量。",
-   "Basic attacks restore extra energy to accelerate casting.",
-   "通常攻撃で追加エネルギーを得て詠唱を早める。",
-   "기본 공격으로 추가 에너지를 회복해 시전을 앞당깁니다."
+   "Basic attacks restore an additional 6 energy.",
+   "通常攻撃でエネルギーを追加で6回復する。",
+   "기본 공격으로 에너지를 추가로 6 회복합니다."
   ],
   "description": [
    "普攻额外回复6能量。",
-   "Basic attacks restore extra energy to accelerate casting.",
-   "通常攻撃で追加エネルギーを得て詠唱を早める。",
-   "기본 공격으로 추가 에너지를 회복해 시전을 앞당깁니다."
+   "Basic attacks restore an additional 6 energy.",
+   "通常攻撃でエネルギーを追加で6回復する。",
+   "기본 공격으로 에너지를 추가로 6 회복합니다."
   ],
   "group": [
    "战斗契印",
@@ -14726,21 +14726,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "缠绕印",
-   "Entangling Seal",
+   "Entangling Sigil",
    "絡みつく印",
-   "얽힘 인장"
+   "휘감는 인장"
   ],
   "summary": [
-   "普攻命中有25%概率使目标减速2秒。",
-   "Damage hits can slow the target.",
-   "ダメージ命中時に確率で敵を減速させる。",
-   "피해 적중 시 일정 확률로 대상을 둔화시킵니다."
+   "普攻命中有25%概率使目标减速2秒。三星：概率35%，持续2.5秒。减速不会覆盖尚未结束的硬控制。",
+   "Basic attack hits have a 25% chance to slow the target for 2s. 3-star: 35% chance, lasting 2.5s. Slows do not replace an active hard control effect.",
+   "通常攻撃命中時、25%の確率で敵を2秒間減速。星3：確率35%、2.5秒持続。減速は持続中の強い行動妨害を上書きしない。",
+   "기본 공격 적중 시 25% 확률로 대상을 2초 동안 둔화시킵니다. 3성: 확률 35%, 지속시간 2.5초.둔화는 진행 중인 강한 군중 제어를 덮어쓰지 않습니다."
   ],
   "description": [
-   "普攻命中有25%概率使目标减速2秒。",
-   "Damage hits can slow the target.",
-   "ダメージ命中時に確率で敵を減速させる。",
-   "피해 적중 시 일정 확률로 대상을 둔화시킵니다."
+   "普攻命中有25%概率使目标减速2秒。三星：概率35%，持续2.5秒。减速不会覆盖尚未结束的硬控制。",
+   "Basic attack hits have a 25% chance to slow the target for 2s. 3-star: 35% chance, lasting 2.5s. Slows do not replace an active hard control effect.",
+   "通常攻撃命中時、25%の確率で敵を2秒間減速。星3：確率35%、2.5秒持続。減速は持続中の強い行動妨害を上書きしない。",
+   "기본 공격 적중 시 25% 확률로 대상을 2초 동안 둔화시킵니다. 3성: 확률 35%, 지속시간 2.5초.둔화는 진행 중인 강한 군중 제어를 덮어쓰지 않습니다."
   ],
   "group": [
    "战斗契印",
@@ -14776,21 +14776,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "破胆符",
-   "Dread Rune",
+   "Dread Sigil",
    "破胆の符",
-   "위축 부적"
+   "위압의 부적"
   ],
   "summary": [
    "普攻使命中目标受治疗-30%持续3秒(重伤)",
-   "Basic attacks reduce the target's incoming healing.",
-   "通常攻撃で対象が受ける回復を減らす。",
-   "기본 공격으로 대상이 받는 회복량을 줄입니다."
+   "Basic attacks reduce the target's healing received by 30% for 3s (Grievous Wounds).",
+   "通常攻撃を受けた対象の被回復量を3秒間30%減少させる（重傷）。",
+   "기본 공격에 맞은 대상이 받는 치유량을 3초간 30% 감소시킵니다(치유 감소)."
   ],
   "description": [
    "普攻使命中目标受治疗-30%持续3秒(重伤)",
-   "Basic attacks reduce the target's incoming healing.",
-   "通常攻撃で対象が受ける回復を減らす。",
-   "기본 공격으로 대상이 받는 회복량을 줄입니다."
+   "Basic attacks reduce the target's healing received by 30% for 3s (Grievous Wounds).",
+   "通常攻撃を受けた対象の被回復量を3秒間30%減少させる（重傷）。",
+   "기본 공격에 맞은 대상이 받는 치유량을 3초간 30% 감소시킵니다(치유 감소)."
   ],
   "group": [
    "战斗契印",
@@ -14826,21 +14826,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "免控徽",
-   "Control Ward",
-   "制御除けの徽章",
-   "제어 방어 휘장"
+   "Quicksilver Emblem",
+   "免疫の徽章",
+   "면역 휘장"
   ],
   "summary": [
-   "免疫本场第一次控制",
-   "Blocks the first crowd-control effect of the battle.",
-   "戦闘中に最初の制御効果を防ぐ。",
-   "전투에서 첫 군중 제어 효과를 막습니다."
+   "免疫本场第一次控制。\n三星：改为开战前4秒免疫控制。",
+   "Block the first crowd-control effect this combat.\n3-star: Instead, gain crowd-control immunity for the first 4 seconds of combat.",
+   "戦闘中に最初に受ける行動妨害を無効化する。\n星3：代わりに戦闘開始から4秒間、行動妨害を無効化する。",
+   "이번 전투에서 처음 받는 군중 제어를 막습니다.\n3성: 대신 전투 시작 후 4초 동안 군중 제어에 면역이 됩니다."
   ],
   "description": [
-   "免疫本场第一次控制",
-   "Blocks the first crowd-control effect of the battle.",
-   "戦闘中に最初の制御効果を防ぐ。",
-   "전투에서 첫 군중 제어 효과를 막습니다."
+   "免疫本场第一次控制。\n三星：改为开战前4秒免疫控制。",
+   "Block the first crowd-control effect this combat.\n3-star: Instead, gain crowd-control immunity for the first 4 seconds of combat.",
+   "戦闘中に最初に受ける行動妨害を無効化する。\n星3：代わりに戦闘開始から4秒間、行動妨害を無効化する。",
+   "이번 전투에서 처음 받는 군중 제어를 막습니다.\n3성: 대신 전투 시작 후 4초 동안 군중 제어에 면역이 됩니다."
   ],
   "group": [
    "战斗契印",
@@ -14862,7 +14862,7 @@ export const catalog:WikiEntry[] = [
   "baseStats": [
    {
     "label": "攻击速度",
-    "value": "+3%"
+    "value": "+15%"
    }
   ],
   "related": []
@@ -14873,20 +14873,20 @@ export const catalog:WikiEntry[] = [
   "title": [
    "追猎本能",
    "Hunting Instinct",
-   "追猟本能",
+   "狩猟本能",
    "사냥 본능"
   ],
   "summary": [
-   "击杀单位后重置移动CD并+30%移速2秒",
-   "Kills reset movement cooldown and briefly increase speed.",
-   "撃破で移動クールダウンをリセットし、一時的に加速する。",
-   "처치 시 이동 대기시간을 초기화하고 잠시 이동 속도를 높입니다."
+   "击杀敌方单位后重置移动冷却，移速+30%持续2秒，并获得30%攻速持续4秒；再次击杀刷新各自持续时间，不叠加。\n三星：移速+50%持续3秒，攻速+45%持续5秒。",
+   "Killing an enemy unit resets movement cooldown, grants 30% movement speed for 2 seconds and 30% attack speed for 4 seconds. Further kills refresh each duration without stacking.\n3-star: 50% movement speed for 3 seconds and 45% attack speed for 5 seconds.",
+   "敵ユニットを倒すと移動クールダウンをリセットし、2秒間移動速度+30%、4秒間攻撃速度+30%を得る。再度倒すとそれぞれの持続時間を更新し、重複しない。\n星3：移動速度+50%が3秒、攻撃速度+45%が5秒持続する。",
+   "적 유닛 처치 시 이동 재사용 대기시간을 초기화하고 이동 속도가 2초 동안 30%, 공격 속도가 4초 동안 30% 증가합니다. 추가 처치 시 각 지속시간을 갱신하며 중첩되지 않습니다.\n3성: 이동 속도가 3초 동안 50%, 공격 속도가 5초 동안 45% 증가합니다."
   ],
   "description": [
-   "击杀单位后重置移动CD并+30%移速2秒",
-   "Kills reset movement cooldown and briefly increase speed.",
-   "撃破で移動クールダウンをリセットし、一時的に加速する。",
-   "처치 시 이동 대기시간을 초기화하고 잠시 이동 속도를 높입니다."
+   "击杀敌方单位后重置移动冷却，移速+30%持续2秒，并获得30%攻速持续4秒；再次击杀刷新各自持续时间，不叠加。\n三星：移速+50%持续3秒，攻速+45%持续5秒。",
+   "Killing an enemy unit resets movement cooldown, grants 30% movement speed for 2 seconds and 30% attack speed for 4 seconds. Further kills refresh each duration without stacking.\n3-star: 50% movement speed for 3 seconds and 45% attack speed for 5 seconds.",
+   "敵ユニットを倒すと移動クールダウンをリセットし、2秒間移動速度+30%、4秒間攻撃速度+30%を得る。再度倒すとそれぞれの持続時間を更新し、重複しない。\n星3：移動速度+50%が3秒、攻撃速度+45%が5秒持続する。",
+   "적 유닛 처치 시 이동 재사용 대기시간을 초기화하고 이동 속도가 2초 동안 30%, 공격 속도가 4초 동안 30% 증가합니다. 추가 처치 시 각 지속시간을 갱신하며 중첩되지 않습니다.\n3성: 이동 속도가 3초 동안 50%, 공격 속도가 5초 동안 45% 증가합니다."
   ],
   "group": [
    "战斗契印",
@@ -14908,15 +14908,15 @@ export const catalog:WikiEntry[] = [
   "baseStats": [
    {
     "label": "攻击力",
-    "value": "+4%"
+    "value": "+10%"
    },
    {
     "label": "暴击率",
     "value": [
-     "+3 个百分点",
-     "+3 percentage points",
-     "+3ポイント",
-     "+3%p"
+     "+8 个百分点",
+     "+8 percentage points",
+     "+8ポイント",
+     "+8%p"
     ]
    }
   ],
@@ -14927,21 +14927,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "闪现符",
-   "Blink Rune",
+   "Blink Sigil",
    "瞬転の符",
    "점멸 부적"
   ],
   "summary": [
    "首次致死时移动至远离敌人的空格，恢复至15%最大生命；每场一次。",
-   "Once per battle, a lethal hit triggers an escape and healing.",
-   "一戦に一度、致命傷を受けると離脱と回復を試みる。",
-   "전투당 한 번 치명적 피해를 받으면 탈출과 회복을 시도합니다."
+   "On the first lethal hit, move to an empty hex away from enemies and restore health to 15% of maximum. Once per battle.",
+   "最初の致死ダメージ時、敵から離れた空きマスへ移動し、体力を最大値の15%まで回復する。各戦闘1回。",
+   "처음 치명적인 피해를 받으면 적에게서 멀리 떨어진 빈 칸으로 이동하고 체력을 최대치의 15%까지 회복합니다. 전투당 1회."
   ],
   "description": [
    "首次致死时移动至远离敌人的空格，恢复至15%最大生命；每场一次。",
-   "Once per battle, a lethal hit triggers an escape and healing.",
-   "一戦に一度、致命傷を受けると離脱と回復を試みる。",
-   "전투당 한 번 치명적 피해를 받으면 탈출과 회복을 시도합니다."
+   "On the first lethal hit, move to an empty hex away from enemies and restore health to 15% of maximum. Once per battle.",
+   "最初の致死ダメージ時、敵から離れた空きマスへ移動し、体力を最大値の15%まで回復する。各戦闘1回。",
+   "처음 치명적인 피해를 받으면 적에게서 멀리 떨어진 빈 칸으로 이동하고 체력을 최대치의 15%까지 회복합니다. 전투당 1회."
   ],
   "group": [
    "战斗契印",
@@ -14973,21 +14973,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "突进牙",
-   "Dashing Fang",
+   "Dash Fang",
    "突進の牙",
    "돌진 송곳니"
   ],
   "summary": [
    "开战立即突进到最近敌人身边",
-   "Dashes toward an enemy at combat start.",
-   "開戦時に敵へ突進して接近する。",
-   "전투 시작 시 적에게 돌진해 접근합니다."
+   "At combat start, immediately dash next to the nearest enemy.",
+   "戦闘開始時、最も近い敵の隣へ即座に突進する。",
+   "전투 시작 시 가장 가까운 적 옆으로 즉시 돌진합니다."
   ],
   "description": [
    "开战立即突进到最近敌人身边",
-   "Dashes toward an enemy at combat start.",
-   "開戦時に敵へ突進して接近する。",
-   "전투 시작 시 적에게 돌진해 접근합니다."
+   "At combat start, immediately dash next to the nearest enemy.",
+   "戦闘開始時、最も近い敵の隣へ即座に突進する。",
+   "전투 시작 시 가장 가까운 적 옆으로 즉시 돌진합니다."
   ],
   "group": [
    "战斗契印",
@@ -15024,20 +15024,20 @@ export const catalog:WikiEntry[] = [
   "title": [
    "圣洁誓约",
    "Sacred Oath",
-   "聖なる誓約",
-   "성스러운 서약"
+   "聖潔の誓い",
+   "성스러운 맹세"
   ],
   "summary": [
    "携带者阵亡时治疗全队各20%最大生命",
-   "Heals the team when the bearer dies.",
-   "所持者の死亡時に味方全体を回復する。",
-   "소지자가 사망하면 아군 전체를 회복합니다."
+   "When the bearer dies, heal each ally for 20% of their maximum health.",
+   "装備者が倒れると、味方全員をそれぞれの最大体力の20%回復する。",
+   "착용자가 사망하면 각 아군의 최대 체력 20%를 회복합니다."
   ],
   "description": [
    "携带者阵亡时治疗全队各20%最大生命",
-   "Heals the team when the bearer dies.",
-   "所持者の死亡時に味方全体を回復する。",
-   "소지자가 사망하면 아군 전체를 회복합니다."
+   "When the bearer dies, heal each ally for 20% of their maximum health.",
+   "装備者が倒れると、味方全員をそれぞれの最大体力の20%回復する。",
+   "착용자가 사망하면 각 아군의 최대 체력 20%를 회복합니다."
   ],
   "group": [
    "战斗契印",
@@ -15069,21 +15069,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "钢铁圣契",
-   "Steel Covenant",
-   "鋼鉄の聖契",
-   "강철 성약"
+   "Iron Covenant",
+   "鋼鉄の聖約",
+   "강철의 서약"
   ],
   "summary": [
    "开战为2格内友军各施加90护盾。",
-   "Shields nearby allies at combat start.",
-   "開戦時に周囲の味方へシールドを与える。",
-   "전투 시작 시 주변 아군에게 보호막을 줍니다."
+   "At combat start, grant a 90-point shield to each ally within 2 hexes.",
+   "戦闘開始時、2マス以内の味方それぞれに90のシールドを付与する。",
+   "전투 시작 시 2칸 이내의 각 아군에게 보호막 90을 부여합니다."
   ],
   "description": [
    "开战为2格内友军各施加90护盾。",
-   "Shields nearby allies at combat start.",
-   "開戦時に周囲の味方へシールドを与える。",
-   "전투 시작 시 주변 아군에게 보호막을 줍니다."
+   "At combat start, grant a 90-point shield to each ally within 2 hexes.",
+   "戦闘開始時、2マス以内の味方それぞれに90のシールドを付与する。",
+   "전투 시작 시 2칸 이내의 각 아군에게 보호막 90을 부여합니다."
   ],
   "group": [
    "战斗契印",
@@ -15119,21 +15119,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "亡语传承",
-   "Last Legacy",
-   "亡語の継承",
-   "유언의 계승"
+   "Last Bequest",
+   "最期の継承",
+   "최후의 유산"
   ],
   "summary": [
-   "阵亡时把50%能量传给生命最低的友军",
-   "Passes energy to the lowest-health ally on death.",
-   "死亡時にHPが最も低い味方へエネルギーを渡す。",
-   "사망 시 체력이 가장 낮은 아군에게 에너지를 전달합니다."
+   "阵亡时，向当前生命最低的存活友军赠送12能量，加上自身剩余能量的50%。三星：赠送18能量加自身剩余能量的100%，并治疗该友军20%最大生命。",
+   "On death, grant the living ally with the lowest current health 12 energy plus 50% of your remaining energy. 3-star: 18 energy plus 100% of your remaining energy; also heal that ally for 20% maximum health.",
+   "死亡時、現在HPが最も低い生存中の味方にエネルギー12と自身の残りエネルギーの50%を付与。星3：18と残量の100%を付与し、対象の最大HPの20%も回復。",
+   "사망 시 현재 체력이 가장 낮은 생존 아군에게 에너지 12와 자신의 남은 에너지 50%를 부여합니다. 3성: 에너지 18과 남은 에너지 100%를 부여하고 대상 최대 체력 20%도 회복합니다."
   ],
   "description": [
-   "阵亡时把50%能量传给生命最低的友军",
-   "Passes energy to the lowest-health ally on death.",
-   "死亡時にHPが最も低い味方へエネルギーを渡す。",
-   "사망 시 체력이 가장 낮은 아군에게 에너지를 전달합니다."
+   "阵亡时，向当前生命最低的存活友军赠送12能量，加上自身剩余能量的50%。三星：赠送18能量加自身剩余能量的100%，并治疗该友军20%最大生命。",
+   "On death, grant the living ally with the lowest current health 12 energy plus 50% of your remaining energy. 3-star: 18 energy plus 100% of your remaining energy; also heal that ally for 20% maximum health.",
+   "死亡時、現在HPが最も低い生存中の味方にエネルギー12と自身の残りエネルギーの50%を付与。星3：18と残量の100%を付与し、対象の最大HPの20%も回復。",
+   "사망 시 현재 체력이 가장 낮은 생존 아군에게 에너지 12와 자신의 남은 에너지 50%를 부여합니다. 3성: 에너지 18과 남은 에너지 100%를 부여하고 대상 최대 체력 20%도 회복합니다."
   ],
   "group": [
    "战斗契印",
@@ -15165,21 +15165,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "荆棘反甲",
-   "Bramble Armor",
-   "荊棘の反甲",
-   "가시 반사갑"
+   "Bramble Sigil",
+   "茨の印",
+   "가시 인장"
   ],
   "summary": [
-   "免疫暴击；受到普攻时，对攻击者造成25魔法反伤。",
-   "Protects against critical hits and retaliates against attackers.",
-   "クリティカルを防ぎ、攻撃者へ反撃ダメージを与える。",
-   "치명타를 방어하고 공격자에게 반사 피해를 줍니다."
+   "免疫暴击；受到普攻时，对攻击者造成魔法反伤，冷却1秒。一星25、二星45、三星165伤害。",
+   "Prevents bonus damage from critical hits. When hit by a basic attack, deal magic damage back to the attacker, with a 1s cooldown: 25 at 1 star, 45 at 2 stars, 165 at 3 stars.",
+   "会心による追加ダメージを無効化。通常攻撃を受けると攻撃者に魔法ダメージを返す。クールダウン1秒。星1で25、星2で45、星3で165ダメージ。",
+   "치명타 추가 피해를 받지 않습니다. 기본 공격에 맞으면 공격자에게 마법 피해를 돌려줍니다. 재사용 대기시간 1초. 1성 25, 2성 45, 3성 165 피해."
   ],
   "description": [
-   "免疫暴击；受到普攻时，对攻击者造成25魔法反伤。",
-   "Protects against critical hits and retaliates against attackers.",
-   "クリティカルを防ぎ、攻撃者へ反撃ダメージを与える。",
-   "치명타를 방어하고 공격자에게 반사 피해를 줍니다."
+   "免疫暴击；受到普攻时，对攻击者造成魔法反伤，冷却1秒。一星25、二星45、三星165伤害。",
+   "Prevents bonus damage from critical hits. When hit by a basic attack, deal magic damage back to the attacker, with a 1s cooldown: 25 at 1 star, 45 at 2 stars, 165 at 3 stars.",
+   "会心による追加ダメージを無効化。通常攻撃を受けると攻撃者に魔法ダメージを返す。クールダウン1秒。星1で25、星2で45、星3で165ダメージ。",
+   "치명타 추가 피해를 받지 않습니다. 기본 공격에 맞으면 공격자에게 마법 피해를 돌려줍니다. 재사용 대기시간 1초. 1성 25, 2성 45, 3성 165 피해."
   ],
   "group": [
    "战斗契印",
@@ -15217,19 +15217,19 @@ export const catalog:WikiEntry[] = [
    "日焰斗篷",
    "Sunfire Cloak",
    "日炎の外套",
-   "태양불 망토"
+   "태양불꽃 망토"
   ],
   "summary": [
    "每2秒对2格内敌人造成其最大生命1%的真实伤害。",
-   "Periodically burns nearby enemies.",
-   "周囲の敵を定期的に燃やす。",
-   "주변 적에게 주기적으로 화상 피해를 줍니다."
+   "Every 2s, deal true damage equal to 1% of each enemy's maximum health to enemies within 2 hexes.",
+   "2秒ごとに、2マス以内の敵それぞれに対象の最大体力の1%の確定ダメージを与える。",
+   "2초마다 2칸 이내의 각 적에게 대상 최대 체력의 1%에 해당하는 고정 피해를 줍니다."
   ],
   "description": [
    "每2秒对2格内敌人造成其最大生命1%的真实伤害。",
-   "Periodically burns nearby enemies.",
-   "周囲の敵を定期的に燃やす。",
-   "주변 적에게 주기적으로 화상 피해를 줍니다."
+   "Every 2s, deal true damage equal to 1% of each enemy's maximum health to enemies within 2 hexes.",
+   "2秒ごとに、2マス以内の敵それぞれに対象の最大体力の1%の確定ダメージを与える。",
+   "2초마다 2칸 이내의 각 적에게 대상 최대 체력의 1%에 해당하는 고정 피해를 줍니다."
   ],
   "group": [
    "战斗契印",
@@ -15271,15 +15271,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "每秒使2格内敌人攻速降低20%，持续1.2秒。",
-   "Slows the attack speed of nearby enemies.",
-   "近くの敵の攻撃速度を下げる。",
-   "주변 적의 공격 속도를 낮춥니다."
+   "Every second, reduce the attack speed of enemies within 2 hexes by 20% for 1.2s.",
+   "毎秒、2マス以内の敵の攻撃速度を1.2秒間20%低下させる。",
+   "매초 2칸 이내 적의 공격 속도를 1.2초간 20% 감소시킵니다."
   ],
   "description": [
    "每秒使2格内敌人攻速降低20%，持续1.2秒。",
-   "Slows the attack speed of nearby enemies.",
-   "近くの敵の攻撃速度を下げる。",
-   "주변 적의 공격 속도를 낮춥니다."
+   "Every second, reduce the attack speed of enemies within 2 hexes by 20% for 1.2s.",
+   "毎秒、2マス以内の敵の攻撃速度を1.2秒間20%低下させる。",
+   "매초 2칸 이내 적의 공격 속도를 1.2초간 20% 감소시킵니다."
   ],
   "group": [
    "战斗契印",
@@ -15315,21 +15315,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "伤移链",
-   "Damage Chain",
-   "傷移しの鎖",
-   "피해 전이 사슬"
+   "Burden Chain",
+   "肩代わりの鎖",
+   "고통 분담 사슬"
   ],
   "summary": [
    "承接相邻友军所受伤害的10%, 承接部分自减20%",
-   "Shares adjacent allies' damage and reduces the transferred portion.",
-   "隣接する味方のダメージを分担し、その転送分を軽減する。",
-   "인접 아군의 피해 일부를 분담하고 전이된 피해를 줄입니다."
+   "Redirect 10% of adjacent allies' damage taken to the bearer. Reduce that redirected damage by 20%.",
+   "隣接する味方が受けるダメージの10%を肩代わりし、肩代わりした分を20%軽減する。",
+   "인접한 아군이 받는 피해의 10%를 대신 받으며, 대신 받는 피해는 20% 감소합니다."
   ],
   "description": [
    "承接相邻友军所受伤害的10%, 承接部分自减20%",
-   "Shares adjacent allies' damage and reduces the transferred portion.",
-   "隣接する味方のダメージを分担し、その転送分を軽減する。",
-   "인접 아군의 피해 일부를 분담하고 전이된 피해를 줄입니다."
+   "Redirect 10% of adjacent allies' damage taken to the bearer. Reduce that redirected damage by 20%.",
+   "隣接する味方が受けるダメージの10%を肩代わりし、肩代わりした分を20%軽減する。",
+   "인접한 아군이 받는 피해의 10%를 대신 받으며, 대신 받는 피해는 20% 감소합니다."
   ],
   "group": [
    "战斗契印",
@@ -15362,20 +15362,20 @@ export const catalog:WikiEntry[] = [
   "title": [
    "法术陷阱",
    "Spell Trap",
-   "魔法の罠",
-   "주문 함정"
+   "呪文の罠",
+   "주문 덫"
   ],
   "summary": [
    "格挡下一个命中你的敌方技能并眩晕施法者2秒(每场1次)",
-   "Blocks an enemy skill and counters its caster.",
-   "敵のスキルを一度防ぎ、詠唱者へ反撃する。",
-   "적 스킬을 한 번 막고 시전자에게 반격합니다."
+   "Block the next enemy ability that hits you and stun its caster for 2s. Once per battle.",
+   "次に命中する敵のスキルを防ぎ、発動者を2秒間スタンさせる。各戦闘1回。",
+   "다음에 자신에게 적중하는 적 스킬을 막고 시전자를 2초간 기절시킵니다. 전투당 1회."
   ],
   "description": [
    "格挡下一个命中你的敌方技能并眩晕施法者2秒(每场1次)",
-   "Blocks an enemy skill and counters its caster.",
-   "敵のスキルを一度防ぎ、詠唱者へ反撃する。",
-   "적 스킬을 한 번 막고 시전자에게 반격합니다."
+   "Block the next enemy ability that hits you and stun its caster for 2s. Once per battle.",
+   "次に命中する敵のスキルを防ぎ、発動者を2秒間スタンさせる。各戦闘1回。",
+   "다음에 자신에게 적중하는 적 스킬을 막고 시전자를 2초간 기절시킵니다. 전투당 1회."
   ],
   "group": [
    "战斗契印",
@@ -15411,21 +15411,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "卢登回声",
-   "Luden's Echo",
+   "Luden Echo",
    "ルーデンの残響",
    "루덴의 메아리"
   ],
   "summary": [
-   "技能命中时对目标相邻1格溅射60法伤",
-   "Skill hits add magic splash damage near the target.",
-   "スキル命中時に対象の周囲へ追加魔法ダメージ。",
-   "스킬 적중 시 대상 주변에 추가 마법 확산 피해를 줍니다."
+   "完成施法后，对当前目标及其相邻敌人造成魔法伤害：一星40、二星72、三星195。即使目标孤立，也会受到主目标伤害。",
+   "After casting, deal magic damage to the current target and adjacent enemies: 40 at 1 star, 72 at 2 stars, 195 at 3 stars. An isolated target still takes the primary hit.",
+   "詠唱完了後、現在の対象と隣接する敵に魔法ダメージ。星1で40、星2で72、星3で195。孤立した対象にも主対象ダメージが入る。",
+   "시전 완료 후 현재 대상과 인접한 적에게 마법 피해를 줍니다. 1성 40, 2성 72, 3성 195. 고립된 대상도 주 대상 피해를 받습니다."
   ],
   "description": [
-   "技能命中时对目标相邻1格溅射60法伤",
-   "Skill hits add magic splash damage near the target.",
-   "スキル命中時に対象の周囲へ追加魔法ダメージ。",
-   "스킬 적중 시 대상 주변에 추가 마법 확산 피해를 줍니다."
+   "完成施法后，对当前目标及其相邻敌人造成魔法伤害：一星40、二星72、三星195。即使目标孤立，也会受到主目标伤害。",
+   "After casting, deal magic damage to the current target and adjacent enemies: 40 at 1 star, 72 at 2 stars, 195 at 3 stars. An isolated target still takes the primary hit.",
+   "詠唱完了後、現在の対象と隣接する敵に魔法ダメージ。星1で40、星2で72、星3で195。孤立した対象にも主対象ダメージが入る。",
+   "시전 완료 후 현재 대상과 인접한 적에게 마법 피해를 줍니다. 1성 40, 2성 72, 3성 195. 고립된 대상도 주 대상 피해를 받습니다."
   ],
   "group": [
    "战斗契印",
@@ -15461,21 +15461,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "回响印",
-   "Echo Seal",
-   "残響印",
+   "Echo Sigil",
+   "残響の印",
    "메아리 인장"
   ],
   "summary": [
    "完成施法后有35%概率以50%效果再次释放技能。",
-   "A completed skill may repeat at reduced power.",
-   "スキル終了後、確率で弱めた効果を再発動する。",
-   "스킬 종료 후 일정 확률로 약화된 효과를 다시 시전합니다."
+   "After completing a cast, there is a 35% chance to cast the ability again at 50% effectiveness.",
+   "詠唱完了後、35%の確率でスキルを50%の効果でもう一度発動する。",
+   "시전 완료 후 35% 확률로 스킬을 50% 효과로 한 번 더 시전합니다."
   ],
   "description": [
    "完成施法后有35%概率以50%效果再次释放技能。",
-   "A completed skill may repeat at reduced power.",
-   "スキル終了後、確率で弱めた効果を再発動する。",
-   "스킬 종료 후 일정 확률로 약화된 효과를 다시 시전합니다."
+   "After completing a cast, there is a 35% chance to cast the ability again at 50% effectiveness.",
+   "詠唱完了後、35%の確率でスキルを50%の効果でもう一度発動する。",
+   "시전 완료 후 35% 확률로 스킬을 50% 효과로 한 번 더 시전합니다."
   ],
   "group": [
    "战斗契印",
@@ -15507,21 +15507,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "链锁印",
-   "Chainlock Seal",
-   "連鎖封印",
-   "연쇄 봉인"
+   "Chainlock Sigil",
+   "連鎖拘束の印",
+   "연쇄 속박 인장"
   ],
   "summary": [
-   "你施加的控制扩散到目标相邻1格(50%时长)",
-   "Spreads shorter-duration control to enemies near the target.",
-   "短縮した制御効果を対象の周囲へ広げる。",
-   "지속 시간이 짧아진 군중 제어를 대상 주변에 퍼뜨립니다."
+   "普攻命中定身目标0.5秒，冷却6秒；自身施加的控制以50%时长扩散到目标相邻敌人，扩散不递归。三星：定身0.8秒，控制扩散保留完整时长。",
+   "Basic attack hits root the target for 0.5s, with a 6s cooldown. Your crowd control spreads to enemies adjacent to the target at 50% duration; spread effects do not spread again. 3-star: Root 0.8s; spread control keeps its full duration.",
+   "通常攻撃命中時、対象を0.5秒間移動不能にする。クールダウン6秒。自身が与える行動妨害は50%の時間で対象に隣接する敵へ拡散し、再拡散しない。星3：移動不能0.8秒、拡散時間100%。",
+   "기본 공격 적중 시 대상을 0.5초 속박합니다. 재사용 대기시간 6초. 자신이 가하는 군중 제어가 대상에 인접한 적에게 지속시간 50%로 확산되며 재확산되지 않습니다. 3성: 속박 0.8초, 확산 지속시간 100%."
   ],
   "description": [
-   "你施加的控制扩散到目标相邻1格(50%时长)",
-   "Spreads shorter-duration control to enemies near the target.",
-   "短縮した制御効果を対象の周囲へ広げる。",
-   "지속 시간이 짧아진 군중 제어를 대상 주변에 퍼뜨립니다."
+   "普攻命中定身目标0.5秒，冷却6秒；自身施加的控制以50%时长扩散到目标相邻敌人，扩散不递归。三星：定身0.8秒，控制扩散保留完整时长。",
+   "Basic attack hits root the target for 0.5s, with a 6s cooldown. Your crowd control spreads to enemies adjacent to the target at 50% duration; spread effects do not spread again. 3-star: Root 0.8s; spread control keeps its full duration.",
+   "通常攻撃命中時、対象を0.5秒間移動不能にする。クールダウン6秒。自身が与える行動妨害は50%の時間で対象に隣接する敵へ拡散し、再拡散しない。星3：移動不能0.8秒、拡散時間100%。",
+   "기본 공격 적중 시 대상을 0.5초 속박합니다. 재사용 대기시간 6초. 자신이 가하는 군중 제어가 대상에 인접한 적에게 지속시간 50%로 확산되며 재확산되지 않습니다. 3성: 속박 0.8초, 확산 지속시간 100%."
   ],
   "group": [
    "战斗契印",
@@ -15563,15 +15563,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "持续嘲讽1格内敌人; 免疫位移效果",
-   "Resists displacement and repeatedly taunts adjacent enemies.",
-   "強制移動を防ぎ、周囲の敵を繰り返し挑発する。",
-   "강제 이동을 막고 주변 적을 반복적으로 도발합니다."
+   "Continuously taunt enemies within 1 hex. Immune to displacement effects.",
+   "1マス以内の敵を継続的に挑発する。強制移動効果を無効化する。",
+   "1칸 이내의 적을 지속적으로 도발합니다. 강제 이동 효과에 면역이 됩니다."
   ],
   "description": [
    "持续嘲讽1格内敌人; 免疫位移效果",
-   "Resists displacement and repeatedly taunts adjacent enemies.",
-   "強制移動を防ぎ、周囲の敵を繰り返し挑発する。",
-   "강제 이동을 막고 주변 적을 반복적으로 도발합니다."
+   "Continuously taunt enemies within 1 hex. Immune to displacement effects.",
+   "1マス以内の敵を継続的に挑発する。強制移動効果を無効化する。",
+   "1칸 이내의 적을 지속적으로 도발합니다. 강제 이동 효과에 면역이 됩니다."
   ],
   "group": [
    "战斗契印",
@@ -15607,21 +15607,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "治疗扩散",
-   "Healing Ripple",
-   "回復の波紋",
-   "치유 파동"
+   "Healing Spread",
+   "治癒拡散",
+   "치유 확산"
   ],
   "summary": [
-   "你造成的治疗同时治疗目标相邻1格友军50%",
-   "Spreads part of a heal to allies near its recipient.",
-   "回復の一部を対象付近の味方にも届ける。",
-   "회복량 일부를 대상 주변 아군에게 전달합니다."
+   "每5秒治疗自身2%最大生命；自身施加治疗时，同时以该次治疗量的50%治疗目标相邻友军，扩散治疗不会再次扩散。三星：周期治疗3%，扩散比例100%。",
+   "Every 5s, heal yourself for 2% maximum health. Your heals also heal allies adjacent to the recipient for 50% of that heal. Spread healing cannot spread again. 3-star: Periodic heal 3%; spread ratio 100%.",
+   "5秒ごとに自身の最大HPの2%を回復。自身が回復を行うと、対象に隣接する味方もその回復量の50%回復する。拡散による回復は再拡散しない。星3：周期回復3%、拡散率100%。",
+   "5초마다 자신 최대 체력의 2%를 회복합니다. 자신이 치유하면 대상에 인접한 아군도 해당 치유량의 50%를 회복합니다. 확산 치유는 다시 확산되지 않습니다. 3성: 주기 회복 3%, 확산 비율 100%."
   ],
   "description": [
-   "你造成的治疗同时治疗目标相邻1格友军50%",
-   "Spreads part of a heal to allies near its recipient.",
-   "回復の一部を対象付近の味方にも届ける。",
-   "회복량 일부를 대상 주변 아군에게 전달합니다."
+   "每5秒治疗自身2%最大生命；自身施加治疗时，同时以该次治疗量的50%治疗目标相邻友军，扩散治疗不会再次扩散。三星：周期治疗3%，扩散比例100%。",
+   "Every 5s, heal yourself for 2% maximum health. Your heals also heal allies adjacent to the recipient for 50% of that heal. Spread healing cannot spread again. 3-star: Periodic heal 3%; spread ratio 100%.",
+   "5秒ごとに自身の最大HPの2%を回復。自身が回復を行うと、対象に隣接する味方もその回復量の50%回復する。拡散による回復は再拡散しない。星3：周期回復3%、拡散率100%。",
+   "5초마다 자신 최대 체력의 2%를 회복합니다. 자신이 치유하면 대상에 인접한 아군도 해당 치유량의 50%를 회복합니다. 확산 치유는 다시 확산되지 않습니다. 3성: 주기 회복 3%, 확산 비율 100%."
   ],
   "group": [
    "战斗契印",
@@ -15657,21 +15657,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "血怒契约",
-   "Blood Pact",
+   "Bloodrage Pact",
    "血怒の契約",
-   "피의 계약"
+   "피의 분노 계약"
   ],
   "summary": [
    "伤害+28%，但无法获得治疗与护盾。",
-   "Raises damage, but prevents the bearer from receiving heals or shields.",
-   "ダメージを上げる代わりに回復とシールドを受けられなくなる。",
-   "피해량이 증가하지만 소지자는 회복과 보호막을 받을 수 없습니다."
+   "Deal 28% more damage, but cannot receive healing or shields.",
+   "ダメージが28%増加するが、回復とシールドを受けられなくなる。",
+   "주는 피해가 28% 증가하지만 치유와 보호막을 받을 수 없습니다."
   ],
   "description": [
    "伤害+28%，但无法获得治疗与护盾。",
-   "Raises damage, but prevents the bearer from receiving heals or shields.",
-   "ダメージを上げる代わりに回復とシールドを受けられなくなる。",
-   "피해량이 증가하지만 소지자는 회복과 보호막을 받을 수 없습니다."
+   "Deal 28% more damage, but cannot receive healing or shields.",
+   "ダメージが28%増加するが、回復とシールドを受けられなくなる。",
+   "주는 피해가 28% 증가하지만 치유와 보호막을 받을 수 없습니다."
   ],
   "group": [
    "禁忌契印",
@@ -15705,19 +15705,19 @@ export const catalog:WikiEntry[] = [
    "孤狼烙印",
    "Lone Wolf Brand",
    "孤狼の烙印",
-   "고독한 늑대 낙인"
+   "외로운 늑대의 낙인"
   ],
   "summary": [
    "2格内无友军时伤害+30%且闪避+20%",
-   "Gains damage and dodge while isolated from allies.",
-   "近くに味方がいない時、ダメージと回避率が上がる。",
-   "주변에 아군이 없을 때 피해량과 회피율이 증가합니다."
+   "While no allies are within 2 hexes, gain 30% damage and 20% dodge.",
+   "2マス以内に味方がいない間、ダメージが30%、回避率が20%上昇する。",
+   "2칸 이내에 아군이 없으면 피해량이 30%, 회피율이 20% 증가합니다."
   ],
   "description": [
    "2格内无友军时伤害+30%且闪避+20%",
-   "Gains damage and dodge while isolated from allies.",
-   "近くに味方がいない時、ダメージと回避率が上がる。",
-   "주변에 아군이 없을 때 피해량과 회피율이 증가합니다."
+   "While no allies are within 2 hexes, gain 30% damage and 20% dodge.",
+   "2マス以内に味方がいない間、ダメージが30%、回避率が20%上昇する。",
+   "2칸 이내에 아군이 없으면 피해량이 30%, 회피율이 20% 증가합니다."
   ],
   "group": [
    "禁忌契印",
@@ -15750,20 +15750,20 @@ export const catalog:WikiEntry[] = [
   "title": [
    "透支核心",
    "Overdraft Core",
-   "先借りの核",
-   "선불 핵"
+   "前借りの核",
+   "과부하 핵"
   ],
   "summary": [
    "开战获得50能量，但受到的控制时长+50%。",
-   "Starts with extra energy, but suffers longer crowd control.",
-   "開戦時のエネルギーが増える代わりに制御時間が長くなる。",
-   "시작 에너지가 증가하지만 받는 군중 제어 시간이 길어집니다."
+   "Gain 50 energy at combat start, but crowd-control effects on you last 50% longer.",
+   "戦闘開始時にエネルギーを50得るが、受ける行動妨害の持続時間が50%延びる。",
+   "전투 시작 시 에너지를 50 얻지만 자신에게 적용되는 군중 제어 효과의 지속 시간이 50% 증가합니다."
   ],
   "description": [
    "开战获得50能量，但受到的控制时长+50%。",
-   "Starts with extra energy, but suffers longer crowd control.",
-   "開戦時のエネルギーが増える代わりに制御時間が長くなる。",
-   "시작 에너지가 증가하지만 받는 군중 제어 시간이 길어집니다."
+   "Gain 50 energy at combat start, but crowd-control effects on you last 50% longer.",
+   "戦闘開始時にエネルギーを50得るが、受ける行動妨害の持続時間が50%延びる。",
+   "전투 시작 시 에너지를 50 얻지만 자신에게 적용되는 군중 제어 효과의 지속 시간이 50% 증가합니다."
   ],
   "group": [
    "禁忌契印",
@@ -15801,15 +15801,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "伤害、攻速、移速各+8%，护甲、魔抗各+8，暴击率、闪避率各+8个百分点；每5秒随机承受眩晕0.5秒、减速1秒或缴械1秒。",
-   "Boosts several stats but periodically suffers a random penalty.",
-   "複数の能力を上げるが、定期的にランダムな不利益を受ける。",
-   "여러 능력치가 증가하지만 주기적으로 무작위 불이익을 받습니다."
+   "Gain 8% damage, attack speed and move speed; 8 armor and magic resist; and 8 percentage points of crit chance and dodge. Every 5s, randomly suffer a 0.5s stun, 1s slow or 1s disarm.",
+   "ダメージ・攻撃速度・移動速度が各8%、物理防御・魔法防御が各8、会心率・回避率が各8ポイント上昇する。5秒ごとに、0.5秒のスタン、1秒のスロウ、1秒の武装解除のいずれかをランダムに受ける。",
+   "피해량·공격 속도·이동 속도가 각각 8%, 방어력·마법 저항력이 각각 8, 치명타 확률·회피율이 각각 8%p 증가합니다. 5초마다 무작위로 0.5초 기절, 1초 둔화 또는 1초 무장 해제에 걸립니다."
   ],
   "description": [
    "伤害、攻速、移速各+8%，护甲、魔抗各+8，暴击率、闪避率各+8个百分点；每5秒随机承受眩晕0.5秒、减速1秒或缴械1秒。",
-   "Boosts several stats but periodically suffers a random penalty.",
-   "複数の能力を上げるが、定期的にランダムな不利益を受ける。",
-   "여러 능력치가 증가하지만 주기적으로 무작위 불이익을 받습니다."
+   "Gain 8% damage, attack speed and move speed; 8 armor and magic resist; and 8 percentage points of crit chance and dodge. Every 5s, randomly suffer a 0.5s stun, 1s slow or 1s disarm.",
+   "ダメージ・攻撃速度・移動速度が各8%、物理防御・魔法防御が各8、会心率・回避率が各8ポイント上昇する。5秒ごとに、0.5秒のスタン、1秒のスロウ、1秒の武装解除のいずれかをランダムに受ける。",
+   "피해량·공격 속도·이동 속도가 각각 8%, 방어력·마법 저항력이 각각 8, 치명타 확률·회피율이 각각 8%p 증가합니다. 5초마다 무작위로 0.5초 기절, 1초 둔화 또는 1초 무장 해제에 걸립니다."
   ],
   "group": [
    "禁忌契印",
@@ -15841,21 +15841,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "燃命法印",
-   "Life-burning Seal",
-   "燃命の法印",
+   "Life-Burning Sigil",
+   "命焼きの印",
    "생명 연소 인장"
   ],
   "summary": [
    "技能伤害+50%；每次施法结束损失自身5%当前生命。",
-   "Raises skill damage at the cost of health when casting.",
-   "スキルダメージを上げるが、詠唱時に自身のHPを消費する。",
-   "스킬 피해량이 증가하지만 시전할 때 자신의 체력을 소모합니다."
+   "Deal 50% more ability damage. Lose 5% of your current health after each completed cast.",
+   "スキルダメージが50%増加する。詠唱を完了するたびに現在体力の5%を失う。",
+   "스킬 피해가 50% 증가합니다. 시전을 완료할 때마다 현재 체력의 5%를 잃습니다."
   ],
   "description": [
    "技能伤害+50%；每次施法结束损失自身5%当前生命。",
-   "Raises skill damage at the cost of health when casting.",
-   "スキルダメージを上げるが、詠唱時に自身のHPを消費する。",
-   "스킬 피해량이 증가하지만 시전할 때 자신의 체력을 소모합니다."
+   "Deal 50% more ability damage. Lose 5% of your current health after each completed cast.",
+   "スキルダメージが50%増加する。詠唱を完了するたびに現在体力の5%を失う。",
+   "스킬 피해가 50% 증가합니다. 시전을 완료할 때마다 현재 체력의 5%를 잃습니다."
   ],
   "group": [
    "禁忌契印",
@@ -15887,21 +15887,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "亡者续战",
-   "Last Stand",
-   "亡者の続戦",
+   "Undying Stand",
+   "死者の続戦",
    "망자의 항전"
   ],
   "summary": [
    "首次致死后原地继续战斗3秒，期间无法治疗；三星持续4.5秒，结束后阵亡。",
-   "Continues fighting briefly after a lethal hit, without healing.",
-   "致命傷後も短時間戦い続けるが、回復はできない。",
-   "치명적 피해 후 잠시 전투를 계속하지만 회복할 수 없습니다."
+   "After the first lethal hit, keep fighting in place for 3s and cannot be healed, then die. At three stars, lasts 4.5s.",
+   "最初の致死ダメージ後、その場で3秒間戦い続ける。この間は回復を受けられず、終了時に倒れる。三つ星では4.5秒間持続する。",
+   "처음 치명적인 피해를 받은 뒤 그 자리에서 3초간 계속 싸웁니다. 이 동안 치유를 받을 수 없으며 종료 시 사망합니다. 3성에서는 4.5초간 지속됩니다."
   ],
   "description": [
    "首次致死后原地继续战斗3秒，期间无法治疗；三星持续4.5秒，结束后阵亡。",
-   "Continues fighting briefly after a lethal hit, without healing.",
-   "致命傷後も短時間戦い続けるが、回復はできない。",
-   "치명적 피해 후 잠시 전투를 계속하지만 회복할 수 없습니다."
+   "After the first lethal hit, keep fighting in place for 3s and cannot be healed, then die. At three stars, lasts 4.5s.",
+   "最初の致死ダメージ後、その場で3秒間戦い続ける。この間は回復を受けられず、終了時に倒れる。三つ星では4.5秒間持続する。",
+   "처음 치명적인 피해를 받은 뒤 그 자리에서 3초간 계속 싸웁니다. 이 동안 치유를 받을 수 없으며 종료 시 사망합니다. 3성에서는 4.5초간 지속됩니다."
   ],
   "group": [
    "禁忌契印",
@@ -15934,20 +15934,20 @@ export const catalog:WikiEntry[] = [
   "title": [
    "献祭之环",
    "Sacrificial Ring",
-   "献祭の環",
+   "献身の輪",
    "희생의 고리"
   ],
   "summary": [
    "开战献祭自身20%最大生命，使全队伤害+10%。",
-   "Sacrifices health at combat start to increase team damage.",
-   "開戦時にHPを捧げ、味方全体のダメージを上げる。",
-   "전투 시작 시 자신의 체력을 희생해 아군 전체 피해량을 높입니다."
+   "At combat start, sacrifice 20% of your maximum health to grant the team 10% more damage.",
+   "戦闘開始時、自身の最大体力の20%を犠牲にして、味方全員のダメージを10%増加させる。",
+   "전투 시작 시 자신의 최대 체력 20%를 희생하여 아군 전체의 피해량을 10% 증가시킵니다."
   ],
   "description": [
    "开战献祭自身20%最大生命，使全队伤害+10%。",
-   "Sacrifices health at combat start to increase team damage.",
-   "開戦時にHPを捧げ、味方全体のダメージを上げる。",
-   "전투 시작 시 자신의 체력을 희생해 아군 전체 피해량을 높입니다."
+   "At combat start, sacrifice 20% of your maximum health to grant the team 10% more damage.",
+   "戦闘開始時、自身の最大体力の20%を犠牲にして、味方全員のダメージを10%増加させる。",
+   "전투 시작 시 자신의 최대 체력 20%를 희생하여 아군 전체의 피해량을 10% 증가시킵니다."
   ],
   "group": [
    "禁忌契印",
@@ -15979,21 +15979,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "贪婪宝匣",
-   "Greedy Coffer",
-   "貪欲な宝匣",
-   "탐욕의 금고"
+   "Greed Coffer",
+   "強欲の宝匣",
+   "탐욕의 보물함"
   ],
   "summary": [
    "每场战斗胜利+2金币, 生命上限-10%",
-   "Trades maximum health for extra in-match gold on victory.",
-   "最大HPを減らし、勝利時に追加の対戦内ゴールドを得る。",
-   "최대 체력을 줄이는 대신 승리 시 추가 대전 내 골드를 얻습니다."
+   "Gain 2 gold for each battle victory. Maximum health is reduced by 10%.",
+   "戦闘に勝利するたびに2ゴールドを得る。最大体力が10%減少する。",
+   "전투에서 승리할 때마다 골드를 2 얻습니다. 최대 체력이 10% 감소합니다."
   ],
   "description": [
    "每场战斗胜利+2金币, 生命上限-10%",
-   "Trades maximum health for extra in-match gold on victory.",
-   "最大HPを減らし、勝利時に追加の対戦内ゴールドを得る。",
-   "최대 체력을 줄이는 대신 승리 시 추가 대전 내 골드를 얻습니다."
+   "Gain 2 gold for each battle victory. Maximum health is reduced by 10%.",
+   "戦闘に勝利するたびに2ゴールドを得る。最大体力が10%減少する。",
+   "전투에서 승리할 때마다 골드를 2 얻습니다. 최대 체력이 10% 감소합니다."
   ],
   "group": [
    "禁忌契印",
@@ -16026,20 +16026,20 @@ export const catalog:WikiEntry[] = [
   "title": [
    "蜂群信标",
    "Swarm Beacon",
-   "虫群の標",
-   "벌레떼 신호기"
+   "群虫の標",
+   "군충 신호기"
   ],
   "summary": [
    "攻速+15%; 虫族≥4时全体虫族共享",
-   "Raises attack speed; Swarm resonance extends the bonus to Swarm allies.",
-   "攻撃速度を上げ、虫族の共鳴条件で虫族の味方へ広げる。",
-   "공격 속도를 높이며 곤충 공명 조건을 충족하면 곤충 아군에게 확장합니다."
+   "Gain 15% attack speed. With at least 4 Insect members, all Insects share this bonus.",
+   "攻撃速度が15%上昇する。虫族が4体以上なら、虫族全員がこの効果を得る。",
+   "공격 속도가 15% 증가합니다. 곤충 구성원이 4명 이상이면 모든 곤충이 이 효과를 받습니다."
   ],
   "description": [
    "攻速+15%; 虫族≥4时全体虫族共享",
-   "Raises attack speed; Swarm resonance extends the bonus to Swarm allies.",
-   "攻撃速度を上げ、虫族の共鳴条件で虫族の味方へ広げる。",
-   "공격 속도를 높이며 곤충 공명 조건을 충족하면 곤충 아군에게 확장합니다."
+   "Gain 15% attack speed. With at least 4 Insect members, all Insects share this bonus.",
+   "攻撃速度が15%上昇する。虫族が4体以上なら、虫族全員がこの効果を得る。",
+   "공격 속도가 15% 증가합니다. 곤충 구성원이 4명 이상이면 모든 곤충이 이 효과를 받습니다."
   ],
   "group": [
    "生态契印",
@@ -16088,15 +16088,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "受击20%对攻击者施毒10/秒×3秒; 虫族≥2时毒扩散到其相邻",
-   "Incoming hits can poison the attacker; Swarm resonance spreads it.",
-   "被弾で攻撃者を毒にする可能性があり、虫族共鳴で拡散する。",
-   "피격 시 공격자에게 독을 묻힐 수 있으며 곤충 공명 시 확산합니다."
+   "When hit, a 20% chance to poison the attacker for 10 damage per second for 3s. With at least 2 Insect members, poison spreads to enemies adjacent to the attacker.",
+   "被弾時、20%の確率で攻撃者に3秒間、毎秒10ダメージの毒を与える。虫族が2体以上なら、毒が攻撃者に隣接する敵にも広がる。",
+   "피격 시 20% 확률로 공격자에게 3초간 초당 피해 10의 독을 겁니다. 곤충 구성원이 2명 이상이면 공격자에 인접한 적에게도 독이 퍼집니다."
   ],
   "description": [
    "受击20%对攻击者施毒10/秒×3秒; 虫族≥2时毒扩散到其相邻",
-   "Incoming hits can poison the attacker; Swarm resonance spreads it.",
-   "被弾で攻撃者を毒にする可能性があり、虫族共鳴で拡散する。",
-   "피격 시 공격자에게 독을 묻힐 수 있으며 곤충 공명 시 확산합니다."
+   "When hit, a 20% chance to poison the attacker for 10 damage per second for 3s. With at least 2 Insect members, poison spreads to enemies adjacent to the attacker.",
+   "被弾時、20%の確率で攻撃者に3秒間、毎秒10ダメージの毒を与える。虫族が2体以上なら、毒が攻撃者に隣接する敵にも広がる。",
+   "피격 시 20% 확률로 공격자에게 3초간 초당 피해 10의 독을 겁니다. 곤충 구성원이 2명 이상이면 공격자에 인접한 적에게도 독이 퍼집니다."
   ],
   "group": [
    "生态契印",
@@ -16143,21 +16143,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "翼风翎",
-   "Wind Feather",
+   "Wingwind Feather",
    "翼風の羽",
    "날개바람 깃털"
   ],
   "summary": [
    "闪避+10%; 飞行≥2时飞行全体+10%",
-   "Raises dodge, with an Aerial resonance bonus for Aerial allies.",
-   "回避率を上げ、飛行共鳴で飛行の味方も強化する。",
-   "회피율을 높이며 비행 공명 시 비행 아군도 강화합니다."
+   "Gain 10% dodge. With at least 2 Aerial members, all Aerial units gain 10% dodge.",
+   "回避率が10%上昇する。飛行のメンバーが2体以上なら、飛行の全員の回避率が10%上昇する。",
+   "회피율이 10% 증가합니다. 비행 구성원이 2명 이상이면 모든 비행 유닛의 회피율이 10% 증가합니다."
   ],
   "description": [
    "闪避+10%; 飞行≥2时飞行全体+10%",
-   "Raises dodge, with an Aerial resonance bonus for Aerial allies.",
-   "回避率を上げ、飛行共鳴で飛行の味方も強化する。",
-   "회피율을 높이며 비행 공명 시 비행 아군도 강화합니다."
+   "Gain 10% dodge. With at least 2 Aerial members, all Aerial units gain 10% dodge.",
+   "回避率が10%上昇する。飛行のメンバーが2体以上なら、飛行の全員の回避率が10%上昇する。",
+   "회피율이 10% 증가합니다. 비행 구성원이 2명 이상이면 모든 비행 유닛의 회피율이 10% 증가합니다."
   ],
   "group": [
    "生态契印",
@@ -16206,19 +16206,19 @@ export const catalog:WikiEntry[] = [
    "俯冲指令",
    "Dive Command",
    "急降下指令",
-   "급강하 지령"
+   "급강하 명령"
   ],
   "summary": [
-   "开战突进最近敌; 飞行≥2时飞行全体突进",
-   "Enables an opening dash; Aerial resonance extends it to Aerial allies.",
-   "開戦時に突進し、飛行共鳴で飛行の仲間も参加する。",
-   "개전 돌진을 부여하고 비행 공명 시 비행 아군도 참여합니다."
+   "开战向最近敌人突进；飞行≥2时，其他飞行友军也突进。三星：保留团队突进，自身另获30%伤害加成，持续3秒。",
+   "Dash toward the nearest enemy at combat start. With 2+ Flying, other Flying allies also dash. 3-star: Keep the team dash and gain 30% damage for 3s.",
+   "戦闘開始時、最も近い敵へ突進。飛行2体以上なら他の飛行の味方も突進。星3：味方の突進を維持し、自身のダメージ+30%が3秒持続。",
+   "전투 시작 시 가장 가까운 적에게 돌진합니다. 비행 2명 이상이면 다른 비행 아군도 돌진합니다. 3성: 아군 돌진을 유지하며 자신의 피해량이 3초 동안 30% 증가합니다."
   ],
   "description": [
-   "开战突进最近敌; 飞行≥2时飞行全体突进",
-   "Enables an opening dash; Aerial resonance extends it to Aerial allies.",
-   "開戦時に突進し、飛行共鳴で飛行の仲間も参加する。",
-   "개전 돌진을 부여하고 비행 공명 시 비행 아군도 참여합니다."
+   "开战向最近敌人突进；飞行≥2时，其他飞行友军也突进。三星：保留团队突进，自身另获30%伤害加成，持续3秒。",
+   "Dash toward the nearest enemy at combat start. With 2+ Flying, other Flying allies also dash. 3-star: Keep the team dash and gain 30% damage for 3s.",
+   "戦闘開始時、最も近い敵へ突進。飛行2体以上なら他の飛行の味方も突進。星3：味方の突進を維持し、自身のダメージ+30%が3秒持続。",
+   "전투 시작 시 가장 가까운 적에게 돌진합니다. 비행 2명 이상이면 다른 비행 아군도 돌진합니다. 3성: 아군 돌진을 유지하며 자신의 피해량이 3초 동안 30% 증가합니다."
   ],
   "group": [
    "生态契印",
@@ -16267,19 +16267,19 @@ export const catalog:WikiEntry[] = [
    "兽群图腾",
    "Pack Totem",
    "群獣のトーテム",
-   "야수 무리 토템"
+   "무리 토템"
   ],
   "summary": [
-   "击杀时兽族+8%攻速4秒; 兽族≥3时全队生效",
-   "Kills briefly boost Beast attack speed; resonance extends it to the team.",
-   "撃破で獣族が一時加速し、共鳴条件で全体へ広がる。",
-   "처치 후 야수 공격 속도를 잠시 높이며 공명 조건 충족 시 전체로 확장합니다."
+   "击杀敌人后，自身攻速+8%，持续4秒；兽族≥3时，改为全队获得此增益。自身不重复获得；同一来源只刷新，不叠层。三星：攻速+14%。",
+   "On an enemy kill, gain 8% attack speed for 4s. With 3+ Beast, grant this buff to the whole team instead. The wearer does not receive it twice; repeated applications from one source only refresh. 3-star: 14% attack speed.",
+   "敵撃破時、自身の攻撃速度+8%、4秒持続。獣族3体以上なら代わりに味方全体へ付与。自身への二重付与はなく、同じ発生源の効果は時間のみ更新。星3：攻撃速度+14%。",
+   "적 처치 시 자신의 공격 속도가 4초 동안 8% 증가합니다. 야수 3명 이상이면 대신 아군 전체에 부여합니다. 자신에게 중복 적용되지 않으며 같은 출처는 시간만 갱신합니다. 3성: 공격 속도 +14%."
   ],
   "description": [
-   "击杀时兽族+8%攻速4秒; 兽族≥3时全队生效",
-   "Kills briefly boost Beast attack speed; resonance extends it to the team.",
-   "撃破で獣族が一時加速し、共鳴条件で全体へ広がる。",
-   "처치 후 야수 공격 속도를 잠시 높이며 공명 조건 충족 시 전체로 확장합니다."
+   "击杀敌人后，自身攻速+8%，持续4秒；兽族≥3时，改为全队获得此增益。自身不重复获得；同一来源只刷新，不叠层。三星：攻速+14%。",
+   "On an enemy kill, gain 8% attack speed for 4s. With 3+ Beast, grant this buff to the whole team instead. The wearer does not receive it twice; repeated applications from one source only refresh. 3-star: 14% attack speed.",
+   "敵撃破時、自身の攻撃速度+8%、4秒持続。獣族3体以上なら代わりに味方全体へ付与。自身への二重付与はなく、同じ発生源の効果は時間のみ更新。星3：攻撃速度+14%。",
+   "적 처치 시 자신의 공격 속도가 4초 동안 8% 증가합니다. 야수 3명 이상이면 대신 아군 전체에 부여합니다. 자신에게 중복 적용되지 않으며 같은 출처는 시간만 갱신합니다. 3성: 공격 속도 +14%."
   ],
   "group": [
    "生态契印",
@@ -16328,19 +16328,19 @@ export const catalog:WikiEntry[] = [
    "围猎徽记",
    "Hunt Emblem",
    "囲猟の徽章",
-   "포위 사냥 문장"
+   "포위 사냥 휘장"
   ],
   "summary": [
    "普攻施加猎痕，每层提高对该目标的伤害6%，最多4层；兽族≥2时全队获得猎痕能力。",
-   "Stacks hunting marks; Beast resonance lets allies benefit from them.",
-   "通常攻撃で狩猟印を重ね、獣族共鳴で味方も利用できる。",
-   "기본 공격으로 사냥 표식을 쌓고 야수 공명 시 아군도 활용합니다."
+   "Basic attacks apply Hunt Marks, increasing damage against that target by 6% per stack, up to 4 stacks. With at least 2 Beast members, the whole team can apply Hunt Marks.",
+   "通常攻撃が狩猟の印を付与し、1スタックにつきその対象へのダメージが6%増加する。最大4スタック。獣族が2体以上なら、味方全員が狩猟の印を付与できる。",
+   "기본 공격이 사냥 표식을 남겨 중첩당 해당 대상에게 주는 피해가 6% 증가합니다. 최대 4중첩. 야수 구성원이 2명 이상이면 아군 전체가 사냥 표식을 남길 수 있습니다."
   ],
   "description": [
    "普攻施加猎痕，每层提高对该目标的伤害6%，最多4层；兽族≥2时全队获得猎痕能力。",
-   "Stacks hunting marks; Beast resonance lets allies benefit from them.",
-   "通常攻撃で狩猟印を重ね、獣族共鳴で味方も利用できる。",
-   "기본 공격으로 사냥 표식을 쌓고 야수 공명 시 아군도 활용합니다."
+   "Basic attacks apply Hunt Marks, increasing damage against that target by 6% per stack, up to 4 stacks. With at least 2 Beast members, the whole team can apply Hunt Marks.",
+   "通常攻撃が狩猟の印を付与し、1スタックにつきその対象へのダメージが6%増加する。最大4スタック。獣族が2体以上なら、味方全員が狩猟の印を付与できる。",
+   "기본 공격이 사냥 표식을 남겨 중첩당 해당 대상에게 주는 피해가 6% 증가합니다. 최대 4중첩. 야수 구성원이 2명 이상이면 아군 전체가 사냥 표식을 남길 수 있습니다."
   ],
   "group": [
    "生态契印",
@@ -16383,21 +16383,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "巨岩护符",
-   "Rock Charm",
+   "Greatrock Charm",
    "巨岩の護符",
    "거암 부적"
   ],
   "summary": [
    "生命+15%; 巨兽≥2时巨兽受击叠1护甲(上限20)",
-   "Raises health; Behemoth resonance adds armor buildup when hit.",
-   "HPを増やし、巨獣共鳴で被弾時に防御を蓄積する。",
-   "체력을 높이며 거수 공명 시 피격으로 방어력을 쌓습니다."
+   "Gain 15% health. With at least 2 Behemoth members, Behemoths gain 1 armor when hit, stacking up to 20.",
+   "体力が15%増加する。巨獣が2体以上なら、巨獣は被弾するたびに物理防御を1得る。最大20まで累積する。",
+   "체력이 15% 증가합니다. 거수 구성원이 2명 이상이면 거수는 피격 시 방어력이 1 증가하며 최대 20까지 중첩됩니다."
   ],
   "description": [
    "生命+15%; 巨兽≥2时巨兽受击叠1护甲(上限20)",
-   "Raises health; Behemoth resonance adds armor buildup when hit.",
-   "HPを増やし、巨獣共鳴で被弾時に防御を蓄積する。",
-   "체력을 높이며 거수 공명 시 피격으로 방어력을 쌓습니다."
+   "Gain 15% health. With at least 2 Behemoth members, Behemoths gain 1 armor when hit, stacking up to 20.",
+   "体力が15%増加する。巨獣が2体以上なら、巨獣は被弾するたびに物理防御を1得る。最大20まで累積する。",
+   "체력이 15% 증가합니다. 거수 구성원이 2명 이상이면 거수는 피격 시 방어력이 1 증가하며 최대 20까지 중첩됩니다."
   ],
   "group": [
    "生态契印",
@@ -16442,19 +16442,19 @@ export const catalog:WikiEntry[] = [
    "震踏核心",
    "Quake Core",
    "震踏の核",
-   "지진 핵"
+   "진동 핵"
   ],
   "summary": [
-   "阵亡震波: 8%生命法伤+减速; 巨兽≥2时范围+1",
-   "Death releases a damaging, slowing shockwave; Behemoth resonance expands its reach.",
-   "死亡時にダメージと減速の衝撃波を放ち、巨獣共鳴で範囲を広げる。",
-   "사망 시 피해와 둔화 충격파를 방출하며 거수 공명 시 범위가 확장됩니다."
+   "阵亡时，对2格内敌人造成自身最大生命8%的魔法伤害，并减速1.5秒；巨兽≥2时，伤害和减速扩大至3格，同一敌人只受一次震波。三星：伤害提高至12%。减速不会覆盖尚未结束的硬控制。",
+   "On death, deal magic damage equal to 8% of your maximum health and slow enemies within 2 hexes for 1.5s. With 2+ Colossus, both effects reach 3 hexes; each enemy is hit once. 3-star: Damage increases to 12%. Slows do not replace an active hard control effect.",
+   "死亡時、2マス以内の敵に自身の最大HPの8%の魔法ダメージを与え、1.5秒間減速。巨獣2体以上なら両効果の範囲が3マスになる。同じ敵には1回のみ命中。星3：ダメージ12%。減速は持続中の強い行動妨害を上書きしない。",
+   "사망 시 2칸 내 적에게 자신의 최대 체력 8%에 해당하는 마법 피해를 주고 1.5초 동안 둔화시킵니다. 거수 2명 이상이면 두 효과의 범위가 3칸이 됩니다. 같은 적에게 한 번만 적중합니다. 3성: 피해량 12%.둔화는 진행 중인 강한 군중 제어를 덮어쓰지 않습니다."
   ],
   "description": [
-   "阵亡震波: 8%生命法伤+减速; 巨兽≥2时范围+1",
-   "Death releases a damaging, slowing shockwave; Behemoth resonance expands its reach.",
-   "死亡時にダメージと減速の衝撃波を放ち、巨獣共鳴で範囲を広げる。",
-   "사망 시 피해와 둔화 충격파를 방출하며 거수 공명 시 범위가 확장됩니다."
+   "阵亡时，对2格内敌人造成自身最大生命8%的魔法伤害，并减速1.5秒；巨兽≥2时，伤害和减速扩大至3格，同一敌人只受一次震波。三星：伤害提高至12%。减速不会覆盖尚未结束的硬控制。",
+   "On death, deal magic damage equal to 8% of your maximum health and slow enemies within 2 hexes for 1.5s. With 2+ Colossus, both effects reach 3 hexes; each enemy is hit once. 3-star: Damage increases to 12%. Slows do not replace an active hard control effect.",
+   "死亡時、2マス以内の敵に自身の最大HPの8%の魔法ダメージを与え、1.5秒間減速。巨獣2体以上なら両効果の範囲が3マスになる。同じ敵には1回のみ命中。星3：ダメージ12%。減速は持続中の強い行動妨害を上書きしない。",
+   "사망 시 2칸 내 적에게 자신의 최대 체력 8%에 해당하는 마법 피해를 주고 1.5초 동안 둔화시킵니다. 거수 2명 이상이면 두 효과의 범위가 3칸이 됩니다. 같은 적에게 한 번만 적중합니다. 3성: 피해량 12%.둔화는 진행 중인 강한 군중 제어를 덮어쓰지 않습니다."
   ],
   "group": [
    "生态契印",
@@ -16502,20 +16502,20 @@ export const catalog:WikiEntry[] = [
   "title": [
    "种子库",
    "Seed Vault",
-   "種子の庫",
+   "種子庫",
    "씨앗 저장고"
   ],
   "summary": [
    "阵亡时治疗2格内友军各15%最大生命；植物≥2时定身最近敌人1秒。",
-   "Heals nearby allies on death; Flora resonance also roots an enemy.",
-   "死亡時に周囲を回復し、植物共鳴で敵の拘束も加わる。",
-   "사망 시 주변 아군을 회복하고 식물 공명 시 적 속박이 추가됩니다."
+   "On death, heal each ally within 2 hexes for 15% of their maximum health. With at least 2 Flora members, root the nearest enemy for 1s.",
+   "倒れた時、2マス以内の味方それぞれを最大体力の15%回復する。植物が2体以上なら、最も近い敵を1秒間移動不能にする。",
+   "사망 시 2칸 이내 각 아군의 최대 체력 15%를 회복합니다. 식물 구성원이 2명 이상이면 가장 가까운 적을 1초간 속박합니다."
   ],
   "description": [
    "阵亡时治疗2格内友军各15%最大生命；植物≥2时定身最近敌人1秒。",
-   "Heals nearby allies on death; Flora resonance also roots an enemy.",
-   "死亡時に周囲を回復し、植物共鳴で敵の拘束も加わる。",
-   "사망 시 주변 아군을 회복하고 식물 공명 시 적 속박이 추가됩니다."
+   "On death, heal each ally within 2 hexes for 15% of their maximum health. With at least 2 Flora members, root the nearest enemy for 1s.",
+   "倒れた時、2マス以内の味方それぞれを最大体力の15%回復する。植物が2体以上なら、最も近い敵を1秒間移動不能にする。",
+   "사망 시 2칸 이내 각 아군의 최대 체력 15%를 회복합니다. 식물 구성원이 2명 이상이면 가장 가까운 적을 1초간 속박합니다."
   ],
   "group": [
    "生态契印",
@@ -16562,21 +16562,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "光合叶",
-   "Photosynthetic Leaf",
+   "Photosynthesis Leaf",
    "光合成の葉",
    "광합성 잎"
   ],
   "summary": [
    "每秒自身获得2能量；植物≥2时全队额外每秒获得1能量。",
-   "Restores energy over time; Flora resonance also supplies the team.",
-   "時間経過でエネルギーを回復し、植物共鳴で全体にも供給する。",
-   "지속적으로 에너지를 회복하며 식물 공명 시 아군 전체에도 공급합니다."
+   "Gain 2 energy per second. With at least 2 Flora members, the whole team gains an additional 1 energy per second.",
+   "毎秒エネルギーを2得る。植物が2体以上なら、味方全員が毎秒追加でエネルギーを1得る。",
+   "매초 에너지를 2 얻습니다. 식물 구성원이 2명 이상이면 아군 전체가 매초 에너지를 추가로 1 얻습니다."
   ],
   "description": [
    "每秒自身获得2能量；植物≥2时全队额外每秒获得1能量。",
-   "Restores energy over time; Flora resonance also supplies the team.",
-   "時間経過でエネルギーを回復し、植物共鳴で全体にも供給する。",
-   "지속적으로 에너지를 회복하며 식물 공명 시 아군 전체에도 공급합니다."
+   "Gain 2 energy per second. With at least 2 Flora members, the whole team gains an additional 1 energy per second.",
+   "毎秒エネルギーを2得る。植物が2体以上なら、味方全員が毎秒追加でエネルギーを1得る。",
+   "매초 에너지를 2 얻습니다. 식물 구성원이 2명 이상이면 아군 전체가 매초 에너지를 추가로 1 얻습니다."
   ],
   "group": [
    "生态契印",
@@ -16629,15 +16629,15 @@ export const catalog:WikiEntry[] = [
   ],
   "summary": [
    "阵亡后全队+8%伤害(永久); 幽冥≥2时50%能量平分全队",
-   "Death boosts allied damage for the battle; Spectral resonance also transfers energy.",
-   "死亡後、その戦闘中の味方ダメージを上げ、幽冥共鳴でエネルギーも渡す。",
-   "사망 후 해당 전투의 아군 피해량을 높이고 망령 공명 시 에너지도 전달합니다."
+   "On death, permanently grant the team 8% more damage. With at least 2 Spectral members, evenly distribute 50% of the bearer's energy among the team.",
+   "倒れた時、味方全員のダメージを永続的に8%増加させる。幽冥が2体以上なら、装備者のエネルギーの50%を味方全員に均等に分配する。",
+   "사망 시 아군 전체의 피해량이 영구적으로 8% 증가합니다. 망령 구성원이 2명 이상이면 착용자 에너지의 50%를 아군 전체에게 균등하게 나눕니다."
   ],
   "description": [
    "阵亡后全队+8%伤害(永久); 幽冥≥2时50%能量平分全队",
-   "Death boosts allied damage for the battle; Spectral resonance also transfers energy.",
-   "死亡後、その戦闘中の味方ダメージを上げ、幽冥共鳴でエネルギーも渡す。",
-   "사망 후 해당 전투의 아군 피해량을 높이고 망령 공명 시 에너지도 전달합니다."
+   "On death, permanently grant the team 8% more damage. With at least 2 Spectral members, evenly distribute 50% of the bearer's energy among the team.",
+   "倒れた時、味方全員のダメージを永続的に8%増加させる。幽冥が2体以上なら、装備者のエネルギーの50%を味方全員に均等に分配する。",
+   "사망 시 아군 전체의 피해량이 영구적으로 8% 증가합니다. 망령 구성원이 2명 이상이면 착용자 에너지의 50%를 아군 전체에게 균등하게 나눕니다."
   ],
   "group": [
    "生态契印",
@@ -16685,20 +16685,20 @@ export const catalog:WikiEntry[] = [
   "title": [
    "蚀影纱",
    "Shadow Veil",
-   "蝕影の紗",
-   "침식 그림자 장막"
+   "侵蝕の影紗",
+   "침식의 장막"
   ],
   "summary": [
-   "受击降低攻击者10%伤害4秒; 幽冥≥2时可叠2层",
-   "Weakens attackers on hit; Spectral resonance allows extra stacks.",
-   "攻撃者のダメージを下げ、幽冥共鳴で追加の重ね掛けが可能。",
-   "피격 시 공격자의 피해량을 낮추며 망령 공명 시 추가 중첩이 가능합니다."
+   "受到普攻后，攻击者伤害降低10%，持续4秒；幽冥≥2时，额外再降低10%，合计降低19%。同一来源只刷新，不叠层。三星：每档15%，共鸣时合计降低27.75%。",
+   "When hit by a basic attack, reduce the attacker’s damage by 10% for 4s. With 2+ Spectral, apply another 10% reduction, for 19% total. Reapplications from one source refresh without stacking. 3-star: 15% per component, 27.75% total with resonance.",
+   "通常攻撃を受けると攻撃者のダメージを4秒間10%低下。幽冥2体以上ならさらに10%低下し、合計19%低下。同じ発生源では時間のみ更新。星3：各15%、共鳴時の合計27.75%低下。",
+   "기본 공격에 맞으면 공격자의 피해량이 4초 동안 10% 감소합니다. 유령 2명 이상이면 10% 추가 감소하여 총 19% 감소합니다. 같은 출처는 시간만 갱신합니다. 3성: 각각 15%, 공명 시 총 27.75% 감소."
   ],
   "description": [
-   "受击降低攻击者10%伤害4秒; 幽冥≥2时可叠2层",
-   "Weakens attackers on hit; Spectral resonance allows extra stacks.",
-   "攻撃者のダメージを下げ、幽冥共鳴で追加の重ね掛けが可能。",
-   "피격 시 공격자의 피해량을 낮추며 망령 공명 시 추가 중첩이 가능합니다."
+   "受到普攻后，攻击者伤害降低10%，持续4秒；幽冥≥2时，额外再降低10%，合计降低19%。同一来源只刷新，不叠层。三星：每档15%，共鸣时合计降低27.75%。",
+   "When hit by a basic attack, reduce the attacker’s damage by 10% for 4s. With 2+ Spectral, apply another 10% reduction, for 19% total. Reapplications from one source refresh without stacking. 3-star: 15% per component, 27.75% total with resonance.",
+   "通常攻撃を受けると攻撃者のダメージを4秒間10%低下。幽冥2体以上ならさらに10%低下し、合計19%低下。同じ発生源では時間のみ更新。星3：各15%、共鳴時の合計27.75%低下。",
+   "기본 공격에 맞으면 공격자의 피해량이 4초 동안 10% 감소합니다. 유령 2명 이상이면 10% 추가 감소하여 총 19% 감소합니다. 같은 출처는 시간만 갱신합니다. 3성: 각각 15%, 공명 시 총 27.75% 감소."
   ],
   "group": [
    "生态契印",
@@ -16746,20 +16746,20 @@ export const catalog:WikiEntry[] = [
   "title": [
    "龙血玉",
    "Dragonblood Jade",
-   "龍血の玉",
+   "竜血の玉",
    "용혈 옥"
   ],
   "summary": [
    "自身最大生命与伤害各+8%；龙族≥2时，同族额外获得10%最大生命与伤害。",
-   "Raises health and damage, with resonance bonuses for Dragon allies.",
-   "HPとダメージを上げ、龍族共鳴で龍族の仲間も強化する。",
-   "체력과 피해량을 높이고 용족 공명 시 용족 아군도 강화합니다."
+   "Gain 8% maximum health and damage. With at least 2 Dragon members, Dragons gain an additional 10% maximum health and damage.",
+   "自身の最大体力とダメージが各8%増加する。竜族が2体以上なら、竜族は最大体力とダメージがさらに各10%増加する。",
+   "자신의 최대 체력과 피해량이 각각 8% 증가합니다. 용족 구성원이 2명 이상이면 용족의 최대 체력과 피해량이 각각 추가로 10% 증가합니다."
   ],
   "description": [
    "自身最大生命与伤害各+8%；龙族≥2时，同族额外获得10%最大生命与伤害。",
-   "Raises health and damage, with resonance bonuses for Dragon allies.",
-   "HPとダメージを上げ、龍族共鳴で龍族の仲間も強化する。",
-   "체력과 피해량을 높이고 용족 공명 시 용족 아군도 강화합니다."
+   "Gain 8% maximum health and damage. With at least 2 Dragon members, Dragons gain an additional 10% maximum health and damage.",
+   "自身の最大体力とダメージが各8%増加する。竜族が2体以上なら、竜族は最大体力とダメージがさらに各10%増加する。",
+   "자신의 최대 체력과 피해량이 각각 8% 증가합니다. 용족 구성원이 2명 이상이면 용족의 최대 체력과 피해량이 각각 추가로 10% 증가합니다."
   ],
   "group": [
    "生态契印",
@@ -16807,20 +16807,20 @@ export const catalog:WikiEntry[] = [
   "title": [
    "龙威印",
    "Dragon Seal",
-   "龍威の印",
-   "용의 위엄 인장"
+   "竜威の印",
+   "용의 인장"
   ],
   "summary": [
-   "完成施法后自身与同族各获得15能量；龙族≥2时，全队额外获得10能量。",
-   "Casting restores energy for the bearer and Dragons; resonance extends support to the team.",
-   "詠唱で自身と龍族にエネルギーを戻し、共鳴で全体も支援する。",
-   "시전 후 자신과 용족의 에너지를 회복하며 공명 시 전체를 지원합니다."
+   "完成施法后，自身与其他龙族友军各获得10能量；龙族≥2时，其他所有友军额外获得5能量。每个携带者每2秒最多触发一次。三星：自身与其他龙族各15能量，共鸣额外8能量。",
+   "After casting, grant yourself and other Dragon allies 10 energy. With 2+ Dragon, grant all other allies an additional 5 energy. Each wearer can trigger once per 2s. 3-star: 15 energy to self/other Dragons; 8 extra energy from resonance.",
+   "詠唱完了後、自身と他の竜族の味方にエネルギー10を付与。竜族2体以上なら自身以外の味方全体にさらに5。装備者ごとに2秒に1回まで。星3：自身と他の竜族に15、共鳴で追加8。",
+   "시전 완료 후 자신과 다른 용족 아군에게 에너지 10을 부여합니다. 용족 2명 이상이면 다른 모든 아군에게 5를 추가로 부여합니다. 착용자마다 2초에 한 번 발동합니다. 3성: 자신과 다른 용족에게 15, 공명 추가 8."
   ],
   "description": [
-   "完成施法后自身与同族各获得15能量；龙族≥2时，全队额外获得10能量。",
-   "Casting restores energy for the bearer and Dragons; resonance extends support to the team.",
-   "詠唱で自身と龍族にエネルギーを戻し、共鳴で全体も支援する。",
-   "시전 후 자신과 용족의 에너지를 회복하며 공명 시 전체를 지원합니다."
+   "完成施法后，自身与其他龙族友军各获得10能量；龙族≥2时，其他所有友军额外获得5能量。每个携带者每2秒最多触发一次。三星：自身与其他龙族各15能量，共鸣额外8能量。",
+   "After casting, grant yourself and other Dragon allies 10 energy. With 2+ Dragon, grant all other allies an additional 5 energy. Each wearer can trigger once per 2s. 3-star: 15 energy to self/other Dragons; 8 extra energy from resonance.",
+   "詠唱完了後、自身と他の竜族の味方にエネルギー10を付与。竜族2体以上なら自身以外の味方全体にさらに5。装備者ごとに2秒に1回まで。星3：自身と他の竜族に15、共鳴で追加8。",
+   "시전 완료 후 자신과 다른 용족 아군에게 에너지 10을 부여합니다. 용족 2명 이상이면 다른 모든 아군에게 5를 추가로 부여합니다. 착용자마다 2초에 한 번 발동합니다. 3성: 자신과 다른 용족에게 15, 공명 추가 8."
   ],
   "group": [
    "生态契印",
@@ -16867,21 +16867,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "甲壳再生核",
-   "Shell Regenerator",
-   "甲殻再生核",
+   "Carapace Regen Core",
+   "甲殻再生の核",
    "갑각 재생 핵"
   ],
   "summary": [
    "每5秒回4%生命; 甲壳≥2时同时治疗相邻友军",
-   "Periodically heals; Carapace resonance also heals adjacent allies.",
-   "定期的に回復し、甲殻共鳴で隣接する味方も回復する。",
-   "주기적으로 회복하며 갑각 공명 시 인접 아군도 회복합니다."
+   "Every 5s, heal for 4% health. With at least 2 Carapace members, also heal adjacent allies.",
+   "5秒ごとに体力を4%回復する。甲殻が2体以上なら、隣接する味方も同時に回復する。",
+   "5초마다 체력을 4% 회복합니다. 갑각 구성원이 2명 이상이면 인접한 아군도 함께 회복합니다."
   ],
   "description": [
    "每5秒回4%生命; 甲壳≥2时同时治疗相邻友军",
-   "Periodically heals; Carapace resonance also heals adjacent allies.",
-   "定期的に回復し、甲殻共鳴で隣接する味方も回復する。",
-   "주기적으로 회복하며 갑각 공명 시 인접 아군도 회복합니다."
+   "Every 5s, heal for 4% health. With at least 2 Carapace members, also heal adjacent allies.",
+   "5秒ごとに体力を4%回復する。甲殻が2体以上なら、隣接する味方も同時に回復する。",
+   "5초마다 체력을 4% 회복합니다. 갑각 구성원이 2명 이상이면 인접한 아군도 함께 회복합니다."
   ],
   "group": [
    "生态契印",
@@ -16928,21 +16928,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "硬化共振",
-   "Shell Resonance",
-   "硬化共振",
+   "Hardened Resonance",
+   "硬化共鳴",
    "경화 공명"
   ],
   "summary": [
-   "护甲+25；受到普攻时，相邻甲壳友军护甲+10，持续4秒；甲壳≥2时触发额外共鸣。",
-   "Grants armor and briefly reinforces adjacent Carapace allies when hit.",
-   "防御力を得て、被弾時に隣接する甲殻の味方も一時強化する。",
-   "방어력을 얻고 피격 시 인접 갑각 아군의 방어력도 잠시 높입니다."
+   "自身护甲+25；受到普攻时，1格内甲壳友军护甲+10，持续4秒；甲壳≥2时额外+10。同一携带者的各档效果只刷新，不叠层；不同携带者可叠加。三星：自身护甲+40，各档加成为15。",
+   "Gain 25 armor. When hit by a basic attack, Carapace allies within 1 hex gain 10 armor for 4s; with 2+ Carapace, grant another 10. Each component from one wearer refreshes without stacking; different wearers can stack. 3-star: 40 personal armor; 15 per component.",
+   "自身の物理防御+25。通常攻撃を受けると1マス以内の甲殻の味方の物理防御+10、4秒持続。甲殻2体以上ならさらに+10。同じ装備者の各効果は時間のみ更新し、別の装備者とは重複可能。星3：自身+40、各効果+15。",
+   "자신의 방어력 +25. 기본 공격에 맞으면 1칸 내 갑각 아군의 방어력이 4초 동안 10 증가합니다. 갑각 2명 이상이면 10 추가 증가. 같은 착용자의 각 효과는 시간만 갱신되며 다른 착용자의 효과와는 중첩됩니다. 3성: 자신 +40, 각 효과 +15."
   ],
   "description": [
-   "护甲+25；受到普攻时，相邻甲壳友军护甲+10，持续4秒；甲壳≥2时触发额外共鸣。",
-   "Grants armor and briefly reinforces adjacent Carapace allies when hit.",
-   "防御力を得て、被弾時に隣接する甲殻の味方も一時強化する。",
-   "방어력을 얻고 피격 시 인접 갑각 아군의 방어력도 잠시 높입니다."
+   "自身护甲+25；受到普攻时，1格内甲壳友军护甲+10，持续4秒；甲壳≥2时额外+10。同一携带者的各档效果只刷新，不叠层；不同携带者可叠加。三星：自身护甲+40，各档加成为15。",
+   "Gain 25 armor. When hit by a basic attack, Carapace allies within 1 hex gain 10 armor for 4s; with 2+ Carapace, grant another 10. Each component from one wearer refreshes without stacking; different wearers can stack. 3-star: 40 personal armor; 15 per component.",
+   "自身の物理防御+25。通常攻撃を受けると1マス以内の甲殻の味方の物理防御+10、4秒持続。甲殻2体以上ならさらに+10。同じ装備者の各効果は時間のみ更新し、別の装備者とは重複可能。星3：自身+40、各効果+15。",
+   "자신의 방어력 +25. 기본 공격에 맞으면 1칸 내 갑각 아군의 방어력이 4초 동안 10 증가합니다. 갑각 2명 이상이면 10 추가 증가. 같은 착용자의 각 효과는 시간만 갱신되며 다른 착용자의 효과와는 중첩됩니다. 3성: 자신 +40, 각 효과 +15."
   ],
   "group": [
    "生态契印",
@@ -16990,20 +16990,20 @@ export const catalog:WikiEntry[] = [
   "title": [
    "守望者",
    "Watchkeeper",
-   "見張りの守人",
+   "見守る者",
    "파수꾼"
   ],
   "summary": [
-   "开战保护最近一名友军，使其受到的物理/魔法伤害降低15%，持续6秒；没有友军则保护自身。锁定后无需保持距离，目标死亡不转移保护，同名保护不叠加。",
-   "At combat start, protect the nearest ally, reducing its physical/magic damage taken by 15% for 6s. Protect yourself if no ally exists. No distance requirement after locking; protection does not transfer on death or stack with the same effect.",
-   "開戦時に最も近い味方を保護し、物理・魔法被ダメージを6秒間15%軽減。味方がいなければ自身を保護。確定後の距離制限はなく、死亡時に移らず、同名効果は重複しない。",
-   "전투 시작 시 가장 가까운 아군을 보호해 물리/마법 받는 피해를 6초 동안 15% 줄입니다. 아군이 없으면 자신을 보호합니다. 지정 후 거리 제한이 없으며 사망 시 이전되지 않고 동명 효과는 중첩되지 않습니다."
+   "开战保护最近友军，使其受到的物理/魔法伤害降低15%，持续6秒；无友军时保护自身。\n三星：减伤22%，持续8秒。",
+   "At combat start, protect the nearest ally, reducing their physical and magic damage taken by 15% for 6s. Protect yourself if no ally exists.\nThree-star awakening: 22% reduction for 8s.",
+   "戦闘開始時、最も近い味方を守り、受ける物理・魔法ダメージを6秒間15%軽減する。味方がいなければ自身を守る。\n三つ星覚醒：軽減率22%、持続8秒。",
+   "전투 시작 시 가장 가까운 아군을 보호하여 받는 물리·마법 피해를 6초간 15% 감소시킵니다. 아군이 없으면 자신을 보호합니다.\n3성 각성: 피해 감소 22%, 지속 8초."
   ],
   "description": [
-   "开战保护最近一名友军，使其受到的物理/魔法伤害降低15%，持续6秒；没有友军则保护自身。锁定后无需保持距离，目标死亡不转移保护，同名保护不叠加。",
-   "At combat start, protect the nearest ally, reducing its physical/magic damage taken by 15% for 6s. Protect yourself if no ally exists. No distance requirement after locking; protection does not transfer on death or stack with the same effect.",
-   "開戦時に最も近い味方を保護し、物理・魔法被ダメージを6秒間15%軽減。味方がいなければ自身を保護。確定後の距離制限はなく、死亡時に移らず、同名効果は重複しない。",
-   "전투 시작 시 가장 가까운 아군을 보호해 물리/마법 받는 피해를 6초 동안 15% 줄입니다. 아군이 없으면 자신을 보호합니다. 지정 후 거리 제한이 없으며 사망 시 이전되지 않고 동명 효과는 중첩되지 않습니다."
+   "开战保护最近友军，使其受到的物理/魔法伤害降低15%，持续6秒；无友军时保护自身。\n三星：减伤22%，持续8秒。",
+   "At combat start, protect the nearest ally, reducing their physical and magic damage taken by 15% for 6s. Protect yourself if no ally exists.\nThree-star awakening: 22% reduction for 8s.",
+   "戦闘開始時、最も近い味方を守り、受ける物理・魔法ダメージを6秒間15%軽減する。味方がいなければ自身を守る。\n三つ星覚醒：軽減率22%、持続8秒。",
+   "전투 시작 시 가장 가까운 아군을 보호하여 받는 물리·마법 피해를 6초간 15% 감소시킵니다. 아군이 없으면 자신을 보호합니다.\n3성 각성: 피해 감소 22%, 지속 8초."
   ],
   "group": [
    "战斗契印",
@@ -17032,20 +17032,6 @@ export const catalog:WikiEntry[] = [
     "value": "+3"
    }
   ],
-  "sigilEffects": {
-   "normal": [
-    "开战保护最近一名友军，使其受到的物理/魔法伤害降低15%，持续6秒；没有友军则保护自身。锁定后无需保持距离，目标死亡不转移保护，同名保护不叠加。",
-    "At combat start, protect the nearest ally, reducing its physical/magic damage taken by 15% for 6s. Protect yourself if no ally exists. No distance requirement after locking; protection does not transfer on death or stack with the same effect.",
-    "開戦時に最も近い味方を保護し、物理・魔法被ダメージを6秒間15%軽減。味方がいなければ自身を保護。確定後の距離制限はなく、死亡時に移らず、同名効果は重複しない。",
-    "전투 시작 시 가장 가까운 아군을 보호해 물리/마법 받는 피해를 6초 동안 15% 줄입니다. 아군이 없으면 자신을 보호합니다. 지정 후 거리 제한이 없으며 사망 시 이전되지 않고 동명 효과는 중첩되지 않습니다."
-   ],
-   "awakened": [
-    "开战保护最近一名友军，使其受到的物理/魔法伤害降低22%，持续8秒；没有友军则保护自身。锁定后无需保持距离，目标死亡不转移保护，同名保护不叠加。",
-    "At combat start, protect the nearest ally, reducing its physical/magic damage taken by 22% for 8s. Protect yourself if no ally exists. No distance requirement after locking; protection does not transfer on death or stack with the same effect.",
-    "開戦時に最も近い味方を保護し、物理・魔法被ダメージを8秒間22%軽減。味方がいなければ自身を保護。確定後の距離制限はなく、死亡時に移らず、同名効果は重複しない。",
-    "전투 시작 시 가장 가까운 아군을 보호해 물리/마법 받는 피해를 8초 동안 22% 줄입니다. 아군이 없으면 자신을 보호합니다. 지정 후 거리 제한이 없으며 사망 시 이전되지 않고 동명 효과는 중첩되지 않습니다."
-   ]
-  },
   "related": []
  },
  {
@@ -17054,20 +17040,20 @@ export const catalog:WikiEntry[] = [
   "title": [
    "继任者",
    "Successor",
-   "継承者",
+   "継ぐ者",
    "계승자"
   ],
   "summary": [
-   "2格内友军首次阵亡时，自身获得最大生命16%的护盾，持续5秒。冷却2秒，每场最多2次；同一步多个阵亡只触发一次，同名护盾不相加。",
-   "When an ally within 2 hexes dies for the first time, gain a shield equal to 16% max HP for 5s. Cooldown 2s, up to 2 times per battle. Simultaneous deaths trigger once; same-name shields do not add together.",
-   "2マス以内の味方の初回死亡時、自身最大HPの16%のシールドを5秒間得る。クールダウン2秒、1戦2回まで。同時死亡は1回で、同名シールドは加算されない。",
-   "2칸 내 아군 최초 사망 시 자신의 최대 체력 16% 보호막을 5초 동안 얻습니다. 재사용 2초, 전투당 최대 2회. 동시 사망은 한 번만 발동하며 동명 보호막은 합산되지 않습니다."
+   "2格内友军首次阵亡时获得16%最大生命护盾，持续5秒；冷却2秒，每场最多2次，不叠盾。\n三星：护盾24%，持续6秒。",
+   "When an ally within 2 hexes dies for the first time, gain a shield equal to 16% maximum health for 5s. 2s cooldown; up to twice per battle; shields do not stack.\nThree-star awakening: 24% shield for 6s.",
+   "2マス以内の味方が初めて倒れると、最大体力の16%のシールドを5秒間得る。再発動まで2秒、各戦闘最大2回。シールドは重複しない。\n三つ星覚醒：シールド24%、持続6秒。",
+   "2칸 이내 아군이 처음 사망하면 최대 체력의 16%에 해당하는 보호막을 5초간 얻습니다. 재사용 대기시간 2초, 전투당 최대 2회이며 보호막은 중첩되지 않습니다.\n3성 각성: 보호막 24%, 지속 6초."
   ],
   "description": [
-   "2格内友军首次阵亡时，自身获得最大生命16%的护盾，持续5秒。冷却2秒，每场最多2次；同一步多个阵亡只触发一次，同名护盾不相加。",
-   "When an ally within 2 hexes dies for the first time, gain a shield equal to 16% max HP for 5s. Cooldown 2s, up to 2 times per battle. Simultaneous deaths trigger once; same-name shields do not add together.",
-   "2マス以内の味方の初回死亡時、自身最大HPの16%のシールドを5秒間得る。クールダウン2秒、1戦2回まで。同時死亡は1回で、同名シールドは加算されない。",
-   "2칸 내 아군 최초 사망 시 자신의 최대 체력 16% 보호막을 5초 동안 얻습니다. 재사용 2초, 전투당 최대 2회. 동시 사망은 한 번만 발동하며 동명 보호막은 합산되지 않습니다."
+   "2格内友军首次阵亡时获得16%最大生命护盾，持续5秒；冷却2秒，每场最多2次，不叠盾。\n三星：护盾24%，持续6秒。",
+   "When an ally within 2 hexes dies for the first time, gain a shield equal to 16% maximum health for 5s. 2s cooldown; up to twice per battle; shields do not stack.\nThree-star awakening: 24% shield for 6s.",
+   "2マス以内の味方が初めて倒れると、最大体力の16%のシールドを5秒間得る。再発動まで2秒、各戦闘最大2回。シールドは重複しない。\n三つ星覚醒：シールド24%、持続6秒。",
+   "2칸 이내 아군이 처음 사망하면 최대 체력의 16%에 해당하는 보호막을 5초간 얻습니다. 재사용 대기시간 2초, 전투당 최대 2회이며 보호막은 중첩되지 않습니다.\n3성 각성: 보호막 24%, 지속 6초."
   ],
   "group": [
    "战斗契印",
@@ -17096,20 +17082,6 @@ export const catalog:WikiEntry[] = [
     "value": "+3"
    }
   ],
-  "sigilEffects": {
-   "normal": [
-    "2格内友军首次阵亡时，自身获得最大生命16%的护盾，持续5秒。冷却2秒，每场最多2次；同一步多个阵亡只触发一次，同名护盾不相加。",
-    "When an ally within 2 hexes dies for the first time, gain a shield equal to 16% max HP for 5s. Cooldown 2s, up to 2 times per battle. Simultaneous deaths trigger once; same-name shields do not add together.",
-    "2マス以内の味方の初回死亡時、自身最大HPの16%のシールドを5秒間得る。クールダウン2秒、1戦2回まで。同時死亡は1回で、同名シールドは加算されない。",
-    "2칸 내 아군 최초 사망 시 자신의 최대 체력 16% 보호막을 5초 동안 얻습니다. 재사용 2초, 전투당 최대 2회. 동시 사망은 한 번만 발동하며 동명 보호막은 합산되지 않습니다."
-   ],
-   "awakened": [
-    "2格内友军首次阵亡时，自身获得最大生命24%的护盾，持续6秒。冷却2秒，每场最多2次；同一步多个阵亡只触发一次，同名护盾不相加。",
-    "When an ally within 2 hexes dies for the first time, gain a shield equal to 24% max HP for 6s. Cooldown 2s, up to 2 times per battle. Simultaneous deaths trigger once; same-name shields do not add together.",
-    "2マス以内の味方の初回死亡時、自身最大HPの24%のシールドを6秒間得る。クールダウン2秒、1戦2回まで。同時死亡は1回で、同名シールドは加算されない。",
-    "2칸 내 아군 최초 사망 시 자신의 최대 체력 24% 보호막을 6초 동안 얻습니다. 재사용 2초, 전투당 최대 2회. 동시 사망은 한 번만 발동하며 동명 보호막은 합산되지 않습니다."
-   ]
-  },
   "related": []
  },
  {
@@ -17122,16 +17094,16 @@ export const catalog:WikiEntry[] = [
    "응급 신호"
   ],
   "summary": [
-   "另一名友军受到伤害，从高于35%生命降至35%及以下且仍存活时，治疗其最大生命的16%。每场一次，不保护自身，不因自损触发，不能救回致死目标。",
-   "When another ally takes damage that crosses from above 35% HP to 35% or below and survives, heal it for 16% max HP. Once per battle; excludes self and self-damage and cannot rescue a lethal hit.",
-   "別の味方が被ダメージでHP35%超から35%以下へ下がり生存した時、最大HPの16%を回復。1戦1回。自身・自傷は対象外で、致死ダメージは救えない。",
-   "다른 아군이 피해를 받아 체력 35% 초과에서 35% 이하로 내려가고 생존하면 최대 체력의 16%를 치유합니다. 전투당 한 번이며 자신과 자해는 제외하고 치명적 피해는 구제하지 못합니다."
+   "友军受伤从35%以上降至35%及以下时，治疗其16%最大生命；每场一次，不能救回致死目标。\n三星：阈值40%，治疗24%。",
+   "When an ally's health drops from above 35% to 35% or below after damage, heal them for 16% of their maximum health. Once per battle; cannot save a target killed by that hit.\nThree-star awakening: 40% threshold; 24% healing.",
+   "味方の体力が被弾で35%超から35%以下になると、対象の最大体力の16%を回復する。各戦闘1回。致死ダメージを受けた対象は救えない。\n三つ星覚醒：発動閾値40%、回復24%。",
+   "아군이 피해를 받아 체력이 35% 초과에서 35% 이하로 떨어지면 대상 최대 체력의 16%를 회복합니다. 전투당 1회이며 해당 공격으로 사망한 대상은 구할 수 없습니다.\n3성 각성: 발동 기준 40%, 치유량 24%."
   ],
   "description": [
-   "另一名友军受到伤害，从高于35%生命降至35%及以下且仍存活时，治疗其最大生命的16%。每场一次，不保护自身，不因自损触发，不能救回致死目标。",
-   "When another ally takes damage that crosses from above 35% HP to 35% or below and survives, heal it for 16% max HP. Once per battle; excludes self and self-damage and cannot rescue a lethal hit.",
-   "別の味方が被ダメージでHP35%超から35%以下へ下がり生存した時、最大HPの16%を回復。1戦1回。自身・自傷は対象外で、致死ダメージは救えない。",
-   "다른 아군이 피해를 받아 체력 35% 초과에서 35% 이하로 내려가고 생존하면 최대 체력의 16%를 치유합니다. 전투당 한 번이며 자신과 자해는 제외하고 치명적 피해는 구제하지 못합니다."
+   "友军受伤从35%以上降至35%及以下时，治疗其16%最大生命；每场一次，不能救回致死目标。\n三星：阈值40%，治疗24%。",
+   "When an ally's health drops from above 35% to 35% or below after damage, heal them for 16% of their maximum health. Once per battle; cannot save a target killed by that hit.\nThree-star awakening: 40% threshold; 24% healing.",
+   "味方の体力が被弾で35%超から35%以下になると、対象の最大体力の16%を回復する。各戦闘1回。致死ダメージを受けた対象は救えない。\n三つ星覚醒：発動閾値40%、回復24%。",
+   "아군이 피해를 받아 체력이 35% 초과에서 35% 이하로 떨어지면 대상 최대 체력의 16%를 회복합니다. 전투당 1회이며 해당 공격으로 사망한 대상은 구할 수 없습니다.\n3성 각성: 발동 기준 40%, 치유량 24%."
   ],
   "group": [
    "战斗契印",
@@ -17160,20 +17132,6 @@ export const catalog:WikiEntry[] = [
     "value": "+3"
    }
   ],
-  "sigilEffects": {
-   "normal": [
-    "另一名友军受到伤害，从高于35%生命降至35%及以下且仍存活时，治疗其最大生命的16%。每场一次，不保护自身，不因自损触发，不能救回致死目标。",
-    "When another ally takes damage that crosses from above 35% HP to 35% or below and survives, heal it for 16% max HP. Once per battle; excludes self and self-damage and cannot rescue a lethal hit.",
-    "別の味方が被ダメージでHP35%超から35%以下へ下がり生存した時、最大HPの16%を回復。1戦1回。自身・自傷は対象外で、致死ダメージは救えない。",
-    "다른 아군이 피해를 받아 체력 35% 초과에서 35% 이하로 내려가고 생존하면 최대 체력의 16%를 치유합니다. 전투당 한 번이며 자신과 자해는 제외하고 치명적 피해는 구제하지 못합니다."
-   ],
-   "awakened": [
-    "另一名友军受到伤害，从高于40%生命降至40%及以下且仍存活时，治疗其最大生命的24%。每场一次，不保护自身，不因自损触发，不能救回致死目标。",
-    "When another ally takes damage that crosses from above 40% HP to 40% or below and survives, heal it for 24% max HP. Once per battle; excludes self and self-damage and cannot rescue a lethal hit.",
-    "別の味方が被ダメージでHP40%超から40%以下へ下がり生存した時、最大HPの24%を回復。1戦1回。自身・自傷は対象外で、致死ダメージは救えない。",
-    "다른 아군이 피해를 받아 체력 40% 초과에서 40% 이하로 내려가고 생존하면 최대 체력의 24%를 치유합니다. 전투당 한 번이며 자신과 자해는 제외하고 치명적 피해는 구제하지 못합니다."
-   ]
-  },
   "related": []
  },
  {
@@ -17186,16 +17144,16 @@ export const catalog:WikiEntry[] = [
    "복수의 유언"
   ],
   "summary": [
-   "友军首次阵亡时，自身物理/魔法伤害提高18%，持续5秒；每场最多3次，同一步不重复触发，增幅不叠加。",
-   "When an ally dies for the first time, gain 18% physical/magic damage for 5s. Up to 3 triggers per battle; simultaneous deaths trigger once and the bonus does not stack.",
-   "味方の初回死亡時、自身の物理・魔法ダメージが5秒間18%上昇。1戦3回まで。同時死亡は1回と数え、効果は重複しない。",
-   "아군 최초 사망 시 자신의 물리/마법 피해가 5초 동안 18% 증가합니다. 전투당 최대 3회, 동시 사망은 한 번만 발동하며 중첩되지 않습니다."
+   "友军首次阵亡时，自身物理/魔法伤害+18%，持续5秒；每场最多3次，同一时刻不重复触发。\n三星：伤害+26%，持续6秒。",
+   "When an ally dies for the first time, gain 18% physical and magic damage for 5s. Up to 3 triggers per battle; simultaneous deaths do not trigger it repeatedly.\nThree-star awakening: 26% damage for 6s.",
+   "味方が初めて倒れると、自身の物理・魔法ダメージが5秒間18%増加する。各戦闘最大3回。同時の死亡では重複発動しない。\n三つ星覚醒：ダメージ26%、持続6秒。",
+   "아군이 처음 사망하면 자신의 물리·마법 피해가 5초간 18% 증가합니다. 전투당 최대 3회이며 동시 사망으로 중복 발동하지 않습니다.\n3성 각성: 피해 증가 26%, 지속 6초."
   ],
   "description": [
-   "友军首次阵亡时，自身物理/魔法伤害提高18%，持续5秒；每场最多3次，同一步不重复触发，增幅不叠加。",
-   "When an ally dies for the first time, gain 18% physical/magic damage for 5s. Up to 3 triggers per battle; simultaneous deaths trigger once and the bonus does not stack.",
-   "味方の初回死亡時、自身の物理・魔法ダメージが5秒間18%上昇。1戦3回まで。同時死亡は1回と数え、効果は重複しない。",
-   "아군 최초 사망 시 자신의 물리/마법 피해가 5초 동안 18% 증가합니다. 전투당 최대 3회, 동시 사망은 한 번만 발동하며 중첩되지 않습니다."
+   "友军首次阵亡时，自身物理/魔法伤害+18%，持续5秒；每场最多3次，同一时刻不重复触发。\n三星：伤害+26%，持续6秒。",
+   "When an ally dies for the first time, gain 18% physical and magic damage for 5s. Up to 3 triggers per battle; simultaneous deaths do not trigger it repeatedly.\nThree-star awakening: 26% damage for 6s.",
+   "味方が初めて倒れると、自身の物理・魔法ダメージが5秒間18%増加する。各戦闘最大3回。同時の死亡では重複発動しない。\n三つ星覚醒：ダメージ26%、持続6秒。",
+   "아군이 처음 사망하면 자신의 물리·마법 피해가 5초간 18% 증가합니다. 전투당 최대 3회이며 동시 사망으로 중복 발동하지 않습니다.\n3성 각성: 피해 증가 26%, 지속 6초."
   ],
   "group": [
    "战斗契印",
@@ -17224,20 +17182,6 @@ export const catalog:WikiEntry[] = [
     "value": "+3"
    }
   ],
-  "sigilEffects": {
-   "normal": [
-    "友军首次阵亡时，自身物理/魔法伤害提高18%，持续5秒；每场最多3次，同一步不重复触发，增幅不叠加。",
-    "When an ally dies for the first time, gain 18% physical/magic damage for 5s. Up to 3 triggers per battle; simultaneous deaths trigger once and the bonus does not stack.",
-    "味方の初回死亡時、自身の物理・魔法ダメージが5秒間18%上昇。1戦3回まで。同時死亡は1回と数え、効果は重複しない。",
-    "아군 최초 사망 시 자신의 물리/마법 피해가 5초 동안 18% 증가합니다. 전투당 최대 3회, 동시 사망은 한 번만 발동하며 중첩되지 않습니다."
-   ],
-   "awakened": [
-    "友军首次阵亡时，自身物理/魔法伤害提高26%，持续6秒；每场最多3次，同一步不重复触发，增幅不叠加。",
-    "When an ally dies for the first time, gain 26% physical/magic damage for 6s. Up to 3 triggers per battle; simultaneous deaths trigger once and the bonus does not stack.",
-    "味方の初回死亡時、自身の物理・魔法ダメージが6秒間26%上昇。1戦3回まで。同時死亡は1回と数え、効果は重複しない。",
-    "아군 최초 사망 시 자신의 물리/마법 피해가 6초 동안 26% 증가합니다. 전투당 최대 3회, 동시 사망은 한 번만 발동하며 중첩되지 않습니다."
-   ]
-  },
   "related": []
  },
  {
@@ -17246,20 +17190,20 @@ export const catalog:WikiEntry[] = [
   "title": [
    "蓄能矩阵",
    "Charge Matrix",
-   "蓄能陣",
+   "蓄力の陣",
    "축적 행렬"
   ],
   "summary": [
-   "每存活战斗4秒，自身物理/魔法伤害提高5%，最多5层。死亡或离场不计时；复活保留层数与计时，不补领缺席时间。",
-   "Every 4s alive in combat, gain 5% physical/magic damage, up to 5 stacks. Death or absence pauses the timer; revival preserves stacks and progress without backfilling missed time.",
-   "戦闘参加中に4秒生存するごとに物理・魔法ダメージ+5%、最大5スタック。死亡・離脱中は停止し、復活後は既存の蓄積と時間を引き継ぐ。",
-   "전투 중 생존 4초마다 물리/마법 피해 +5%, 최대 5중첩. 사망이나 이탈 중에는 시간이 멈추며 부활 후 기존 중첩과 진행 시간만 유지합니다."
+   "每存活战斗4秒，物理/魔法伤害+5%，最多5层；复活不重置或补领。\n三星：每层+7%，最多35%。",
+   "For every 4s survived in combat, gain 5% physical and magic damage, up to 5 stacks. Revival neither resets this nor grants missed stacks.\nThree-star awakening: 7% per stack, up to 35%.",
+   "戦闘中に4秒生存するごとに物理・魔法ダメージが5%増加する。最大5スタック。復活してもリセットされず、死亡中の分は獲得しない。\n三つ星覚醒：1スタック7%、最大35%。",
+   "전투 중 4초 생존할 때마다 물리·마법 피해가 5% 증가하며 최대 5중첩됩니다. 부활해도 초기화되거나 누락된 중첩을 받지 않습니다.\n3성 각성: 중첩당 7%, 최대 35%."
   ],
   "description": [
-   "每存活战斗4秒，自身物理/魔法伤害提高5%，最多5层。死亡或离场不计时；复活保留层数与计时，不补领缺席时间。",
-   "Every 4s alive in combat, gain 5% physical/magic damage, up to 5 stacks. Death or absence pauses the timer; revival preserves stacks and progress without backfilling missed time.",
-   "戦闘参加中に4秒生存するごとに物理・魔法ダメージ+5%、最大5スタック。死亡・離脱中は停止し、復活後は既存の蓄積と時間を引き継ぐ。",
-   "전투 중 생존 4초마다 물리/마법 피해 +5%, 최대 5중첩. 사망이나 이탈 중에는 시간이 멈추며 부활 후 기존 중첩과 진행 시간만 유지합니다."
+   "每存活战斗4秒，物理/魔法伤害+5%，最多5层；复活不重置或补领。\n三星：每层+7%，最多35%。",
+   "For every 4s survived in combat, gain 5% physical and magic damage, up to 5 stacks. Revival neither resets this nor grants missed stacks.\nThree-star awakening: 7% per stack, up to 35%.",
+   "戦闘中に4秒生存するごとに物理・魔法ダメージが5%増加する。最大5スタック。復活してもリセットされず、死亡中の分は獲得しない。\n三つ星覚醒：1スタック7%、最大35%。",
+   "전투 중 4초 생존할 때마다 물리·마법 피해가 5% 증가하며 최대 5중첩됩니다. 부활해도 초기화되거나 누락된 중첩을 받지 않습니다.\n3성 각성: 중첩당 7%, 최대 35%."
   ],
   "group": [
    "战斗契印",
@@ -17288,20 +17232,6 @@ export const catalog:WikiEntry[] = [
     "value": "+3"
    }
   ],
-  "sigilEffects": {
-   "normal": [
-    "每存活战斗4秒，自身物理/魔法伤害提高5%，最多5层。死亡或离场不计时；复活保留层数与计时，不补领缺席时间。",
-    "Every 4s alive in combat, gain 5% physical/magic damage, up to 5 stacks. Death or absence pauses the timer; revival preserves stacks and progress without backfilling missed time.",
-    "戦闘参加中に4秒生存するごとに物理・魔法ダメージ+5%、最大5スタック。死亡・離脱中は停止し、復活後は既存の蓄積と時間を引き継ぐ。",
-    "전투 중 생존 4초마다 물리/마법 피해 +5%, 최대 5중첩. 사망이나 이탈 중에는 시간이 멈추며 부활 후 기존 중첩과 진행 시간만 유지합니다."
-   ],
-   "awakened": [
-    "每存活战斗4秒，自身物理/魔法伤害提高7%，最多5层。死亡或离场不计时；复活保留层数与计时，不补领缺席时间。",
-    "Every 4s alive in combat, gain 7% physical/magic damage, up to 5 stacks. Death or absence pauses the timer; revival preserves stacks and progress without backfilling missed time.",
-    "戦闘参加中に4秒生存するごとに物理・魔法ダメージ+7%、最大5スタック。死亡・離脱中は停止し、復活後は既存の蓄積と時間を引き継ぐ。",
-    "전투 중 생존 4초마다 물리/마법 피해 +7%, 최대 5중첩. 사망이나 이탈 중에는 시간이 멈추며 부활 후 기존 중첩과 진행 시간만 유지합니다."
-   ]
-  },
   "related": []
  },
  {
@@ -17310,20 +17240,20 @@ export const catalog:WikiEntry[] = [
   "title": [
    "攻城锤",
    "Siege Ram",
-   "攻城槌",
+   "破城槌",
    "공성추"
   ],
   "summary": [
-   "首次主动技能有效命中敌人时，对其中最近的一名目标追加80%攻击力的物理伤害。该附伤对护盾提高50%，额外对盾增幅不溢出为生命伤害；每场一次，纯治疗或增益技能不消耗机会。",
-   "The first active skill that hits an enemy adds 80% ATK physical damage to the nearest enemy hit. This bonus deals 50% more damage to shields; the extra shield damage cannot spill into HP. Once per battle; healing/buff-only casts do not consume it.",
-   "最初に敵へ命中したアクティブスキルで、命中した最も近い敵に攻撃力80%の物理追加ダメージ。シールドには追加分が50%増加するが、増加分はHPへ貫通しない。1戦1回。回復・強化のみでは消費しない。",
-   "최초로 적에게 적중한 액티브 스킬이 적중 대상 중 가장 가까운 적에게 공격력 80%의 물리 추가 피해를 줍니다. 보호막 대상 추가 피해는 50% 증가하나 증가분이 체력 피해로 넘어가지 않습니다. 전투당 한 번, 치유/버프 전용 스킬은 기회를 소모하지 않습니다."
+   "首次主动技能命中一名敌人，追加80%攻击力物理伤害；该附伤对护盾提高50%，增幅不溢出至生命。\n三星：附伤提高至120%攻击力。",
+   "The first active ability hit on an enemy deals extra physical damage equal to 80% ATK. This extra damage is increased by 50% against shields; the bonus does not spill over to health.\nThree-star awakening: extra damage rises to 120% ATK.",
+   "最初に敵へ命中したアクティブスキルに、攻撃力の80%の物理ダメージを追加する。この追加ダメージはシールドに対して50%増加するが、増加分は体力に持ち越さない。\n三つ星覚醒：追加ダメージが攻撃力の120%になる。",
+   "처음 적에게 적중한 액티브 스킬에 공격력의 80%에 해당하는 물리 피해를 추가합니다. 이 추가 피해는 보호막에 50% 증가하며 증가분은 체력에 적용되지 않습니다.\n3성 각성: 추가 피해가 공격력의 120%로 증가합니다."
   ],
   "description": [
-   "首次主动技能有效命中敌人时，对其中最近的一名目标追加80%攻击力的物理伤害。该附伤对护盾提高50%，额外对盾增幅不溢出为生命伤害；每场一次，纯治疗或增益技能不消耗机会。",
-   "The first active skill that hits an enemy adds 80% ATK physical damage to the nearest enemy hit. This bonus deals 50% more damage to shields; the extra shield damage cannot spill into HP. Once per battle; healing/buff-only casts do not consume it.",
-   "最初に敵へ命中したアクティブスキルで、命中した最も近い敵に攻撃力80%の物理追加ダメージ。シールドには追加分が50%増加するが、増加分はHPへ貫通しない。1戦1回。回復・強化のみでは消費しない。",
-   "최초로 적에게 적중한 액티브 스킬이 적중 대상 중 가장 가까운 적에게 공격력 80%의 물리 추가 피해를 줍니다. 보호막 대상 추가 피해는 50% 증가하나 증가분이 체력 피해로 넘어가지 않습니다. 전투당 한 번, 치유/버프 전용 스킬은 기회를 소모하지 않습니다."
+   "首次主动技能命中一名敌人，追加80%攻击力物理伤害；该附伤对护盾提高50%，增幅不溢出至生命。\n三星：附伤提高至120%攻击力。",
+   "The first active ability hit on an enemy deals extra physical damage equal to 80% ATK. This extra damage is increased by 50% against shields; the bonus does not spill over to health.\nThree-star awakening: extra damage rises to 120% ATK.",
+   "最初に敵へ命中したアクティブスキルに、攻撃力の80%の物理ダメージを追加する。この追加ダメージはシールドに対して50%増加するが、増加分は体力に持ち越さない。\n三つ星覚醒：追加ダメージが攻撃力の120%になる。",
+   "처음 적에게 적중한 액티브 스킬에 공격력의 80%에 해당하는 물리 피해를 추가합니다. 이 추가 피해는 보호막에 50% 증가하며 증가분은 체력에 적용되지 않습니다.\n3성 각성: 추가 피해가 공격력의 120%로 증가합니다."
   ],
   "group": [
    "战斗契印",
@@ -17352,20 +17282,6 @@ export const catalog:WikiEntry[] = [
     "value": "+3"
    }
   ],
-  "sigilEffects": {
-   "normal": [
-    "首次主动技能有效命中敌人时，对其中最近的一名目标追加80%攻击力的物理伤害。该附伤对护盾提高50%，额外对盾增幅不溢出为生命伤害；每场一次，纯治疗或增益技能不消耗机会。",
-    "The first active skill that hits an enemy adds 80% ATK physical damage to the nearest enemy hit. This bonus deals 50% more damage to shields; the extra shield damage cannot spill into HP. Once per battle; healing/buff-only casts do not consume it.",
-    "最初に敵へ命中したアクティブスキルで、命中した最も近い敵に攻撃力80%の物理追加ダメージ。シールドには追加分が50%増加するが、増加分はHPへ貫通しない。1戦1回。回復・強化のみでは消費しない。",
-    "최초로 적에게 적중한 액티브 스킬이 적중 대상 중 가장 가까운 적에게 공격력 80%의 물리 추가 피해를 줍니다. 보호막 대상 추가 피해는 50% 증가하나 증가분이 체력 피해로 넘어가지 않습니다. 전투당 한 번, 치유/버프 전용 스킬은 기회를 소모하지 않습니다."
-   ],
-   "awakened": [
-    "首次主动技能有效命中敌人时，对其中最近的一名目标追加120%攻击力的物理伤害。该附伤对护盾提高50%，额外对盾增幅不溢出为生命伤害；每场一次，纯治疗或增益技能不消耗机会。",
-    "The first active skill that hits an enemy adds 120% ATK physical damage to the nearest enemy hit. This bonus deals 50% more damage to shields; the extra shield damage cannot spill into HP. Once per battle; healing/buff-only casts do not consume it.",
-    "最初に敵へ命中したアクティブスキルで、命中した最も近い敵に攻撃力120%の物理追加ダメージ。シールドには追加分が50%増加するが、増加分はHPへ貫通しない。1戦1回。回復・強化のみでは消費しない。",
-    "최초로 적에게 적중한 액티브 스킬이 적중 대상 중 가장 가까운 적에게 공격력 120%의 물리 추가 피해를 줍니다. 보호막 대상 추가 피해는 50% 증가하나 증가분이 체력 피해로 넘어가지 않습니다. 전투당 한 번, 치유/버프 전용 스킬은 기회를 소모하지 않습니다."
-   ]
-  },
   "related": []
  },
  {
@@ -17373,21 +17289,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "潜伏协议",
-   "Lurking Protocol",
-   "潜伏協定",
-   "잠복 프로토콜"
+   "Ambush Protocol",
+   "潜伏の手順",
+   "잠복 규약"
   ],
   "summary": [
-   "开战闪避率+20个百分点，持续3秒；结束后5秒内下一次有效普攻追加50%攻击力物理伤害。死亡清除未用机会，复活不重发；不提供隐身。",
-   "Gain 20 percentage points of dodge for 3s at combat start. Within the next 5s, your next valid basic hit deals 50% ATK bonus physical damage. Death removes unused charges; revival does not restore them. No stealth.",
-   "開戦時に回避率+20ポイント、3秒間。終了後5秒以内の次の有効な通常攻撃に攻撃力50%の物理ダメージを追加。死亡で未使用分は消え、復活で戻らない。潜伏効果はない。",
-   "전투 시작 시 회피율 +20%p, 3초. 종료 후 5초 내 다음 유효 기본 공격에 공격력 50%의 물리 추가 피해. 사망하면 미사용 기회가 사라지고 부활로 복구되지 않습니다. 은신은 없습니다."
+   "开战闪避+20个百分点，持续3秒；随后5秒内下一次普攻命中追加50%攻击力物理伤害。\n三星：闪避+30个百分点，附伤80%攻击力。",
+   "At combat start, gain 20 percentage points of dodge for 3s. Then, your next basic attack hit within 5s deals extra physical damage equal to 50% ATK.\nThree-star awakening: 30 points of dodge; 80% ATK extra damage.",
+   "戦闘開始時、回避率が3秒間20ポイント上昇する。その後5秒以内に命中した次の通常攻撃に、攻撃力の50%の物理ダメージを追加する。\n三つ星覚醒：回避率30ポイント、追加ダメージは攻撃力の80%。",
+   "전투 시작 시 회피율이 3초간 20%p 증가합니다. 이후 5초 이내 다음 기본 공격 적중 시 공격력의 50%에 해당하는 물리 피해를 추가합니다.\n3성 각성: 회피율 30%p, 추가 피해는 공격력의 80%."
   ],
   "description": [
-   "开战闪避率+20个百分点，持续3秒；结束后5秒内下一次有效普攻追加50%攻击力物理伤害。死亡清除未用机会，复活不重发；不提供隐身。",
-   "Gain 20 percentage points of dodge for 3s at combat start. Within the next 5s, your next valid basic hit deals 50% ATK bonus physical damage. Death removes unused charges; revival does not restore them. No stealth.",
-   "開戦時に回避率+20ポイント、3秒間。終了後5秒以内の次の有効な通常攻撃に攻撃力50%の物理ダメージを追加。死亡で未使用分は消え、復活で戻らない。潜伏効果はない。",
-   "전투 시작 시 회피율 +20%p, 3초. 종료 후 5초 내 다음 유효 기본 공격에 공격력 50%의 물리 추가 피해. 사망하면 미사용 기회가 사라지고 부활로 복구되지 않습니다. 은신은 없습니다."
+   "开战闪避+20个百分点，持续3秒；随后5秒内下一次普攻命中追加50%攻击力物理伤害。\n三星：闪避+30个百分点，附伤80%攻击力。",
+   "At combat start, gain 20 percentage points of dodge for 3s. Then, your next basic attack hit within 5s deals extra physical damage equal to 50% ATK.\nThree-star awakening: 30 points of dodge; 80% ATK extra damage.",
+   "戦闘開始時、回避率が3秒間20ポイント上昇する。その後5秒以内に命中した次の通常攻撃に、攻撃力の50%の物理ダメージを追加する。\n三つ星覚醒：回避率30ポイント、追加ダメージは攻撃力の80%。",
+   "전투 시작 시 회피율이 3초간 20%p 증가합니다. 이후 5초 이내 다음 기본 공격 적중 시 공격력의 50%에 해당하는 물리 피해를 추가합니다.\n3성 각성: 회피율 30%p, 추가 피해는 공격력의 80%."
   ],
   "group": [
    "战斗契印",
@@ -17416,20 +17332,6 @@ export const catalog:WikiEntry[] = [
     "value": "+3"
    }
   ],
-  "sigilEffects": {
-   "normal": [
-    "开战闪避率+20个百分点，持续3秒；结束后5秒内下一次有效普攻追加50%攻击力物理伤害。死亡清除未用机会，复活不重发；不提供隐身。",
-    "Gain 20 percentage points of dodge for 3s at combat start. Within the next 5s, your next valid basic hit deals 50% ATK bonus physical damage. Death removes unused charges; revival does not restore them. No stealth.",
-    "開戦時に回避率+20ポイント、3秒間。終了後5秒以内の次の有効な通常攻撃に攻撃力50%の物理ダメージを追加。死亡で未使用分は消え、復活で戻らない。潜伏効果はない。",
-    "전투 시작 시 회피율 +20%p, 3초. 종료 후 5초 내 다음 유효 기본 공격에 공격력 50%의 물리 추가 피해. 사망하면 미사용 기회가 사라지고 부활로 복구되지 않습니다. 은신은 없습니다."
-   ],
-   "awakened": [
-    "开战闪避率+30个百分点，持续3秒；结束后5秒内下一次有效普攻追加80%攻击力物理伤害。死亡清除未用机会，复活不重发；不提供隐身。",
-    "Gain 30 percentage points of dodge for 3s at combat start. Within the next 5s, your next valid basic hit deals 80% ATK bonus physical damage. Death removes unused charges; revival does not restore them. No stealth.",
-    "開戦時に回避率+30ポイント、3秒間。終了後5秒以内の次の有効な通常攻撃に攻撃力80%の物理ダメージを追加。死亡で未使用分は消え、復活で戻らない。潜伏効果はない。",
-    "전투 시작 시 회피율 +30%p, 3초. 종료 후 5초 내 다음 유효 기본 공격에 공격력 80%의 물리 추가 피해. 사망하면 미사용 기회가 사라지고 부활로 복구되지 않습니다. 은신은 없습니다."
-   ]
-  },
   "related": []
  },
  {
@@ -17438,20 +17340,20 @@ export const catalog:WikiEntry[] = [
   "title": [
    "整备条例",
    "Readiness Order",
-   "整備令",
-   "정비 명령"
+   "準備の規律",
+   "전투 준비 규약"
   ],
   "summary": [
-   "开战获得20点能量；首次完成正常主动施法后攻速提高25%，持续4秒。每场各一次，能量不超过上限，复活不重发。",
-   "Gain 20 energy at combat start. After the first completed normal active cast, gain 25% attack speed for 4s. Each stage occurs once per battle; energy is capped and revival does not reset either stage.",
-   "開戦時にエネルギー20。最初の通常アクティブ詠唱完了後、攻撃速度が4秒間25%上昇。各段階1戦1回で、エネルギー上限を超えず、復活で再発動しない。",
-   "전투 시작 시 에너지 20. 최초 정상 액티브 시전 완료 후 공격 속도 +25%, 4초. 각 단계는 전투당 한 번이며 에너지 상한이 적용되고 부활로 재발동하지 않습니다."
+   "开战获得20能量；首次完成施法后攻速+25%，持续4秒。\n三星：开战30能量；攻速+40%，持续5秒。",
+   "Gain 20 energy at combat start. After the first completed cast, gain 25% attack speed for 4s.\nThree-star awakening: 30 starting energy; 40% attack speed for 5s.",
+   "戦闘開始時にエネルギーを20得る。最初の詠唱完了後、攻撃速度が4秒間25%上昇する。\n三つ星覚醒：開始時エネルギー30、攻撃速度40%、持続5秒。",
+   "전투 시작 시 에너지를 20 얻습니다. 첫 시전 완료 후 공격 속도가 4초간 25% 증가합니다.\n3성 각성: 시작 에너지 30, 공격 속도 40%, 지속 5초."
   ],
   "description": [
-   "开战获得20点能量；首次完成正常主动施法后攻速提高25%，持续4秒。每场各一次，能量不超过上限，复活不重发。",
-   "Gain 20 energy at combat start. After the first completed normal active cast, gain 25% attack speed for 4s. Each stage occurs once per battle; energy is capped and revival does not reset either stage.",
-   "開戦時にエネルギー20。最初の通常アクティブ詠唱完了後、攻撃速度が4秒間25%上昇。各段階1戦1回で、エネルギー上限を超えず、復活で再発動しない。",
-   "전투 시작 시 에너지 20. 최초 정상 액티브 시전 완료 후 공격 속도 +25%, 4초. 각 단계는 전투당 한 번이며 에너지 상한이 적용되고 부활로 재발동하지 않습니다."
+   "开战获得20能量；首次完成施法后攻速+25%，持续4秒。\n三星：开战30能量；攻速+40%，持续5秒。",
+   "Gain 20 energy at combat start. After the first completed cast, gain 25% attack speed for 4s.\nThree-star awakening: 30 starting energy; 40% attack speed for 5s.",
+   "戦闘開始時にエネルギーを20得る。最初の詠唱完了後、攻撃速度が4秒間25%上昇する。\n三つ星覚醒：開始時エネルギー30、攻撃速度40%、持続5秒。",
+   "전투 시작 시 에너지를 20 얻습니다. 첫 시전 완료 후 공격 속도가 4초간 25% 증가합니다.\n3성 각성: 시작 에너지 30, 공격 속도 40%, 지속 5초."
   ],
   "group": [
    "战斗契印",
@@ -17476,20 +17378,6 @@ export const catalog:WikiEntry[] = [
     "value": "+6%"
    }
   ],
-  "sigilEffects": {
-   "normal": [
-    "开战获得20点能量；首次完成正常主动施法后攻速提高25%，持续4秒。每场各一次，能量不超过上限，复活不重发。",
-    "Gain 20 energy at combat start. After the first completed normal active cast, gain 25% attack speed for 4s. Each stage occurs once per battle; energy is capped and revival does not reset either stage.",
-    "開戦時にエネルギー20。最初の通常アクティブ詠唱完了後、攻撃速度が4秒間25%上昇。各段階1戦1回で、エネルギー上限を超えず、復活で再発動しない。",
-    "전투 시작 시 에너지 20. 최초 정상 액티브 시전 완료 후 공격 속도 +25%, 4초. 각 단계는 전투당 한 번이며 에너지 상한이 적용되고 부활로 재발동하지 않습니다."
-   ],
-   "awakened": [
-    "开战获得30点能量；首次完成正常主动施法后攻速提高40%，持续5秒。每场各一次，能量不超过上限，复活不重发。",
-    "Gain 30 energy at combat start. After the first completed normal active cast, gain 40% attack speed for 5s. Each stage occurs once per battle; energy is capped and revival does not reset either stage.",
-    "開戦時にエネルギー30。最初の通常アクティブ詠唱完了後、攻撃速度が5秒間40%上昇。各段階1戦1回で、エネルギー上限を超えず、復活で再発動しない。",
-    "전투 시작 시 에너지 30. 최초 정상 액티브 시전 완료 후 공격 속도 +40%, 5초. 각 단계는 전투당 한 번이며 에너지 상한이 적용되고 부활로 재발동하지 않습니다."
-   ]
-  },
   "related": []
  },
  {
@@ -17502,16 +17390,16 @@ export const catalog:WikiEntry[] = [
    "거울 반사"
   ],
   "summary": [
-   "敌方初始上阵怪物首次完成正常主动施法后，自身物理/魔法伤害提高18%，持续5秒。每场一次；召唤物、复制或未完成的施法不触发，不反射或复制敌方技能。",
-   "After the first completed normal active cast by an enemy from the starting lineup, gain 18% physical/magic damage for 5s. Once per battle. Summons, copied and incomplete casts do not trigger it. Does not reflect or copy enemy skills.",
-   "敵の初期配置モンスターが最初の通常アクティブ詠唱を完了すると、自身の物理・魔法ダメージ+18%、5秒間。1戦1回。召喚物・複製・未完了詠唱は対象外。敵スキルを反射・複製しない。",
-   "적 초기 배치 몬스터의 최초 정상 액티브 시전 완료 후 자신의 물리/마법 피해 +18%, 5초. 전투당 한 번. 소환물, 복제, 미완료 시전은 제외되며 적 스킬을 반사하거나 복제하지 않습니다."
+   "敌方初始怪物首次完成施法后，自身物理/魔法伤害+18%，持续5秒；每场一次。\n三星：伤害+28%，持续6秒。",
+   "After an enemy from the initial lineup completes its first cast, gain 18% physical and magic damage for 5s. Once per battle.\nThree-star awakening: 28% damage for 6s.",
+   "敵の初期配置モンスターが最初の詠唱を完了すると、自身の物理・魔法ダメージが5秒間18%増加する。各戦闘1回。\n三つ星覚醒：ダメージ28%、持続6秒。",
+   "적 초기 배치 몬스터가 첫 시전을 완료하면 자신의 물리·마법 피해가 5초간 18% 증가합니다. 전투당 1회.\n3성 각성: 피해 증가 28%, 지속 6초."
   ],
   "description": [
-   "敌方初始上阵怪物首次完成正常主动施法后，自身物理/魔法伤害提高18%，持续5秒。每场一次；召唤物、复制或未完成的施法不触发，不反射或复制敌方技能。",
-   "After the first completed normal active cast by an enemy from the starting lineup, gain 18% physical/magic damage for 5s. Once per battle. Summons, copied and incomplete casts do not trigger it. Does not reflect or copy enemy skills.",
-   "敵の初期配置モンスターが最初の通常アクティブ詠唱を完了すると、自身の物理・魔法ダメージ+18%、5秒間。1戦1回。召喚物・複製・未完了詠唱は対象外。敵スキルを反射・複製しない。",
-   "적 초기 배치 몬스터의 최초 정상 액티브 시전 완료 후 자신의 물리/마법 피해 +18%, 5초. 전투당 한 번. 소환물, 복제, 미완료 시전은 제외되며 적 스킬을 반사하거나 복제하지 않습니다."
+   "敌方初始怪物首次完成施法后，自身物理/魔法伤害+18%，持续5秒；每场一次。\n三星：伤害+28%，持续6秒。",
+   "After an enemy from the initial lineup completes its first cast, gain 18% physical and magic damage for 5s. Once per battle.\nThree-star awakening: 28% damage for 6s.",
+   "敵の初期配置モンスターが最初の詠唱を完了すると、自身の物理・魔法ダメージが5秒間18%増加する。各戦闘1回。\n三つ星覚醒：ダメージ28%、持続6秒。",
+   "적 초기 배치 몬스터가 첫 시전을 완료하면 자신의 물리·마법 피해가 5초간 18% 증가합니다. 전투당 1회.\n3성 각성: 피해 증가 28%, 지속 6초."
   ],
   "group": [
    "战斗契印",
@@ -17540,20 +17428,6 @@ export const catalog:WikiEntry[] = [
     "value": "+3%"
    }
   ],
-  "sigilEffects": {
-   "normal": [
-    "敌方初始上阵怪物首次完成正常主动施法后，自身物理/魔法伤害提高18%，持续5秒。每场一次；召唤物、复制或未完成的施法不触发，不反射或复制敌方技能。",
-    "After the first completed normal active cast by an enemy from the starting lineup, gain 18% physical/magic damage for 5s. Once per battle. Summons, copied and incomplete casts do not trigger it. Does not reflect or copy enemy skills.",
-    "敵の初期配置モンスターが最初の通常アクティブ詠唱を完了すると、自身の物理・魔法ダメージ+18%、5秒間。1戦1回。召喚物・複製・未完了詠唱は対象外。敵スキルを反射・複製しない。",
-    "적 초기 배치 몬스터의 최초 정상 액티브 시전 완료 후 자신의 물리/마법 피해 +18%, 5초. 전투당 한 번. 소환물, 복제, 미완료 시전은 제외되며 적 스킬을 반사하거나 복제하지 않습니다."
-   ],
-   "awakened": [
-    "敌方初始上阵怪物首次完成正常主动施法后，自身物理/魔法伤害提高28%，持续6秒。每场一次；召唤物、复制或未完成的施法不触发，不反射或复制敌方技能。",
-    "After the first completed normal active cast by an enemy from the starting lineup, gain 28% physical/magic damage for 6s. Once per battle. Summons, copied and incomplete casts do not trigger it. Does not reflect or copy enemy skills.",
-    "敵の初期配置モンスターが最初の通常アクティブ詠唱を完了すると、自身の物理・魔法ダメージ+28%、6秒間。1戦1回。召喚物・複製・未完了詠唱は対象外。敵スキルを反射・複製しない。",
-    "적 초기 배치 몬스터의 최초 정상 액티브 시전 완료 후 자신의 물리/마법 피해 +28%, 6초. 전투당 한 번. 소환물, 복제, 미완료 시전은 제외되며 적 스킬을 반사하거나 복제하지 않습니다."
-   ]
-  },
   "related": []
  },
  {
@@ -17561,21 +17435,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "干扰发生器",
-   "Disruptor",
+   "Interference Emitter",
    "妨害発生器",
-   "방해 발생기"
+   "교란 발생기"
   ],
   "summary": [
-   "首次普攻有效命中有能量的目标，使其后续能量获得降低40%，持续3秒。每场一次，不扣已有能量、不打断施法、不降低技能消耗。",
-   "The first valid basic hit on a target with an energy system reduces its subsequent energy gains by 40% for 3s. Once per battle. Does not remove stored energy, interrupt casting or lower skill costs.",
-   "エネルギーを使う敵への最初の有効な通常攻撃で、以後のエネルギー獲得を3秒間40%減少。1戦1回。現在のエネルギーは奪わず、詠唱中断や消費軽減もしない。",
-   "에너지 시스템이 있는 대상에게 최초 유효 기본 공격 적중 시 이후 에너지 획득을 3초 동안 40% 줄입니다. 전투당 한 번. 기존 에너지를 빼앗거나 시전을 중단하거나 스킬 비용을 줄이지 않습니다."
+   "首次普攻命中有能量的目标，使其后续能量获得降低40%，持续3秒；每场一次，不扣已有能量。\n三星：降低55%，持续4秒。",
+   "The first basic attack hit against a target with energy reduces its subsequent energy gains by 40% for 3s. Once per battle; does not remove existing energy.\nThree-star awakening: 55% reduction for 4s.",
+   "エネルギーを持つ対象への最初の通常攻撃命中時、その後のエネルギー獲得量を3秒間40%減少させる。各戦闘1回。既存のエネルギーは減らさない。\n三つ星覚醒：減少率55%、持続4秒。",
+   "에너지가 있는 대상에게 첫 기본 공격이 적중하면 이후 에너지 획득량을 3초간 40% 감소시킵니다. 전투당 1회이며 기존 에너지는 차감하지 않습니다.\n3성 각성: 감소율 55%, 지속 4초."
   ],
   "description": [
-   "首次普攻有效命中有能量的目标，使其后续能量获得降低40%，持续3秒。每场一次，不扣已有能量、不打断施法、不降低技能消耗。",
-   "The first valid basic hit on a target with an energy system reduces its subsequent energy gains by 40% for 3s. Once per battle. Does not remove stored energy, interrupt casting or lower skill costs.",
-   "エネルギーを使う敵への最初の有効な通常攻撃で、以後のエネルギー獲得を3秒間40%減少。1戦1回。現在のエネルギーは奪わず、詠唱中断や消費軽減もしない。",
-   "에너지 시스템이 있는 대상에게 최초 유효 기본 공격 적중 시 이후 에너지 획득을 3초 동안 40% 줄입니다. 전투당 한 번. 기존 에너지를 빼앗거나 시전을 중단하거나 스킬 비용을 줄이지 않습니다."
+   "首次普攻命中有能量的目标，使其后续能量获得降低40%，持续3秒；每场一次，不扣已有能量。\n三星：降低55%，持续4秒。",
+   "The first basic attack hit against a target with energy reduces its subsequent energy gains by 40% for 3s. Once per battle; does not remove existing energy.\nThree-star awakening: 55% reduction for 4s.",
+   "エネルギーを持つ対象への最初の通常攻撃命中時、その後のエネルギー獲得量を3秒間40%減少させる。各戦闘1回。既存のエネルギーは減らさない。\n三つ星覚醒：減少率55%、持続4秒。",
+   "에너지가 있는 대상에게 첫 기본 공격이 적중하면 이후 에너지 획득량을 3초간 40% 감소시킵니다. 전투당 1회이며 기존 에너지는 차감하지 않습니다.\n3성 각성: 감소율 55%, 지속 4초."
   ],
   "group": [
    "战斗契印",
@@ -17604,20 +17478,6 @@ export const catalog:WikiEntry[] = [
     "value": "+3%"
    }
   ],
-  "sigilEffects": {
-   "normal": [
-    "首次普攻有效命中有能量的目标，使其后续能量获得降低40%，持续3秒。每场一次，不扣已有能量、不打断施法、不降低技能消耗。",
-    "The first valid basic hit on a target with an energy system reduces its subsequent energy gains by 40% for 3s. Once per battle. Does not remove stored energy, interrupt casting or lower skill costs.",
-    "エネルギーを使う敵への最初の有効な通常攻撃で、以後のエネルギー獲得を3秒間40%減少。1戦1回。現在のエネルギーは奪わず、詠唱中断や消費軽減もしない。",
-    "에너지 시스템이 있는 대상에게 최초 유효 기본 공격 적중 시 이후 에너지 획득을 3초 동안 40% 줄입니다. 전투당 한 번. 기존 에너지를 빼앗거나 시전을 중단하거나 스킬 비용을 줄이지 않습니다."
-   ],
-   "awakened": [
-    "首次普攻有效命中有能量的目标，使其后续能量获得降低55%，持续4秒。每场一次，不扣已有能量、不打断施法、不降低技能消耗。",
-    "The first valid basic hit on a target with an energy system reduces its subsequent energy gains by 55% for 4s. Once per battle. Does not remove stored energy, interrupt casting or lower skill costs.",
-    "エネルギーを使う敵への最初の有効な通常攻撃で、以後のエネルギー獲得を4秒間55%減少。1戦1回。現在のエネルギーは奪わず、詠唱中断や消費軽減もしない。",
-    "에너지 시스템이 있는 대상에게 최초 유효 기본 공격 적중 시 이후 에너지 획득을 4초 동안 55% 줄입니다. 전투당 한 번. 기존 에너지를 빼앗거나 시전을 중단하거나 스킬 비용을 줄이지 않습니다."
-   ]
-  },
   "related": []
  },
  {
@@ -17625,21 +17485,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "夺能尖刺",
-   "Energy Spike",
+   "Energy-Draining Spike",
    "奪能の棘",
-   "에너지 약탈 가시"
+   "에너지 강탈 가시"
   ],
   "summary": [
-   "正常主动施法完成后，强化接下来4秒内一次普攻，命中时吸取至多12点能量。冷却6秒，每场最多3次；只转移实际扣得的能量，不叠加次数，溢出丢弃。",
-   "After completing a normal active cast, empower one basic hit within 4s to steal up to 12 energy. Cooldown 6s, up to 3 grants per battle. Transfer only energy actually removed; charges do not stack and overflow is lost.",
-   "通常アクティブ詠唱完了後、4秒以内の通常攻撃1回を強化し、最大12エネルギーを奪う。クールダウン6秒、1戦3回まで。実際に奪えた分だけ移し、回数は重複せず余剰は失われる。",
-   "정상 액티브 시전 완료 후 4초 내 기본 공격 한 번을 강화해 최대 12 에너지를 훔칩니다. 재사용 6초, 전투당 최대 3회. 실제 차감한 만큼만 이전하며 횟수는 중첩되지 않고 초과분은 버립니다."
+   "施法后4秒内下一次普攻吸取至多12能量；冷却6秒，每场最多3次，不凭空回能。\n三星：至多18能量，强化保留5秒。",
+   "Your next basic attack within 4s after casting steals up to 12 energy. 6s cooldown; up to 3 times per battle. Only energy actually drained is restored.\nThree-star awakening: up to 18 energy; empowered attack remains available for 5s.",
+   "詠唱後4秒以内の次の通常攻撃で、最大12のエネルギーを奪う。再発動まで6秒、各戦闘最大3回。実際に奪った分だけ回復する。\n三つ星覚醒：最大18、強化攻撃の猶予は5秒。",
+   "시전 후 4초 이내 다음 기본 공격으로 최대 12의 에너지를 빼앗습니다. 재사용 대기시간 6초, 전투당 최대 3회. 실제로 빼앗은 만큼만 회복합니다.\n3성 각성: 최대 18, 강화 공격 유지 시간 5초."
   ],
   "description": [
-   "正常主动施法完成后，强化接下来4秒内一次普攻，命中时吸取至多12点能量。冷却6秒，每场最多3次；只转移实际扣得的能量，不叠加次数，溢出丢弃。",
-   "After completing a normal active cast, empower one basic hit within 4s to steal up to 12 energy. Cooldown 6s, up to 3 grants per battle. Transfer only energy actually removed; charges do not stack and overflow is lost.",
-   "通常アクティブ詠唱完了後、4秒以内の通常攻撃1回を強化し、最大12エネルギーを奪う。クールダウン6秒、1戦3回まで。実際に奪えた分だけ移し、回数は重複せず余剰は失われる。",
-   "정상 액티브 시전 완료 후 4초 내 기본 공격 한 번을 강화해 최대 12 에너지를 훔칩니다. 재사용 6초, 전투당 최대 3회. 실제 차감한 만큼만 이전하며 횟수는 중첩되지 않고 초과분은 버립니다."
+   "施法后4秒内下一次普攻吸取至多12能量；冷却6秒，每场最多3次，不凭空回能。\n三星：至多18能量，强化保留5秒。",
+   "Your next basic attack within 4s after casting steals up to 12 energy. 6s cooldown; up to 3 times per battle. Only energy actually drained is restored.\nThree-star awakening: up to 18 energy; empowered attack remains available for 5s.",
+   "詠唱後4秒以内の次の通常攻撃で、最大12のエネルギーを奪う。再発動まで6秒、各戦闘最大3回。実際に奪った分だけ回復する。\n三つ星覚醒：最大18、強化攻撃の猶予は5秒。",
+   "시전 후 4초 이내 다음 기본 공격으로 최대 12의 에너지를 빼앗습니다. 재사용 대기시간 6초, 전투당 최대 3회. 실제로 빼앗은 만큼만 회복합니다.\n3성 각성: 최대 18, 강화 공격 유지 시간 5초."
   ],
   "group": [
    "战斗契印",
@@ -17668,20 +17528,6 @@ export const catalog:WikiEntry[] = [
     "value": "+3%"
    }
   ],
-  "sigilEffects": {
-   "normal": [
-    "正常主动施法完成后，强化接下来4秒内一次普攻，命中时吸取至多12点能量。冷却6秒，每场最多3次；只转移实际扣得的能量，不叠加次数，溢出丢弃。",
-    "After completing a normal active cast, empower one basic hit within 4s to steal up to 12 energy. Cooldown 6s, up to 3 grants per battle. Transfer only energy actually removed; charges do not stack and overflow is lost.",
-    "通常アクティブ詠唱完了後、4秒以内の通常攻撃1回を強化し、最大12エネルギーを奪う。クールダウン6秒、1戦3回まで。実際に奪えた分だけ移し、回数は重複せず余剰は失われる。",
-    "정상 액티브 시전 완료 후 4초 내 기본 공격 한 번을 강화해 최대 12 에너지를 훔칩니다. 재사용 6초, 전투당 최대 3회. 실제 차감한 만큼만 이전하며 횟수는 중첩되지 않고 초과분은 버립니다."
-   ],
-   "awakened": [
-    "正常主动施法完成后，强化接下来5秒内一次普攻，命中时吸取至多18点能量。冷却6秒，每场最多3次；只转移实际扣得的能量，不叠加次数，溢出丢弃。",
-    "After completing a normal active cast, empower one basic hit within 5s to steal up to 18 energy. Cooldown 6s, up to 3 grants per battle. Transfer only energy actually removed; charges do not stack and overflow is lost.",
-    "通常アクティブ詠唱完了後、5秒以内の通常攻撃1回を強化し、最大18エネルギーを奪う。クールダウン6秒、1戦3回まで。実際に奪えた分だけ移し、回数は重複せず余剰は失われる。",
-    "정상 액티브 시전 완료 후 5초 내 기본 공격 한 번을 강화해 최대 18 에너지를 훔칩니다. 재사용 6초, 전투당 최대 3회. 실제 차감한 만큼만 이전하며 횟수는 중첩되지 않고 초과분은 버립니다."
-   ]
-  },
   "related": []
  },
  {
@@ -17689,21 +17535,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "净化领域",
-   "Purification Field",
+   "Purifying Field",
    "浄化領域",
    "정화 영역"
   ],
   "summary": [
-   "净化2格内另一名友军的可解除硬控制；冷却10秒，每场最多2次。自身受硬控时无法发动。净化后硬控免疫0秒；0秒表示不额外提供免控。",
-   "Cleanse removable hard control from another ally within 2 hexes. Cooldown 10s, up to 2 times per battle. Cannot trigger while the bearer is hard-controlled. Grants 0s of hard-control immunity afterward (0 means no added immunity).",
-   "2マス以内の別の味方の解除可能なハードCCを浄化。クールダウン10秒、1戦2回まで。自身がハードCC中は発動不可。浄化後のハードCC免疫は0秒（0なら追加免疫なし）。",
-   "2칸 내 다른 아군의 해제 가능한 강력 제어를 정화합니다. 재사용 10초, 전투당 최대 2회. 보유자가 강력 제어 상태이면 발동 불가. 정화 후 강력 제어 면역 0초이며 0이면 추가 면역이 없습니다."
+   "净化2格内受硬控的队友；自身受硬控时不能发动。冷却10秒，每场最多2次。\n三星：范围3格、冷却8秒，净化后免硬控1秒。",
+   "Cleanse allies under hard crowd control within 2 hexes. Cannot trigger while the bearer is under hard crowd control. 10s cooldown; up to twice per battle.\nThree-star awakening: 3-hex range, 8s cooldown, and 1s hard-control immunity after cleansing.",
+   "2マス以内で強い行動妨害を受けている味方を浄化する。自身が強い行動妨害を受けている間は発動できない。再発動まで10秒、各戦闘最大2回。\n三つ星覚醒：範囲3マス、再発動まで8秒、浄化後1秒間は強い行動妨害を無効化。",
+   "2칸 이내 강한 군중 제어에 걸린 아군을 정화합니다. 착용자가 강한 군중 제어에 걸린 동안에는 발동할 수 없습니다. 재사용 대기시간 10초, 전투당 최대 2회.\n3성 각성: 범위 3칸, 재사용 대기시간 8초, 정화 후 1초간 강한 군중 제어 면역."
   ],
   "description": [
-   "净化2格内另一名友军的可解除硬控制；冷却10秒，每场最多2次。自身受硬控时无法发动。净化后硬控免疫0秒；0秒表示不额外提供免控。",
-   "Cleanse removable hard control from another ally within 2 hexes. Cooldown 10s, up to 2 times per battle. Cannot trigger while the bearer is hard-controlled. Grants 0s of hard-control immunity afterward (0 means no added immunity).",
-   "2マス以内の別の味方の解除可能なハードCCを浄化。クールダウン10秒、1戦2回まで。自身がハードCC中は発動不可。浄化後のハードCC免疫は0秒（0なら追加免疫なし）。",
-   "2칸 내 다른 아군의 해제 가능한 강력 제어를 정화합니다. 재사용 10초, 전투당 최대 2회. 보유자가 강력 제어 상태이면 발동 불가. 정화 후 강력 제어 면역 0초이며 0이면 추가 면역이 없습니다."
+   "净化2格内受硬控的队友；自身受硬控时不能发动。冷却10秒，每场最多2次。\n三星：范围3格、冷却8秒，净化后免硬控1秒。",
+   "Cleanse allies under hard crowd control within 2 hexes. Cannot trigger while the bearer is under hard crowd control. 10s cooldown; up to twice per battle.\nThree-star awakening: 3-hex range, 8s cooldown, and 1s hard-control immunity after cleansing.",
+   "2マス以内で強い行動妨害を受けている味方を浄化する。自身が強い行動妨害を受けている間は発動できない。再発動まで10秒、各戦闘最大2回。\n三つ星覚醒：範囲3マス、再発動まで8秒、浄化後1秒間は強い行動妨害を無効化。",
+   "2칸 이내 강한 군중 제어에 걸린 아군을 정화합니다. 착용자가 강한 군중 제어에 걸린 동안에는 발동할 수 없습니다. 재사용 대기시간 10초, 전투당 최대 2회.\n3성 각성: 범위 3칸, 재사용 대기시간 8초, 정화 후 1초간 강한 군중 제어 면역."
   ],
   "group": [
    "战斗契印",
@@ -17732,20 +17578,6 @@ export const catalog:WikiEntry[] = [
     "value": "+3"
    }
   ],
-  "sigilEffects": {
-   "normal": [
-    "净化2格内另一名友军的可解除硬控制；冷却10秒，每场最多2次。自身受硬控时无法发动。净化后硬控免疫0秒；0秒表示不额外提供免控。",
-    "Cleanse removable hard control from another ally within 2 hexes. Cooldown 10s, up to 2 times per battle. Cannot trigger while the bearer is hard-controlled. Grants 0s of hard-control immunity afterward (0 means no added immunity).",
-    "2マス以内の別の味方の解除可能なハードCCを浄化。クールダウン10秒、1戦2回まで。自身がハードCC中は発動不可。浄化後のハードCC免疫は0秒（0なら追加免疫なし）。",
-    "2칸 내 다른 아군의 해제 가능한 강력 제어를 정화합니다. 재사용 10초, 전투당 최대 2회. 보유자가 강력 제어 상태이면 발동 불가. 정화 후 강력 제어 면역 0초이며 0이면 추가 면역이 없습니다."
-   ],
-   "awakened": [
-    "净化3格内另一名友军的可解除硬控制；冷却8秒，每场最多2次。自身受硬控时无法发动。净化后硬控免疫1秒；0秒表示不额外提供免控。",
-    "Cleanse removable hard control from another ally within 3 hexes. Cooldown 8s, up to 2 times per battle. Cannot trigger while the bearer is hard-controlled. Grants 1s of hard-control immunity afterward (0 means no added immunity).",
-    "3マス以内の別の味方の解除可能なハードCCを浄化。クールダウン8秒、1戦2回まで。自身がハードCC中は発動不可。浄化後のハードCC免疫は1秒（0なら追加免疫なし）。",
-    "3칸 내 다른 아군의 해제 가능한 강력 제어를 정화합니다. 재사용 8초, 전투당 최대 2회. 보유자가 강력 제어 상태이면 발동 불가. 정화 후 강력 제어 면역 1초이며 0이면 추가 면역이 없습니다."
-   ]
-  },
   "related": []
  },
  {
@@ -17753,21 +17585,21 @@ export const catalog:WikiEntry[] = [
   "category": "equipment",
   "title": [
    "锁猎者",
-   "Target Hunter",
-   "標的の狩人",
-   "표적 사냥꾼"
+   "Relentless Hunter",
+   "追い詰める者",
+   "집요한 사냥꾼"
   ],
   "summary": [
-   "连续普攻命中同一目标4次后，后续普攻忽略其20%正护甲。换目标、目标死亡或3秒未有效命中时重置；不影响技能、附伤或队友攻击。",
-   "After 4 consecutive basic hits on one target, subsequent basic attacks ignore 20% of its positive armor. Reset on target change, target death or 3s without a valid hit. Does not affect skills, bonus damage or allies.",
-   "同じ敵へ通常攻撃を連続4回命中させると、以後の通常攻撃が正の防御力の20%を無視。対象変更・対象死亡・3秒間未命中でリセット。スキル・追加ダメージ・味方には適用しない。",
-   "같은 대상에게 기본 공격을 연속 4회 적중하면 이후 기본 공격이 양수 방어력의 20%를 무시합니다. 대상 변경, 대상 사망, 3초 미적중 시 초기화됩니다. 스킬, 추가 피해, 아군 공격에는 적용되지 않습니다."
+   "连续普攻同一目标4次后，后续普攻忽略20%正护甲；换目标或停攻3秒重置。\n三星：连续3次后忽略30%正护甲。",
+   "After 4 consecutive basic attacks on the same target, subsequent basic attacks ignore 20% of its positive armor. Resets on a target switch or after 3s without attacking.\nThree-star awakening: 3 attacks required; ignore 30% of positive armor.",
+   "同じ対象へ通常攻撃を4回連続で行うと、以後の通常攻撃は対象の正の物理防御の20%を無視する。対象変更または3秒間攻撃しないとリセットされる。\n三つ星覚醒：必要攻撃回数3回、正の物理防御の30%を無視。",
+   "같은 대상을 기본 공격으로 4회 연속 공격하면 이후 기본 공격은 대상의 양수 방어력 20%를 무시합니다. 대상을 바꾸거나 3초간 공격하지 않으면 초기화됩니다.\n3성 각성: 필요 공격 3회, 양수 방어력 30% 무시."
   ],
   "description": [
-   "连续普攻命中同一目标4次后，后续普攻忽略其20%正护甲。换目标、目标死亡或3秒未有效命中时重置；不影响技能、附伤或队友攻击。",
-   "After 4 consecutive basic hits on one target, subsequent basic attacks ignore 20% of its positive armor. Reset on target change, target death or 3s without a valid hit. Does not affect skills, bonus damage or allies.",
-   "同じ敵へ通常攻撃を連続4回命中させると、以後の通常攻撃が正の防御力の20%を無視。対象変更・対象死亡・3秒間未命中でリセット。スキル・追加ダメージ・味方には適用しない。",
-   "같은 대상에게 기본 공격을 연속 4회 적중하면 이후 기본 공격이 양수 방어력의 20%를 무시합니다. 대상 변경, 대상 사망, 3초 미적중 시 초기화됩니다. 스킬, 추가 피해, 아군 공격에는 적용되지 않습니다."
+   "连续普攻同一目标4次后，后续普攻忽略20%正护甲；换目标或停攻3秒重置。\n三星：连续3次后忽略30%正护甲。",
+   "After 4 consecutive basic attacks on the same target, subsequent basic attacks ignore 20% of its positive armor. Resets on a target switch or after 3s without attacking.\nThree-star awakening: 3 attacks required; ignore 30% of positive armor.",
+   "同じ対象へ通常攻撃を4回連続で行うと、以後の通常攻撃は対象の正の物理防御の20%を無視する。対象変更または3秒間攻撃しないとリセットされる。\n三つ星覚醒：必要攻撃回数3回、正の物理防御の30%を無視。",
+   "같은 대상을 기본 공격으로 4회 연속 공격하면 이후 기본 공격은 대상의 양수 방어력 20%를 무시합니다. 대상을 바꾸거나 3초간 공격하지 않으면 초기화됩니다.\n3성 각성: 필요 공격 3회, 양수 방어력 30% 무시."
   ],
   "group": [
    "战斗契印",
@@ -17796,20 +17628,6 @@ export const catalog:WikiEntry[] = [
     "value": "+3%"
    }
   ],
-  "sigilEffects": {
-   "normal": [
-    "连续普攻命中同一目标4次后，后续普攻忽略其20%正护甲。换目标、目标死亡或3秒未有效命中时重置；不影响技能、附伤或队友攻击。",
-    "After 4 consecutive basic hits on one target, subsequent basic attacks ignore 20% of its positive armor. Reset on target change, target death or 3s without a valid hit. Does not affect skills, bonus damage or allies.",
-    "同じ敵へ通常攻撃を連続4回命中させると、以後の通常攻撃が正の防御力の20%を無視。対象変更・対象死亡・3秒間未命中でリセット。スキル・追加ダメージ・味方には適用しない。",
-    "같은 대상에게 기본 공격을 연속 4회 적중하면 이후 기본 공격이 양수 방어력의 20%를 무시합니다. 대상 변경, 대상 사망, 3초 미적중 시 초기화됩니다. 스킬, 추가 피해, 아군 공격에는 적용되지 않습니다."
-   ],
-   "awakened": [
-    "连续普攻命中同一目标3次后，后续普攻忽略其30%正护甲。换目标、目标死亡或3秒未有效命中时重置；不影响技能、附伤或队友攻击。",
-    "After 3 consecutive basic hits on one target, subsequent basic attacks ignore 30% of its positive armor. Reset on target change, target death or 3s without a valid hit. Does not affect skills, bonus damage or allies.",
-    "同じ敵へ通常攻撃を連続3回命中させると、以後の通常攻撃が正の防御力の30%を無視。対象変更・対象死亡・3秒間未命中でリセット。スキル・追加ダメージ・味方には適用しない。",
-    "같은 대상에게 기본 공격을 연속 3회 적중하면 이후 기본 공격이 양수 방어력의 30%를 무시합니다. 대상 변경, 대상 사망, 3초 미적중 시 초기화됩니다. 스킬, 추가 피해, 아군 공격에는 적용되지 않습니다."
-   ]
-  },
   "related": []
  },
  {
@@ -17818,20 +17636,20 @@ export const catalog:WikiEntry[] = [
   "title": [
    "伏击网络",
    "Ambush Network",
-   "伏撃の網",
+   "伏撃網",
    "매복망"
   ],
   "summary": [
-   "首次被相邻敌人有效普攻命中且仍存活时，定身攻击者1.25秒。每场一次；控制免疫抵挡时仍消耗机会，不阻止其普攻或施法。",
-   "After surviving the first valid basic hit from an adjacent enemy, root the attacker for 1.25s. Once per battle; control immunity still consumes the opportunity. Root does not prevent basic attacks or casting.",
-   "隣接敵から最初の有効な通常攻撃を受けて生存すると、攻撃者を1.25秒移動不能にする。1戦1回で、CC免疫に阻まれても消費する。通常攻撃や詠唱は封じない。",
-   "인접 적의 최초 유효 기본 공격을 받고 생존하면 공격자를 1.25초 속박합니다. 전투당 한 번이며 제어 면역으로 막혀도 기회를 소모합니다. 기본 공격과 시전은 막지 않습니다."
+   "首次被相邻敌人普攻命中且存活后，定身攻击者1.25秒，并使其攻速降低25%，持续3秒；每场一次。两种效果均受控制免疫影响，可净化；同类降攻速不叠加。\n三星：定身2秒，攻速降低35%，持续4秒。",
+   "Once per combat, surviving an adjacent enemy basic attack roots the attacker for 1.25s and reduces their attack speed by 25% for 3s. Both effects respect control immunity and can be cleansed; identical slows do not stack.\n3-star: Root for 2s; 35% attack-speed reduction for 4s.",
+   "戦闘中1回、隣接する敵の通常攻撃を受けて生存すると、攻撃者を1.25秒間移動不能にし、3秒間攻撃速度を25%低下させる。両効果は行動妨害耐性で防げ、浄化可能。同種の低下効果は重複しない。\n星3：移動不能2秒、攻撃速度35%低下が4秒持続。",
+   "전투당 한 번, 인접한 적의 기본 공격을 맞고 생존하면 공격자를 1.25초 동안 속박하고 3초 동안 공격 속도를 25% 감소시킵니다. 두 효과 모두 군중 제어 면역으로 막을 수 있고 정화 가능합니다. 같은 둔화 효과는 중첩되지 않습니다.\n3성: 속박 2초, 공격 속도 35% 감소가 4초 지속됩니다."
   ],
   "description": [
-   "首次被相邻敌人有效普攻命中且仍存活时，定身攻击者1.25秒。每场一次；控制免疫抵挡时仍消耗机会，不阻止其普攻或施法。",
-   "After surviving the first valid basic hit from an adjacent enemy, root the attacker for 1.25s. Once per battle; control immunity still consumes the opportunity. Root does not prevent basic attacks or casting.",
-   "隣接敵から最初の有効な通常攻撃を受けて生存すると、攻撃者を1.25秒移動不能にする。1戦1回で、CC免疫に阻まれても消費する。通常攻撃や詠唱は封じない。",
-   "인접 적의 최초 유효 기본 공격을 받고 생존하면 공격자를 1.25초 속박합니다. 전투당 한 번이며 제어 면역으로 막혀도 기회를 소모합니다. 기본 공격과 시전은 막지 않습니다."
+   "首次被相邻敌人普攻命中且存活后，定身攻击者1.25秒，并使其攻速降低25%，持续3秒；每场一次。两种效果均受控制免疫影响，可净化；同类降攻速不叠加。\n三星：定身2秒，攻速降低35%，持续4秒。",
+   "Once per combat, surviving an adjacent enemy basic attack roots the attacker for 1.25s and reduces their attack speed by 25% for 3s. Both effects respect control immunity and can be cleansed; identical slows do not stack.\n3-star: Root for 2s; 35% attack-speed reduction for 4s.",
+   "戦闘中1回、隣接する敵の通常攻撃を受けて生存すると、攻撃者を1.25秒間移動不能にし、3秒間攻撃速度を25%低下させる。両効果は行動妨害耐性で防げ、浄化可能。同種の低下効果は重複しない。\n星3：移動不能2秒、攻撃速度35%低下が4秒持続。",
+   "전투당 한 번, 인접한 적의 기본 공격을 맞고 생존하면 공격자를 1.25초 동안 속박하고 3초 동안 공격 속도를 25% 감소시킵니다. 두 효과 모두 군중 제어 면역으로 막을 수 있고 정화 가능합니다. 같은 둔화 효과는 중첩되지 않습니다.\n3성: 속박 2초, 공격 속도 35% 감소가 4초 지속됩니다."
   ],
   "group": [
    "战斗契印",
@@ -17860,20 +17678,6 @@ export const catalog:WikiEntry[] = [
     "value": "+3%"
    }
   ],
-  "sigilEffects": {
-   "normal": [
-    "首次被相邻敌人有效普攻命中且仍存活时，定身攻击者1.25秒。每场一次；控制免疫抵挡时仍消耗机会，不阻止其普攻或施法。",
-    "After surviving the first valid basic hit from an adjacent enemy, root the attacker for 1.25s. Once per battle; control immunity still consumes the opportunity. Root does not prevent basic attacks or casting.",
-    "隣接敵から最初の有効な通常攻撃を受けて生存すると、攻撃者を1.25秒移動不能にする。1戦1回で、CC免疫に阻まれても消費する。通常攻撃や詠唱は封じない。",
-    "인접 적의 최초 유효 기본 공격을 받고 생존하면 공격자를 1.25초 속박합니다. 전투당 한 번이며 제어 면역으로 막혀도 기회를 소모합니다. 기본 공격과 시전은 막지 않습니다."
-   ],
-   "awakened": [
-    "首次被相邻敌人有效普攻命中且仍存活时，定身攻击者2秒。每场一次；控制免疫抵挡时仍消耗机会，不阻止其普攻或施法。",
-    "After surviving the first valid basic hit from an adjacent enemy, root the attacker for 2s. Once per battle; control immunity still consumes the opportunity. Root does not prevent basic attacks or casting.",
-    "隣接敵から最初の有効な通常攻撃を受けて生存すると、攻撃者を2秒移動不能にする。1戦1回で、CC免疫に阻まれても消費する。通常攻撃や詠唱は封じない。",
-    "인접 적의 최초 유효 기본 공격을 받고 생존하면 공격자를 2초 속박합니다. 전투당 한 번이며 제어 면역으로 막혀도 기회를 소모합니다. 기본 공격과 시전은 막지 않습니다."
-   ]
-  },
   "related": []
  },
  {
@@ -17883,19 +17687,19 @@ export const catalog:WikiEntry[] = [
    "封路壁垒",
    "Blockade Barrier",
    "封路の障壁",
-   "봉쇄 장벽"
+   "통로 봉쇄벽"
   ],
   "summary": [
-   "首次主动技能有效命中敌人后，对其中最近的一名目标封路3秒：禁止启动冲刺、跳跃、传送技能，仍可走路、普攻或使用非位移技能。不打断已开始位移，不阻止被推拉；每场一次，可净化并受控制免疫影响。",
-   "The first active skill hit blocks the nearest enemy hit from starting dash, leap or teleport skills for 3s. Walking, basic attacks and non-movement skills remain available. Does not interrupt movement already started or block forced displacement. Once per battle; cleansable and subject to control immunity.",
-   "最初のアクティブスキル命中で、命中した最も近い敵の突進・跳躍・転移スキル開始を3秒封じる。歩行・通常攻撃・移動なしのスキルは可能。開始済み移動や強制移動は妨げない。1戦1回で、浄化とCC免疫の対象。",
-   "최초 액티브 스킬 적중 시 적중 대상 중 가장 가까운 적의 돌진, 도약, 순간이동 스킬 시작을 3초 봉쇄합니다. 걷기, 기본 공격, 비이동 스킬은 가능합니다. 이미 시작된 이동과 강제 이동은 막지 않습니다. 전투당 한 번이며 정화와 제어 면역이 적용됩니다."
+   "首次主动技能命中后，使一名目标3秒内无法启动主动位移技能，同时攻击力降低15%；仍可走路。受控制免疫影响，可净化；同类效果不叠加。\n三星：持续4秒，攻击力降低20%。",
+   "The first active skill hit prevents one target from starting active movement skills and reduces their attack damage by 15% for 3s. Walking is allowed. Respects control immunity and can be cleansed; identical effects do not stack.\n3-star: Lasts 4s; attack damage reduced by 20%.",
+   "最初のアクティブスキル命中後、敵1体の移動スキル発動を3秒間封じ、攻撃力を15%低下させる。通常移動は可能。行動妨害耐性で防げ、浄化可能。同種の効果は重複しない。\n星3：4秒持続し、攻撃力20%低下。",
+   "첫 액티브 스킬 적중 후 대상 하나의 이동 스킬 사용을 3초 동안 막고 공격력을 15% 감소시킵니다. 걷기는 가능합니다. 군중 제어 면역으로 막을 수 있고 정화 가능합니다. 같은 효과는 중첩되지 않습니다.\n3성: 4초 지속, 공격력 20% 감소."
   ],
   "description": [
-   "首次主动技能有效命中敌人后，对其中最近的一名目标封路3秒：禁止启动冲刺、跳跃、传送技能，仍可走路、普攻或使用非位移技能。不打断已开始位移，不阻止被推拉；每场一次，可净化并受控制免疫影响。",
-   "The first active skill hit blocks the nearest enemy hit from starting dash, leap or teleport skills for 3s. Walking, basic attacks and non-movement skills remain available. Does not interrupt movement already started or block forced displacement. Once per battle; cleansable and subject to control immunity.",
-   "最初のアクティブスキル命中で、命中した最も近い敵の突進・跳躍・転移スキル開始を3秒封じる。歩行・通常攻撃・移動なしのスキルは可能。開始済み移動や強制移動は妨げない。1戦1回で、浄化とCC免疫の対象。",
-   "최초 액티브 스킬 적중 시 적중 대상 중 가장 가까운 적의 돌진, 도약, 순간이동 스킬 시작을 3초 봉쇄합니다. 걷기, 기본 공격, 비이동 스킬은 가능합니다. 이미 시작된 이동과 강제 이동은 막지 않습니다. 전투당 한 번이며 정화와 제어 면역이 적용됩니다."
+   "首次主动技能命中后，使一名目标3秒内无法启动主动位移技能，同时攻击力降低15%；仍可走路。受控制免疫影响，可净化；同类效果不叠加。\n三星：持续4秒，攻击力降低20%。",
+   "The first active skill hit prevents one target from starting active movement skills and reduces their attack damage by 15% for 3s. Walking is allowed. Respects control immunity and can be cleansed; identical effects do not stack.\n3-star: Lasts 4s; attack damage reduced by 20%.",
+   "最初のアクティブスキル命中後、敵1体の移動スキル発動を3秒間封じ、攻撃力を15%低下させる。通常移動は可能。行動妨害耐性で防げ、浄化可能。同種の効果は重複しない。\n星3：4秒持続し、攻撃力20%低下。",
+   "첫 액티브 스킬 적중 후 대상 하나의 이동 스킬 사용을 3초 동안 막고 공격력을 15% 감소시킵니다. 걷기는 가능합니다. 군중 제어 면역으로 막을 수 있고 정화 가능합니다. 같은 효과는 중첩되지 않습니다.\n3성: 4초 지속, 공격력 20% 감소."
   ],
   "group": [
    "战斗契印",
@@ -17924,20 +17728,6 @@ export const catalog:WikiEntry[] = [
     "value": "+3%"
    }
   ],
-  "sigilEffects": {
-   "normal": [
-    "首次主动技能有效命中敌人后，对其中最近的一名目标封路3秒：禁止启动冲刺、跳跃、传送技能，仍可走路、普攻或使用非位移技能。不打断已开始位移，不阻止被推拉；每场一次，可净化并受控制免疫影响。",
-    "The first active skill hit blocks the nearest enemy hit from starting dash, leap or teleport skills for 3s. Walking, basic attacks and non-movement skills remain available. Does not interrupt movement already started or block forced displacement. Once per battle; cleansable and subject to control immunity.",
-    "最初のアクティブスキル命中で、命中した最も近い敵の突進・跳躍・転移スキル開始を3秒封じる。歩行・通常攻撃・移動なしのスキルは可能。開始済み移動や強制移動は妨げない。1戦1回で、浄化とCC免疫の対象。",
-    "최초 액티브 스킬 적중 시 적중 대상 중 가장 가까운 적의 돌진, 도약, 순간이동 스킬 시작을 3초 봉쇄합니다. 걷기, 기본 공격, 비이동 스킬은 가능합니다. 이미 시작된 이동과 강제 이동은 막지 않습니다. 전투당 한 번이며 정화와 제어 면역이 적용됩니다."
-   ],
-   "awakened": [
-    "首次主动技能有效命中敌人后，对其中最近的一名目标封路4秒：禁止启动冲刺、跳跃、传送技能，仍可走路、普攻或使用非位移技能。不打断已开始位移，不阻止被推拉；每场一次，可净化并受控制免疫影响。",
-    "The first active skill hit blocks the nearest enemy hit from starting dash, leap or teleport skills for 4s. Walking, basic attacks and non-movement skills remain available. Does not interrupt movement already started or block forced displacement. Once per battle; cleansable and subject to control immunity.",
-    "最初のアクティブスキル命中で、命中した最も近い敵の突進・跳躍・転移スキル開始を4秒封じる。歩行・通常攻撃・移動なしのスキルは可能。開始済み移動や強制移動は妨げない。1戦1回で、浄化とCC免疫の対象。",
-    "최초 액티브 스킬 적중 시 적중 대상 중 가장 가까운 적의 돌진, 도약, 순간이동 스킬 시작을 4초 봉쇄합니다. 걷기, 기본 공격, 비이동 스킬은 가능합니다. 이미 시작된 이동과 강제 이동은 막지 않습니다. 전투당 한 번이며 정화와 제어 면역이 적용됩니다."
-   ]
-  },
   "related": []
  },
  {
@@ -17950,16 +17740,16 @@ export const catalog:WikiEntry[] = [
    "추적자"
   ],
   "summary": [
-   "开战射程+1格；首次击杀敌方初始上阵怪物后，移速提高30%、攻速提高20%，持续5秒。每场一次，召唤物击杀不触发，不改变技能范围。",
-   "Gain 1 attack range at combat start. The first kill of an enemy from the starting lineup grants 30% movement speed and 20% attack speed for 5s. Once per battle; summoned victims do not trigger it. Skill range is unchanged.",
-   "開戦時に通常攻撃射程+1。敵の初期配置モンスターを初めて撃破すると、5秒間移動速度+30%、攻撃速度+20%。1戦1回。召喚物の撃破は対象外で、スキル範囲は変わらない。",
-   "전투 시작 시 기본 공격 사거리 +1. 적 초기 배치 몬스터를 처음 처치하면 5초 동안 이동 속도 +30%, 공격 속도 +20%. 전투당 한 번이며 소환물 처치는 제외하고 스킬 범위는 바뀌지 않습니다."
+   "射程+1；普攻命中至少相距2格的目标时，伤害提高12%（不增强技能或真实伤害）。\n三星：远距普攻伤害提高18%。",
+   "Range +1. Basic attacks hitting a target at least 2 hexes away deal 12% more damage (excludes skills and true damage).\n3-star: Ranged basic attack bonus increases to 18%.",
+   "射程+1。2マス以上離れた敵に通常攻撃が命中するとダメージ+12%（スキルと確定ダメージは対象外）。\n星3：遠距離通常攻撃のダメージ+18%。",
+   "사거리 +1. 2칸 이상 떨어진 대상에게 기본 공격 적중 시 피해량이 12% 증가합니다(스킬 및 고정 피해 제외).\n3성: 원거리 기본 공격 피해량 증가량 18%."
   ],
   "description": [
-   "开战射程+1格；首次击杀敌方初始上阵怪物后，移速提高30%、攻速提高20%，持续5秒。每场一次，召唤物击杀不触发，不改变技能范围。",
-   "Gain 1 attack range at combat start. The first kill of an enemy from the starting lineup grants 30% movement speed and 20% attack speed for 5s. Once per battle; summoned victims do not trigger it. Skill range is unchanged.",
-   "開戦時に通常攻撃射程+1。敵の初期配置モンスターを初めて撃破すると、5秒間移動速度+30%、攻撃速度+20%。1戦1回。召喚物の撃破は対象外で、スキル範囲は変わらない。",
-   "전투 시작 시 기본 공격 사거리 +1. 적 초기 배치 몬스터를 처음 처치하면 5초 동안 이동 속도 +30%, 공격 속도 +20%. 전투당 한 번이며 소환물 처치는 제외하고 스킬 범위는 바뀌지 않습니다."
+   "射程+1；普攻命中至少相距2格的目标时，伤害提高12%（不增强技能或真实伤害）。\n三星：远距普攻伤害提高18%。",
+   "Range +1. Basic attacks hitting a target at least 2 hexes away deal 12% more damage (excludes skills and true damage).\n3-star: Ranged basic attack bonus increases to 18%.",
+   "射程+1。2マス以上離れた敵に通常攻撃が命中するとダメージ+12%（スキルと確定ダメージは対象外）。\n星3：遠距離通常攻撃のダメージ+18%。",
+   "사거리 +1. 2칸 이상 떨어진 대상에게 기본 공격 적중 시 피해량이 12% 증가합니다(스킬 및 고정 피해 제외).\n3성: 원거리 기본 공격 피해량 증가량 18%."
   ],
   "group": [
    "战斗契印",
@@ -17993,20 +17783,6 @@ export const catalog:WikiEntry[] = [
     ]
    }
   ],
-  "sigilEffects": {
-   "normal": [
-    "开战射程+1格；首次击杀敌方初始上阵怪物后，移速提高30%、攻速提高20%，持续5秒。每场一次，召唤物击杀不触发，不改变技能范围。",
-    "Gain 1 attack range at combat start. The first kill of an enemy from the starting lineup grants 30% movement speed and 20% attack speed for 5s. Once per battle; summoned victims do not trigger it. Skill range is unchanged.",
-    "開戦時に通常攻撃射程+1。敵の初期配置モンスターを初めて撃破すると、5秒間移動速度+30%、攻撃速度+20%。1戦1回。召喚物の撃破は対象外で、スキル範囲は変わらない。",
-    "전투 시작 시 기본 공격 사거리 +1. 적 초기 배치 몬스터를 처음 처치하면 5초 동안 이동 속도 +30%, 공격 속도 +20%. 전투당 한 번이며 소환물 처치는 제외하고 스킬 범위는 바뀌지 않습니다."
-   ],
-   "awakened": [
-    "开战射程+1格；首次击杀敌方初始上阵怪物后，移速提高40%、攻速提高30%，持续6秒。每场一次，召唤物击杀不触发，不改变技能范围。",
-    "Gain 1 attack range at combat start. The first kill of an enemy from the starting lineup grants 40% movement speed and 30% attack speed for 6s. Once per battle; summoned victims do not trigger it. Skill range is unchanged.",
-    "開戦時に通常攻撃射程+1。敵の初期配置モンスターを初めて撃破すると、6秒間移動速度+40%、攻撃速度+30%。1戦1回。召喚物の撃破は対象外で、スキル範囲は変わらない。",
-    "전투 시작 시 기본 공격 사거리 +1. 적 초기 배치 몬스터를 처음 처치하면 6초 동안 이동 속도 +40%, 공격 속도 +30%. 전투당 한 번이며 소환물 처치는 제외하고 스킬 범위는 바뀌지 않습니다."
-   ]
-  },
   "related": []
  }
 ];

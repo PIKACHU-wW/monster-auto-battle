@@ -29,19 +29,16 @@ for(const m of monsters){
   }
  }
 }
-// Examples cover truncation, fixed probability, utility growth, summon stats,
-// shields, revival and legendary target/range changes independently of templates.
+// Compare every foreign tier to the current game's independently authored template.
+for(const [i,lang] of ['en','ja','ko'].entries()){
+ const locale=JSON.parse(fs.readFileSync(`../Monster Auto Battler2/Assets/Localization/Monsters/${lang}.json`,'utf8'));
+ for(const m of monsters)for(const s of m.stars){
+  const expected=locale[`monster.${m.id}.skill.star${s.star}`].replace(/\{([AH])([\d.]+)\}/g,(_,kind,n)=>{
+   const base=profiles[m.id][kind==='H'?'health':'attack'], actual=Math.trunc(base*[1,1.8,3][s.star-1]);
+   return String(Math.round(Number(n)*(.55+.45*actual/base/[1,1.8,3][s.star-1])*100)/100);
+  });
+  assert.equal(s.description[i+1],expected,`${m.id}/${s.star}/${lang}`);
+ }
+}
 assert.equal(get('M002',2).stats[1].value,'104');
-assert.match(get('M002',2).description[0],/179\.69/);
-assert.match(get('M006',3).description[0],/30%.*55%/);
-assert.match(get('M004',3).description[0],/6\.5%.*32\.5%/);
-assert.match(get('M018',3).description[0],/360.*510.*63/);
-assert.match(get('M029',3).description[0],/3秒.*6格.*247\.5.*6次/);
-assert.ok(!get('M042',2).description[0].includes('护盾'));
-assert.match(get('M042',3).description[0],/75%.*15%/);
-assert.match(get('M044',2).description[0],/27\.78%/);
-assert.match(get('M044',3).description[0],/37\.5%.*21/);
-assert.match(get('M044',3).description[0],/自身最大生命20%/);
-assert.match(get('M054',3).description[0],/765.*405/);
-assert.match(get('M055',3).description[0],/3个各1125.*630/);
-console.log('PASS: 55 runtime profiles, 165 star entries, 12 stats each, four languages, scaling boundaries and legendary mechanics.');
+console.log('PASS: 55 runtime profiles, 165 star entries, 12 stats each; 495 foreign descriptions match current game templates and runtime preview rounding.');

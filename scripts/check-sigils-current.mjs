@@ -19,16 +19,15 @@ for(const e of entries){
  }
  assert.equal(Number(e.facts.find(f=>f.label==='解锁回合').value),loot[e.id].unlock_round);
  assert.ok(!/援军|reinforcement|援軍|지원군/i.test(JSON.stringify(e)));
- if(source.effects[0]?.kind==='combat_sigil'){
-  redesigned++;assert.equal(loot[e.id].enabled,true);assert.equal(loot[e.id].unlock_round,8);
-  assert.ok(e.sigilEffects);assert.notDeepEqual(e.sigilEffects.normal,e.sigilEffects.awakened);
-  for(const text of [...e.sigilEffects.normal,...e.sigilEffects.awakened])assert.ok(text&&!/[{}]|undefined|NaN/.test(text));
+ for(const [i,lang] of ['zh','en','ja','ko'].entries()){
+  const locale=JSON.parse(fs.readFileSync(`../Monster Auto Battler2/Assets/Localization/Monsters/${lang}.json`,'utf8'));
+  const original=locale[`sigil.${e.id}.desc`].replace(/<[^>]+>/g,'');
+  assert.equal(e.title[i],locale[`sigil.${e.id}.name`]);
+  assert.ok(original.includes(e.description[i]));
+  assert.ok(e.description[i].trim().length>0);
+  assert.ok(!/[{}]|undefined|NaN/.test(e.description[i]));
+  assert.ok(!e.description[i].includes(original.split('\n')[0]),`${e.id}/${lang}: duplicate base stats`);
  }
+ assert.ok(fs.existsSync('public/'+e.image.replace(/^\.\//,'')));
 }
-assert.equal(redesigned,16);
-assert.match(entries.find(e=>e.id==='SIG_reinforcehunter').sigilEffects.normal[0],/4次.*20%/);
-assert.match(entries.find(e=>e.id==='SIG_reinforcehunter').sigilEffects.awakened[0],/3次.*30%/);
-assert.match(entries.find(e=>e.id==='SIG_vanguard').sigilEffects.normal[0],/15%.*6秒/);
-assert.match(entries.find(e=>e.id==='SIG_vanguard').sigilEffects.awakened[0],/22%.*8秒/);
-assert.match(entries.find(e=>e.id==='SIG_blockade').sigilEffects.normal[0],/封路3秒/);
-console.log('PASS: 64 base-stat sets match v2 CSV and runtime JSON; 40/16/8 categories; 16 redesigned normal/awakened effects; no reinforcement copy.');
+console.log('PASS: 64 base-stat sets match CSV and runtime JSON; 256 current localized effects; categories and icons.');

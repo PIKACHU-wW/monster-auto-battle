@@ -7,7 +7,7 @@ try{
  const page=await browser.newPage({viewport:{width:1440,height:1000}});
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
  page.on('response',r=>{if(r.status()>=400&&r.url().startsWith(url))errors.push(`${r.status()} ${r.url()}`)});
- const response=await page.goto(url+'?release=feedback-v3',{waitUntil:'domcontentloaded',timeout:60000});
+ const response=await page.goto(url,{waitUntil:'domcontentloaded',timeout:60000});
  assert.equal(response.status(),200);
  console.log('Live homepage HTTP 200.');
  assert.equal(await page.title(),'Monster Auto Battle | Wiki');

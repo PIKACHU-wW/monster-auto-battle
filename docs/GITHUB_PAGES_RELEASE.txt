@@ -18,7 +18,10 @@ Pages 预期地址：https://pikachu-ww.github.io/monster-auto-battle/
 
 边界：
   没有上传 Unity 工程、支付后台、凭据、玩家订单和本地历史截图。
-  安全漏洞联系邮箱仍待提供；修复进度没有编造条目。
-  本次发布现有维基数据快照，不宣称已经同步所有最新游戏数值。
-  当前发布助手是首次发布工具，已有远端分支时会拒绝覆盖；
-  后续使用常规增量提交，不得强推覆盖用户已有修改。
+  高优先级漏洞邮箱：wanheiqiyihu@gmail.com；普通问题使用 GitHub / Gitee Issues。
+  修复进度暂不更新。
+  2026-11-01：同步当前 55 怪物（1—3 星）、23 羁绊、64 契印和四语言文案；来源详见 src/wiki/SOURCES.txt。
+  发布助手校验已知远端提交后增量提交，不强制推送。
+  两个平台入口均使用固定 URL，无 release 查询参数或版本路径。
+  Gitee：https://gitee.com/wanheiqiyihu/monster-auto-battle，仅为反馈仓库。
+  Gitee Pages 已下线。国内备用官网仍需要托管位置；相同 dist 文件可部署到静态服务器。

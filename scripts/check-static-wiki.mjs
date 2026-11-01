@@ -34,7 +34,7 @@ try{
    await page.locator('.feedback-link').click();assert.ok(await page.locator('dialog').isVisible());
    assert.equal(await page.locator('dialog a.feedback-github').getAttribute('href'),'https://github.com/PIKACHU-wW/monster-auto-battle/issues/new/choose');
    assert.equal(await page.locator('dialog a.feedback-gitee').getAttribute('href'),'https://gitee.com/wanheiqiyihu/monster-auto-battle/issues/new');
-   assert.equal(await page.locator('dialog a[href^="mailto:"]').count(),0);
+   assert.equal(await page.locator('dialog a[href^="mailto:"]').count(),1);
    await page.keyboard.press('Escape');assert.equal(await page.locator('dialog').count(),0);
   }
  }

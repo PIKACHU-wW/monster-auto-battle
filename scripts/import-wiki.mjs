@@ -6,6 +6,7 @@ import {monsterStars} from './monster-stars.mjs';
 import {skillNames} from './monster-skill-names.mjs';
 import {baseStats,combatDescription,sigilGroups} from './sigil-current.mjs';
 import {traitTiers} from './trait-tiers.mjs';
+import {readBakedStars,renderLiveTokens,effectOnly} from './current-game-copy.mjs';
 const root=path.resolve(process.argv[2]||'../Monster Auto Battler2');
 const langs=['zh','en','ja','ko'];
 const read=file=>fs.readFileSync(path.join(root,file),'utf8').replace(/^\uFEFF/,'');
@@ -19,6 +20,8 @@ const traits=json('Docs/GameDesign/Roster/traits.json').traits;
 const sigils=json('Docs/GameDesign/Roster/sigils.json').sigils;
 const loot=json('Docs/GameDesign/Roster/sigil_loot.json').sigils;
 const entries=[];
+const baked=await readBakedStars(root);
+const reviewed=json('Tools/Localization/reviewed_star_overrides.json');
 const domains={
  '原始荒野':['原始荒野','Primal Wilds','原始の荒野','원시 황야'],
  '幽冥灵境':['幽冥灵境','Spirit Realm','幽冥の霊境','망령의 영지'],
@@ -33,10 +36,15 @@ for(let i=0;i<12;i++){
  const chapter=Math.floor(i/3);entries.push({id:`quest-${i+1}`,category:'quests',title:text('Adventure',`career.quest.${i}`),summary:text('Adventure',`career.goal.${i}`),description:text('UI',`journal.background.${i}`),group:text('Adventure',`career.chapter.${chapter}`),facts:[{label:'任务目标',value:text('Adventure',`career.goal.${i}`)},{label:'首次金币',value:String(gold[i])},{label:'首次经验',value:String(xp[i])}],related:i<11?[`quest-${i+2}`]:[]});
 }
 for(const m of monsters){
- assert.ok(monsterCopy[m.id]);const description=[packs.Monsters.zh[`skill.${m.skill_id}.desc`],...monsterCopy[m.id]];assert.ok(description[0]);
+ const description=text('Monsters',`skill.${m.skill_id}.desc`);
  const related=Object.entries(traits).filter(([,t])=>matches(m,t)).map(([id])=>id);
  const stars=monsterStars(m,description[0],profiles[m.id]);
- const skillName=[packs.Monsters.zh[`skill.${m.skill_id}.name`],...skillNames[Number(m.id.slice(1))-1]];
+ for(const s of stars){
+  const raw=baked.descriptions[(Number(m.id.slice(1))-1)*3+s.star-1];
+  if(reviewed[m.id]){assert.equal(reviewed[m.id].sources.zh,description[0],`Reviewed source stale: ${m.id}`);assert.equal(reviewed[m.id].stars.zh[s.star-1],raw,`Baked copy stale: ${m.id}`);}
+  s.description=langs.map(lang=>{const source=lang==='zh'?raw:packs.Monsters[lang][`monster.${m.id}.skill.star${s.star}`];assert.ok(source,`Missing ${lang} ${m.id} star${s.star}`);return renderLiveTokens(source,m,s.star);});
+ }
+ const skillName=text('Monsters',`skill.${m.skill_id}.name`);
  entries.push({id:m.id,category:'monsters',title:text('Monsters',`monster.${m.id}.name`),summary:description.map(s=>s.split('\n')[0]),description,group:domains[m.domain],image:image('Units',m.id),facts:[{label:'招募费用',value:m.cost}],skillName,stars,related});
 }
 
@@ -52,14 +60,13 @@ function currentTraitTiers(t){
 for(const [id,t]of Object.entries(traits)){
  const fresh=t.effects.some(e=>e.kind.startsWith('expansion_')||e.kind==='solitary'||e.kind==='warlock_relay');
  const tiers=fresh?currentTraitTiers(t):traitTiers(t);
- if(!fresh)assert.ok(traitCopy[id]);const description=fresh?langs.map((_,i)=>tiers.map(t=>`${t.count}: ${t.description[i]}`).join('\n')):[t.desc,...traitCopy[id]];entries.push({id,category:'traits',title:text('UI',`trait.${id}`),summary:fresh?tiers[0].description:description,description,group:({eco:['生态羁绊','Ecology traits','生態特性','생태 특성'],role:['职能羁绊','Role traits','役割特性','역할 특성'],special:['特殊羁绊','Special traits','特殊特性','특수 특성']})[t.type],image:image('Traits',id),facts:[{label:'激活人数',value:t.tiers.join(' / ')}],traitTiers:tiers,related:monsters.filter(m=>matches(m,t)).map(m=>m.id)});
+ const description=langs.map((_,i)=>tiers.map(t=>`${t.count}: ${t.description[i]}`).join('\n'));entries.push({id,category:'traits',title:text('UI',`trait.${id}`),summary:tiers[0].description,description,group:({eco:['生态羁绊','Ecology traits','生態特性','생태 특성'],role:['职能羁绊','Role traits','役割特性','역할 특성'],special:['特殊羁绊','Special traits','特殊特性','특수 특성']})[t.type],image:image('Traits',id),facts:[{label:'激活人数',value:t.tiers.join(' / ')}],traitTiers:tiers,related:monsters.filter(m=>matches(m,t)).map(m=>m.id)});
 }
 for(const [id,sigil] of Object.entries(sigils)){
- assert.ok(equipmentCopy[id],`Missing editorial description ${id}`);const [en,ja,ko,,enDesc,jaDesc,koDesc]=equipmentCopy[id];
- const title=id==='SIG_reinforcehunter'?[packs.Monsters.zh[`sigil.${id}.name`],'Target Hunter','標的の狩人','표적 사냥꾼']:[packs.Monsters.zh[`sigil.${id}.name`],en,ja,ko];
- const zhDesc=packs.Monsters.zh[`sigil.${id}.desc`].split('特殊效果：')[1];assert.ok(zhDesc,`Missing current sigil copy ${id}`);
- const sigilEffects=sigil.effects[0]?.kind==='combat_sigil'?{normal:combatDescription(sigil.effects[0]),awakened:combatDescription(sigil.awaken[0])}:undefined;
- const description=sigilEffects?sigilEffects.normal:[zhDesc,enDesc,jaDesc,koDesc];
+ const title=text('Monsters',`sigil.${id}.name`);
+ const description=text('Monsters',`sigil.${id}.desc`).map(effectOnly);
+ assert.ok(description.every(Boolean),`Missing current sigil copy ${id}`);
+ const sigilEffects=undefined; // Current game locales include normal and awakened behavior together.
  const requirement=loot[id].require_trait;const traitId=requirement?Object.keys(traits).find(t=>traits[t].tag===requirement.split(':')[0]):undefined;
  const group=sigilGroups[loot[id].group];assert.ok(group,`Unknown sigil group ${id}`);
  const facts=[{label:'契印槽位',value:'1'}];if(traitId)facts.push({label:'共鸣条件',value:text('UI',`trait.${traitId}`).map(s=>`${s} ≥ ${requirement.split(':')[1]}`)});
@@ -71,5 +78,13 @@ for(const e of entries){for(const f of ['title','summary','description','group']
 fs.mkdirSync('src/wiki',{recursive:true});fs.writeFileSync('src/wiki/catalog.ts',`// Generated by scripts/import-wiki.mjs from the game's public content.\nimport type {WikiEntry} from './types';\nexport const catalog:WikiEntry[] = ${JSON.stringify(entries,null,1)};\n`);
 fs.mkdirSync('public/images/wiki',{recursive:true});
 fs.copyFileSync(path.join(root,'Assets/Art/Icons/UI/monster-stats-painted-atlas-v2.png'),'public/images/wiki/monster-stats-painted-atlas-v2.png');
-fs.writeFileSync('src/wiki/SOURCES.txt',`Wiki source snapshot: ${new Date().toISOString().slice(0,10)}\n\nRead-only import from the sibling Unity project. No Unity assets or code were changed.\nSources:\nAssets/Localization/{Monsters,UI,Adventure}/{zh,en,ja,ko}.json\nDocs/GameDesign/Roster/{monsters.csv,traits.json,sigils.json,sigil_loot.json,skill_scaling_v1.json}\nAssets/Editor/PlaytestFixesBuilder.cs (star descriptions)\nAssets/UdonSharp/EnginePort/{RuntimeBattleBuilderU,BattleKernelU,MonsterDetailsU}.cs (growth and numeric preview)\nAssets/UdonSharp/EnginePort/PlayerCareerU.cs (first-clear rewards)\nAssets/Art/Icons/{Units,Traits,Sigils}/*.png (copied unchanged)\nDocs/GameDesign/19_Solo_Adventure/个人任务与局外成长接入.txt\nDocs/GameDesign/19_Solo_Adventure/开场试阵_代码接入交接.txt\nDocs/GameDesign/10C_Sigil_Loot_and_Storage.md\nDocs/GameDesign/Roster/{sigil_base_stats_v2.csv,sigil_base_stats_v2.txt,sigil_combat_redesign_v1.txt}\nDocs/Production/2026-10-27_Sigil_Combat_V2_Implementation.txt\n\nEditorial content: scripts/wiki-copy.mjs; source locale placeholders were not used as foreign translations. Sigil categories come from sigil_loot.json, never array positions: combat 40, ecosystem 16, forbidden 8. All 64 base_stats are imported from current sigils.json and checked against sigil_base_stats_v2.csv. All 16 combat_v2 effects and awakening use parameterized four-language copy in scripts/sigil-current.mjs. The other 48 Chinese effects use the current game locale; foreign descriptions remain mechanic summaries. Monster list summaries remain concise. Detailed monster entries include 1/2/3-star stats and full numeric skills in all four languages. Body HP/ATK use 1/1.8/3 with integer truncation, as RuntimeBattleBuilderU does; remaining base stats stay fixed. Skill values use skill_scaling_v1 profiles and BattleKernelU SkillFlat/SkillUtilityGrowth/SkillRatioGrowth; displayed values round to two decimals. Chinese star descriptions follow PlaytestFixesBuilder.StarText, with full-precision ratio growth and fixed 20% legendary rescue shield to match BattleKernelU. M017/M038 opening concealment follows BattleKernelU.IsOpeningHidden/CanDirectTarget; the old M038 locale says targeting is retained, which conflicts with current runtime. No gameplay code is changed. Foreign names and full skill templates: scripts/monster-skill-names.mjs and scripts/monster-skill-copy.mjs. Trait membership uses the source tag matching and explicit special-trait unit lists. Trait tiers use current traits.json parameters. Expansion, solitary and warlock effects use the game UI locale templates; other tiers use scripts/trait-tiers.mjs. Featured icons, tier frames and member links read the same generated catalog. Each tier retains independently unlocked effect kinds (including Guardian shield transfer at 4 and 6). Vague source notes are expanded using BattleKernelU TvCycles behavior; obsolete reinforcement wording is omitted.\nRegenerate: node scripts/import-wiki.mjs [Unity project path]\n`);
+fs.writeFileSync('src/wiki/SOURCES.txt',`Wiki source snapshot: ${new Date().toISOString().slice(0,10)}
+Read-only import; Unity game files were not changed.
+Sources: current Docs/GameDesign/Roster/{monsters.csv,traits.json,sigils.json,sigil_loot.json,skill_scaling_v1.json}; Assets/Localization/{Monsters,UI,Adventure}/{zh,en,ja,ko}.json; PlayerCareerU quest rewards; Assets/Art/Icons.
+Monster Chinese star copy: ${baked.panelCount} matching baked MonsterAutoBattler_LeanTest.unity detail arrays, checked against reviewed_star_overrides.json where present. Foreign star copy: official current monster.Mxxx.skill.star1/2/3 locale keys. Dynamic A/H placeholders follow MonsterDetailsU base-stat preview; HP/ATK truncate at body multipliers 1/1.8/3.
+All 64 sigil effects use complete current four-language game locales, including awakened behavior; base stats use sigils.json and are checked against sigil_base_stats_v2.csv.
+All 23 trait summaries derive from current tier effects. Membership uses current CSV tags and explicit unit lists. Tier copy uses current parameters through trait-tiers.mjs or official UI templates.
+This is website data validation, not gameplay balance simulation or Unity client verification.
+Regenerate: node scripts/import-wiki.mjs [Unity project path]
+`);
 console.log('Imported 12 quests, 55 monsters, 23 traits, 64 equipment entries; copied 142 icons.');
