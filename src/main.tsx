@@ -7,7 +7,7 @@ import {localize,type Localized} from './wiki/types';
 import {siteConfig} from './siteConfig';
 import './archive.css';
 import './tavern.css';
-import {TavernScene} from './TavernScene';
+import {TavernScene} from './TavernIllustration';
 import {RepairProgress} from './RepairProgress';
 import {SecurityContact} from './SecurityContact';
 

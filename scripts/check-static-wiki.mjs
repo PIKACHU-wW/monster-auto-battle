@@ -19,6 +19,7 @@ try{
  const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)errors.push(`${r.status()} ${r.url()}`)});
  await page.goto(`http://127.0.0.1:${server.address().port}/test-wiki/`);
  await page.locator('.hero-dragon').evaluate(img=>img.decode());
+ await page.locator('img.tavern-scene').evaluate(img=>img.decode());
  assert.equal(await page.title(),'Monster Auto Battle | Wiki');
  assert.equal(await page.locator('.wiki-card').count(),12);
  assert.equal(await page.locator('canvas').count(),0);
@@ -36,7 +37,18 @@ try{
  }
  await page.locator('.language-select select').selectOption('zh');await page.locator('.wiki-sections>button').nth(2).click();
  await page.locator('.trait-expansion img').evaluateAll(imgs=>Promise.all(imgs.map(i=>{i.loading='eager';return i.decode()})));
- await page.locator('.wiki-sections>button').nth(3).click();await page.locator('.wiki-card').first().click();
+ await page.locator('.wiki-sections>button').nth(3).click();
+ let sigilCount=0;
+ for(let i=0;i<6;i++){
+  const icons=page.locator('.wiki-card-heading img');
+  sigilCount+=await icons.count();
+  await icons.evaluateAll(imgs=>Promise.all(imgs.map(i=>{i.loading='eager';return i.decode()})));
+  if(i===0)await page.screenshot({path:'wiki-sigil-gallery-preview.png',fullPage:true});
+  if(i<5)await page.locator('.wiki-pagination button').last().click();
+ }
+ assert.equal(sigilCount,64);
+ await page.locator('.wiki-card').first().click();
+ await page.locator('.wiki-detail-header img').evaluate(img=>img.decode());
  assert.ok(await page.locator('.wiki-stat-icon').count()>0);
  await page.locator('.wiki-sections>button').nth(1).click();await page.setViewportSize({width:390,height:844});await page.evaluate(()=>scrollTo(0,0));
  await page.screenshot({path:'wiki-static-mobile-preview.png',fullPage:true});

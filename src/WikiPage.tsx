@@ -51,7 +51,7 @@ export function WikiPage(){
  function related(entry:WikiEntry){setCategory(entry.category);setQuery('');setGroup('all');setSelectedTraits([]);setPage(0);open(entry);}
  function toggleTrait(id:string){setSelectedTraits(current=>current.includes(id)?current.filter(v=>v!==id):[...current,id]);setPage(0);}
  function paginate(next:number){setPage(next);listHeading.current?.focus();}
- return <div className="wiki-library">
+ return <div className="wiki-library" data-category={category}>
   <section className="page-title"><p className="eyebrow">MONSTER AUTO BATTLE · WIKI</p><h1>{t('游戏维基')}</h1><p>{t('从酒馆委托到阵容构筑，查找任务、怪物、羁绊与契印。')}</p></section>
   <div className="wiki-sections" aria-label={t('维基分类')}>
    {categories.map(c=><button key={c.id} aria-pressed={category===c.id} className={category===c.id?'active':''} onClick={()=>selectCategory(c.id)}><span className="wiki-section-symbol" aria-hidden="true">{c.symbol}</span><span>{t(c.label)}</span><span className="wiki-section-count">{catalog.filter(e=>e.category===c.id).length}</span></button>)}

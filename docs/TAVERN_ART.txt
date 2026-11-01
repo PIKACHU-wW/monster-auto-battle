@@ -1,0 +1,7 @@
+酒馆首屏插画 v2
+生成方式：内置 image_gen（不是 CLI）。2026-11-01。
+使用文件：public/illustrations/tavern-hero-v2.png
+无现成图库，无输入参考图；生成后原样复制入项目，通过 CSS 布局裁切显示。
+
+最终提示词：
+Create a beautiful premium fantasy illustration for the hero artwork of Monster Auto Battle's otherworldly adventurer tavern wiki website. Landscape composition 3:2. An inviting intimate medieval fantasy tavern interior at night: richly textured carved dark oak beams, a warm stone hearth burning on the right, leaded arched window on the left overlooking a moonlit enchanted forest with subtle teal blue mist, foreground old wooden table with an open parchment bestiary, a brass candlestick and ceramic tankard. Small hanging brass lanterns, shelves with antique books and jewel colored glass bottles, a few magical amber motes. Painterly sophisticated fantasy game environment concept art, exquisite material texture, cinematic amber light balanced with cool moonlight, tactile aged stone and leather, deep atmospheric perspective, detailed yet coherent and uncluttered. Eye-level welcoming perspective. Main hearth and table occupy center-right, dark soft edges fit a chocolate brown website background. NO people, NO letters, NO text, NO watermark, NO interface, NO flat vector shapes. This is the finished full-bleed illustration, not a website screenshot.
