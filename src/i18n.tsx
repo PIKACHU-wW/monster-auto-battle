@@ -22,7 +22,7 @@ export function LanguageProvider({children}:{children:ReactNode}) {
  const [language,setLanguage] = useState<Language>(initialLanguage);
  useEffect(()=>{
   document.documentElement.lang = language === 'zh' ? 'zh-CN' : language;
-  document.title = 'Monster Auto Battle | Wiki';
+  document.title = 'Monster Auto Battle';
   try { localStorage.setItem(storageKey,language); } catch { /* Switching still works without persistence. */ }
  },[language]);
  return <LanguageContext.Provider value={{language,setLanguage,t:source=>translate(language,source)}}>{children}</LanguageContext.Provider>;

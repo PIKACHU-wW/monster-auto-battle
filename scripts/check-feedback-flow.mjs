@@ -4,7 +4,7 @@ const browser=await chromium.launch({headless:true,executablePath:'C:/Program Fi
 try{
  const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];
  page.on('pageerror',e=>errors.push(e.message));
- await page.goto('http://127.0.0.1:8876/',{waitUntil:'networkidle'});
+ await page.goto('http://127.0.0.1:8876/#feedback',{waitUntil:'networkidle'});
  assert.equal(await page.locator('a[href*="github.com"],a[href*="gitee.com"]').count(),0);
  await page.locator('.feedback-link').click();
  await page.locator('input[name=username]').fill('Smoke Player');
