@@ -7,6 +7,10 @@ const root=path.resolve('dist');
 const mime={'.html':'text/html','.js':'text/javascript','.css':'text/css','.png':'image/png','.svg':'image/svg+xml'};
 const server=http.createServer((req,res)=>{
  const pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname);
+ // Static asset/layout checks use read-only API fixtures. Full backend behavior
+ // is verified separately by check-feedback-flow.mjs against the real service.
+ if(pathname==='/api/feedback/progress'){res.setHeader('Content-Type','application/json');res.end(JSON.stringify({items:[]}));return;}
+ if(pathname==='/api/feedback/config'){res.setHeader('Content-Type','application/json');res.end(JSON.stringify({rules:{scores:{low:10,medium:30,high:80,critical:150},titles:[]}}));return;}
  if(!pathname.startsWith('/test-wiki/')){res.writeHead(404).end();return;}
  const file=path.resolve(root,pathname.slice('/test-wiki/'.length)||'index.html');
  if(!file.startsWith(root+path.sep)||!fs.existsSync(file)||!fs.statSync(file).isFile()){res.writeHead(404).end();return;}
