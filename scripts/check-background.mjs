@@ -1,0 +1,38 @@
+import assert from 'node:assert/strict';
+import {chromium} from '@playwright/test';
+const browser=await chromium.launch({headless:true,executablePath:process.env.BROWSER_PATH||'C:/Program Files/Google/Chrome/Application/chrome.exe'});
+try{
+ const page=await browser.newPage({viewport:{width:1366,height:900}});
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text())});
+ await page.goto('http://127.0.0.1:5173');
+ const bg=page.locator('.world-background');
+ await page.waitForFunction(()=>document.querySelector('.world-background')?.dataset.renderer==='webgl');
+ assert.equal(await bg.count(),1);assert.equal(await bg.getAttribute('aria-hidden'),'true');
+ assert.equal(await bg.evaluate(e=>getComputedStyle(e).pointerEvents),'none');
+ assert.equal(await bg.locator('canvas').count(),1);assert.equal(await bg.locator('img').count(),0);
+ assert.equal(await page.locator('.demo-banner').count(),0);
+ await page.evaluate(()=>{const extra=document.createElement('div');extra.id='qa-content';extra.style.height='4000px';document.querySelector('main').append(extra);});
+ const seek=async(y,p)=>{await page.evaluate(y=>scrollTo(0,y),y);await page.waitForFunction(p=>Math.abs(Number(document.querySelector('.world-background').dataset.progress)-p)<.002,p);};
+ await seek(750,750/1485);assert.equal(await bg.getAttribute('data-stage'),'passage');
+ await page.evaluate(()=>{document.querySelector('#qa-content').style.height='6000px';dispatchEvent(new Event('resize'));});
+ await page.waitForTimeout(200);assert.ok(Math.abs(Number(await bg.getAttribute('data-progress'))-750/1485)<.002);
+ await seek(1600,1);assert.equal(await bg.getAttribute('data-stage'),'palace');
+ assert.ok(Number(await bg.getAttribute('data-draw-calls'))<220,'Buildings remain batched with shadow and bloom passes');
+ await seek(0,0);assert.equal(await bg.getAttribute('data-stage'),'forest');
+ await page.evaluate(()=>document.querySelector('#qa-content').remove());
+ await page.locator('nav button').nth(1).click();await page.locator('input[autocomplete="off"]').fill('Background interaction check');
+ assert.equal(await bg.locator('canvas').count(),1);
+ await page.emulateMedia({reducedMotion:'reduce'});await page.waitForFunction(()=>document.querySelector('.world-background').dataset.mode==='still');
+ await page.evaluate(()=>scrollTo(0,800));await page.waitForTimeout(100);assert.equal(await bg.getAttribute('data-progress'),'0.000');
+ await page.emulateMedia({reducedMotion:'no-preference'});
+ await page.waitForFunction(()=>document.querySelector('.world-background').dataset.mode==='animated');
+ assert.deepEqual(errors,[]);
+ const mobile=await browser.newPage({viewport:{width:390,height:844},isMobile:true,deviceScaleFactor:2});
+ await mobile.goto('http://127.0.0.1:5173');await mobile.waitForFunction(()=>document.querySelector('.world-background')?.dataset.renderer==='webgl');
+ assert.ok(await mobile.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ await mobile.screenshot({path:'background-mobile-preview.png'});
+ const fallback=await browser.newPage();await fallback.addInitScript(()=>{const get=HTMLCanvasElement.prototype.getContext;HTMLCanvasElement.prototype.getContext=function(type,...args){return String(type).includes('webgl')?null:get.call(this,type,...args)};});
+ await fallback.goto('http://127.0.0.1:5173');await fallback.waitForFunction(()=>document.querySelector('.world-background')?.dataset.renderer==='fallback');
+ await fallback.locator('nav button').nth(1).click();await fallback.locator('input[autocomplete="off"]').fill('Fallback usable');
+ console.log('PASS: procedural WebGL journey, reversible camera, content independence, batched architecture, form interaction, reduced motion, mobile and unavailable-WebGL fallback.');
+}finally{await browser.close();}

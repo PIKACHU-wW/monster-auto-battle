@@ -1,0 +1,12 @@
+Monster Auto Battle — approved brand concept and website mark
+
+Generated with the built-in image_gen tool; no CLI/API fallback.
+concept-v1: approved monster face, horned M and hexagonal jaw, champagne gold on navy.
+mark-v1: transparent extraction based on the approved concept, used by website header, footer and favicon.
+
+Final extraction prompt:
+Extract the approved central gold monster emblem from this logo concept sheet as a standalone production asset. Preserve EXACTLY its silhouette, horn shapes, forehead chevron, two eyes, hexagonal lower jaw frame and proportions. Do not redesign. Remove ALL words, all background, all other samples, and all presentation elements. Output exactly ONE large centered emblem on a genuinely transparent square background. All dark negative spaces inside the mark must also be transparent. Flat warm champagne gold #dec38d, sharp clean edges, no shadow, no glow, no bevel. The emblem fills approximately 88% of the square with even breathing room. This is the identical approved logo icon for the Monster Auto Battle website header and favicon.
+
+Original concept: exec-d62f0cbb-a737-417a-bb7b-c065f8fe3bce.png
+Selected extraction: exec-f19e25ad-16d6-493c-8e0e-6b525e5eae44.png
+These are raster assets, not vector masters. The readable website title is rendered as text alongside the mark.

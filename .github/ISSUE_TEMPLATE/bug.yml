@@ -1,0 +1,77 @@
+name: 问题反馈 / Bug report
+description: 报告普通游戏问题或维基资料错误 / Report gameplay or wiki issues
+title: '[Bug] '
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues 会公开。请清除日志、截图中的个人信息。高优先级漏洞请使用维基反馈窗口底部公布的专用邮箱，不要公开利用细节。普通问题发往该邮箱不会收到回复。邮箱公布前，请勿将敏感报告改发至公开 Issues。
+        Issues are public. Remove personal information from attachments. Send high-priority vulnerabilities to the dedicated email listed at the bottom of the wiki feedback dialog; do not publish exploit details. Ordinary issues emailed there will not receive a reply. Do not post sensitive reports publicly while the email is pending.
+  - type: input
+    id: username
+    attributes:
+      label: VRChat 用户名 / Username
+      description: 如需关联游戏身份可填写；请勿填写邮箱或密码。Optional; never include passwords or email addresses.
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述 / Description
+      description: 预期结果、实际结果；资料错误请写条目名称。Expected vs actual behavior; include the entry name for wiki corrections.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤 / Steps to reproduce
+      description: 按顺序说明操作，也可说明暂时无法稳定复现。Describe the sequence or note if reproduction is inconsistent.
+    validations:
+      required: true
+  - type: dropdown
+    id: experience
+    attributes:
+      label: 功能影响 / Functional impact
+      options:
+        - 不确定 / Unknown
+        - 无功能影响 / None
+        - 仅显示异常 / Visual only
+        - 功能受影响 / Impaired
+        - 功能无法使用 / Unavailable
+    validations:
+      required: true
+  - type: dropdown
+    id: data
+    attributes:
+      label: 数据影响 / Data impact
+      options:
+        - 不确定 / Unknown
+        - 无 / None
+        - 数据不正确 / Incorrect
+        - 数据丢失或损坏 / Lost or corrupted
+    validations:
+      required: true
+  - type: dropdown
+    id: others
+    attributes:
+      label: 他人数据 / Other players’ data
+      description: 如涉及未经授权的修改，不要公开漏洞细节。Do not publish unauthorized-modification exploit details.
+      options:
+        - 不确定 / Unknown
+        - 不涉及 / Not affected
+        - 可能涉及 / Potentially affected
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: 触发条件 / Trigger conditions
+      options:
+        - 不确定 / Unknown
+        - 常规操作即可触发 / Normal use
+        - 需要特定条件 / Specific conditions
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: 截图与日志 / Screenshots and logs
+      description: 可拖入脱敏附件；上传限额以 GitHub 为准。Attach sanitized files; GitHub upload limits apply.

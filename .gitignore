@@ -1,0 +1,10 @@
+node_modules/
+dist/
+language-preview.png
+brand-header-preview.png
+background-*-preview.png
+wiki-*-preview.png
+risk-*-preview.png
+.env
+.env.*
+!.env.example

@@ -1,0 +1,5 @@
+Existing project scene previews copied without editing.
+elven-scene.png: Monster Auto Battler2/Captures/PairedBake/Joined_Forest_ColorCorrected.png
+celestial-scene.png: Monster Auto Battler2/Captures/PairedBake/Joined_Celestial_Final.png
+These are the source images referenced by Assets/Editor/MatchSkinIntegrationBuilder.cs for scene previews 2 and 3.
+Website copies are independent of Unity assets and do not participate in VRC builds.

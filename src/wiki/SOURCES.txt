@@ -1,0 +1,18 @@
+Wiki source snapshot: 2026-10-29
+
+Read-only import from the sibling Unity project. No Unity assets or code were changed.
+Sources:
+Assets/Localization/{Monsters,UI,Adventure}/{zh,en,ja,ko}.json
+Docs/GameDesign/Roster/{monsters.csv,traits.json,sigils.json,sigil_loot.json,skill_scaling_v1.json}
+Assets/Editor/PlaytestFixesBuilder.cs (star descriptions)
+Assets/UdonSharp/EnginePort/{RuntimeBattleBuilderU,BattleKernelU,MonsterDetailsU}.cs (growth and numeric preview)
+Assets/UdonSharp/EnginePort/PlayerCareerU.cs (first-clear rewards)
+Assets/Art/Icons/{Units,Traits,Sigils}/*.png (copied unchanged)
+Docs/GameDesign/19_Solo_Adventure/个人任务与局外成长接入.txt
+Docs/GameDesign/19_Solo_Adventure/开场试阵_代码接入交接.txt
+Docs/GameDesign/10C_Sigil_Loot_and_Storage.md
+Docs/GameDesign/Roster/{sigil_base_stats_v2.csv,sigil_base_stats_v2.txt,sigil_combat_redesign_v1.txt}
+Docs/Production/2026-10-27_Sigil_Combat_V2_Implementation.txt
+
+Editorial content: scripts/wiki-copy.mjs; source locale placeholders were not used as foreign translations. Sigil categories come from sigil_loot.json, never array positions: combat 40, ecosystem 16, forbidden 8. All 64 base_stats are imported from current sigils.json and checked against sigil_base_stats_v2.csv. All 16 combat_v2 effects and awakening use parameterized four-language copy in scripts/sigil-current.mjs. The other 48 Chinese effects use the current game locale; foreign descriptions remain mechanic summaries. Monster list summaries remain concise. Detailed monster entries include 1/2/3-star stats and full numeric skills in all four languages. Body HP/ATK use 1/1.8/3 with integer truncation, as RuntimeBattleBuilderU does; remaining base stats stay fixed. Skill values use skill_scaling_v1 profiles and BattleKernelU SkillFlat/SkillUtilityGrowth/SkillRatioGrowth; displayed values round to two decimals. Chinese star descriptions follow PlaytestFixesBuilder.StarText, with full-precision ratio growth and fixed 20% legendary rescue shield to match BattleKernelU. M017/M038 opening concealment follows BattleKernelU.IsOpeningHidden/CanDirectTarget; the old M038 locale says targeting is retained, which conflicts with current runtime. No gameplay code is changed. Foreign names and full skill templates: scripts/monster-skill-names.mjs and scripts/monster-skill-copy.mjs. Trait membership uses the source tag matching and explicit special-trait unit lists. Trait tiers use current traits.json parameters. Expansion, solitary and warlock effects use the game UI locale templates; other tiers use scripts/trait-tiers.mjs. Featured icons, tier frames and member links read the same generated catalog. Each tier retains independently unlocked effect kinds (including Guardian shield transfer at 4 and 6). Vague source notes are expanded using BattleKernelU TvCycles behavior; obsolete reinforcement wording is omitted.
+Regenerate: node scripts/import-wiki.mjs [Unity project path]

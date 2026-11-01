@@ -1,0 +1,24 @@
+GitHub 官网发布配置（2026-11-01）
+
+官网源码与反馈仓库：https://github.com/PIKACHU-wW/monster-auto-battle
+Pages 预期地址：https://pikachu-ww.github.io/monster-auto-battle/
+与 monster-auto-battle-data 支付公开数据仓库分离。
+
+发布策略：
+  main 分支保存网站源码与 Issue 模板。
+  gh-pages 分支仅保存 npm run build 生成的 dist 内容与 .nojekyll。
+  GitHub Pages 发布来源为 gh-pages 分支根目录。
+  本次采用本地构建后推送静态分支，未上传本地旧 pages.yml 工作流。
+  后续更新需要重新构建并更新 gh-pages；只修改 main 不会更新网站。
+
+验证：
+  npm run build
+  node scripts/check-static-wiki.mjs
+  检查 Pages 公网首页、JS/CSS/图片以及反馈链接。
+
+边界：
+  没有上传 Unity 工程、支付后台、凭据、玩家订单和本地历史截图。
+  安全漏洞联系邮箱仍待提供；修复进度没有编造条目。
+  本次发布现有维基数据快照，不宣称已经同步所有最新游戏数值。
+  当前发布助手是首次发布工具，已有远端分支时会拒绝覆盖；
+  后续使用常规增量提交，不得强推覆盖用户已有修改。
