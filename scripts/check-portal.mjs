@@ -12,8 +12,8 @@ try{
    await page.locator('.portal-tabs a[href="#support"]').click();
    await expect(page.locator('.portal-tabs a[aria-current=page]')).toHaveAttribute('href','#support');
    assert.equal(await page.locator('.payment-links a').nth(0).getAttribute('href'),'https://afdian.com/a/pikachu123');
-   assert.equal(await page.locator('.payment-links a').nth(1).getAttribute('href'),'https://ko-fi.com/pikachu42802/tiers');
-   assert.equal(await page.locator('.support-grid article').count(),3);
+   assert.equal(await page.locator('.payment-links a').nth(1).getAttribute('href'),'https://ko-fi.com/pikachu42802');
+   assert.equal(await page.locator('.support-grid article').count(),7);
    await page.locator('.portal-tabs a[href="#feedback"]').click();
    await page.locator('.feedback-link').click();await page.locator('dialog input[name=username]').waitFor({state:'visible'});
    await page.keyboard.press('Escape');assert.equal(await page.locator('dialog').count(),0);
